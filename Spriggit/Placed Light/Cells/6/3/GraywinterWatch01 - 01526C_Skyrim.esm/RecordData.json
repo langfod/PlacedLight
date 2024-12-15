@@ -46,6 +46,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EA5D8:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 280.8485,
+      "Emittance": "0C5858:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 9.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01918B:Skyrim.esm",
+      "Placement": {
+        "Position": "888.9882, 1535.7128, 757.0835"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0EA5B3:Skyrim.esm",
       "Base": "08824B:Skyrim.esm",
       "Radius": 377.70038,
@@ -61,17 +76,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EA5D8:Skyrim.esm",
-      "Base": "088246:Skyrim.esm",
-      "Radius": 280.8485,
-      "Emittance": "0C5858:Skyrim.esm",
+      "FormKey": "0EA691:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 94.04376,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 9.0,
+        "FadeOffset": 0.649201,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "01918B:Skyrim.esm",
       "Placement": {
-        "Position": "888.9882, 1535.7128, 757.0835"
+        "Position": "739.5167, -442.4446, -30000"
       }
     },
     {
@@ -102,25 +121,6 @@
       "LocationReference": "01918B:Skyrim.esm",
       "Placement": {
         "Position": "1310.0232, -2216.5813, 1332.3835"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EA691:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "08824B:Skyrim.esm",
-      "Radius": 94.04376,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 0.649201,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "01918B:Skyrim.esm",
-      "Placement": {
-        "Position": "739.5167, -442.4446, -30000"
       }
     }
   ]

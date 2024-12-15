@@ -53,6 +53,24 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "09B8D8:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0B9E83:Skyrim.esm",
+      "Radius": -107.19226,
+      "LightData": {
+        "FadeOffset": 0.464815,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019266:Skyrim.esm",
+      "Placement": {
+        "Position": "-1361.7965, -17.59026, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "09B879:Skyrim.esm",
       "Base": "0B9E82:Skyrim.esm",
       "Radius": 520.95,
@@ -64,6 +82,20 @@
       "Placement": {
         "Position": "-445.63208, 1574.6115, -205.92407",
         "Rotation": "3.1415927, 1.2915943, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A4B02:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "101592:Skyrim.esm",
+      "LocationReference": "019266:Skyrim.esm",
+      "Placement": {
+        "Position": "-264.50613, 1848.3678, -30000",
+        "Rotation": "0, 0, 5.991394"
       }
     },
     {
@@ -141,38 +173,6 @@
       "LocationReference": "019266:Skyrim.esm",
       "Placement": {
         "Position": "-1282.603, 176.47066, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "09B8D8:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0B9E83:Skyrim.esm",
-      "Radius": -107.19226,
-      "LightData": {
-        "FadeOffset": 0.464815,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019266:Skyrim.esm",
-      "Placement": {
-        "Position": "-1361.7965, -17.59026, -30000"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0A4B02:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "101592:Skyrim.esm",
-      "LocationReference": "019266:Skyrim.esm",
-      "Placement": {
-        "Position": "-264.50613, 1848.3678, -30000",
-        "Rotation": "0, 0, 5.991394"
       }
     }
   ]

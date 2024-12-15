@@ -47,43 +47,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000C4A:HearthFires.esm",
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 56.0,
-      "LightData": {
-        "FadeOffset": -0.2,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE0A:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "015184:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "347.47003, -1784.6168, 158.35808"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "01525E:HearthFires.esm",
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 18.559052,
-      "LightData": {
-        "FadeOffset": -0.8,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE0A:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "01517C:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "128.82074, -1543.0554, 158.27493",
-        "Rotation": "0, 0, 3.7831914"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "015290:HearthFires.esm",
       "Base": "0B215E:Skyrim.esm",
       "Radius": 191.5029,
@@ -102,20 +65,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "015291:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088243:Skyrim.esm",
-      "Radius": 49.993927,
+      "FormKey": "0152B0:HearthFires.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 128.61813,
       "LightData": {
-        "FadeOffset": 1.43854,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 15.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "015175:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
       "Placement": {
-        "Position": "-216.49197, -2765.7507, -30000"
+        "Position": "8.197991, -2559.4595, 157.19241",
+        "Rotation": "0, 1.5707964, 0.7853982"
       }
     },
     {
@@ -138,21 +102,57 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0152B0:HearthFires.esm",
-      "Base": "088242:Skyrim.esm",
-      "Radius": 128.61813,
+      "FormKey": "000C4A:HearthFires.esm",
+      "Base": "0B215E:Skyrim.esm",
+      "Radius": 56.0,
       "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 15.0
+        "FadeOffset": -0.2,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE0A:HearthFires.esm",
       "EnableParent": {
-        "Reference": "015175:HearthFires.esm",
+        "Reference": "015184:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "8.197991, -2559.4595, 157.19241",
-        "Rotation": "0, 1.5707964, 0.7853982"
+        "Position": "347.47003, -1784.6168, 158.35808"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015291:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088243:Skyrim.esm",
+      "Radius": 49.993927,
+      "LightData": {
+        "FadeOffset": 1.43854,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE0A:HearthFires.esm",
+      "Placement": {
+        "Position": "-216.49197, -2765.7507, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01525E:HearthFires.esm",
+      "Base": "0B215E:Skyrim.esm",
+      "Radius": 18.559052,
+      "LightData": {
+        "FadeOffset": -0.8,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE0A:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "01517C:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "128.82074, -1543.0554, 158.27493",
+        "Rotation": "0, 0, 3.7831914"
       }
     }
   ]

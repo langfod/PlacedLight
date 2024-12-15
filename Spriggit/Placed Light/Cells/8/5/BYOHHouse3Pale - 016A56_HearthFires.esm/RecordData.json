@@ -49,39 +49,60 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0009F5:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "088246:Skyrim.esm",
-      "Radius": 326.6753,
-      "Emittance": "075492:Skyrim.esm",
+      "FormKey": "000BCA:HearthFires.esm",
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": 138.0,
       "LightData": {
-        "FadeOffset": 0.049645,
+        "FadeOffset": 0.104514,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016B20:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
       "Placement": {
-        "Position": "-608.9462, 24.633484, -30000"
+        "Position": "-38.690205, 1033.6265, 142.59102"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000B51:HearthFires.esm",
+      "FormKey": "000C1C:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
       "Base": "000BC6:HearthFires.esm",
-      "Radius": -165.88425,
+      "Radius": -160.34079,
+      "LightData": {
+        "FadeOffset": 0.415135,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "Placement": {
+        "Position": "-5.004961, -123.98555, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0173EE:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": 138.0,
       "LightData": {
         "FadeOffset": 0.6,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE1D:HearthFires.esm",
       "EnableParent": {
-        "Reference": "016CC2:HearthFires.esm",
+        "Reference": "016D85:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "558.38293, 4.722327, 319.08334"
+        "Position": "38.139336, 540.38983, 107.39811"
       }
     },
     {
@@ -100,6 +121,66 @@
       },
       "Placement": {
         "Position": "703.7708, -102.67839, 137.39049"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000BCC:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0A696F:Skyrim.esm",
+      "Emittance": "0C5853:Skyrim.esm",
+      "Scale": 0.9,
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "010E2F:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-838.2462, -253.00488, 428.62292",
+        "Rotation": "0, 0.9250245, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0173B9:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "035F45:Skyrim.esm",
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016DC0:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2.202847, 188.22635, 16.227793",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0170BC:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": 138.0,
+      "LightData": {
+        "FadeOffset": 0.899367,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016ABC:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "5.730668, 941.03436, 276.31854"
       }
     },
     {
@@ -126,44 +207,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000BCA:HearthFires.esm",
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": 138.0,
-      "LightData": {
-        "FadeOffset": 0.104514,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016B20:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-38.690205, 1033.6265, 142.59102"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000BCC:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0A696F:Skyrim.esm",
-      "Emittance": "0C5853:Skyrim.esm",
-      "Scale": 0.9,
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "010E2F:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-838.2462, -253.00488, 428.62292",
-        "Rotation": "0, 0.9250245, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "000BCD:HearthFires.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -180,38 +223,6 @@
       "Placement": {
         "Position": "-838.2462, 262.3794, 443.36713",
         "Rotation": "0, 0.9250245, 0"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000BCE:HearthFires.esm",
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": -282.50943,
-      "LightData": {
-        "FadeOffset": 0.6,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016B35:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-568.92914, -18.4307, 135.83313"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000BCF:HearthFires.esm",
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": 138.0,
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016B3B:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-580.6491, -31.90672, 330.91818"
       }
     },
     {
@@ -235,20 +246,89 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000C1C:HearthFires.esm",
+      "FormKey": "016E3A:HearthFires.esm",
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": -204.64328,
+      "LightData": {
+        "FadeOffset": 0.6,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016A7E:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "660.7165, -4.35141, 136.03877"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000BCE:HearthFires.esm",
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": -282.50943,
+      "LightData": {
+        "FadeOffset": 0.6,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016B35:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-568.92914, -18.4307, 135.83313"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000B51:HearthFires.esm",
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": -165.88425,
+      "LightData": {
+        "FadeOffset": 0.6,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016CC2:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "558.38293, 4.722327, 319.08334"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0009F5:HearthFires.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
         "InitiallyDisabled"
       ],
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": -160.34079,
+      "Base": "088246:Skyrim.esm",
+      "Radius": 326.6753,
+      "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 0.415135,
+        "FadeOffset": 0.049645,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE1D:HearthFires.esm",
       "Placement": {
-        "Position": "-5.004961, -123.98555, -30000"
+        "Position": "-608.9462, 24.633484, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000BCF:HearthFires.esm",
+      "Base": "000BC6:HearthFires.esm",
+      "Radius": 138.0,
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "016B3B:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-580.6491, -31.90672, 330.91818"
       }
     },
     {
@@ -276,42 +356,24 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "016E3A:HearthFires.esm",
+      "FormKey": "0173F1:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
       "Base": "000BC6:HearthFires.esm",
-      "Radius": -204.64328,
+      "Radius": -140.55847,
       "LightData": {
         "FadeOffset": 0.6,
         "ShadowDepthBias": 1.0
       },
       "LocationReference": "00BE1D:HearthFires.esm",
       "EnableParent": {
-        "Reference": "016A7E:HearthFires.esm",
+        "Reference": "016DAB:HearthFires.esm",
         "Unknown": "0x000000"
       },
       "Placement": {
-        "Position": "660.7165, -4.35141, 136.03877"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0170BC:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": 138.0,
-      "LightData": {
-        "FadeOffset": 0.899367,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016ABC:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "5.730668, 941.03436, 276.31854"
+        "Position": "-17.953093, 394.88974, 540.1969"
       }
     },
     {
@@ -331,68 +393,6 @@
       "Placement": {
         "Position": "123.39443, -1473.9034, 135.79724",
         "Rotation": "1.5707964, 1.5707964, 1.5707964"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0173B9:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "035F45:Skyrim.esm",
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016DC0:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-2.202847, 188.22635, 16.227793",
-        "Rotation": "0, 0, 1.5707964"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0173EE:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": 138.0,
-      "LightData": {
-        "FadeOffset": 0.6,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016D85:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "38.139336, 540.38983, 107.39811"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0173F1:HearthFires.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "000BC6:HearthFires.esm",
-      "Radius": -140.55847,
-      "LightData": {
-        "FadeOffset": 0.6,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "00BE1D:HearthFires.esm",
-      "EnableParent": {
-        "Reference": "016DAB:HearthFires.esm",
-        "Unknown": "0x000000"
-      },
-      "Placement": {
-        "Position": "-17.953093, 394.88974, 540.1969"
       }
     }
   ]

@@ -132,7 +132,6 @@
     "lights": [
       {
         "whiteList": [
-          "clutter\\common\\candlelanternwithcandle01.nif",
           "clutter\\glazedcandles01.nif",
           "clutter\\glazedcandlesstatic02.nif",
           "clutter\\imperial\\impcandle01.nif",
@@ -169,7 +168,21 @@
     "lights": [
       {
         "whiteList": [
-          "clutter\\common\\candlelanternwithcandle01.nif",
+          "clutter\\common\\candlelanternwithcandle01.nif"
+        ],
+        "data": {
+          "light": "DefaultCandleLight01NS",
+          "radius": 85.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
           "clutter\\glazedcandles01.nif",
           "clutter\\glazedcandlesstatic02.nif",
           "clutter\\imperial\\impcandle01.nif",
@@ -187,6 +200,22 @@
         "data": {
           "light": "WRCandleFlickerNS",
           "radius": 64.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\common\\candlelanternwithcandle01.nif",
+          "WhiterunWorld"
+        ],
+        "data": {
+          "light": "WRCandleFlickerNS",
+          "radius": 85.0,
           "fade": 1.0
         }
       }
@@ -294,7 +323,7 @@
         ],
         "data": {
           "light": "DefaultCandleLight01NS",
-          "radius": 128.0,
+          "radius": 256.0,
           "fade": 1.1
         }
       }

@@ -44,22 +44,7 @@
   "EncounterZone": "0A8286:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F31D2:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "02EE05:Skyrim.esm",
-      "Radius": 446.93848,
-      "LocationReference": "019286:Skyrim.esm",
-      "Placement": {
-        "Position": "-2787.4893, 1786.6306, -30000"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0F31D3:Skyrim.esm",
@@ -73,6 +58,22 @@
       "LocationReference": "019286:Skyrim.esm",
       "Placement": {
         "Position": "-2859.3062, 1608.0103, 312.23795"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000D61:Placed Light.esp",
+      "Base": "07274C:Skyrim.esm",
+      "Placement": {
+        "Position": "-2423.3223, 1826.3292, 174.71725"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000D62:Placed Light.esp",
+      "Base": "07274C:Skyrim.esm",
+      "Placement": {
+        "Position": "-1780.804, 955.28955, 132.57678"
       }
     },
     {
@@ -106,18 +107,16 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D61:Placed Light.esp",
-      "Base": "07274C:Skyrim.esm",
+      "FormKey": "0F31D2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EE05:Skyrim.esm",
+      "Radius": 446.93848,
+      "LocationReference": "019286:Skyrim.esm",
       "Placement": {
-        "Position": "-2423.3223, 1826.3292, 174.71725"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000D62:Placed Light.esp",
-      "Base": "07274C:Skyrim.esm",
-      "Placement": {
-        "Position": "-1780.804, 955.28955, 132.57678"
+        "Position": "-2787.4893, 1786.6306, -30000"
       }
     }
   ]

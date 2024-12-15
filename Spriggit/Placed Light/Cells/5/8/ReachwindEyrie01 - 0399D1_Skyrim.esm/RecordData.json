@@ -47,35 +47,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0399E4:Skyrim.esm",
-      "MajorRecordFlagsRaw": 2048,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "0E72CB:Skyrim.esm",
-      "Scale": 0.5,
-      "LocationReference": "0B23A5:Skyrim.esm",
-      "Placement": {
-        "Position": "-304, 128, -30000",
-        "Rotation": "0, 0, 3.1415927"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "039B05:Skyrim.esm",
+      "FormKey": "0FEBF9:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
-      "Base": "088CF3:Skyrim.esm",
-      "Radius": 431.12,
-      "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 25.663454
-      },
+      "Base": "088C9A:Skyrim.esm",
+      "Radius": 343.12,
       "LocationReference": "0B23A5:Skyrim.esm",
       "Placement": {
-        "Position": "-0.141876, -17.799873, 750.9036",
+        "Position": "0.942496, -16.958971, 606.5259",
         "Rotation": "1.570798, 0, 1.5708016"
       }
     },
@@ -117,17 +98,36 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0FEBF9:Skyrim.esm",
+      "FormKey": "039B05:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
-      "Base": "088C9A:Skyrim.esm",
-      "Radius": 343.12,
+      "Base": "088CF3:Skyrim.esm",
+      "Radius": 431.12,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 25.663454
+      },
       "LocationReference": "0B23A5:Skyrim.esm",
       "Placement": {
-        "Position": "0.942496, -16.958971, 606.5259",
+        "Position": "-0.141876, -17.799873, 750.9036",
         "Rotation": "1.570798, 0, 1.5708016"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0399E4:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E72CB:Skyrim.esm",
+      "Scale": 0.5,
+      "LocationReference": "0B23A5:Skyrim.esm",
+      "Placement": {
+        "Position": "-304, 128, -30000",
+        "Rotation": "0, 0, 3.1415927"
       }
     }
   ]
