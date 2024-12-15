@@ -22,7 +22,7 @@
         "data": {
           "light": "nocturnallight",
           "radius": 32.0,
-          "fade": 0.7,
+          "fade": 0.8,
           "flags": "Simple"
         }
       }
@@ -37,8 +37,8 @@
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "nocturnallight",
-          "radius": 12.0,
-          "fade": 0.3,
+          "radius": 32.0,
+          "fade": 0.5,
           "flags": "Simple"
         }
       }
@@ -53,8 +53,8 @@
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "FXLightGreenBlueGlow",
-          "radius": 12.0,
-          "fade": 0.3,
+          "radius": 32.0,
+          "fade": 0.5,
           "flags": "Simple"
         }
       }
@@ -63,14 +63,15 @@
   {
     "models": [ 
       "plants\\floradragonstongue01.nif",
-      "plants\\floradragonstongue02.nif" ],
+      "plants\\floradragonstongue02.nif",
+      "critters\\firefly\\firefly.nif" ],
     "lights": [
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "TestCoryLightOrange",
-          "radius": 12.0,
-          "fade": 0.3,
+          "radius": 32.0,
+          "fade": 0.5,
           "flags": "Simple"
         }
       }
@@ -91,7 +92,9 @@
       "clutter\\potions\\potionhealthextreme.nif",
       "clutter\\potions\\potionhealthgreat.nif",
       "clutter\\potions\\potionhealthlesser.nif",
-      "dlc01\\clutter\\dlc01bloodpotion.nif"
+      "dlc01\\clutter\\dlc01bloodpotion.nif",
+      "clutter\\quest\\barenziahsjewlrybox.nif",
+      "critters\\moths\\crittermothmonarch.nif"
        ],
     "lights": [
       {
@@ -122,7 +125,8 @@
       "clutter\\potions\\potionstaminaextra.nif",
       "clutter\\potions\\potionstaminaextreme.nif",
       "clutter\\potions\\potionstaminagreat.nif",
-      "clutter\\potions\\potionstaminalesser.nif"
+      "clutter\\potions\\potionstaminalesser.nif",
+      "critters\\moths\\crittermothgreen.nif"
        ],
     "lights": [
       {
@@ -149,7 +153,8 @@
       "clutter\\potions\\potionmagickaextra.nif",
       "clutter\\potions\\potionmagickaextreme.nif",
       "clutter\\potions\\potionmagickagreat.nif",
-      "clutter\\potions\\potionmagickalesser.nif"
+      "clutter\\potions\\potionmagickalesser.nif",
+      "critters\\moths\\crittermothblue.nif"
     ],
     "lights": [
       {

@@ -1,0 +1,216 @@
+[
+  {
+    "models": [ "effects\\fxfirewithembers01_lite.nif", "effects\\fxfirewithembers02.nif" ],
+    "lights": [
+      {
+        "points": [ [ 0, 0, 0 ] ],
+        "data": {
+          "light": "LightCampFire01",
+          "radius": 256.0,
+          "fade": 1.2
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 4 ],
+    "lights": [
+      {
+        "whiteList": ["effects\\fxfirewithembers01_cheap.nif, effects\\fxfirewithemberslogs01.nif"],
+        "data": {
+          "light": "LightCampFire01",
+          "radius": 256.0,
+          "fade": 1.2
+        }
+      }
+    ]
+  },
+  {
+    "models": [ "clutter\\woodfires\\campfire01burning.nif",
+          "clutter\\woodfires\\fireplacewood01burning.nif",
+          "clutter\\woodfires\\campfire01landburning.nif" ],
+    "lights": [
+      {
+        "points": [ [ 0, 0, 0 ] ],
+        "data": {
+          "light": "LightCampFire01",
+          "radius": 256.0,
+          "fade": 1.2
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\common\\candlelanternwithcandle01.nif",
+          "clutter\\glazedcandles01.nif",
+          "clutter\\glazedcandlesstatic02.nif",
+          "clutter\\imperial\\impcandle01.nif",
+          "clutter\\imperial\\impwallsconcecandle01.nif",
+          "clutter\\imperial\\impwallsconcecandle02.nif",
+          "clutter\\ruins\\ruinscandlesconceon01.nif",
+          "clutter\\ruins\\ruinscandlesconceon02.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon02.nif",
+          "clutter\\silver\\silvercandlestick01.nif",
+          "clutter\\silver\\silvercandlestick02.nif",
+          "clutter\\silver\\silvercandlestick03.nif",
+          "clutter\\candles\\candlehornwall01.nif",
+          "clutter\\candles\\candlehorntable01.nif",
+          "clutter\\sovngarde\\sovcandlestick01.nif",
+          "clutter\\sovngarde\\sovcandlestick02.nif",
+          "clutter\\sovngarde\\sovcandlestick03.nif",
+          "clutter\\sovngarde\\sovcandlestick01static.nif",
+          "clutter\\sovngarde\\sovcandlestick02static.nif",
+          "clutter\\sovngarde\\sovcandlestick03static.nif"
+        ],
+        "data": {
+          "light": "DefaultCandleLight01NS",
+          "radius": 50.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\common\\candlelanternwithcandle01.nif",
+          "clutter\\glazedcandles01.nif",
+          "clutter\\glazedcandlesstatic02.nif",
+          "clutter\\imperial\\impcandle01.nif",
+          "clutter\\imperial\\impwallsconcecandle01.nif",
+          "clutter\\imperial\\impwallsconcecandle02.nif",
+          "clutter\\ruins\\ruinscandlesconceon01.nif",
+          "clutter\\ruins\\ruinscandlesconceon02.nif",
+          "clutter\\silver\\silvercandlestick01.nif",
+          "clutter\\silver\\silvercandlestick02.nif",
+          "clutter\\silver\\silvercandlestick03.nif",
+          "clutter\\candles\\candlehornwall01.nif",
+          "clutter\\candles\\candlehorntable01.nif",
+          "WhiterunWorld"
+        ],
+        "data": {
+          "light": "WRCandleFlickerNS",
+          "radius": 50.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\imperial\\impcandelabracandle01.nif",
+          "clutter\\imperial\\impcandelabracandle02.nif",
+          "clutter\\imperial\\impwallsconce02candleon01.nif",
+          "clutter\\candles\\candlehornfloor01.nif",
+          "furniture\\enchantingworkbench.nif",
+          "furniture\\enchantingworkstation.nif"
+        ],
+        "data": {
+          "light": "DefaultCandleLight01NS",
+          "radius": 72.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [ 
+      "furniture\\alchemyworkbench.nif",
+      "furniture\\alchemyworkstation.nif",
+      "furniture\\workbenches\\alchemyworkbench01.nif" ],
+    "lights": [
+      {
+        "nodes": ["Burner01"],
+        "data": {
+          "light": "DefaultCandleLight01NS",
+          "radius": 32.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\imperial\\impcandelabracandle01.nif",
+          "clutter\\imperial\\impcandelabracandle02.nif",
+          "clutter\\imperial\\impwallsconce02candleon01.nif",
+          "clutter\\candles\\candlehornfloor01.nif",
+          "furniture\\enchantingworkbench.nif",
+          "furniture\\enchantingworkstation.nif",
+          "WhiterunWorld"
+        ],
+        "data": {
+          "light": "WRCandleFlickerNS",
+          "radius": 72.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 7, 46 ],
+    "lights": [
+      {
+        "whiteList": [ 
+          "clutter\\common\\removabletorch01.nif",
+          "clutter\\common\\torchpermanent01.nif",
+          "clutter\\common\\torchsconce01.nif" 
+        ],
+        "data": {
+          "light": "DefaultTorch01NS",
+          "radius": 72.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [ 
+      "effects\\MGMagicFirePillar01.nif",
+      "Magic\\LightSpellStaticLight.nif" ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "data": {
+          "light": "FXLightWhiteBasic",
+          "radius": 64.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\imperial\\impchandelliercandle01.nif",
+          "clutter\\imperial\\impchandelliercandle02.nif",
+          "clutter\\imperial\\impchandelliercandle03.nif",
+          "clutter\\candles\\candlehornchandelier01.nif",
+          "clutter\\candles\\candlehornchandelier02.nif"
+        ],
+        "data": {
+          "light": "DefaultCandleLight01NS",
+          "radius": 82.0,
+          "fade": 1.1
+        }
+      }
+    ]
+  }
+]
