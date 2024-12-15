@@ -1,0 +1,27 @@
+[
+  {
+    "models": [ 
+      "effects\\mgaugurfx01.nif",
+      "effects\\mgmagicfirepillar01.nif",
+      "effects\\mgmagicfirepillareye01.nif",
+      "effects\\mgmagicfirepillarmidden01.nif",
+      "effects\\mgmagicfirepillarsmall.nif"
+     ],
+    "lights": [
+      {
+        "nodes": [
+        "MeshInnerCore", 
+        "FXfireWithEmbers01",
+        "FXfireWithEmbers02",
+        "lightrays01",
+        "AttachLight01"
+      ],
+        "data": {
+          "light": "nocturnallight",
+          "radius": 512.0,
+          "fade": 2.0
+        }
+      }
+    ]
+  }
+]

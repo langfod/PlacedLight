@@ -1,0 +1,44 @@
+[
+  {
+    "models": [ "magus\\mysticism\\scrollbench.nif"  ],
+    "lights": [
+      {
+        "nodes": [ "ScrollWorkstation:31" ],
+        "data": {
+          "light": "nocturnallight",
+          "radius": 32.0,
+          "fade": 0.7,
+          "flags": "Simple"
+        }
+      }
+    ]
+  },
+  {
+    "models": [ "magus\\mysticism\\staffbench.nif"  ],
+    "lights": [
+      {
+        "nodes": [ "Tablet01" ],
+        "data": {
+          "light": "nocturnallight",
+          "radius": 32.0,
+          "fade": 0.7,
+          "flags": "Simple"
+        }
+      }
+    ]
+  },
+  {
+    "models": [ "magus\\mysticism\\soulgembowl.nif"  ],
+    "lights": [
+      {
+        "nodes": [ "DLC01SoulGemBowlEmpty" ],
+        "data": {
+          "light": "nocturnallight",
+          "radius": 32.0,
+          "fade": 0.7,
+          "flags": "Simple"
+        }
+      }
+    ]
+  }
+]

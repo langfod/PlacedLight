@@ -6,8 +6,8 @@
         "points": [ [ 0, 0, 0 ] ],
         "data": {
           "light": "LightCampFire01",
-          "radius": 256.0,
-          "fade": 1.2
+          "radius": 512.0,
+          "fade": 1.0
         }
       }
     ]
@@ -19,8 +19,8 @@
         "whiteList": ["effects\\fxfirewithembers01_cheap.nif, effects\\fxfirewithemberslogs01.nif"],
         "data": {
           "light": "LightCampFire01",
-          "radius": 256.0,
-          "fade": 1.2
+          "radius": 512.0,
+          "fade": 1.0
         }
       }
     ]
@@ -34,8 +34,8 @@
         "points": [ [ 0, 0, 0 ] ],
         "data": {
           "light": "LightCampFire01",
-          "radius": 256.0,
-          "fade": 1.2
+          "radius": 512.0,
+          "fade": 1.0
         }
       }
     ]
@@ -70,36 +70,8 @@
           "clutter\\sovngarde\\sovcandlestick03static.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 50.0,
-          "fade": 1.0
-        }
-      }
-    ]
-  },
-  {
-    "addonNodes": [ 49 ],
-    "lights": [
-      {
-        "whiteList": [
-          "clutter\\common\\candlelanternwithcandle01.nif",
-          "clutter\\glazedcandles01.nif",
-          "clutter\\glazedcandlesstatic02.nif",
-          "clutter\\imperial\\impcandle01.nif",
-          "clutter\\imperial\\impwallsconcecandle01.nif",
-          "clutter\\imperial\\impwallsconcecandle02.nif",
-          "clutter\\ruins\\ruinscandlesconceon01.nif",
-          "clutter\\ruins\\ruinscandlesconceon02.nif",
-          "clutter\\silver\\silvercandlestick01.nif",
-          "clutter\\silver\\silvercandlestick02.nif",
-          "clutter\\silver\\silvercandlestick03.nif",
-          "clutter\\candles\\candlehornwall01.nif",
-          "clutter\\candles\\candlehorntable01.nif",
-          "WhiterunWorld"
-        ],
-        "data": {
-          "light": "WRCandleFlickerNS",
-          "radius": 50.0,
+          "light": "Candle",
+          "radius": 64.0,
           "fade": 1.0
         }
       }
@@ -113,13 +85,27 @@
           "clutter\\imperial\\impcandelabracandle01.nif",
           "clutter\\imperial\\impcandelabracandle02.nif",
           "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif",
+          "clutter\\candles\\candlehornfloor01.nif"
+        ],
+        "data": {
+          "light": "Candle",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [ 49 ],
+    "lights": [
+      {
+        "whiteList": [
           "furniture\\enchantingworkbench.nif",
           "furniture\\enchantingworkstation.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 72.0,
+          "light": "Candle",
+          "radius": 64.0,
           "fade": 1.0
         }
       }
@@ -134,29 +120,8 @@
       {
         "nodes": ["Burner01"],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "Candle",
           "radius": 32.0,
-          "fade": 1.0
-        }
-      }
-    ]
-  },
-  {
-    "addonNodes": [ 49 ],
-    "lights": [
-      {
-        "whiteList": [
-          "clutter\\imperial\\impcandelabracandle01.nif",
-          "clutter\\imperial\\impcandelabracandle02.nif",
-          "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif",
-          "furniture\\enchantingworkbench.nif",
-          "furniture\\enchantingworkstation.nif",
-          "WhiterunWorld"
-        ],
-        "data": {
-          "light": "WRCandleFlickerNS",
-          "radius": 72.0,
           "fade": 1.0
         }
       }
@@ -173,7 +138,7 @@
         ],
         "data": {
           "light": "DefaultTorch01NS",
-          "radius": 72.0,
+          "radius": 512.0,
           "fade": 1.0
         }
       }
@@ -188,7 +153,7 @@
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "FXLightWhiteBasic",
-          "radius": 64.0,
+          "radius": 128.0,
           "fade": 1.0
         }
       }
@@ -206,8 +171,8 @@
           "clutter\\candles\\candlehornchandelier02.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 82.0,
+          "light": "Candle",
+          "radius": 256.0,
           "fade": 1.1
         }
       }
