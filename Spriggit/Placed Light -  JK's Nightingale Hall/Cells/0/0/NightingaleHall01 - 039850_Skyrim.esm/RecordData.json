@@ -1,0 +1,297 @@
+{
+  "FormKey": "039850:Skyrim.esm",
+  "EditorID": "NightingaleHall01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Nightingale Hall"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "039AA9:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "047D27:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6B17:Skyrim.esm",
+      "Base": "033DA9:Skyrim.esm",
+      "Scale": 0.78,
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3092.5996, 9222.366, -525.6443",
+        "Rotation": "0, -0, 0.28999746"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6B18:Skyrim.esm",
+      "Base": "033DA9:Skyrim.esm",
+      "Scale": 0.78,
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3334.513, 8957.41, -525.6443",
+        "Rotation": "0, -0, 2.279999"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D25:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.2546523,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2890.7908, 2045.8508, 143.31741"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D27:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": 95.028534,
+      "LightData": {
+        "FadeOffset": 1.1382313,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3163.3782, 3610.705, 109.358154"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D2C:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": 74.677734,
+      "LightData": {
+        "FadeOffset": 0.9710672,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "4536.425, 3780.2664, -134.05667"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D2D:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": 191.97296,
+      "LightData": {
+        "FadeOffset": 0.9678737,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "4336.9243, 4542.0864, -221.73636"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D2E:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.896878,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3563.3594, 4791.528, -362.5266"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D30:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": 222.5794,
+      "LightData": {
+        "FadeOffset": 2.896878,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2857.2441, 5584.7246, -411.7303"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D31:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": -57.20337,
+      "LightData": {
+        "FadeOffset": 2.896878,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0001E1:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3182.8623, 6784.891, -465.56372"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D32:Skyrim.esm",
+      "Base": "088241:Skyrim.esm",
+      "Radius": 90.797455,
+      "LightData": {
+        "FadeOffset": 0.9963772,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2688.7576, 6762.4746, -401.72595"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D36:Skyrim.esm",
+      "Base": "088252:Skyrim.esm",
+      "Radius": 346.83032,
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3114.9758, 4747.792, -395.29816"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D38:Skyrim.esm",
+      "Base": "088241:Skyrim.esm",
+      "Radius": 58.19516,
+      "LightData": {
+        "FadeOffset": 0.97096145,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2187.438, 7406.3438, -423.9972"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D3E:Skyrim.esm",
+      "Base": "0346CF:Skyrim.esm",
+      "Radius": 299.03436,
+      "LightData": {
+        "FadeOffset": 0.5857979,
+        "ShadowDepthBias": 23.44564
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1454.2397, 8661.829, -432.87512"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3D40:Skyrim.esm",
+      "Base": "088250:Skyrim.esm",
+      "Radius": 595.63696,
+      "LightData": {
+        "FadeOffset": 2.0815973,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "039AA9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "00030E:JK's Nightingale Hall.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3482.5112, 9363.007, -389.09283"
+      }
+    }
+  ]
+}
