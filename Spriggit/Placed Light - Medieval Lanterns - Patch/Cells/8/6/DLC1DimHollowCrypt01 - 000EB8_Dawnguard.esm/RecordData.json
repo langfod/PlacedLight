@@ -1,0 +1,114 @@
+{
+  "FormKey": "000EB8:Dawnguard.esm",
+  "EditorID": "DLC1DimHollowCrypt01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dimhollow Crypt"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00283E58",
+      "DirectionalXMinus": "#00283E58",
+      "DirectionalYPlus": "#00283E58",
+      "DirectionalYMinus": "#00283E58",
+      "DirectionalZPlus": "#00283E58",
+      "DirectionalZMinus": "#00283E58",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "006AE9:Dawnguard.esm",
+  "WaterHeight": 0.0,
+  "Location": "004EE8:Dawnguard.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "SkyAndWeatherFromRegion": "0191D3:Dawnguard.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "004EE7:Dawnguard.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00CACB:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "004EE8:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3740.2515, 5850.273, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00CB86:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "004EE8:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2026.3197, 6146.907, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00FB21:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-2026.3197, 6146.907, -12.2"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0426D8:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "3740.2515, 5850.273, -303.3157"
+      }
+    }
+  ]
+}

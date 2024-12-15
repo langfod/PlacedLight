@@ -1,0 +1,68 @@
+{
+  "FormKey": "016DF7:Skyrim.esm",
+  "EditorID": "MarkarthShrineofTalos",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shrine of Talos"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00615049",
+    "FogFar": 4000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 4000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00211E29",
+      "DirectionalXMinus": "#001A1E26",
+      "DirectionalYPlus": "#001E1F28",
+      "DirectionalYMinus": "#001E1C28",
+      "DirectionalZPlus": "#000E0E12",
+      "DirectionalZMinus": "#002D2D3D",
+      "Specular": "#004E4A3F",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004E4A3F",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "06E830:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0DDD27:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DCF25:Skyrim.esm",
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "06E830:Skyrim.esm",
+      "Placement": {
+        "Position": "1067.3783, 23.434725, 185.20497",
+        "Rotation": "0, -0, 6.083186"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0F89:Skyrim.esm",
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "06E830:Skyrim.esm",
+      "Placement": {
+        "Position": "1175.0221, -1768.4409, 338.68024",
+        "Rotation": "0, -0, 6.083186"
+      }
+    }
+  ]
+}

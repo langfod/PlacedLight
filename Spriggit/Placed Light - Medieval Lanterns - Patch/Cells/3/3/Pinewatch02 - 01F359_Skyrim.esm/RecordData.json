@@ -1,0 +1,113 @@
+{
+  "FormKey": "01F359:Skyrim.esm",
+  "EditorID": "Pinewatch02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Pinewatch Bandit's Sanctuary"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00151D2D",
+    "DirectionalColor": "#00233849",
+    "FogNearColor": "#00343E5F",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00171D2F",
+      "DirectionalXMinus": "#00121D2A",
+      "DirectionalYPlus": "#00151E2D",
+      "DirectionalYMinus": "#00151B2D",
+      "DirectionalZPlus": "#000A0D14",
+      "DirectionalZMinus": "#001F2C45",
+      "Specular": "#00343E5F",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00343E5F",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B7DB8:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01928A:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC52:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068E5A:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01928A:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "4198.4517, -822.73846, -30000",
+        "Rotation": "0, 0, 1.3594928"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068EC7:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01928A:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3697.5447, -678.17334, -30000",
+        "Rotation": "0, 0, 0.84522283"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05BCE7:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "4198.4517, -822.7385, 6337.66",
+        "Rotation": "0, 0, 1.3439035"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05BCE8:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "3697.5447, -678.1733, 6337.941",
+        "Rotation": "0, 0, 0.83775806"
+      }
+    }
+  ]
+}

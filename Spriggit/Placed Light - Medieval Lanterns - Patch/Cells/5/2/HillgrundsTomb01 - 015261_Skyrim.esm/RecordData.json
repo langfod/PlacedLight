@@ -1,0 +1,83 @@
+{
+  "FormKey": "015261:Skyrim.esm",
+  "EditorID": "HillgrundsTomb01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Hillgrund's Tomb"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00253E4B",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00577371",
+    "FogFar": 4000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0030271C",
+      "DirectionalXMinus": "#00272719",
+      "DirectionalYPlus": "#002C281B",
+      "DirectionalYMinus": "#002C251B",
+      "DirectionalZPlus": "#0014120C",
+      "DirectionalZMinus": "#005C5238",
+      "Specular": "#00374847",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00374847",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019196:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC36:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D43BB:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019196:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-4591.606, 1564.9258, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A6C:Medieval Lanterns of Skyrim.esp",
+      "Base": "00AA14:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-4591.606, 1564.9258, -1087.3398",
+        "Rotation": "0, -0, 2.5831914"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "FormKey": "065AB5:Skyrim.esm",
+  "EditorID": "DushnikhYalCellar",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Burguk's Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 5000.0,
+    "LightFadeEnd": 6000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F7FD:Skyrim.esm",
+  "Owner": "0284B1:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "0A3856:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0678BB:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01F7FD:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "209.59811, -670.83923, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C15BB:Medieval Lanterns of Skyrim.esp",
+      "Base": "0B7314:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "206.76477, -669.62024, 300.48282",
+        "Rotation": "0, -0, 3.1831908"
+      }
+    }
+  ]
+}

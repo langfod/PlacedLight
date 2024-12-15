@@ -1,0 +1,130 @@
+{
+  "FormKey": "0778F1:Skyrim.esm",
+  "EditorID": "RobbersGorge01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Robber's Cove"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0300E2:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01929B:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "SkyAndWeatherFromRegion": "0C5858:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC63:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0789BE:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "05AD3C:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "0789BD:Skyrim.esm",
+        "Position": "-79118.05, 45362.812, -11741.367",
+        "Rotation": "0, 0, 5.983186"
+      },
+      "NavigationDoorLink": {
+        "NavMesh": "0EE381:Skyrim.esm",
+        "TeleportMarkerTriangle": 17
+      },
+      "LocationReference": "01929B:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "001B4F:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1441.1085, -442.51532, 1711.7084",
+        "Rotation": "0, 0, 1.5000005"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "001732:SRC - All In One.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "05AD3C:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "001734:SRC - All In One.esp",
+        "Position": "-79113.15, 45428.48, -11757.46",
+        "Rotation": "6.243554, 0.042050216, 0.058482494"
+      },
+      "Lock": {
+        "Level": "255",
+        "Unused": "0x000000",
+        "Key": "001733:SRC - All In One.esp",
+        "Unused2": "0x0000000000000000000000"
+      },
+      "EnableParent": {
+        "Reference": "001B50:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1441.1085, -442.51532, 1711.7084",
+        "Rotation": "0, 0, 1.5000005"
+      }
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "001728:SRC - All In One.esp",
+      "MajorRecordFlagsRaw": 512,
+      "SkyrimMajorRecordFlags": [
+        "0x200"
+      ],
+      "Base": "01A765:Skyrim.esm",
+      "RagdollData": "0x020000000000803900000000000080B9A814C5BF29C51B3FE884A93F080000000002D9C00050053E000064BB9F261FC065DC603E826233C009000000000027BD0000E4BCA08FFA41EB00C8BF4C7F60BC5DF97F3B0A0000000000543C00D290BEE0A7DB411BEE893F875C1ABEF78A6A3E0E00000000A5D64000C0FABC00801BBD08C316C07D145B3E88F93B400F0000000040EABD0000C63C409BFA41D69300C04FCB583C35EB2B3A100000000000083D00E49ABE406FDB414812D03FF2046D3E7C0B02BE02000000000007BDC079A8C0002E7540E08F853CC2D0AC3DA67F0DBE0300000000008ABD000058BC80B10C41AA9D11BE7257AE3D8877353D040000000000043C00000D3C80341E416772943E357A8DBC7307B4BE000000000080EE3D00C002BD8030B04110E50DBDC9C895BD74D4263D010000000080013D000094BB00190D41BF1F6BBFE3E51B3D1E79303E0B0000000000E33B0080FE3C00F15A41970AAE3F8E3223BF0FE13FBF0C000000003845BF00F0BABEC038A2412590C73EFDAA59BD55B551BC0D0000000080F9BD0040A9BDC0378041720683BB25E38B3D06D9BEBF050000000000C0BC004058BD80B360419C02303F32A1663FB65F353E060000000080E9BD009039BE0000A241B167C33E144AA33D214BD63C07000000000048BC00C019BDC04E804169FCB1BBD789AB3E29A2BF3F00000000000000000000884100002041000000800000008000000080",
+      "EnableParent": {
+        "Reference": "001B50:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1108.5791, -268.27066, 1461.6133"
+      },
+      "MajorFlags": [
+        "StartsDead"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "FormKey": "03E908:Skyrim.esm",
+  "EditorID": "ChillwindDepths01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Chillwind Depths"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00213038",
+    "DirectionalColor": "#006D9AA7",
+    "FogNearColor": "#00234856",
+    "FogFar": 7000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 7000.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002D3F4E",
+      "DirectionalXMinus": "#00243F47",
+      "DirectionalYPlus": "#0029414B",
+      "DirectionalYMinus": "#00293C4B",
+      "DirectionalZPlus": "#00131E21",
+      "DirectionalZMinus": "#003E5F74",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00516D7D",
+    "FogMax": 0.8,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0ED010:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019154:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveIceCubeMap_e.dds",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBFB:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0B9E1E:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "079C3E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019154:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "397.23886, 4405.8706, -30000",
+        "Rotation": "6.2801485, 0.008344419, 6.283154"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EBBFA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019154:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2632.9873, 879.7682, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065F33:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "2632.9873, 879.7682, 6238.104",
+        "Rotation": "0, -0, 2.2831953"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065F34:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "397.2389, 4405.8706, 6078.5737",
+        "Rotation": "0, 0.008726646, 0"
+      }
+    }
+  ]
+}

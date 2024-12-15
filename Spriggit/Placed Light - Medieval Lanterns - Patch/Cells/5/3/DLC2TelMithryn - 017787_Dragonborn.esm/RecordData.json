@@ -1,0 +1,141 @@
+{
+  "FormKey": "017787:Dragonborn.esm",
+  "EditorID": "DLC2TelMithryn",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tel Mithryn"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 180,
+    "FogClipDistance": 7000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034F4B:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "01CDEA:Dragonborn.esm",
+  "Owner": "017775:Dragonborn.esm",
+  "AcousticSpace": "03974D:Dragonborn.esm",
+  "EncounterZone": "01D751:Dragonborn.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0332D4:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "862.95074, 1109.4569, -30000",
+        "Rotation": "0, 0, 1.0000038"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "033DC7:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-681.9753, 1981.9148, -30000",
+        "Rotation": "0, 0, 1.0831968"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "033DDC:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01CDEA:Dragonborn.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-153.06673, 604.86475, -30000",
+        "Rotation": "0, 0, 6.083188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08479D:Medieval Lanterns of Skyrim.esp",
+      "Base": "07F627:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-681.9753, 1981.9148, 106.26662"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08479E:Medieval Lanterns of Skyrim.esp",
+      "Base": "07F627:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "862.9507, 1109.4569, 100.6639",
+        "Rotation": "0, -0, 5.683187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08479F:Medieval Lanterns of Skyrim.esp",
+      "Base": "07F627:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-153.0667, 604.8647, 74.2962"
+      }
+    }
+  ]
+}

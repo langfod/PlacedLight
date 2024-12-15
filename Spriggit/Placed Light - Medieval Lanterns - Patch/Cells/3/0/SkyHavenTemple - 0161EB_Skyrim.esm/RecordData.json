@@ -1,0 +1,82 @@
+{
+  "FormKey": "0161EB:Skyrim.esm",
+  "EditorID": "SkyHavenTemple",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sky Haven Temple"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00122121",
+    "DirectionalColor": "#00424953",
+    "FogNearColor": "#003D5453",
+    "FogFar": 8500.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 12000.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00132122",
+      "DirectionalXMinus": "#0010211F",
+      "DirectionalYPlus": "#00122221",
+      "DirectionalYMinus": "#00121F21",
+      "DirectionalZPlus": "#00080F0E",
+      "DirectionalZMinus": "#001B3233",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#003D5453",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "WaterHeight": 0.0,
+  "Location": "018E42:Skyrim.esm",
+  "Owner": "072834:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0FD942:Skyrim.esm",
+  "ImageSpace": "0614E1:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06768F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "018E42:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3630.3794, 3214.1743, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "038479:Medieval Lanterns of Skyrim.esp",
+      "Base": "00AA14:Medieval Lanterns of Skyrim.esp",
+      "EnableParent": {
+        "Reference": "071C2C:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3630.3794, 3214.1743, 8392.868"
+      }
+    }
+  ]
+}

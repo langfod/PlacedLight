@@ -1,0 +1,113 @@
+{
+  "FormKey": "0161E7:Skyrim.esm",
+  "EditorID": "WhistlingMine01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Whistling Mine"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08E78E:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "072B1D:Skyrim.esm",
+  "Owner": "10F4AB:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\ShinyDull_e.dds",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A28E6:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F576E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "072B1D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "456.5251, 644.645, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5B13:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "072B1D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "366.84207, -455.8447, -30000",
+        "Rotation": "0, 0.13962634, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "070237:Medieval Lanterns of Skyrim.esp",
+      "Base": "03845F:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "456.5251, 644.645, 324.238"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "070238:Medieval Lanterns of Skyrim.esp",
+      "Base": "03845F:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "366.8421, -455.8447, 166.23743",
+        "Rotation": "0, 0.13962634, 0"
+      }
+    }
+  ]
+}

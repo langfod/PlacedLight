@@ -1,0 +1,85 @@
+{
+  "FormKey": "0152B1:Skyrim.esm",
+  "EditorID": "BrokenFangCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Broken Fang Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#0018251E",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#002F463A",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#000B0A0A",
+      "DirectionalXMinus": "#00080A09",
+      "DirectionalYPlus": "#000A0A0A",
+      "DirectionalYMinus": "#000A090A",
+      "DirectionalZPlus": "#00040404",
+      "DirectionalZMinus": "#000F0F0F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#002F463A",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "068B3E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01914D:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBF5:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B824E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01914D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-611.0194, 2253.1287, -30000",
+        "Rotation": "5.7197876, 6.1277847, 0.8948321"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E251:Medieval Lanterns of Skyrim.esp",
+      "Base": "00AA14:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-611.0194, 2253.1287, -79.1",
+        "Rotation": "-0.43633232, -0.13962634, 0.87266463"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "FormKey": "016DF5:Skyrim.esm",
+  "EditorID": "MarkarthSmelterOverseersHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Smelter Overseer's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00211E29",
+      "DirectionalXMinus": "#001A1E26",
+      "DirectionalYPlus": "#001E1F28",
+      "DirectionalYMinus": "#001E1C28",
+      "DirectionalZPlus": "#000E0E12",
+      "DirectionalZMinus": "#002D2D3D",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01F312:Skyrim.esm",
+  "Owner": "0133A9:Skyrim.esm",
+  "LockList": "0133A9:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "09F282:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DA58F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01F312:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1984.7372, 1062.9316, -30000",
+        "Rotation": "0, 0, 0.5235988"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DA614:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01F312:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1621.9722, 1168.2389, -30000",
+        "Rotation": "0, 0, 0.5235988"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6714:Medieval Lanterns of Skyrim.esp",
+      "Base": "0B7314:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1622.1168, 1168.345, 125.835",
+        "Rotation": "0, -0, 5.3831873"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6715:Medieval Lanterns of Skyrim.esp",
+      "Base": "0B7314:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1985.3927, 1064.0161, 96.00179",
+        "Rotation": "0, -0, 3.7831903"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "FormKey": "03016A:Skyrim.esm",
+  "EditorID": "FortHraggstad02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Hraggstad Prison"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019181:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1F:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0424C8:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019181:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-350.91196, -1212.1942, -30000",
+        "Rotation": "0, 0, 1.6400003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "04AFFD:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019181:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "949.1003, -1886.3323, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065F43:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F14:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-350.912, -1214.1267, 226.46745",
+        "Rotation": "0, 0, 1.6580628"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065F44:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "949.1003, -1886.3323, 325.9483"
+      }
+    }
+  ]
+}

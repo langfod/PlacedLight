@@ -1,0 +1,174 @@
+{
+  "FormKey": "0152B0:Skyrim.esm",
+  "EditorID": "BrokenHelmHollow01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Broken Helm Hollow"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0033291D",
+      "DirectionalXMinus": "#002A291A",
+      "DirectionalYPlus": "#002F2A1C",
+      "DirectionalYMinus": "#002F271C",
+      "DirectionalZPlus": "#0016130C",
+      "DirectionalZMinus": "#005C5138",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01914E:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBF6:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2831:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01914E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "570.61176, 478.08133, -30000",
+        "Rotation": "0, 0, 0.55000037"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2832:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01914E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "619.31476, 560.041, -30000",
+        "Rotation": "0, 0, 4.083191"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C285B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01914E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1324.9799, 187.29877, -30000",
+        "Rotation": "6.28048, 0.13997366, 4.6930037"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C2885:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01914E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1365.208, 1916.9847, -30000",
+        "Rotation": "6.2788777, 0.039809216, 5.553725"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E252:Medieval Lanterns of Skyrim.esp",
+      "Base": "005900:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "570.6118, 478.0813, 822.5497",
+        "Rotation": "0, 0, 0.55000037"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E253:Medieval Lanterns of Skyrim.esp",
+      "Base": "005900:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "619.91516, 560.041, 815.2",
+        "Rotation": "0, 0, 4.083189"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E254:Medieval Lanterns of Skyrim.esp",
+      "Base": "005900:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "1324.9799, 185.84216, 507.2853",
+        "Rotation": "0, 0.13962634, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E255:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1365.208, 1916.9847, 83.0581",
+        "Rotation": "0, 0.038397245, 5.5850534"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "FormKey": "01527E:Skyrim.esm",
+  "EditorID": "ForsakenCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Forsaken Cave"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00233D41",
+    "DirectionalColor": "#002C6369",
+    "FogNearColor": "#0088D9FF",
+    "FogFar": 6000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 15000.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00263D44",
+      "DirectionalXMinus": "#001F3D3D",
+      "DirectionalYPlus": "#00233F41",
+      "DirectionalYMinus": "#00233A41",
+      "DirectionalZPlus": "#00101D1D",
+      "DirectionalZMinus": "#00355C64",
+      "Specular": "#00AFD3F8",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00AFD3F8",
+    "FogMax": 1.0,
+    "LightFadeBegin": 5000.0,
+    "LightFadeEnd": 6000.0
+  },
+  "LightingTemplate": "08E78E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917B:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC19:Skyrim.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019557:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01917B:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1804.9717, 3604.1616, -30000",
+        "Rotation": "0.1827255, 0.06901032, 1.5146369"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "04781F:Medieval Lanterns of Skyrim.esp",
+      "Base": "03D59B:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1804.9717, 3604.1616, -1912.187",
+        "Rotation": "0.06981317, 0.12217305, 1.4835298"
+      }
+    }
+  ]
+}

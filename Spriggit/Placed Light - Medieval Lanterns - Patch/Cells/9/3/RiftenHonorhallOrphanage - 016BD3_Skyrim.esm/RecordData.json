@@ -1,0 +1,81 @@
+{
+  "FormKey": "016BD3:Skyrim.esm",
+  "EditorID": "RiftenHonorhallOrphanage",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Honorhall Orphanage"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogClipDistance": 4000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0050432E",
+      "DirectionalXMinus": "#00414329",
+      "DirectionalYPlus": "#0049462C",
+      "DirectionalYMinus": "#00493F2C",
+      "DirectionalZPlus": "#00221F13",
+      "DirectionalZMinus": "#006F6644",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar"
+    ]
+  },
+  "LightingTemplate": "0B2157:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "02263F:Skyrim.esm",
+  "Owner": "0A251A:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0137C1:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "02263F:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1624, 220, -30000",
+        "Rotation": "0, 0, 1.0471976"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "023FFE:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "EnableParent": {
+        "Reference": "0137B2:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1624.8046, 227.7902, 128"
+      }
+    }
+  ]
+}

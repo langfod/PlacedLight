@@ -1,0 +1,78 @@
+{
+  "FormKey": "005EAA:Dawnguard.esm",
+  "EditorID": "DLC1RedwaterDen02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Redwater Spring"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#0042302F",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00221F20",
+      "DirectionalXMinus": "#001B1F1D",
+      "DirectionalYPlus": "#001F201F",
+      "DirectionalYMinus": "#001F1D1F",
+      "DirectionalZPlus": "#000E0E0E",
+      "DirectionalZMinus": "#002F2F2F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00111E1D",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0E7C5E:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "004D6F:Dawnguard.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "007779:Dawnguard.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0149A1:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "004D6F:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3430.2756, -6271.203, -30000",
+        "Rotation": "0, 0, 2.9081147"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00FB34:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "3430.2756, -6271.203, 5038.7056",
+        "Rotation": "0, 0, 2.9081147"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "FormKey": "034955:Skyrim.esm",
+  "EditorID": "FortAmol02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Amol Prison"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917C:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1A:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B2964:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01917C:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-776.75793, -458.3272, -30000",
+        "Rotation": "0, 0, 2.5331848"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065F42:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-776.7579, -458.3272, -187.8506",
+        "Rotation": "0, 0, 2.5307274"
+      }
+    }
+  ]
+}

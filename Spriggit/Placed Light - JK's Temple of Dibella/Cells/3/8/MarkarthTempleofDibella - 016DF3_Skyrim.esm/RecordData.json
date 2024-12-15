@@ -1,0 +1,218 @@
+{
+  "FormKey": "016DF3:Skyrim.esm",
+  "EditorID": "MarkarthTempleofDibella",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Temple of Dibella"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 270,
+    "FogClipDistance": 4500.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F317:Skyrim.esm",
+  "Owner": "0656EA:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0DDD27:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068772:Skyrim.esm",
+      "MajorRecordFlagsRaw": 67584,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 313.8584,
+      "LightData": {
+        "FadeOffset": 0.06937337,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1864, 345.52325, -1396.8164",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CBF1E:Skyrim.esm",
+      "Base": "086015:Skyrim.esm",
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-2248.8928, 411.70264, 144.88248",
+        "Rotation": "-0.004205513, -0.0028570837, 6.0797043"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CBF30:Skyrim.esm",
+      "Base": "05D6E4:Skyrim.esm",
+      "Scale": 1.33,
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-2308.3953, 191.55975, 219.73247",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CBF31:Skyrim.esm",
+      "Base": "05D6E4:Skyrim.esm",
+      "Scale": 1.33,
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-2308.3953, 514.4581, 219.73247",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE10F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 67584,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": 373.87848,
+      "LightData": {
+        "FadeOffset": -0.89947927,
+        "ShadowDepthBias": 23.815147
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1864, 345.52325, -1326.8201",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE113:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": -128.33224,
+      "LightData": {
+        "FadeOffset": -0.7049117,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-2217.0637, -70.93888, 258.3857",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE114:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": -105.86682,
+      "LightData": {
+        "FadeOffset": -0.7049117,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1524.4685, -61.422997, 260.56808",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE115:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": -96.86702,
+      "LightData": {
+        "FadeOffset": -0.54080534,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1526.9208, 773.7453, 260.7204",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE116:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": -88.95943,
+      "LightData": {
+        "FadeOffset": -0.5976051,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-2176.0332, 766.04016, 287.66833",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E0DF3:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": -138.55457,
+      "LightData": {
+        "FadeOffset": -0.8956169,
+        "ShadowDepthBias": 23.815147
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1962.8334, 1228.6974, 163.85266",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    }
+  ]
+}

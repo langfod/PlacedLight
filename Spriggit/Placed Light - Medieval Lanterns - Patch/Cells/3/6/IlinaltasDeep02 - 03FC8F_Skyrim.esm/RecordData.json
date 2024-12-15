@@ -1,0 +1,114 @@
+{
+  "FormKey": "03FC8F:Skyrim.esm",
+  "EditorID": "IlinaltasDeep02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ilinalta's Deluge"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00191B29",
+      "DirectionalXMinus": "#00141B26",
+      "DirectionalYPlus": "#00171C28",
+      "DirectionalYMinus": "#00171928",
+      "DirectionalZPlus": "#000A0C12",
+      "DirectionalZMinus": "#0023293D",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "08CDDA:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01919C:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC3C:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A0328:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC2C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01919C:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "914.05176, -2096.6624, -30000",
+        "Rotation": "0, 0.06981317, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC49:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01919C:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-889.4123, 386.78943, -30000",
+        "Rotation": "0, 0.10471976, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A84:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-889.4123, 386.7894, -433.6",
+        "Rotation": "0, 0.10471976, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A85:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "914.0518, -2096.6624, 82.2494",
+        "Rotation": "0, 0.06981317, 0"
+      }
+    }
+  ]
+}

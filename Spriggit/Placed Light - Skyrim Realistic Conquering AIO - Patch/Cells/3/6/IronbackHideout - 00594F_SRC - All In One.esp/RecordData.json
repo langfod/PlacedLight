@@ -1,0 +1,2061 @@
+{
+  "FormKey": "00594F:SRC - All In One.esp",
+  "EditorID": "IronbackHideout",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ironback Hideout"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#002D3030",
+    "DirectionalColor": "#00232832",
+    "FogNearColor": "#001F342E",
+    "FogFar": 4000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00313032",
+      "DirectionalXMinus": "#0028302D",
+      "DirectionalYPlus": "#002D3230",
+      "DirectionalYMinus": "#002D2D30",
+      "DirectionalZPlus": "#00151615",
+      "DirectionalZMinus": "#0044494A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#001F342E",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0EF546:Skyrim.esm",
+  "Owner": "0A299B:SRC - All In One.esp",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "08690F:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "NavigationMeshes": [
+    {
+      "FormKey": "005950:SRC - All In One.esp",
+      "Data": {
+        "Parent": {
+          "MutagenObjectType": "CellNavmeshParent",
+          "Parent": "00594F:SRC - All In One.esp"
+        },
+        "Vertices": [
+          "-451.0819, -236.11816, -15.999939",
+          "-579.81006, -233.73969, -15.999939",
+          "-578.6882, -170.51836, -16.00003",
+          "-656.0402, -235.4993, -15.99997",
+          "-657.96564, -188.9926, -15.999939",
+          "-438.93106, -201.40706, -16.00003",
+          "-519.377, -71.7299, -15.5",
+          "-659.0695, -63.693348, -15.99997",
+          "-329.80582, -143.00606, -15.986198",
+          "-397.64294, -197.05528, -16",
+          "-326.42444, -75.96043, -15.500061",
+          "-797.8578, -18.572596, -15.83689",
+          "-838.2226, 94.78383, -15.999939",
+          "-797.9709, 98.975136, -16",
+          "-261.74246, -70.65314, -14.629237",
+          "-254.96545, 55.725403, -15.5",
+          "-252.07236, 178.51457, -16",
+          "-826.72327, 29.36665, -15.836959",
+          "-501.78012, 98.04403, -16.000061",
+          "-435.28513, 56.421745, -15.827584",
+          "-439.18927, 118.544556, -16",
+          "-380.19235, 95.07231, -15.49997",
+          "-326.41724, 55.522003, -15.49997",
+          "-340.4214, 184.42004, -16",
+          "-828.8079, -19.451286, -15.83689",
+          "-392.96075, -233.18271, -16.000015",
+          "-609.01105, 81.73712, -16",
+          "-583.4166, 114.33249, -16.000061",
+          "-683.54346, 100.74121, -16.000061",
+          "-190.27692, -138.571, -15.98616",
+          "-194.99023, -70.9276, -15.98613",
+          "-330.24652, -242.29199, -16",
+          "-745.96326, -121.28203, -15.83689",
+          "-789.80054, -186.57872, -14.561478",
+          "-788.19147, -124.05972, -14.56143",
+          "-744.8943, -63.531303, -15.836856",
+          "-799.2025, -61.404007, -14.561454"
+        ],
+        "Triangles": [
+          {
+            "Vertices": "35, 11, 36",
+            "EdgeLink_0_1": 39,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "2, 1, 0",
+            "EdgeLink_0_1": 11,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 3,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "2, 4, 3",
+            "EdgeLink_0_1": 6,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 11,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "2, 0, 5",
+            "EdgeLink_0_1": 1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 4,
+            "Flags": [
+              "Door",
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "5, 6, 2",
+            "EdgeLink_0_1": 7,
+            "EdgeLink_1_2": 5,
+            "EdgeLink_2_0": 3,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "2, 6, 7",
+            "EdgeLink_0_1": 4,
+            "EdgeLink_1_2": 28,
+            "EdgeLink_2_0": 6,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "2, 7, 4",
+            "EdgeLink_0_1": 5,
+            "EdgeLink_1_2": 35,
+            "EdgeLink_2_0": 2,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "5, 8, 6",
+            "EdgeLink_0_1": 8,
+            "EdgeLink_1_2": 9,
+            "EdgeLink_2_0": 4,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "5, 9, 8",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 25,
+            "EdgeLink_2_0": 7,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "8, 10, 6",
+            "EdgeLink_0_1": 32,
+            "EdgeLink_1_2": 18,
+            "EdgeLink_2_0": 7,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "11, 12, 17",
+            "EdgeLink_0_1": 13,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 12,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "2, 3, 1",
+            "EdgeLink_0_1": 2,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 1,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "11, 17, 24",
+            "EdgeLink_0_1": 10,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "11, 13, 12",
+            "EdgeLink_0_1": 31,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 10,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "15, 10, 14",
+            "EdgeLink_0_1": 15,
+            "EdgeLink_1_2": 32,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "15, 22, 10",
+            "EdgeLink_0_1": 16,
+            "EdgeLink_1_2": 22,
+            "EdgeLink_2_0": 14,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "22, 15, 16",
+            "EdgeLink_0_1": 15,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 36,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 18, 6",
+            "EdgeLink_0_1": 19,
+            "EdgeLink_1_2": 26,
+            "EdgeLink_2_0": 18,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "6, 10, 19",
+            "EdgeLink_0_1": 9,
+            "EdgeLink_1_2": 22,
+            "EdgeLink_2_0": 17,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 20, 18",
+            "EdgeLink_0_1": 20,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 17,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 21, 20",
+            "EdgeLink_0_1": 21,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 19,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 22, 21",
+            "EdgeLink_0_1": 22,
+            "EdgeLink_1_2": 23,
+            "EdgeLink_2_0": 20,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 10, 22",
+            "EdgeLink_0_1": 18,
+            "EdgeLink_1_2": 15,
+            "EdgeLink_2_0": 21,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "21, 22, 23",
+            "EdgeLink_0_1": 21,
+            "EdgeLink_1_2": 36,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "9, 25, 31",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 25,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "8, 9, 31",
+            "EdgeLink_0_1": 8,
+            "EdgeLink_1_2": 24,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "18, 26, 6",
+            "EdgeLink_0_1": 27,
+            "EdgeLink_1_2": 28,
+            "EdgeLink_2_0": 17,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "18, 27, 26",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 26,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "26, 7, 6",
+            "EdgeLink_0_1": 29,
+            "EdgeLink_1_2": 5,
+            "EdgeLink_2_0": 26,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "26, 28, 7",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 30,
+            "EdgeLink_2_0": 28,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "7, 28, 11",
+            "EdgeLink_0_1": 29,
+            "EdgeLink_1_2": 31,
+            "EdgeLink_2_0": 39,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "28, 13, 11",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 13,
+            "EdgeLink_2_0": 30,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "8, 14, 10",
+            "EdgeLink_0_1": 33,
+            "EdgeLink_1_2": 14,
+            "EdgeLink_2_0": 9,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "8, 29, 14",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 34,
+            "EdgeLink_2_0": 32,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "14, 29, 30",
+            "EdgeLink_0_1": 33,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "7, 32, 4",
+            "EdgeLink_0_1": 38,
+            "EdgeLink_1_2": 40,
+            "EdgeLink_2_0": 6,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "22, 16, 23",
+            "EdgeLink_0_1": 16,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 23,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "33, 32, 34",
+            "EdgeLink_0_1": 40,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "32, 7, 35",
+            "EdgeLink_0_1": 35,
+            "EdgeLink_1_2": 39,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "35, 7, 11",
+            "EdgeLink_0_1": 38,
+            "EdgeLink_1_2": 30,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "32, 33, 4",
+            "EdgeLink_0_1": 37,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 35,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 18368,
+            "IsCover": true
+          }
+        ],
+        "DoorTriangles": [
+          {
+            "TriangleBeforeDoor": 3,
+            "Unknown": -460622861,
+            "Door": "0059A6:SRC - All In One.esp"
+          }
+        ],
+        "NavmeshGridDivisor": 2,
+        "MaxDistanceX": 323.97284,
+        "MaxDistanceY": 213.35602,
+        "Min": "-838.2226, -242.29199, -16.000061",
+        "Max": "-190.27692, 184.42004, -14.56143",
+        "NavmeshGrid": "0x150000000000010002000300040005000600070009000B00110012001A001C001D001E0023002500260027002800100000000100030004000700080009000E000F00110012001600180019002000210022000C00000000000A000C000D0011001A001B001C001D001E001F0027000D0000000E000F00100011001200130014001500160017001A001B002400"
+      }
+    }
+  ],
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A6:SRC - All In One.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "029CB0:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "005A0F:SRC - All In One.esp",
+        "Position": "-92018.02, 112570.09, -3056.7808",
+        "Rotation": "0, 0, 5.80001"
+      },
+      "NavigationDoorLink": {
+        "NavMesh": "005950:SRC - All In One.esp",
+        "TeleportMarkerTriangle": 3
+      },
+      "LocationRefTypes": [
+        "070E64:Skyrim.esm"
+      ],
+      "Owner": "035D40:Skyrim.esm",
+      "LocationReference": "0EF546:Skyrim.esm",
+      "Placement": {
+        "Position": "-511.90863, -254.11015, -16",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C610F:SRC - All In One.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "EditorID": "SRC_IBH_SQ01_Stage50Leader",
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "000034:Skyrim.esm",
+      "Placement": {
+        "Position": "-552, 53, -16",
+        "Rotation": "0, 0, 3.0000029"
+      }
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005952:SRC - All In One.esp",
+      "Base": "038B0B:Skyrim.esm",
+      "Placement": {
+        "Position": "-827.63275, 196.69176, 174.41217",
+        "Rotation": "0, 0, 3.9269907"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005954:SRC - All In One.esp",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -155.3736,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-384.32413, -4.754087, 255.98924"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005955:SRC - All In One.esp",
+      "Base": "064B41:Skyrim.esm",
+      "Placement": {
+        "Position": "-803.9251, 177.55966, 52.553185",
+        "Rotation": "1.5705467, 5.996974, 3.6717033"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005956:SRC - All In One.esp",
+      "Base": "0319E5:Skyrim.esm",
+      "Placement": {
+        "Position": "-294.57343, 214.45999, 49.798595",
+        "Rotation": "6.2012105, 0.37448832, 5.7455993"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005957:SRC - All In One.esp",
+      "Base": "03010A:Skyrim.esm",
+      "RagdollData": "0x00000000103905410000203900BC95BFDD0FC9BF00000434ED76484000000000BA9E1740060072B900E8542C00000080000000804CA5C93F",
+      "Placement": {
+        "Position": "-757, -213, 69",
+        "Rotation": "6.169739, 5.3130093, 1.622486"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005958:SRC - All In One.esp",
+      "Base": "024F20:Skyrim.esm",
+      "Placement": {
+        "Position": "-383.88864, -3.261938, 273.37988"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595A:SRC - All In One.esp",
+      "Base": "01397D:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.56287, -225.57442, 90.958015",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595B:SRC - All In One.esp",
+      "Base": "0176B2:Skyrim.esm",
+      "RagdollData": "0x0000000040EA2CB50000000050A4694000000000DB0FC9BF0000000001000000539E4441D5DD7E36E8B55C33C3B90135079017B59C893B3402000000AD1C4A416CC3A0B5D46DE435069F6536F0BAABB5ADCBFCB60300000077141241E01492360000E0AC896DF93400E0923B63892FB6",
+      "Placement": {
+        "Position": "-717.15906, 187.60855, 169.94409",
+        "Rotation": "0, 0, 2.7931936"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595C:SRC - All In One.esp",
+      "Base": "0318FA:Skyrim.esm",
+      "Placement": {
+        "Position": "-328.89078, 205.40314, 46.330196",
+        "Rotation": "0.050319586, 0.015180874, 2.3553236"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595D:SRC - All In One.esp",
+      "Base": "03AD6E:Skyrim.esm",
+      "Placement": {
+        "Position": "-699.18665, -213.98946, 90.73383",
+        "Rotation": "4.886922E-05, 6.2817087, 4.663768"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595E:SRC - All In One.esp",
+      "Base": "038B0F:Skyrim.esm",
+      "RagdollData": "0x00000000A6676EC12FDD6AC180953141FD14B33F11D2C13CCF0FC9BF01000000E8D1B44100004139000043B8149DC1BC33EC2FBE02380936020000007AAA844100007B380000B8B7E7CB3FB30200C43526C652B5",
+      "Placement": {
+        "Position": "-827.63275, 196.69176, 174.41217",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00595F:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-261.7798, 220.29616, 90.8924",
+        "Rotation": "6.282276, 0.0018901916, 6.2819324"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005961:SRC - All In One.esp",
+      "Base": "034D2D:Skyrim.esm",
+      "Scale": 0.84,
+      "Placement": {
+        "Position": "-294.6269, 240.8614, 203.85782",
+        "Rotation": "0, 0, 3.2082067"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005962:SRC - All In One.esp",
+      "Base": "065C9D:Skyrim.esm",
+      "RagdollData": "0x00000000008095BE804BDB4060142040CF6A41BE11819FBCBF88DF3F01000000C125B640007030B6000050B696E971BD6DC5563D093520BF",
+      "Placement": {
+        "Position": "-778.314, 240.65102, 57.139217",
+        "Rotation": "5.875014, 6.2433815, 6.191428"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005963:SRC - All In One.esp",
+      "Base": "031941:Skyrim.esm",
+      "Placement": {
+        "Position": "-700.9984, 184.02126, 47.122444",
+        "Rotation": "6.283016, 0.00037175513, 0.44227517"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005964:SRC - All In One.esp",
+      "Base": "065C97:Skyrim.esm",
+      "Placement": {
+        "Position": "-747.5955, 236.16063, 47.12196",
+        "Rotation": "6.282337, 0.0013247048, 4.1493216"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005965:SRC - All In One.esp",
+      "Base": "064B3C:Skyrim.esm",
+      "Placement": {
+        "Position": "-692.46655, 178.94728, 51.154972",
+        "Rotation": "6.25822, 0.0851808, 4.9817386"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005966:SRC - All In One.esp",
+      "Base": "064B33:Skyrim.esm",
+      "Placement": {
+        "Position": "-682.55365, 227.41415, 47.131866",
+        "Rotation": "7.8539815E-05, 6.282845, 4.712389E-05"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005969:SRC - All In One.esp",
+      "Base": "034D2D:Skyrim.esm",
+      "Scale": 0.9,
+      "Placement": {
+        "Position": "-347.5742, 242.36234, 205.29712",
+        "Rotation": "0, 0, 3.1081994"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00596A:SRC - All In One.esp",
+      "Base": "0DFC13:Skyrim.esm",
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "-256, 0, -256"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00596B:SRC - All In One.esp",
+      "Base": "000845:Skyrim.esm",
+      "Scale": 0.9,
+      "Placement": {
+        "Position": "-851.37463, 8.423095, -14.561457",
+        "Rotation": "0, 0, 4.063191"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00596C:SRC - All In One.esp",
+      "Base": "038B0E:Skyrim.esm",
+      "RagdollData": "0x000000003BDF8CC1EE7CF7C0CFF71141B189BBB32DBDBB33B189BBB30100000000001AB9E22426C0726888C1000000802DBDBBB300000080020000000000003900008CB8D4224BC1000000800000008000000080",
+      "Placement": {
+        "Position": "-827.63275, 196.69176, 174.41217",
+        "Rotation": "0, 0, 5.497787"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00596F:SRC - All In One.esp",
+      "Base": "064B3B:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.2617, 185.74585, 47.994164",
+        "Rotation": "6.2820964, 0.0017924531, 1.8628423"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005970:SRC - All In One.esp",
+      "Base": "01397D:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.79926, -202.1887, 90.965294",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005973:SRC - All In One.esp",
+      "Base": "038B0C:Skyrim.esm",
+      "RagdollData": "0x00000000ACBC99C1BE1DFEC086169140DC0FC93F910A063FDA0FC9BF010000008C6C93400000000000004035C9B97FB300000080F0F4A1B3020000003AC614410000E026000080B400000080000000809B1F13B3",
+      "Placement": {
+        "Position": "-699.6327, 196.69176, 169.81097",
+        "Rotation": "0, 0, 5.497787"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005974:SRC - All In One.esp",
+      "Base": "012FEC:Skyrim.esm",
+      "Placement": {
+        "Position": "-866.4975, 95.84371, -15.345345",
+        "Rotation": "0.019715238, 0.0022514747, 0.019516272"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005976:SRC - All In One.esp",
+      "Base": "065C9E:Skyrim.esm",
+      "RagdollData": "0x0000000060D5D7400080B54080280840662C353C489F083CA4AF1F400100000086A92F4100C490B7000010367498DABB42C1183E98A739BE",
+      "Placement": {
+        "Position": "-770.8747, 227.12286, 53.660275",
+        "Rotation": "5.4439087, 0.5980126, 2.0196478"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005977:SRC - All In One.esp",
+      "Base": "05C015:Skyrim.esm",
+      "Placement": {
+        "Position": "-285.61316, 24.392822, -15.5",
+        "Rotation": "0, 0, 1.3500069"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597A:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-829.0961, 197.84447, 52.453053",
+        "Rotation": "4.554037, 5.3144665, 4.4404473"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597B:SRC - All In One.esp",
+      "Base": "10C73A:Skyrim.esm",
+      "Placement": {
+        "Position": "-480.65292, 77.12153, -15.493891",
+        "Rotation": "0, 0, 5.9581876"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597C:SRC - All In One.esp",
+      "Base": "064B3A:Skyrim.esm",
+      "RagdollData": "0x00000000806ACC40007412BE6010484000000080000000800A615F3F000000000040D4C0808F8DBE621048408D4909B3653A00346B06063F",
+      "Placement": {
+        "Position": "-770.3383, 206.14948, 52.21029",
+        "Rotation": "0, 0, 0.010004227"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597D:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-843.1714, 195.72926, 47.12601",
+        "Rotation": "6.2825446, 0.0009791297, 3.9929938"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597E:SRC - All In One.esp",
+      "Base": "064B36:Skyrim.esm",
+      "Placement": {
+        "Position": "-709.65015, 237.8559, 47.13173",
+        "Rotation": "0.0023631759, 0.00022514748, 0.69005084"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00597F:SRC - All In One.esp",
+      "Base": "0ED607:Skyrim.esm",
+      "RagdollData": "0x00000000403905410000803860D295BFD90FC9BF000020B4EC76484000000000BA9E1740060072B900E8542C00000080000000804CA5C93F",
+      "Placement": {
+        "Position": "-727, -211, 59",
+        "Rotation": "0, 0, 2.1831956"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005980:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-859.3138, 198.87575, 47.12715",
+        "Rotation": "6.2823596, 0.0029321532, 5.5030737"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005983:SRC - All In One.esp",
+      "Base": "02F2F4:Skyrim.esm",
+      "Placement": {
+        "Position": "-367.30957, 124.222176, -1.562258",
+        "Rotation": "2.95697, 0.39342514, 3.5785463"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005984:SRC - All In One.esp",
+      "Base": "0DFC11:Skyrim.esm",
+      "Placement": {
+        "Position": "-512, 0, -256"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005985:SRC - All In One.esp",
+      "Base": "065C98:Skyrim.esm",
+      "Placement": {
+        "Position": "-745.8196, 215.88641, 47.131107",
+        "Rotation": "0.0009773844, 0.00041713368, 5.4090548"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005988:SRC - All In One.esp",
+      "Base": "000003:Skyrim.esm",
+      "Placement": {
+        "Position": "-486.33777, -435.93982, 28.753082",
+        "Rotation": "0, 0, 2.8831913"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005989:SRC - All In One.esp",
+      "Base": "012FEB:Skyrim.esm",
+      "Scale": 0.81,
+      "Placement": {
+        "Position": "-862.3378, 56.176407, -15.743172",
+        "Rotation": "0.0017418386, 6.281311, 0.0086638145"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00598A:SRC - All In One.esp",
+      "Base": "038B0D:Skyrim.esm",
+      "RagdollData": "0x00000000619D8FC1FFD425C126AECB40D20FC9BF910A06BFD20FC93F01000000EA7AA8400060FCB50000183414CB3FB300200035E74D7F3502000000E0FB43410000DB3500002036C5B97F3200000080483B7AB4",
+      "Placement": {
+        "Position": "-709.9972, 214.6436, 176.17598",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00598C:SRC - All In One.esp",
+      "Base": "031941:Skyrim.esm",
+      "Placement": {
+        "Position": "-304.8868, 208.23769, 90.85516",
+        "Rotation": "0.0028239428, 6.2828064, 6.2822304"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00598D:SRC - All In One.esp",
+      "Base": "0318FB:Skyrim.esm",
+      "Placement": {
+        "Position": "-437.62335, 178.36507, 8.331265",
+        "Rotation": "6.280443, 6.2830963, 4.037727"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00598F:SRC - All In One.esp",
+      "Base": "038B0D:Skyrim.esm",
+      "RagdollData": "0x00000000619D8FC1FFD425C126AECB40D20FC9BF910A06BFD20FC93F01000000EA7AA8400060FCB50000183414CB3FB300200035E74D7F3502000000E0FB43410000DB3500002036C5B97F3200000080483B7AB4",
+      "Placement": {
+        "Position": "-681.68085, 207.0563, 176.17598",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005990:SRC - All In One.esp",
+      "Base": "01F248:Skyrim.esm",
+      "Placement": {
+        "Position": "-386.785, -241.09087, 129.23134",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005992:SRC - All In One.esp",
+      "Base": "03AD6E:Skyrim.esm",
+      "Placement": {
+        "Position": "-701.09937, -212.51125, 95.73857",
+        "Rotation": "6.2801466, 6.27996, 4.704027"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005993:SRC - All In One.esp",
+      "Base": "104B40:Skyrim.esm",
+      "Placement": {
+        "Position": "-828.6964, 168.44008, 48.116005",
+        "Rotation": "6.2236223, 0.054314647, 5.394455"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005994:SRC - All In One.esp",
+      "Base": "0C234D:Skyrim.esm",
+      "Placement": {
+        "Position": "-845.1418, -120.96801, -17.141827",
+        "Rotation": "0, 0, 1.5500008"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005995:SRC - All In One.esp",
+      "Base": "03F94E:Skyrim.esm",
+      "Placement": {
+        "Position": "-508.42987, 239.48033, 190.89049",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005996:SRC - All In One.esp",
+      "Base": "1010B3:Skyrim.esm",
+      "Placement": {
+        "Position": "-480.65292, 77.12153, -15.493891",
+        "Rotation": "0, 0, 5.9581876"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005998:SRC - All In One.esp",
+      "Base": "034D2C:Skyrim.esm",
+      "Scale": 1.03,
+      "Placement": {
+        "Position": "-188.99689, 243.19794, 203.23808",
+        "Rotation": "0, 0, 2.7913992"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005999:SRC - All In One.esp",
+      "Base": "038B0B:Skyrim.esm",
+      "Placement": {
+        "Position": "-699.6327, 196.69176, 169.81097"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00599A:SRC - All In One.esp",
+      "Base": "034D30:Skyrim.esm",
+      "Placement": {
+        "Position": "-884.0528, 100.39009, 207.06053",
+        "Rotation": "0, 0, 6.25641"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00599B:SRC - All In One.esp",
+      "Base": "012FEC:Skyrim.esm",
+      "Placement": {
+        "Position": "-177.56105, 225.41156, -15.681732",
+        "Rotation": "0.0014905112, 0.010278244, 6.2456903"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00599D:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-856.6863, 183.10724, 47.12715",
+        "Rotation": "6.2817106, 0.0006370452, 4.9130635"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00599E:SRC - All In One.esp",
+      "Base": "03133B:Skyrim.esm",
+      "Placement": {
+        "Position": "-884.11566, -203.20624, 46.21085",
+        "Rotation": "0.00080285146, 6.281159, 0.3400268"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00599F:SRC - All In One.esp",
+      "Base": "03133C:Skyrim.esm",
+      "Placement": {
+        "Position": "-871.7585, -213.68694, 46.21091",
+        "Rotation": "6.2821765, 2.7925267E-05, 0.34000933"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A0:SRC - All In One.esp",
+      "Base": "0ED03B:Skyrim.esm",
+      "RagdollData": "0x00000000E0442541000080B9C03CA1BFDE0FC9BF0000E03344AE4840000000004A2039400000A0B60000C028000000800000008004FCCA3F",
+      "Placement": {
+        "Position": "-744.73303, -218.0027, 51.534267",
+        "Rotation": "0, 0, 1.4831983"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A1:SRC - All In One.esp",
+      "Base": "064B31:Skyrim.esm",
+      "Placement": {
+        "Position": "-670.0182, 205.188, 47.130306",
+        "Rotation": "0.00018151425, 6.2807417, 2.792457"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A3:SRC - All In One.esp",
+      "Base": "0EDD35:Skyrim.esm",
+      "RagdollData": "0x00000000D0442541000000B9003CA1BFDD0FC9BF0000203344AE4840000000004A2039400000A0B60000C028000000800000008004FCCA3F",
+      "Placement": {
+        "Position": "-768.5037, -217.80151, 61.099968",
+        "Rotation": "3.6367128, 1.400063, 5.1425095"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A4:SRC - All In One.esp",
+      "Base": "012FE6:Skyrim.esm",
+      "Placement": {
+        "Position": "-626.3986, 115.73947, -15.718745",
+        "Rotation": "2.0943951E-05, 6.282662, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A5:SRC - All In One.esp",
+      "Base": "0185B6:Skyrim.esm",
+      "Placement": {
+        "Position": "-397.79254, 141.42151, -14.838915",
+        "Rotation": "0, 0, 3.551993"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A7:SRC - All In One.esp",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -57.01123,
+      "LightData": {
+        "FovOffset": -10.0,
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-509.3684, 252.83498, 49.169582",
+        "Rotation": "0, 0, 4.633189"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059A9:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-869.33405, -199.66678, 46.21255",
+        "Rotation": "6.2820735, 0.002078687, 2.573364"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059AA:SRC - All In One.esp",
+      "Base": "064B35:Skyrim.esm",
+      "Scale": 0.71,
+      "Placement": {
+        "Position": "-683.58203, 225.87596, 63.90385",
+        "Rotation": "0.0012304571, 6.281674, 4.3424525"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059AB:SRC - All In One.esp",
+      "Base": "031941:Skyrim.esm",
+      "Placement": {
+        "Position": "-747.0024, 172.32841, 47.129208",
+        "Rotation": "6.282744, 6.283131, 0.05723982"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059AD:SRC - All In One.esp",
+      "Base": "038B0E:Skyrim.esm",
+      "RagdollData": "0x000000003BDF8CC1EE7CF7C0CFF71141B189BBB32DBDBB33B189BBB30100000000001AB9E22426C0726888C1000000802DBDBBB300000080020000000000003900008CB8D4224BC1000000800000008000000080",
+      "Placement": {
+        "Position": "-763.6327, 196.69176, 164.97662",
+        "Rotation": "0, 0, 2.3561945"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059AE:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-274.6407, 216.96039, 90.8931",
+        "Rotation": "6.2815065, 0.0018657569, 0.013648475"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059AF:SRC - All In One.esp",
+      "Base": "0176CD:Skyrim.esm",
+      "RagdollData": "0x0000000040EA2CB50000000050A46940DB0F49408A04C9BFDB0F494001000000E1F8634120C1933600E87F3356152F34069017B5AA893B340200000053207141CCCBBFB5FE420836DEB41536A47617B56BD4DCB60300000005DA2B4161DAAB36000028ADB90281B400E0923BC62700B5",
+      "Placement": {
+        "Position": "-750.67346, 182.52103, 165.98003",
+        "Rotation": "0, 0, 0.8100038"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B0:SRC - All In One.esp",
+      "Base": "065C97:Skyrim.esm",
+      "Scale": 1.2,
+      "Placement": {
+        "Position": "-729.6913, 223.86661, 47.13213",
+        "Rotation": "0.0013561208, 0.0013072516, 5.0489497"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B1:SRC - All In One.esp",
+      "Base": "03199A:Skyrim.esm",
+      "Placement": {
+        "Position": "-340.02954, 213.23587, 90.88831",
+        "Rotation": "6.2829704, 0.0010576695, 6.071498"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B2:SRC - All In One.esp",
+      "Base": "03EB2C:Skyrim.esm",
+      "Placement": {
+        "Position": "-679.7701, -213.76595, 45.70843",
+        "Rotation": "6.282007, 6.280042, 5.1335754"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B4:SRC - All In One.esp",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -233.05585,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-857.08673, -177.02573, 88.335945"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B5:SRC - All In One.esp",
+      "Base": "0DFC12:Skyrim.esm",
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "-768, 0, -256"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B6:SRC - All In One.esp",
+      "Base": "038B0B:Skyrim.esm",
+      "Placement": {
+        "Position": "-763.6327, 196.69176, 164.97662",
+        "Rotation": "0, 0, 0.7853982"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059B8:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-248.60213, 197.3208, 90.90442",
+        "Rotation": "0.006085963, 0.0018238691, 0.00055326935"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059BA:SRC - All In One.esp",
+      "Base": "024CA4:Skyrim.esm",
+      "Placement": {
+        "Position": "-296.5623, 213.33548, -16.462534"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059BB:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-266.72504, 200.81017, 90.89238",
+        "Rotation": "6.282346, 6.281597, 0.008676032"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059BC:SRC - All In One.esp",
+      "Base": "05C016:Skyrim.esm",
+      "Scale": 1.12,
+      "Placement": {
+        "Position": "-729.6106, 7.683226, -15.83689",
+        "Rotation": "0, 0, 0.9000017"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059BD:SRC - All In One.esp",
+      "Base": "03EADD:Skyrim.esm",
+      "Placement": {
+        "Position": "-694.6972, -208.72134, 45.706333",
+        "Rotation": "0.0021345378, 0.003556981, 5.5832715"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059BF:SRC - All In One.esp",
+      "Base": "034D2D:Skyrim.esm",
+      "Scale": 0.98,
+      "Placement": {
+        "Position": "-223.455, 241.36955, 201.13539",
+        "Rotation": "0, 0, 3.2082067"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C0:SRC - All In One.esp",
+      "Base": "01F24A:Skyrim.esm",
+      "Placement": {
+        "Position": "-875.3163, -172.65364, 45.864555",
+        "Rotation": "0, 0, 5.783189"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C2:SRC - All In One.esp",
+      "Base": "038B0D:Skyrim.esm",
+      "RagdollData": "0x00000000619D8FC1FFD425C126AECB40D20FC9BF910A06BFD20FC93F01000000EA7AA8400060FCB50000183414CB3FB300200035E74D7F3502000000E0FB43410000DB3500002036C5B97F3200000080483B7AB4",
+      "Placement": {
+        "Position": "-768.99774, 176.6692, 171.34163",
+        "Rotation": "0, 0, 5.497787"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C3:SRC - All In One.esp",
+      "Base": "104B3F:Skyrim.esm",
+      "Placement": {
+        "Position": "-823.12823, 193.4855, -14.693152",
+        "Rotation": "3.1405106, 6.282049, 3.7456686"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C4:SRC - All In One.esp",
+      "Base": "03FA2B:Skyrim.esm",
+      "Placement": {
+        "Position": "-122.60133, -136.54208, 154.37187",
+        "Rotation": "0, 0, 4.695925"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C7:SRC - All In One.esp",
+      "Base": "035F4A:Skyrim.esm",
+      "Placement": {
+        "Position": "-509.41043, 238.79434, -12.440817",
+        "Rotation": "0, 0, 4.6831894"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C8:SRC - All In One.esp",
+      "Base": "012FEA:Skyrim.esm",
+      "Placement": {
+        "Position": "-210.63893, 210.42303, -15.658272",
+        "Rotation": "6.2824154, 6.282887, 6.281815"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059C9:SRC - All In One.esp",
+      "Base": "031941:Skyrim.esm",
+      "Placement": {
+        "Position": "-775.7886, 205.96567, 47.127926",
+        "Rotation": "0.00067893305, 0.0007417649, 0.009958848"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059CA:SRC - All In One.esp",
+      "Base": "01397D:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.71765, -220.12503, 90.95428",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059CB:SRC - All In One.esp",
+      "Base": "024CA4:Skyrim.esm",
+      "Placement": {
+        "Position": "-724.77484, -219.54167, -16.653137",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059CD:SRC - All In One.esp",
+      "Base": "01F24A:Skyrim.esm",
+      "Placement": {
+        "Position": "-726.3949, 204.99481, 46.799454",
+        "Rotation": "0, 0, 0.575004"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059CF:SRC - All In One.esp",
+      "Base": "012FDF:Skyrim.esm",
+      "Placement": {
+        "Position": "-421.4496, -218.10846, -15.964724",
+        "Rotation": "6.2820387, 2.443461E-05, 3.1931374"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D0:SRC - All In One.esp",
+      "Base": "0318FB:Skyrim.esm",
+      "Placement": {
+        "Position": "-263.6741, 215.2495, 44.691364",
+        "Rotation": "0.007412413, 0.0033231068, 4.6984453"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D1:SRC - All In One.esp",
+      "Base": "064B32:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.755, 236.67369, 57.84191",
+        "Rotation": "1.2932279, 1.5633664, 4.622915"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D2:SRC - All In One.esp",
+      "Base": "01397D:Skyrim.esm",
+      "Placement": {
+        "Position": "-721.95215, -216.55429, 90.9598",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D3:SRC - All In One.esp",
+      "Base": "0B0105:Skyrim.esm",
+      "Placement": {
+        "Position": "-765.0629, 198.6861, -16.20693",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D4:SRC - All In One.esp",
+      "Base": "023D77:Skyrim.esm",
+      "Placement": {
+        "Position": "-696.9016, 202.47334, 50.84388",
+        "Rotation": "0, 0, 1.1000007"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D5:SRC - All In One.esp",
+      "Base": "03133B:Skyrim.esm",
+      "Placement": {
+        "Position": "-794.99445, 237.11777, 47.15475",
+        "Rotation": "0.005318018, 6.279534, 0.07837924"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D6:SRC - All In One.esp",
+      "Base": "03133B:Skyrim.esm",
+      "Scale": 1.03,
+      "Placement": {
+        "Position": "-812.0108, 238.78516, 47.034016",
+        "Rotation": "0.0034540065, 0.0010960668, 0.089805916"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D8:SRC - All In One.esp",
+      "Base": "019B19:Skyrim.esm",
+      "Scale": 0.79,
+      "Placement": {
+        "Position": "-746.4388, 179.5488, -14.735318",
+        "Rotation": "0, 0, 1.0099994"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059D9:SRC - All In One.esp",
+      "Base": "023D77:Skyrim.esm",
+      "Placement": {
+        "Position": "-704.5995, 211.61455, 50.84388"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059DA:SRC - All In One.esp",
+      "Base": "038B0E:Skyrim.esm",
+      "RagdollData": "0x000000003BDF8CC1EE7CF7C0CFF71141B189BBB32DBDBB33B189BBB30100000000001AB9E22426C0726888C1000000802DBDBBB300000080020000000000003900008CB8D4224BC1000000800000008000000080",
+      "Placement": {
+        "Position": "-827.63275, 196.69176, 174.41217",
+        "Rotation": "0, 0, 3.9269907"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059DC:SRC - All In One.esp",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -311.99585,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-752.45154, 127.226006, 144.01764"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059DD:SRC - All In One.esp",
+      "Base": "03133C:Skyrim.esm",
+      "Placement": {
+        "Position": "-802.3027, 223.63622, 47.121555",
+        "Rotation": "6.281037, 6.2826705, 0.07999193"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059DF:SRC - All In One.esp",
+      "Base": "01F248:Skyrim.esm",
+      "Placement": {
+        "Position": "-638.0446, -246.76924, 129.23134",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E1:SRC - All In One.esp",
+      "Base": "019B19:Skyrim.esm",
+      "Scale": 0.79,
+      "Placement": {
+        "Position": "-823.3493, -113.86361, -14.561454",
+        "Rotation": "0, 0, 5.09319"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E4:SRC - All In One.esp",
+      "Base": "064B3E:Skyrim.esm",
+      "RagdollData": "0x0000000000B4BDC040DCF5BF605D714038886A35B6B8323E303491BF0000000000BED240003850BD6CE0B23F894909B3653A00B4A60C863F0000000000B047BE00CD50407A944940B800DC3C279C30BE8558C03F000000008030CAC000E846BDBC19A23F0000008000000080DC0F493F",
+      "Placement": {
+        "Position": "-752.55884, 172.27325, 49.01215",
+        "Rotation": "0, 0, 0.1700003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E5:SRC - All In One.esp",
+      "Base": "03199A:Skyrim.esm",
+      "Placement": {
+        "Position": "-775.28546, 232.61479, 47.130974",
+        "Rotation": "6.281239, 6.280831, 5.5532155"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E6:SRC - All In One.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "-814.82526, 207.26855, 47.134464",
+        "Rotation": "6.28114, 0.0015097097, 1.8932197"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E7:SRC - All In One.esp",
+      "Base": "064B41:Skyrim.esm",
+      "Placement": {
+        "Position": "-784.2819, 171.64786, 51.9444",
+        "Rotation": "1.5534879, 6.1007934, 1.5305403"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059E9:SRC - All In One.esp",
+      "Base": "01E3A3:Skyrim.esm",
+      "Placement": {
+        "Position": "-839.81415, 229.38467, 46.79946",
+        "Rotation": "0, 0, 6.0731854"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059EA:SRC - All In One.esp",
+      "Base": "034D2C:Skyrim.esm",
+      "Placement": {
+        "Position": "-319.56357, 242.20496, 203.23808",
+        "Rotation": "0, 0, 3.0663986"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059EB:SRC - All In One.esp",
+      "Base": "034D30:Skyrim.esm",
+      "Placement": {
+        "Position": "-886.3379, 78.6653, 204.72946",
+        "Rotation": "0, 0, 2.9764094"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059EC:SRC - All In One.esp",
+      "Base": "034D2C:Skyrim.esm",
+      "Placement": {
+        "Position": "-883.1882, 45.97943, 203.36089",
+        "Rotation": "0, 0, 1.5264056"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059ED:SRC - All In One.esp",
+      "Base": "034D2D:Skyrim.esm",
+      "Placement": {
+        "Position": "-885.19147, 127.63983, 200.24796",
+        "Rotation": "0, 0, 4.9013996"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059EF:SRC - All In One.esp",
+      "Base": "03B420:Skyrim.esm",
+      "Placement": {
+        "Position": "-232.24886, -197.74187, -15.5",
+        "Rotation": "0, 0, 4.7180943"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F0:SRC - All In One.esp",
+      "Base": "03B41E:Skyrim.esm",
+      "Placement": {
+        "Position": "-197.40662, 26.038185, -15.5",
+        "Rotation": "0, 0, 0.034908332"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F1:SRC - All In One.esp",
+      "Base": "0DAE82:Skyrim.esm",
+      "Placement": {
+        "Position": "-166.96739, -105.049355, -15.5",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F2:SRC - All In One.esp",
+      "Base": "0E60FD:Skyrim.esm",
+      "Placement": {
+        "Position": "-166.15538, -0.892139, 269.3834"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F3:SRC - All In One.esp",
+      "Base": "097ED9:Skyrim.esm",
+      "Scale": 0.99,
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-161.23091, -0.575307, 270.66187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F4:SRC - All In One.esp",
+      "Base": "02BEBB:Skyrim.esm",
+      "Scale": 0.99,
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-161.23091, -0.575307, 270.66187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F5:SRC - All In One.esp",
+      "Base": "019B16:Skyrim.esm",
+      "Placement": {
+        "Position": "-397.67508, -143.10138, -16",
+        "Rotation": "0, 0, 1.0000004"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F6:SRC - All In One.esp",
+      "Base": "019B17:Skyrim.esm",
+      "Placement": {
+        "Position": "-240.4406, 151.85635, -16.000015",
+        "Rotation": "0, 0, 2.9000006"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F7:SRC - All In One.esp",
+      "Base": "019B19:Skyrim.esm",
+      "Placement": {
+        "Position": "-238.6734, -144.85919, -15.986191",
+        "Rotation": "0, 0, 1.600001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F8:SRC - All In One.esp",
+      "Base": "06F398:Skyrim.esm",
+      "Placement": {
+        "Position": "-163.61847, -90.27971, -0.755191",
+        "Rotation": "0, 0, 1.9000003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059F9:SRC - All In One.esp",
+      "Base": "0261C1:Skyrim.esm",
+      "Placement": {
+        "Position": "-160.60979, -114.15204, 1.320625",
+        "Rotation": "0, 0, 4.383187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FA:SRC - All In One.esp",
+      "Base": "0D9289:Skyrim.esm",
+      "Placement": {
+        "Position": "-126.87454, 152.52336, 136.05283",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FB:SRC - All In One.esp",
+      "Base": "0BF9D3:Skyrim.esm",
+      "Scale": 0.72,
+      "Placement": {
+        "Position": "-516.9622, -209.97437, -16",
+        "Rotation": "0, 0, 1.6000044"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FC:SRC - All In One.esp",
+      "Base": "019B1A:Skyrim.esm",
+      "Placement": {
+        "Position": "-510.72083, -59.3602, -15.5",
+        "Rotation": "0, 0, 5.9831877"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FD:SRC - All In One.esp",
+      "Base": "0A6D79:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-874.59375, -44.090416, 48.905655",
+        "Rotation": "0, 0, 1.9000021"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FE:SRC - All In One.esp",
+      "Base": "0A6D79:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-874.27325, -71.095245, 48.905655",
+        "Rotation": "0, 0, 1.5000023"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0059FF:SRC - All In One.esp",
+      "Base": "0A6D79:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-873.7228, -94.36919, 48.905655",
+        "Rotation": "0, 0, 0.40000504"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A00:SRC - All In One.esp",
+      "Base": "013EDC:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-873.7228, -94.36919, 48.905655",
+        "Rotation": "0, 0, 0.40000504"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A01:SRC - All In One.esp",
+      "Base": "013EDB:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-874.27325, -71.095245, 48.905655",
+        "Rotation": "0, 0, 1.5000023"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A02:SRC - All In One.esp",
+      "Base": "013EDB:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-874.59375, -44.090416, 48.905655",
+        "Rotation": "0, 0, 1.9000021"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A03:SRC - All In One.esp",
+      "Base": "03AD54:Skyrim.esm",
+      "Placement": {
+        "Position": "-310.99884, 205.82303, 137.11",
+        "Rotation": "0, 0, 3.200002"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A04:SRC - All In One.esp",
+      "Base": "0EAA4C:Skyrim.esm",
+      "Placement": {
+        "Position": "-772.03357, -93.1552, -15.5",
+        "Rotation": "0, 0, 4.733185"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A05:SRC - All In One.esp",
+      "Base": "04C3C6:Skyrim.esm",
+      "Placement": {
+        "Position": "-852.15656, -43.201317, 45.86475"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A06:SRC - All In One.esp",
+      "Base": "033761:Skyrim.esm",
+      "Placement": {
+        "Position": "-837.2124, -197.70567, 50.065403",
+        "Rotation": "0, 0, 0.70000094"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A07:SRC - All In One.esp",
+      "Base": "033761:Skyrim.esm",
+      "Placement": {
+        "Position": "-828.6229, -182.95857, 50.065403",
+        "Rotation": "0, 0, 3.6000016"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A08:SRC - All In One.esp",
+      "Base": "033761:Skyrim.esm",
+      "Placement": {
+        "Position": "-824.378, -152.69325, 50.065403",
+        "Rotation": "0, 0, 3.200002"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A09:SRC - All In One.esp",
+      "Base": "0135BA:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-525.59064, 212.02081, 116.61212",
+        "Rotation": "2.083211, 0, 1.8"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A0A:SRC - All In One.esp",
+      "Base": "0214EB:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-427.68637, 215.6001, 119.756195",
+        "Rotation": "1.9932516, 0.362833, 3.5642364"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A0B:SRC - All In One.esp",
+      "Base": "0214EB:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-540.0745, 213.20215, 119.756195",
+        "Rotation": "1.9502972, 6.241669, 2.9924822"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A0C:SRC - All In One.esp",
+      "Base": "107106:Skyrim.esm",
+      "RagdollData": "0x000000000088E83F00006039000080B7000000800000008038F7FF33",
+      "Placement": {
+        "Position": "-852.382, 8.473543, 58.4496",
+        "Rotation": "0, 0, 0.30000114"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "005A0D:SRC - All In One.esp",
+      "Base": "107108:Skyrim.esm",
+      "RagdollData": "0x000000000085E83F00004039000080B7000000800000008038F7FFB3",
+      "Placement": {
+        "Position": "-759.37714, -217.67299, 137.6171",
+        "Rotation": "0, 0, 0.60000056"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A17:SRC - All In One.esp",
+      "Base": "005A13:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "LinkedReferences": [
+        {
+          "Reference": "005A1E:SRC - All In One.esp"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-641.2943, 25.51805, -15.836925",
+        "Rotation": "0, 0, 1.600001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A18:SRC - All In One.esp",
+      "Base": "005A16:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "LinkedReferences": [
+        {
+          "Reference": "093674:SRC - All In One.esp"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-644.5614, -98.76512, -15.999985",
+        "Rotation": "0, 0, 1.600001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A19:SRC - All In One.esp",
+      "Base": "005A11:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "EnableParent": {
+        "Reference": "005901:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-547.17456, -38.741833, -15.499985",
+        "Rotation": "0, 0, 1.600001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A1A:SRC - All In One.esp",
+      "Base": "005A12:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-402.3355, -76.49411, -15.500031",
+        "Rotation": "0, 0, 3.483192"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A1B:SRC - All In One.esp",
+      "Base": "005A14:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "LinkedReferences": [
+        {
+          "Reference": "005A1E:SRC - All In One.esp"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-293.69455, -17.535011, -15.5",
+        "Rotation": "0, 0, 4.1831875"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "005A1C:SRC - All In One.esp",
+      "Base": "005A15:SRC - All In One.esp",
+      "LevelModifier": "Easy",
+      "EnableParent": {
+        "Reference": "005902:SRC - All In One.esp",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-400.7777, 37.80539, -15.99997",
+        "Rotation": "0, 0, 2.9831884"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D87E:SRC - All In One.esp",
+      "Base": "09D87D:SRC - All In One.esp",
+      "Placement": {
+        "Position": "-876, -134, 49",
+        "Rotation": "0, 0, 2.1999998"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D87F:SRC - All In One.esp",
+      "Base": "09D87C:SRC - All In One.esp",
+      "Placement": {
+        "Position": "-714, -207, 47",
+        "Rotation": "0, 0, 0.9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "FormKey": "01525C:Skyrim.esm",
+  "EditorID": "LargashburShagrolsLonghouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Largashbur Longhouse"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#003F615F",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00A5C7C4",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00A5C7C4",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "03BC2B:Skyrim.esm",
+  "Owner": "02C005:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B3341:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "03BC2B:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-363.2144, -275.9349, -30000",
+        "Rotation": "0, 0, 5.5031853"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "056BAD:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-363.2144, -275.9349, 64.6668",
+        "Rotation": "0, -0, 2.785058"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "FormKey": "033D68:Skyrim.esm",
+  "EditorID": "Valthume01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Valthume"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "0EDA92:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "033DA0:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC86:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EFCB2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "033DA0:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2305.4075, 4839.4883, -30000",
+        "Rotation": "0.075237654, 6.2278495, 4.74166"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EFCB4:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "033DA0:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2447.6353, 4416.8545, -30000",
+        "Rotation": "0.15459603, 6.274743, 2.5676866"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EFCB8:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "033DA0:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-2863.5974, 3677.878, -30000",
+        "Rotation": "0.12039456, 6.247167, 1.8853832"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6768:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Scale": 1.1,
+      "Placement": {
+        "Position": "-2443.863, 4417.0527, -964.8329",
+        "Rotation": "0.15707964, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6769:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-2305.6077, 4839.338, -1013.723",
+        "Rotation": "0, -0, 2.4000015"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C676A:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-2864.512, 3680.4094, -1022.7791",
+        "Rotation": "0, -0, 4.9831915"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1749 @@
+{
+  "FormKey": "108514:COTN - Falkreath.esp",
+  "EditorID": "COTN_FalkreathKustsHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Kust's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00313032",
+      "DirectionalXMinus": "#0028302D",
+      "DirectionalYPlus": "#002D3230",
+      "DirectionalYMinus": "#002D2D30",
+      "DirectionalZPlus": "#00151615",
+      "DirectionalZMinus": "#0044494A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "10856F:COTN - Falkreath.esp",
+  "Owner": "108571:COTN - Falkreath.esp",
+  "LockList": "108570:COTN - Falkreath.esp",
+  "SkyAndWeatherFromRegion": "10474D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "NavigationMeshes": [
+    {
+      "FormKey": "1085F1:COTN - Falkreath.esp",
+      "Data": {
+        "Parent": {
+          "MutagenObjectType": "CellNavmeshParent",
+          "Parent": "108514:COTN - Falkreath.esp"
+        },
+        "Vertices": [
+          "1248.651, -378.48273, 251.37521",
+          "1167.6375, -375.40997, 251.37505",
+          "1274.358, -248.81981, 251.41597",
+          "1169.2473, -246.5938, 251.416",
+          "1268.881, -196.01785, 251.41599",
+          "1167.6521, -146.37646, 251.37508",
+          "1317.8612, -144.77922, 251.41599",
+          "1166.6061, -72.76118, 251.3751",
+          "1315.8385, -55.14357, 251.3751",
+          "1314.5951, -181.26294, 251.41599",
+          "1143.087, -80.21878, 252.87302",
+          "1141.5599, -149.21808, 252.9307",
+          "1090.7336, -79.55737, 191.29984",
+          "1093.0166, -150.05695, 191.35443",
+          "1021.6934, -79.54771, 109.186905",
+          "1022.6092, -147.68489, 109.18718",
+          "923.8319, -84.24884, -0.6135254",
+          "927.6854, -146.86005, -0.6135254",
+          "901.534, -91.309875, -0.61354065",
+          "916.558, -157.24509, -0.61351013",
+          "760.3617, -87.504486, -0.6134949",
+          "814.30444, -208.20183, 1.1644192",
+          "737.1028, -156.27667, -0.61354065",
+          "733.1902, -297.43127, 1.1644192",
+          "813.1684, -247.70514, 1.1643887",
+          "790.9744, -294.34653, 1.1644497",
+          "728.8023, -353.59677, -0.61354065",
+          "835.12427, -404.40045, -0.61354065",
+          "712.0632, -406.51096, -0.61354065",
+          "711.4292, -355.49976, -0.61351013",
+          "801.9956, -329.78232, 0.37662625",
+          "866.1987, -353.02417, 1.1644192",
+          "884.6038, -436.65845, -0.6135254",
+          "903.04535, -370.66714, -0.6135254",
+          "915.5762, -438.06873, -0.6135559",
+          "926.44257, -329.90262, -0.6135559",
+          "1028.2809, -391.96918, -0.6134796",
+          "1006.0052, -312.84512, -0.6136017",
+          "1070.4567, -314.13123, -0.6136017",
+          "1110.9614, -460.62366, -0.61354065",
+          "1125.7919, -275.3973, -0.61354065",
+          "1200.881, -412.1163, -0.61354065",
+          "1245.9358, -300.12805, 0.8443961",
+          "1299.9644, -409.44873, -0.6135254",
+          "1348.8662, -287.58984, 0.8443961",
+          "1347.2561, -409.28674, -0.6135559",
+          "1301.6819, -232.63351, 0.8443656",
+          "1362.8986, -277.85364, 0.8444114",
+          "1365.2488, -105.92884, -0.61354065",
+          "1304.7876, -109.153305, -0.6135254",
+          "1206.8693, -230.55487, 0.84438086",
+          "1138.0055, -210.61525, -0.61354065",
+          "1201.5586, -104.25272, -0.61354065",
+          "1078.6774, -106.66768, -0.61351013",
+          "1111.3839, -163.97217, -0.61352694",
+          "1075.2086, -143.0296, -0.6135254",
+          "956.7177, -247.12617, -0.6135254",
+          "862.83704, -212.19482, 1.1644344",
+          "887.4297, -307.0695, 1.1644039",
+          "863.7432, -258.94608, 1.1644192",
+          "961.74927, -162.09465, -0.6135254",
+          "956.6429, -469.7437, -0.61351013",
+          "1087.5219, -547.007, -0.61351013",
+          "986.5508, -548.31195, -0.6134949"
+        ],
+        "Triangles": [
+          {
+            "Vertices": "62, 39, 36",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 37,
+            "EdgeLink_2_0": 63,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "1, 2, 3",
+            "EdgeLink_0_1": 65,
+            "EdgeLink_1_2": 2,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "2, 4, 3",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 3,
+            "EdgeLink_2_0": 1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "3, 4, 5",
+            "EdgeLink_0_1": 2,
+            "EdgeLink_1_2": 4,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "4, 6, 5",
+            "EdgeLink_0_1": 7,
+            "EdgeLink_1_2": 5,
+            "EdgeLink_2_0": 3,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "5, 6, 7",
+            "EdgeLink_0_1": 4,
+            "EdgeLink_1_2": 6,
+            "EdgeLink_2_0": 8,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "6, 8, 7",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 5,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16837,
+            "IsCover": true
+          },
+          {
+            "Vertices": "4, 9, 6",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 4,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "7, 10, 5",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 9,
+            "EdgeLink_2_0": 5,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "5, 10, 11",
+            "EdgeLink_0_1": 8,
+            "EdgeLink_1_2": 10,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "10, 12, 11",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 11,
+            "EdgeLink_2_0": 9,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "11, 12, 13",
+            "EdgeLink_0_1": 10,
+            "EdgeLink_1_2": 12,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "12, 14, 13",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 13,
+            "EdgeLink_2_0": 11,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "13, 14, 15",
+            "EdgeLink_0_1": 12,
+            "EdgeLink_1_2": 14,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "14, 16, 15",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 15,
+            "EdgeLink_2_0": 13,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "15, 16, 17",
+            "EdgeLink_0_1": 14,
+            "EdgeLink_1_2": 16,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "16, 18, 17",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 17,
+            "EdgeLink_2_0": 15,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "17, 18, 19",
+            "EdgeLink_0_1": 16,
+            "EdgeLink_1_2": 18,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "18, 20, 19",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 19,
+            "EdgeLink_2_0": 17,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "19, 20, 21",
+            "EdgeLink_0_1": 18,
+            "EdgeLink_1_2": 20,
+            "EdgeLink_2_0": 60,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "20, 22, 21",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 21,
+            "EdgeLink_2_0": 19,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "21, 22, 23",
+            "EdgeLink_0_1": 20,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 22,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "21, 23, 24",
+            "EdgeLink_0_1": 21,
+            "EdgeLink_1_2": 23,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "23, 25, 24",
+            "EdgeLink_0_1": 24,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 22,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "23, 26, 25",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 25,
+            "EdgeLink_2_0": 23,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16415,
+            "IsCover": true
+          },
+          {
+            "Vertices": "30, 25, 26",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 24,
+            "EdgeLink_2_0": 28,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "26, 28, 27",
+            "EdgeLink_0_1": 27,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 28,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "26, 29, 28",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 26,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "26, 27, 30",
+            "EdgeLink_0_1": 26,
+            "EdgeLink_1_2": 29,
+            "EdgeLink_2_0": 25,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "30, 27, 31",
+            "EdgeLink_0_1": 28,
+            "EdgeLink_1_2": 30,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "27, 32, 31",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 31,
+            "EdgeLink_2_0": 29,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "31, 32, 33",
+            "EdgeLink_0_1": 30,
+            "EdgeLink_1_2": 32,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "32, 34, 33",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 33,
+            "EdgeLink_2_0": 31,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "33, 34, 35",
+            "EdgeLink_0_1": 32,
+            "EdgeLink_1_2": 34,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "34, 36, 35",
+            "EdgeLink_0_1": 62,
+            "EdgeLink_1_2": 35,
+            "EdgeLink_2_0": 33,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "35, 36, 37",
+            "EdgeLink_0_1": 34,
+            "EdgeLink_1_2": 36,
+            "EdgeLink_2_0": 55,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "36, 38, 37",
+            "EdgeLink_0_1": 37,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 35,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "36, 39, 38",
+            "EdgeLink_1_2": 38,
+            "EdgeLink_2_0": 36,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "38, 39, 40",
+            "EdgeLink_0_1": 37,
+            "EdgeLink_1_2": 39,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "39, 41, 40",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 40,
+            "EdgeLink_2_0": 38,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "40, 41, 42",
+            "EdgeLink_0_1": 39,
+            "EdgeLink_1_2": 41,
+            "EdgeLink_2_0": 49,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "41, 43, 42",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 42,
+            "EdgeLink_2_0": 40,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "42, 43, 44",
+            "EdgeLink_0_1": 41,
+            "EdgeLink_1_2": 43,
+            "EdgeLink_2_0": 44,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "43, 45, 44",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 42,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 18368,
+            "IsCover": true
+          },
+          {
+            "Vertices": "42, 44, 46",
+            "EdgeLink_0_1": 42,
+            "EdgeLink_1_2": 45,
+            "EdgeLink_2_0": 48,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "44, 47, 46",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 46,
+            "EdgeLink_2_0": 44,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "47, 48, 46",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 47,
+            "EdgeLink_2_0": 45,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "46, 48, 49",
+            "EdgeLink_0_1": 46,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          },
+          {
+            "Vertices": "46, 50, 42",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 49,
+            "EdgeLink_2_0": 44,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "42, 50, 40",
+            "EdgeLink_0_1": 48,
+            "EdgeLink_1_2": 50,
+            "EdgeLink_2_0": 40,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "50, 51, 40",
+            "EdgeLink_0_1": 51,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 49,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "50, 52, 51",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 52,
+            "EdgeLink_2_0": 50,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "54, 51, 52",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 51,
+            "EdgeLink_2_0": 53,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "52, 53, 54",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 54,
+            "EdgeLink_2_0": 52,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "54, 53, 55",
+            "EdgeLink_0_1": 53,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "37, 56, 35",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 56,
+            "EdgeLink_2_0": 35,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "56, 57, 35",
+            "EdgeLink_0_1": 59,
+            "EdgeLink_1_2": 57,
+            "EdgeLink_2_0": 55,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "35, 57, 58",
+            "EdgeLink_0_1": 56,
+            "EdgeLink_1_2": 58,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "57, 59, 58",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 57,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "57, 56, 19",
+            "EdgeLink_0_1": 56,
+            "EdgeLink_1_2": 61,
+            "EdgeLink_2_0": 60,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "57, 19, 21",
+            "EdgeLink_0_1": 59,
+            "EdgeLink_1_2": 19,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "19, 56, 60",
+            "EdgeLink_0_1": 59,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "34, 61, 36",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": 63,
+            "EdgeLink_2_0": 34,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 16399,
+            "IsCover": true
+          },
+          {
+            "Vertices": "36, 61, 62",
+            "EdgeLink_0_1": 62,
+            "EdgeLink_1_2": 64,
+            "Flags": [
+              "Door",
+              "Found"
+            ]
+          },
+          {
+            "Vertices": "61, 63, 62",
+            "EdgeLink_0_1": -1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": 63,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17359,
+            "IsCover": true
+          },
+          {
+            "Vertices": "2, 1, 0",
+            "EdgeLink_0_1": 1,
+            "EdgeLink_1_2": -1,
+            "EdgeLink_2_0": -1,
+            "Flags": [
+              "Found"
+            ],
+            "CoverFlags": 17344,
+            "IsCover": true
+          }
+        ],
+        "DoorTriangles": [
+          {
+            "TriangleBeforeDoor": 63,
+            "Unknown": -460622861,
+            "Door": "10853B:COTN - Falkreath.esp"
+          }
+        ],
+        "NavmeshGridDivisor": 3,
+        "MaxDistanceX": 217.93987,
+        "MaxDistanceY": 164.38947,
+        "Min": "711.4292, -548.31195, -0.6136017",
+        "Max": "1365.2488, -55.14357, 252.9307",
+        "NavmeshGrid": "0x0A0000001A001B001C001D001E001F002000210022003E000A00000000002200230024002500260027003E003F004000050000002700280029002A002B0014000000150016001700180019001A001B001C001D001E001F0020002100220023003700380039003A003B000D000000220023002400250026002700280031003200370038003B003D00110000000100020003002700280029002A002B002C002D002E002F00300031003200330041000F0000000E000F001000110012001300140015001600380039003A003B003C003D000F000000080009000A000B000C000D000E000F00320033003400350036003B003D000E000000020003000400050006000700080009002E002F003200330034003500"
+      }
+    }
+  ],
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "019821:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "EditorID": "KustREF",
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "01364C:Skyrim.esm",
+      "PersistentLocation": "018A49:Skyrim.esm",
+      "LocationReference": "10856F:COTN - Falkreath.esp",
+      "LocationRefTypes": [
+        "0130F7:Skyrim.esm"
+      ],
+      "Placement": {
+        "Position": "1091.9404, -389.28534, -0.613525"
+      },
+      "MajorFlags": [
+        "Persistent"
+      ]
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10853B:COTN - Falkreath.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "029CB0:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "1085DE:COTN - Falkreath.esp",
+        "Position": "-27144.334, -85781.84, -3032.521",
+        "Rotation": "0, -0, -1.7707912"
+      },
+      "Lock": {
+        "Level": "Novice",
+        "Unused": "0x000000",
+        "Key": "108648:COTN - Falkreath.esp",
+        "Unused2": "0x0000000000000000000000"
+      },
+      "NavigationDoorLink": {
+        "NavMesh": "1085F1:COTN - Falkreath.esp",
+        "TeleportMarkerTriangle": 63
+      },
+      "Placement": {
+        "Position": "1037.17, -564.7297, 4.4153748",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108541:COTN - Falkreath.esp",
+      "MajorRecordFlagsRaw": 1024,
+      "EditorID": "COTN_FalkreathKustsHouseCenterMarker",
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "00003B:Skyrim.esm",
+      "LocationRefTypes": [
+        "01BDF1:Skyrim.esm"
+      ],
+      "LocationReference": "10856F:COTN - Falkreath.esp",
+      "Placement": {
+        "Position": "1033.2098, -391.0558, -0.613533"
+      }
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108518:COTN - Falkreath.esp",
+      "Base": "05C016:Skyrim.esm",
+      "Placement": {
+        "Position": "1279.9608, -243.84286, 0.8443961",
+        "Rotation": "0, -0, 1.9000008"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108526:COTN - Falkreath.esp",
+      "Base": "0318FA:Skyrim.esm",
+      "Placement": {
+        "Position": "1009.13715, -174.15616, 24.2066",
+        "Rotation": "0, -0, 6.2685857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10852A:COTN - Falkreath.esp",
+      "Base": "064106:Skyrim.esm",
+      "Placement": {
+        "Position": "975.78564, -364.63318, -0.6135254",
+        "Rotation": "0, -0, 4.0977907"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10852F:COTN - Falkreath.esp",
+      "Base": "10C73A:Skyrim.esm",
+      "Placement": {
+        "Position": "1040.005, -342.88724, -0.613533",
+        "Rotation": "0, -0, 0.050003815"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108533:COTN - Falkreath.esp",
+      "Base": "064106:Skyrim.esm",
+      "Placement": {
+        "Position": "1247.8721, -308.8057, 0.8443966",
+        "Rotation": "0, -0, 4.997791"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108536:COTN - Falkreath.esp",
+      "Base": "1010B3:Skyrim.esm",
+      "Placement": {
+        "Position": "1040.005, -342.88724, -0.613533",
+        "Rotation": "0, -0, 0.050003815"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108540:COTN - Falkreath.esp",
+      "Base": "09AF19:Skyrim.esm",
+      "LocationRefTypes": [
+        "071061:Skyrim.esm"
+      ],
+      "LocationReference": "10856F:COTN - Falkreath.esp",
+      "Placement": {
+        "Position": "1251.8281, -437.333, -0.613533"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108545:COTN - Falkreath.esp",
+      "Base": "05C016:Skyrim.esm",
+      "Placement": {
+        "Position": "829.19055, -257.08398, 1.1644192",
+        "Rotation": "0, -0, 0.60000414"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108547:COTN - Falkreath.esp",
+      "Base": "012FE6:Skyrim.esm",
+      "Placement": {
+        "Position": "999.98285, -121.32478, 0.87188065",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10854B:COTN - Falkreath.esp",
+      "Base": "10CC35:Skyrim.esm",
+      "Placement": {
+        "Position": "1159.5916, -256.02097, 231.1189",
+        "Rotation": "0, -1.5704509, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10854C:COTN - Falkreath.esp",
+      "Base": "0318FB:Skyrim.esm",
+      "Placement": {
+        "Position": "1044.9447, -158.37021, 24.206596",
+        "Rotation": "0, -0, 0.20000291"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108551:COTN - Falkreath.esp",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": -57.01123,
+      "LightData": {
+        "FovOffset": -10.0,
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "1045.6648, -226.0999, 71.101135",
+        "Rotation": "0, -0, 4.6831903"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10856E:COTN - Falkreath.esp",
+      "Base": "000003:Skyrim.esm",
+      "Placement": {
+        "Position": "981.9102, -766.4922, 197.10707",
+        "Rotation": "0, -0, 5.3663898"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108574:COTN - Falkreath.esp",
+      "Base": "0DF670:COTN - Falkreath.esp",
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "1036.5474, -253.78389, 124.054",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108575:COTN - Falkreath.esp",
+      "Base": "0DF66F:COTN - Falkreath.esp",
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "1036.5474, -253.78389, 124.054",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108576:COTN - Falkreath.esp",
+      "Base": "0DF66E:COTN - Falkreath.esp",
+      "Emittance": "02A72D:Skyrim.esm",
+      "Placement": {
+        "Position": "1036.5474, -253.78389, 124.054",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108577:COTN - Falkreath.esp",
+      "Base": "07BA6C:Skyrim.esm",
+      "Placement": {
+        "Position": "1285.2081, -350.28632, 251.3751",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108578:COTN - Falkreath.esp",
+      "Base": "04258E:COTN - Falkreath.esp",
+      "Placement": {
+        "Position": "1160.0897, -129.50919, 211.7242",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108579:COTN - Falkreath.esp",
+      "Base": "07BA6B:Skyrim.esm",
+      "Placement": {
+        "Position": "1285.2089, -94.286285, 251.3751",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10857A:COTN - Falkreath.esp",
+      "Base": "04258E:COTN - Falkreath.esp",
+      "Placement": {
+        "Position": "1160.0892, -385.50903, 211.7242",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10857B:COTN - Falkreath.esp",
+      "Base": "07BA78:Skyrim.esm",
+      "Placement": {
+        "Position": "1034.3698, -114.062935, -12.208378",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10857E:COTN - Falkreath.esp",
+      "Base": "0F4850:Skyrim.esm",
+      "Scale": 0.87,
+      "Placement": {
+        "Position": "1048.5839, -228.2401, -17.5534"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108580:COTN - Falkreath.esp",
+      "Base": "030091:Skyrim.esm",
+      "Placement": {
+        "Position": "1254.614, -140.3913, -0.6135254",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108581:COTN - Falkreath.esp",
+      "Base": "024CA6:Skyrim.esm",
+      "Placement": {
+        "Position": "1338.126, -76.95135, -0.6135254"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108582:COTN - Falkreath.esp",
+      "Base": "024CA7:Skyrim.esm",
+      "Placement": {
+        "Position": "1137.6709, -76.3824, -0.6135254"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108583:COTN - Falkreath.esp",
+      "Base": "024CA5:Skyrim.esm",
+      "Placement": {
+        "Position": "1377.7991, -350.0051, -0.61354065",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108585:COTN - Falkreath.esp",
+      "Base": "01F249:Skyrim.esm",
+      "Placement": {
+        "Position": "1354.3737, -433.38464, -0.6135254",
+        "Rotation": "0, -0, 5.683187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108586:COTN - Falkreath.esp",
+      "Base": "012FE7:Skyrim.esm",
+      "Placement": {
+        "Position": "1319.3419, -427.5539, -0.6135254"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108587:COTN - Falkreath.esp",
+      "Base": "01F24A:Skyrim.esm",
+      "Placement": {
+        "Position": "1351.9277, -61.579895, 61.386475",
+        "Rotation": "0, -0, 1.2000008"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108588:COTN - Falkreath.esp",
+      "Base": "0D8E7F:Skyrim.esm",
+      "Placement": {
+        "Position": "1318.0602, -70.33515, 61.38646",
+        "Rotation": "0, -0, 5.5831876"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858A:COTN - Falkreath.esp",
+      "Base": "00000F:Skyrim.esm",
+      "Placement": {
+        "Position": "1358.9075, -82.04577, 61.386444"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858B:COTN - Falkreath.esp",
+      "Base": "00000F:Skyrim.esm",
+      "Placement": {
+        "Position": "1347.4106, -89.472885, 61.72025",
+        "Rotation": "-3.1415927, -0, 5.383188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858C:COTN - Falkreath.esp",
+      "Base": "00000F:Skyrim.esm",
+      "Placement": {
+        "Position": "1335.1904, -85.581635, 61.38646",
+        "Rotation": "0, -0, 0.70000005"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858D:COTN - Falkreath.esp",
+      "Base": "00000F:Skyrim.esm",
+      "Placement": {
+        "Position": "1337.4297, -95.263176, 61.72024",
+        "Rotation": "3.1415927, -0, 5.683187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858E:COTN - Falkreath.esp",
+      "Base": "0DAE80:Skyrim.esm",
+      "Placement": {
+        "Position": "1390.691, -187.30164, -0.61354065",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10858F:COTN - Falkreath.esp",
+      "Base": "012FE8:Skyrim.esm",
+      "Placement": {
+        "Position": "1389.1948, -106.63775, -0.61354065"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108592:COTN - Falkreath.esp",
+      "Base": "012FE9:Skyrim.esm",
+      "Placement": {
+        "Position": "1382.1548, -268.6733, -0.6135254"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108593:COTN - Falkreath.esp",
+      "Base": "03F94E:Skyrim.esm",
+      "Scale": 0.94,
+      "Placement": {
+        "Position": "1421.0067, -246.44789, 165.10522",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108594:COTN - Falkreath.esp",
+      "Base": "0F5D05:Skyrim.esm",
+      "Placement": {
+        "Position": "1388.2498, -187.11478, 29.053349",
+        "Rotation": "-1.6578296, 0.034363147, 4.475503"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108596:COTN - Falkreath.esp",
+      "Base": "0F5D06:Skyrim.esm",
+      "Placement": {
+        "Position": "1388.7285, -273.43045, 57.996",
+        "Rotation": "-0.09908534, -0.09095903, 4.7750587"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108597:COTN - Falkreath.esp",
+      "Base": "012E46:Skyrim.esm",
+      "Placement": {
+        "Position": "1376.8973, -310.0383, 63.415447",
+        "Rotation": "0, -0, 5.7831874"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108598:COTN - Falkreath.esp",
+      "Base": "064B31:Skyrim.esm",
+      "Placement": {
+        "Position": "1366.7633, -341.12048, 61.38645",
+        "Rotation": "0, -0, 5.4831905"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "108599:COTN - Falkreath.esp",
+      "Base": "01E3A3:Skyrim.esm",
+      "Placement": {
+        "Position": "1371.8876, -391.0703, 61.38643",
+        "Rotation": "0, -0, 1.7831933"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859A:COTN - Falkreath.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "1391.1621, -349.3411, 61.38643",
+        "Rotation": "0, -0, 0.50000054"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859B:COTN - Falkreath.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "1377.9916, -363.91367, 61.386444",
+        "Rotation": "0, -0, 5.783188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859C:COTN - Falkreath.esp",
+      "Base": "05C035:Skyrim.esm",
+      "Scale": 0.81,
+      "Placement": {
+        "Position": "1410.7737, -160.22026, 139.51216",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859D:COTN - Falkreath.esp",
+      "Base": "05C036:Skyrim.esm",
+      "Scale": 0.72,
+      "Placement": {
+        "Position": "1409.3551, -344.87753, 146.55392",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859E:COTN - Falkreath.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "821.3703, -280.66003, 62.84616",
+        "Rotation": "-0.0019520023, 6.900815E-05, 5.2001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10859F:COTN - Falkreath.esp",
+      "Base": "06D911:Skyrim.esm",
+      "Placement": {
+        "Position": "897.018, -340.62112, -0.6639786",
+        "Rotation": "0, -0, 5.181662"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085A2:COTN - Falkreath.esp",
+      "Base": "02EC1F:Skyrim.esm",
+      "Placement": {
+        "Position": "835.20746, -298.74008, -0.6639786",
+        "Rotation": "0, -0, 0.9056049"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085A3:COTN - Falkreath.esp",
+      "Base": "03B072:Skyrim.esm",
+      "Placement": {
+        "Position": "839.3934, -230.65823, -0.6639786",
+        "Rotation": "0, -0, 3.175959"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085A6:COTN - Falkreath.esp",
+      "Base": "01F24A:Skyrim.esm",
+      "Placement": {
+        "Position": "811.9221, -304.42288, 61.514717",
+        "Rotation": "0, -0, 5.759489"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085A7:COTN - Falkreath.esp",
+      "Base": "0319E3:Skyrim.esm",
+      "Placement": {
+        "Position": "840.98114, -326.7339, 62.8385",
+        "Rotation": "0.0024509758, 0.0010894454, 3.8179"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085BC:COTN - Falkreath.esp",
+      "Base": "024CA5:Skyrim.esm",
+      "Placement": {
+        "Position": "773.03265, -436.5727, -0.61354065",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085BD:COTN - Falkreath.esp",
+      "Base": "012FDF:Skyrim.esm",
+      "Placement": {
+        "Position": "856.8746, -440.0769, -0.61354065",
+        "Rotation": "0, -0, 5.9977875"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C0:COTN - Falkreath.esp",
+      "Base": "018195:Skyrim.esm",
+      "Scale": 0.65,
+      "Placement": {
+        "Position": "674.67847, -77.99199, 39.10966",
+        "Rotation": "-1.6160966, -0.870291, 1.6054391"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C3:COTN - Falkreath.esp",
+      "Base": "01FCCC:Skyrim.esm",
+      "Scale": 0.81,
+      "Placement": {
+        "Position": "686.60474, -378.52545, -0.6134949",
+        "Rotation": "0, -0, 4.7664"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C4:COTN - Falkreath.esp",
+      "Base": "01FCF3:Skyrim.esm",
+      "Scale": 0.87,
+      "Placement": {
+        "Position": "700.24817, -317.57367, -0.61351013",
+        "Rotation": "0, -0, 4.7977886"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C7:COTN - Falkreath.esp",
+      "Base": "0D932F:Skyrim.esm",
+      "Placement": {
+        "Position": "705.0984, -226.81525, -0.6134949",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C8:COTN - Falkreath.esp",
+      "Base": "0CE783:Skyrim.esm",
+      "Placement": {
+        "Position": "835.64246, -67.622055, -0.6134949"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085C9:COTN - Falkreath.esp",
+      "Base": "05CAE1:Skyrim.esm",
+      "Placement": {
+        "Position": "796.4393, -61.772114, 66.710655",
+        "Rotation": "1.5229101, -1.1545482, 3.1697493"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CA:COTN - Falkreath.esp",
+      "Base": "05CAE1:Skyrim.esm",
+      "Placement": {
+        "Position": "813.7021, -69.40083, 66.18511",
+        "Rotation": "1.4048262, -1.4533762, 3.2907948"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CB:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "855.00195, -70.55035, 66.76287",
+        "Rotation": "0, -0, 0.2"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CC:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "888.4183, -67.22438, 67.00774",
+        "Rotation": "0, -0, 5.5831876"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CD:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "800.273, -75.65759, 4.339115",
+        "Rotation": "0, -0, 0.7"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CE:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "781.01434, -100.604324, 2.6561117",
+        "Rotation": "0, -0, 4.8831887"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085CF:COTN - Falkreath.esp",
+      "Base": "0C4323:Skyrim.esm",
+      "Placement": {
+        "Position": "762.7749, -132.97043, -0.6135254",
+        "Rotation": "0, -0, 5.3831897"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D0:COTN - Falkreath.esp",
+      "Base": "0C5348:Skyrim.esm",
+      "Placement": {
+        "Position": "835.61957, -295.94922, 61.584335",
+        "Rotation": "0, -0, 5.5831857"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D1:COTN - Falkreath.esp",
+      "Base": "064B32:Skyrim.esm",
+      "Placement": {
+        "Position": "847.9157, -276.53555, 61.584343",
+        "Rotation": "0, -0, 3.5831902"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D2:COTN - Falkreath.esp",
+      "Base": "064B31:Skyrim.esm",
+      "Placement": {
+        "Position": "851.26904, -303.66266, 61.584343",
+        "Rotation": "0, -0, 0.30000168"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D3:COTN - Falkreath.esp",
+      "Base": "000845:Skyrim.esm",
+      "Placement": {
+        "Position": "1130.8087, -513.4062, -0.6135254",
+        "Rotation": "0, -0, 1"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D4:COTN - Falkreath.esp",
+      "Base": "000845:Skyrim.esm",
+      "Placement": {
+        "Position": "1040.7395, -78.17999, -0.6135254",
+        "Rotation": "0, -0, 1"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D5:COTN - Falkreath.esp",
+      "Base": "000845:Skyrim.esm",
+      "Placement": {
+        "Position": "1359.2324, -263.13208, 251.3751",
+        "Rotation": "0, -0, 1.4"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D6:COTN - Falkreath.esp",
+      "Base": "000845:Skyrim.esm",
+      "Placement": {
+        "Position": "1248.1857, -409.5492, 251.37514",
+        "Rotation": "0, -0, 0.30000106"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D7:COTN - Falkreath.esp",
+      "Base": "10C0E3:Skyrim.esm",
+      "Placement": {
+        "Position": "1309.8314, -410.9322, 251.3751",
+        "Rotation": "0, -0, 0.3"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D8:COTN - Falkreath.esp",
+      "Base": "10C0E3:Skyrim.esm",
+      "Placement": {
+        "Position": "1353.1534, -370.6405, 251.37514",
+        "Rotation": "0, -0, 5.583188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085D9:COTN - Falkreath.esp",
+      "Base": "05C016:Skyrim.esm",
+      "Placement": {
+        "Position": "1284.1154, -249.60948, 251.41599",
+        "Rotation": "0, -0, 2.4000053"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085DA:COTN - Falkreath.esp",
+      "Base": "05C035:Skyrim.esm",
+      "Scale": 0.81,
+      "Placement": {
+        "Position": "662.321, -201.99223, 151.39151",
+        "Rotation": "-0.19999851, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085DB:COTN - Falkreath.esp",
+      "Base": "05C037:Skyrim.esm",
+      "Scale": 0.68,
+      "Placement": {
+        "Position": "663.9235, -338.0317, 166.35109",
+        "Rotation": "0.40000466, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085DC:COTN - Falkreath.esp",
+      "Base": "035F4A:Skyrim.esm",
+      "Placement": {
+        "Position": "1051.2662, -226.32175, 8.571929"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085DF:COTN - Falkreath.esp",
+      "Base": "012E4B:Skyrim.esm",
+      "Placement": {
+        "Position": "1124.6763, -469.93753, -0.6135254",
+        "Rotation": "0, -0, 5.783187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E0:COTN - Falkreath.esp",
+      "Base": "07A603:Skyrim.esm",
+      "Scale": 0.9,
+      "Placement": {
+        "Position": "753.3385, -435.08948, 81.74923",
+        "Rotation": "0, -0, 4.6831884"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E1:COTN - Falkreath.esp",
+      "Base": "0185B6:Skyrim.esm",
+      "Placement": {
+        "Position": "938.3042, -516.60925, -0.6135254",
+        "Rotation": "0, -0, 2.7000003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E2:COTN - Falkreath.esp",
+      "Base": "013790:Skyrim.esm",
+      "Placement": {
+        "Position": "820.08417, -445.4625, 64.79089",
+        "Rotation": "3.1415915, 0, 3.9415915"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E3:COTN - Falkreath.esp",
+      "Base": "012EB6:Skyrim.esm",
+      "Placement": {
+        "Position": "755.3417, -436.47394, 100.61804",
+        "Rotation": "3.1386013, -0.00019232575, 0.0006961108"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E4:COTN - Falkreath.esp",
+      "Base": "0D9288:Skyrim.esm",
+      "Placement": {
+        "Position": "740.25287, -465.409, 217.2521",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E5:COTN - Falkreath.esp",
+      "Base": "0D9288:Skyrim.esm",
+      "Scale": 1.08,
+      "Placement": {
+        "Position": "926.303, -47.149574, 216.41917"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E6:COTN - Falkreath.esp",
+      "Base": "0D9288:Skyrim.esm",
+      "Placement": {
+        "Position": "745.9424, -47.28402, 164.56985"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E7:COTN - Falkreath.esp",
+      "Base": "012EB7:Skyrim.esm",
+      "Placement": {
+        "Position": "1112.765, -203.69966, 27.026676",
+        "Rotation": "0, -0, 5.5977883"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E8:COTN - Falkreath.esp",
+      "Base": "012E49:Skyrim.esm",
+      "Placement": {
+        "Position": "1174.3616, -80.822754, 151.22762",
+        "Rotation": "0, -0, 4.3831887"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085E9:COTN - Falkreath.esp",
+      "Base": "0DAE80:Skyrim.esm",
+      "Placement": {
+        "Position": "1299.0316, -316.34677, 251.41605",
+        "Rotation": "0, -0, 4.91239"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085EA:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "1304.5345, -280.35574, 268.47128",
+        "Rotation": "0.017688375, 0.008601804, 5.5720844"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085EB:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "1299.2325, -308.22998, 268.47394",
+        "Rotation": "0.014300023, -0.0029094056, 0.20009509"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085EC:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "1290.4586, -334.23804, 268.54156",
+        "Rotation": "0, -0, 0.8000022"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085ED:COTN - Falkreath.esp",
+      "Base": "00306C:HearthFires.esm",
+      "Placement": {
+        "Position": "1288.0559, -359.36194, 268.44403",
+        "Rotation": "-0.0051384526, 0.010987426, 5.9168787"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085EE:COTN - Falkreath.esp",
+      "Base": "012FE6:Skyrim.esm",
+      "Placement": {
+        "Position": "1363.4636, -201.61578, 251.37508",
+        "Rotation": "0, -0, 2.6415942"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085EF:COTN - Falkreath.esp",
+      "Base": "01E3A3:Skyrim.esm",
+      "Placement": {
+        "Position": "1299.7513, -221.37582, 251.41597",
+        "Rotation": "0, -0, 2.8831933"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085F0:COTN - Falkreath.esp",
+      "Base": "01E3A3:Skyrim.esm",
+      "Scale": 0.85,
+      "Placement": {
+        "Position": "1359.9847, -262.7335, 329.37506",
+        "Rotation": "0, -0, 1.0831945"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085F2:COTN - Falkreath.esp",
+      "Base": "012FDF:Skyrim.esm",
+      "Placement": {
+        "Position": "1133.7551, -514.5222, 77.38649",
+        "Rotation": "0, -0, 0.61460185"
+      }
+    }
+  ]
+}

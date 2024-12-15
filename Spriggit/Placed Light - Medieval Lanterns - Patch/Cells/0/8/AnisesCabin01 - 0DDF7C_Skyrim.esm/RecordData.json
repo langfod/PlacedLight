@@ -1,0 +1,95 @@
+{
+  "FormKey": "0DDF7C:Skyrim.esm",
+  "MajorRecordFlagsRaw": 131072,
+  "EditorID": "AnisesCabin01",
+  "SkyrimMajorRecordFlags": [
+    "Dangerous_OffLimits_InteriorCell"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001D1E25",
+    "DirectionalColor": "#00394151",
+    "FogNearColor": "#00B0DCF7",
+    "FogFar": 3000.0,
+    "DirectionalRotationZ": 180,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001F1E26",
+      "DirectionalXMinus": "#001A1E23",
+      "DirectionalYPlus": "#001D1F25",
+      "DirectionalYMinus": "#001D1C25",
+      "DirectionalZPlus": "#000D0E10",
+      "DirectionalZMinus": "#002C2D39",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "098B91:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0D9537:Skyrim.esm",
+  "Owner": "04359E:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "EncounterZone": "0D9546:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1027AA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0D9537:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2208.5159, -583.30524, -30000",
+        "Rotation": "0, 0, 0.7999996"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "029119:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "2208.5159, -583.3052, 4135.4663",
+        "Rotation": "0, 0, 0.7999996"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "OffLimits"
+  ]
+}

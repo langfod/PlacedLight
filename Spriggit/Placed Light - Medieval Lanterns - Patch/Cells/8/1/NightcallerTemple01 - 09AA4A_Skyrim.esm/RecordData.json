@@ -1,0 +1,84 @@
+{
+  "FormKey": "09AA4A:Skyrim.esm",
+  "EditorID": "NightcallerTemple01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Nightcaller Temple"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001C1E24",
+    "DirectionalColor": "#00414554",
+    "FogNearColor": "#006C7599",
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001E1E25",
+      "DirectionalXMinus": "#00191E22",
+      "DirectionalYPlus": "#001C1F24",
+      "DirectionalYMinus": "#001C1C24",
+      "DirectionalZPlus": "#000D0E10",
+      "DirectionalZMinus": "#002A2D37",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#005A6674",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0A2680:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0192B9:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC7D:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0F8C98:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09DF0F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0192B9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-527.1976, 3004.4507, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05BCD7:Medieval Lanterns of Skyrim.esp",
+      "Base": "03D59B:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-527.1976, 3004.4507, -796.73456",
+        "Rotation": "0, -0, 3.8831902"
+      }
+    }
+  ]
+}

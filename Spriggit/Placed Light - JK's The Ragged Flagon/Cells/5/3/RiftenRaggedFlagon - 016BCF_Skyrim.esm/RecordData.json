@@ -1,0 +1,129 @@
+{
+  "FormKey": "016BCF:Skyrim.esm",
+  "EditorID": "RiftenRaggedFlagon",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Ragged Flagon"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 5000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 4000.0,
+    "LightFadeEnd": 5000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "05C734:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "02264A:Skyrim.esm",
+  "Owner": "0A2522:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
+  "SkyAndWeatherFromRegion": "07042E:Skyrim.esm",
+  "AcousticSpace": "108E60:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "05C73D:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03124D:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EB10:Skyrim.esm",
+      "Emittance": "02E2CC:Skyrim.esm",
+      "Scale": 1.93,
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "-1189.571, 1822.6772, -42.334717",
+        "Rotation": "0, -0, 3.6800015"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031252:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EB10:Skyrim.esm",
+      "Emittance": "02E2CC:Skyrim.esm",
+      "Scale": 1.57,
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "-1189.6384, 1822.9425, 156.53369",
+        "Rotation": "0, -0, 1.8000027"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03125C:Skyrim.esm",
+      "Base": "03C5A7:Skyrim.esm",
+      "Radius": 669.96075,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -12.709541,
+        "FadeOffset": 1.217495,
+        "ShadowDepthBias": 29.704872
+      },
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "-1191.9215, 1845.3282, 163.27899",
+        "Rotation": "-1.5707965, 1.3292065, 1.5707961"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0318DB:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 75.596466,
+      "LightData": {
+        "FadeOffset": 2.2511954,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "02264A:Skyrim.esm",
+      "Placement": {
+        "Position": "331.91788, 2523.8555, -51.566406",
+        "Rotation": "0, -0, 4.470798"
+      }
+    }
+  ]
+}

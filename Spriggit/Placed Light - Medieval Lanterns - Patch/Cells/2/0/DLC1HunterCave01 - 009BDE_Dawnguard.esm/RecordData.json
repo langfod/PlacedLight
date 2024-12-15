@@ -1,0 +1,319 @@
+{
+  "FormKey": "009BDE:Dawnguard.esm",
+  "EditorID": "DLC1HunterCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dead Drop Falls"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "10ACD3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019C8E:Dawnguard.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "09F363:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "009D26:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "5227.3647, -4054.1191, -30000",
+        "Rotation": "0, 0, 1.5500008"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00B2C4:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1647.967, -684.44324, -30000",
+        "Rotation": "0, 0, 4.458194"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "011097:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 0.71,
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2815.3635, -4046.5566, -30000",
+        "Rotation": "0, 0, 5.783187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "011099:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 0.72,
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3034.6917, -3896.4592, -30000",
+        "Rotation": "0, 0, 0.5250003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0130EF:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-75.37419, -7563.953, -30000",
+        "Rotation": "0, 0, 5.7581887"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "013173:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "828.81366, -7489.121, -30000",
+        "Rotation": "0, 0, 5.25819"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "013557:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-954.2631, -7191.5073, -30000",
+        "Rotation": "0, 0, 5.883189"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01363F:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-607.4647, -6972.024, -30000",
+        "Rotation": "0, 0, 3.8123908"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0166C4:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "87, 1375, -30000",
+        "Rotation": "0, 0, 4.590216"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C36:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Scale": 0.71,
+      "Placement": {
+        "Position": "2815.3635, -4046.5566, 7149.5625",
+        "Rotation": "0, 0, 5.7831855"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C37:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Scale": 0.72,
+      "Placement": {
+        "Position": "3034.6917, -3896.4592, 7116.3735",
+        "Rotation": "0, 0, 0.5250003"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C38:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "5227.3647, -4054.1191, 7466",
+        "Rotation": "0, 0, 1.549999"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C39:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-75.3742, -7563.953, 8968.272",
+        "Rotation": "0, 0, 5.7581882"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C3A:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "1647.967, -684.4432, 8290.366",
+        "Rotation": "0, 0, 4.458194"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C3B:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "87, 1375, 8578",
+        "Rotation": "0, 0, 4.5902157"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C3C:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "829.3535, -7490.723, 9039.6"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C3D:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-954.2631, -7191.5073, 8941.913",
+        "Rotation": "0, 0, 5.883187"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014C3E:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB16:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-607.4647, -6972.024, 8969",
+        "Rotation": "0, 0, 3.8123908"
+      }
+    }
+  ]
+}

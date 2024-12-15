@@ -1,0 +1,100 @@
+{
+  "FormKey": "0EF324:Skyrim.esm",
+  "EditorID": "FalkreathBarracksJail",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Falkreath Jail"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00313032",
+      "DirectionalXMinus": "#0028302D",
+      "DirectionalYPlus": "#002D3230",
+      "DirectionalYMinus": "#002D2D30",
+      "DirectionalZPlus": "#00151615",
+      "DirectionalZMinus": "#0044494A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "1033AF:Skyrim.esm",
+  "Owner": "02EBEC:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\MineCube_e.dds",
+  "SkyAndWeatherFromRegion": "10474D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03EF07:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "000004:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "03EF17:Skyrim.esm",
+        "Position": "-27263.482, -87622.22, -2995.5466",
+        "Rotation": "0, -0, 0.6245857"
+      },
+      "NavigationDoorLink": {
+        "NavMesh": "108D42:Skyrim.esm",
+        "TeleportMarkerTriangle": 95
+      },
+      "LocationReference": "1033AF:Skyrim.esm",
+      "Placement": {
+        "Position": "1631.2657, 355.88, 65.46158",
+        "Rotation": "0, -0, 3.1123931"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EF43A:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "029CB0:Skyrim.esm",
+      "TeleportDestination": {
+        "Door": "0EF3A1:Skyrim.esm",
+        "Position": "1466.5283, 188.98924, -200.3836",
+        "Rotation": "0, -0, 3.1331904"
+      },
+      "NavigationDoorLink": {
+        "NavMesh": "108D42:Skyrim.esm",
+        "TeleportMarkerTriangle": 260
+      },
+      "LocationReference": "1033AF:Skyrim.esm",
+      "Placement": {
+        "Position": "1567.8608, -616.30145, 0",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "FormKey": "015282:Skyrim.esm",
+  "EditorID": "FortDunstad01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Dunstad"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001C1A11",
+    "DirectionalColor": "#00024951",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 7000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001E1A11",
+      "DirectionalXMinus": "#00191A10",
+      "DirectionalYPlus": "#001C1B11",
+      "DirectionalYMinus": "#001C1811",
+      "DirectionalZPlus": "#000D0C07",
+      "DirectionalZMinus": "#002A271A",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917E:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1C:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E79D5:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01917E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-226.20227, -548.983, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "047824:Medieval Lanterns of Skyrim.esp",
+      "Base": "03D59B:Medieval Lanterns of Skyrim.esp",
+      "EnableParent": {
+        "Reference": "0E604C:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-226.2023, -548.983, 592.5"
+      }
+    }
+  ]
+}

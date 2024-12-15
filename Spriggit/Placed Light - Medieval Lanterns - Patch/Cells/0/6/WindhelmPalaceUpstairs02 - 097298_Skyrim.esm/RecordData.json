@@ -1,0 +1,108 @@
+{
+  "FormKey": "097298:Skyrim.esm",
+  "EditorID": "WindhelmPalaceUpstairs02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Palace of the Kings, Upstairs"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#008D9B9E",
+    "FogNearColor": "#00548D7C",
+    "FogFar": 4500.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001D1810",
+      "DirectionalXMinus": "#0018180F",
+      "DirectionalYPlus": "#001B1910",
+      "DirectionalYMinus": "#001B1610",
+      "DirectionalZPlus": "#000C0B07",
+      "DirectionalZMinus": "#00292418",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00548D7C",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "07BA87:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209F2:Skyrim.esm",
+  "Owner": "0FF0AB:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "06D542:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0E87:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0209F2:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-3020.3398, -3399.168, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0E88:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0209F2:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1314.374, -4316.2446, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07A517:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Scale": 0.9,
+      "Placement": {
+        "Position": "-1314.374, -4316.2446, 1279.9417"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07A518:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Scale": 0.9,
+      "Placement": {
+        "Position": "-3020.3398, -3399.168, 1271.3",
+        "Rotation": "0, -0, 3.1831932"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "FormKey": "042BED:Skyrim.esm",
+  "EditorID": "Mistwatch02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mistwatch West Tower"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00282828",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#FFFFFF",
+      "DirectionalXMinus": "#FFFFFF",
+      "DirectionalYPlus": "#FFFFFF",
+      "DirectionalYMinus": "#FFFFFF",
+      "DirectionalZPlus": "#FFFFFF",
+      "DirectionalZMinus": "#FFFFFF",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01927B:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC47:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0449FD:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01927B:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3910.5916, -5620.5728, -30000",
+        "Rotation": "0, 0, 2.9831917"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B084:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "3910.5916, -5620.5728, 2174.6672",
+        "Rotation": "0, -0, 1.2670621"
+      }
+    }
+  ]
+}

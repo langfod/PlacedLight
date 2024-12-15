@@ -1,0 +1,83 @@
+{
+  "FormKey": "07144C:Skyrim.esm",
+  "EditorID": "FortDunstad04",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Stumbling Sabrecat"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001A133E",
+    "DirectionalColor": "#00024951",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00142F2E",
+      "DirectionalXMinus": "#00112F29",
+      "DirectionalYPlus": "#0013312C",
+      "DirectionalYMinus": "#00132C2C",
+      "DirectionalZPlus": "#00091613",
+      "DirectionalZMinus": "#001C4744",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917E:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "03EC1C:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0715EA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01917E:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "349.94113, 207.81915, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "047826:Medieval Lanterns of Skyrim.esp",
+      "Base": "03D59B:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "349.9411, 207.8192, 736.9276"
+      }
+    }
+  ]
+}

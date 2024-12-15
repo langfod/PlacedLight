@@ -1,0 +1,85 @@
+{
+  "FormKey": "0152A0:Skyrim.esm",
+  "EditorID": "CrystaldriftCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Crystaldrift Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00363025",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#003C5264",
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0033291D",
+      "DirectionalXMinus": "#002A291A",
+      "DirectionalYPlus": "#002F2A1C",
+      "DirectionalYMinus": "#002F271C",
+      "DirectionalZPlus": "#0016130C",
+      "DirectionalZMinus": "#005C5138",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00BFDFF0",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01915C:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC05:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "046E83:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01915C:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "893.3016, 1158.6777, -30000",
+        "Rotation": "0, 0, 5.608188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03D5AE:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "893.3016, 1158.6777, -55",
+        "Rotation": "0, -0, 3.085058"
+      }
+    }
+  ]
+}

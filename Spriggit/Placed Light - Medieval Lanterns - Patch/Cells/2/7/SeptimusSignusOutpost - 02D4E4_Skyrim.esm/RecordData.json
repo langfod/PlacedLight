@@ -1,0 +1,83 @@
+{
+  "FormKey": "02D4E4:Skyrim.esm",
+  "EditorID": "SeptimusSignusOutpost",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Septimus Signus' Outpost"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00253A40",
+      "DirectionalXMinus": "#001E3A3B",
+      "DirectionalYPlus": "#00223C3E",
+      "DirectionalYMinus": "#0022373E",
+      "DirectionalZPlus": "#003D6A72",
+      "DirectionalZMinus": "#001A2C2F",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08E78E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "02D51C:Skyrim.esm",
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "EncounterZone": "0D440E:Skyrim.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015BAD:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "02D51C:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1110.6451, 166.4038, -30000",
+        "Rotation": "0, 0, 1.0886229"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "060E10:Medieval Lanterns of Skyrim.esp",
+      "Base": "03845F:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1110.6451, 166.4038, -607.93744",
+        "Rotation": "0, 0, 1.0821041"
+      }
+    }
+  ]
+}

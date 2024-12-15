@@ -1,0 +1,76 @@
+{
+  "FormKey": "016A02:Skyrim.esm",
+  "EditorID": "SolitudeTempleoftheDivines",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Temple of the Divines"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00393531",
+    "DirectionalColor": "#002E3443",
+    "FogNearColor": "#008A8366",
+    "FogFar": 6000.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 0.8,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00594B3B",
+      "DirectionalXMinus": "#00484B36",
+      "DirectionalYPlus": "#00514E39",
+      "DirectionalYMinus": "#00514739",
+      "DirectionalZPlus": "#00262319",
+      "DirectionalZMinus": "#007B7258",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00203151",
+    "FogMax": 0.6,
+    "LightFadeBegin": 5000.0,
+    "LightFadeEnd": 6000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor"
+    ]
+  },
+  "LightingTemplate": "03128C:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0200A3:Skyrim.esm",
+  "Owner": "0C13FD:Skyrim.esm",
+  "AcousticSpace": "10F90D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CCF37:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0200A3:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1123.068, -419.81964, -30000",
+        "Rotation": "0, 0, 1.7000048"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0701D4:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "1123.068, -419.8196, -225.5597"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "FormKey": "015239:Skyrim.esm",
+  "EditorID": "Morvunskar01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Morvunskar"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001F1F1F",
+    "DirectionalColor": "#0036585F",
+    "FogNearColor": "#00234856",
+    "FogNear": 340.0,
+    "FogFar": 12000.0,
+    "DirectionalRotationZ": 90,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00221F20",
+      "DirectionalXMinus": "#001B1F1D",
+      "DirectionalYPlus": "#001F201F",
+      "DirectionalYMinus": "#001F1D1F",
+      "DirectionalZPlus": "#000E0E0E",
+      "DirectionalZMinus": "#002F2F2F",
+      "Specular": "#00537C80",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00537C80",
+    "FogMax": 0.8,
+    "Inherits": [
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "068B3E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01927D:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC48:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A25F7:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01927D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2404.9397, -816.8902, -30000",
+        "Rotation": "0, 0, 3.0878801"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A2606:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01927D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "1225.1572, 815.55865, -30000",
+        "Rotation": "0, 0, 1.7100718"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A2608:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01927D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1032.7115, 73.466125, -30000",
+        "Rotation": "0, 0, 5.6967163"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B08C:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "2404.9397, -816.8902, 328.0096",
+        "Rotation": "0, 0, 3.054326"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B08D:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "1225.1572, 815.5587, 1089.2603",
+        "Rotation": "0, 0, 1.6929693"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06B08F:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F13:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1032.7115, 73.4661, 244.0756",
+        "Rotation": "0, -0, 4.0850563"
+      }
+    }
+  ]
+}

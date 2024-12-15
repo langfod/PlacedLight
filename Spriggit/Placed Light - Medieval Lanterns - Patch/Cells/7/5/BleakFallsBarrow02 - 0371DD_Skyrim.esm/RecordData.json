@@ -1,0 +1,76 @@
+{
+  "FormKey": "0371DD:Skyrim.esm",
+  "EditorID": "BleakFallsBarrow02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bleak Falls Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00423C28",
+    "DirectionalColor": "#002C2F30",
+    "FogNearColor": "#004B6361",
+    "FogFar": 12000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 12000.0,
+    "FogPower": 0.55,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00483C29",
+      "DirectionalXMinus": "#003B3C26",
+      "DirectionalYPlus": "#00423E28",
+      "DirectionalYMinus": "#00423928",
+      "DirectionalZPlus": "#001F1C12",
+      "DirectionalZMinus": "#00645B3D",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004B6361",
+    "FogMax": 1.0
+  },
+  "LightingTemplate": "03128D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018EE9:Skyrim.esm",
+  "Water": "033DA7:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "EncounterZone": "038AB1:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "079B05:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "018EE9:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-10833.286, -408.04654, -30000",
+        "Rotation": "6.0510707, 0.06881659, 0.5529936"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02E22E:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-10833.286, -408.0465, 1675.7075",
+        "Rotation": "-0.23211482, 0.06881659, 2.1529934"
+      }
+    }
+  ]
+}

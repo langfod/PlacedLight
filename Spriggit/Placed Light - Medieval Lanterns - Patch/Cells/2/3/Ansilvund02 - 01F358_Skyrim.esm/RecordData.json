@@ -1,0 +1,145 @@
+{
+  "FormKey": "01F358:Skyrim.esm",
+  "EditorID": "Ansilvund02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ansilvund Burial Chambers"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001F1F1F",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00423672",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00221F20",
+      "DirectionalXMinus": "#001B1F1D",
+      "DirectionalYPlus": "#001F201F",
+      "DirectionalYMinus": "#001F1D1F",
+      "DirectionalZPlus": "#000E0E0E",
+      "DirectionalZMinus": "#002F2F2F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00423672",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "068B3E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01BDFD:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EBE9:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094A7C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01BDFD:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "4900.8857, 412.24567, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094AB9:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 1.39,
+      "LocationReference": "01BDFD:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-383.1475, 7017.702, -30000",
+        "Rotation": "0, 0, 1.8"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E74B4:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01BDFD:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "4109.4136, 2681.3545, -30000",
+        "Rotation": "0.051749013, 0.15224333, 1.245165"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "029122:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "4109.4136, 2681.3545, 7818.1",
+        "Rotation": "0.19198622, 0.15707964, 5.022376"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "029123:Medieval Lanterns of Skyrim.esp",
+      "Base": "01EED0:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "4900.8857, 412.2457, 8257.8",
+        "Rotation": "0, -0, 4.58319"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "029124:Medieval Lanterns of Skyrim.esp",
+      "Base": "005900:Medieval Lanterns of Skyrim.esp",
+      "Scale": 1.39,
+      "Placement": {
+        "Position": "-383.1475, 7017.702, 7954.2",
+        "Rotation": "0, 0, 1.8"
+      }
+    }
+  ]
+}

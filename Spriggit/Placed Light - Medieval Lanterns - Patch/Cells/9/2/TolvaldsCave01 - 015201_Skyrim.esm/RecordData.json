@@ -1,0 +1,115 @@
+{
+  "FormKey": "015201:Skyrim.esm",
+  "EditorID": "TolvaldsCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tolvald's Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#002F281C",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#002F3C75",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0033281D",
+      "DirectionalXMinus": "#002A281A",
+      "DirectionalYPlus": "#002F291C",
+      "DirectionalYMinus": "#002F261C",
+      "DirectionalZPlus": "#0016130C",
+      "DirectionalZMinus": "#00473C2B",
+      "Specular": "#002F3C75",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#002F3C75",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0192BC:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC80:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "034616:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0192BC:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-1474.3022, 3168.1802, -30000",
+        "Rotation": "6.1867332, 6.040551, 3.4467652"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03461C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0192BC:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "192.62683, 3034.9075, -30000",
+        "Rotation": "0.20462589, 0.14464416, 0.9637359"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "070220:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "192.6268, 3034.9075, -238.99762",
+        "Rotation": "0.034906585, 0.05235988, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "070221:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-1474.3022, 3168.1802, -180.01569",
+        "Rotation": "-0.03490658, -0.08726646, 1.4000001"
+      }
+    }
+  ]
+}

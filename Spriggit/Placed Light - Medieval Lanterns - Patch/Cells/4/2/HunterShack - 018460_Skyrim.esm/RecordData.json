@@ -1,0 +1,115 @@
+{
+  "FormKey": "018460:Skyrim.esm",
+  "EditorID": "HunterShack",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Froki's Shack"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00443D26",
+    "DirectionalColor": "#003E5268",
+    "FogNearColor": "#001E2827",
+    "DirectionalRotationZ": 270,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#005C4B32",
+      "DirectionalXMinus": "#004B4B2D",
+      "DirectionalYPlus": "#00544E30",
+      "DirectionalYMinus": "#00544730",
+      "DirectionalZPlus": "#00282315",
+      "DirectionalZMinus": "#007F724A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00171E1E",
+    "FogMax": 1.0,
+    "Inherits": [
+      "FogNear",
+      "FogFar",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0300E2:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0D5663:Skyrim.esm",
+  "Owner": "0185F6:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "0D5664:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0185FC:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 0.89,
+      "LocationReference": "0D5663:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-51.863823, 138.59456, -30000",
+        "Rotation": "0, 0, 1.3000015"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5744:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 0.79,
+      "LocationReference": "0D5663:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "148.76819, 122.604614, -30000",
+        "Rotation": "0, 0, 1.3000015"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A79:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-46.0631, 143.3136, 239.7",
+        "Rotation": "0, 0, 1.3089969"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A7A:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "148.9477, 120.0899, 150.4",
+        "Rotation": "0, -0, 5.874735"
+      }
+    }
+  ]
+}

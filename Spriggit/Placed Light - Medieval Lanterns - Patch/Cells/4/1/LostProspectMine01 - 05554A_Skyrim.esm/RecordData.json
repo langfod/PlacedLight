@@ -1,0 +1,84 @@
+{
+  "FormKey": "05554A:Skyrim.esm",
+  "EditorID": "LostProspectMine01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Lost Prospect Mine"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00313024",
+    "DirectionalColor": "#00232B32",
+    "FogNearColor": "#0039434A",
+    "FogNear": 340.0,
+    "FogFar": 8000.0,
+    "DirectionalRotationZ": 270,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00353025",
+      "DirectionalXMinus": "#002C3022",
+      "DirectionalYPlus": "#00313224",
+      "DirectionalYMinus": "#00312D24",
+      "DirectionalZPlus": "#00171610",
+      "DirectionalZMinus": "#004A4937",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00526574",
+    "FogMax": 1.0,
+    "Inherits": [
+      "FogNear",
+      "FogFar",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "098B91:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0D566B:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "0FD93A:Skyrim.esm",
+  "EncounterZone": "0D566C:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5B14:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "Scale": 0.8,
+      "LocationReference": "0D566B:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-164.4185, -1887.6223, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "056BAE:Medieval Lanterns of Skyrim.esp",
+      "Base": "005900:Medieval Lanterns of Skyrim.esp",
+      "Scale": 0.8,
+      "Placement": {
+        "Position": "-164.4185, -1887.6223, 986.73737",
+        "Rotation": "0, -0, 3.183195"
+      }
+    }
+  ]
+}

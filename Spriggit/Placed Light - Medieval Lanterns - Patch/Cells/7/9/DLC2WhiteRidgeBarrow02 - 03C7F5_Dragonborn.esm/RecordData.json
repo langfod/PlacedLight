@@ -1,0 +1,83 @@
+{
+  "FormKey": "03C7F5:Dragonborn.esm",
+  "EditorID": "DLC2WhiteRidgeBarrow02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "White Ridge Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00172116",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#003A3021",
+      "DirectionalXMinus": "#002F301E",
+      "DirectionalYPlus": "#00353220",
+      "DirectionalYMinus": "#00352D20",
+      "DirectionalZPlus": "#0019160E",
+      "DirectionalZMinus": "#005C5438",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "05EAE8:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142BC:Dragonborn.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "0142BF:Dragonborn.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "089770:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03150A:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0142BC:Dragonborn.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "14826.242, -2785.1943, -30000",
+        "Rotation": "6.039675, 0.030904545, 0.2667544"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0847A4:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "14826.242, -2785.1943, 261.0422",
+        "Rotation": "-0.2443461, 0.034906585, 2.0000002"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "FormKey": "01605E:Skyrim.esm",
+  "EditorID": "WhiterunBanneredMare",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Bannered Mare"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationXY": 180,
+    "FogClipDistance": 2000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F86D:Skyrim.esm",
+  "Owner": "09E1B4:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "017035:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0616FD:Skyrim.esm",
+      "Base": "05AD5B:Skyrim.esm",
+      "LocationReference": "01F86D:Skyrim.esm",
+      "Placement": {
+        "Position": "404.7514, -383.39987, 259.51743"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8FE0:Skyrim.esm",
+      "Base": "0B9BE7:Skyrim.esm",
+      "Radius": 154.4721,
+      "LocationReference": "01F86D:Skyrim.esm",
+      "Placement": {
+        "Position": "419.16037, -366.2835, 234.95793"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8FF1:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 127.90228,
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01F86D:Skyrim.esm",
+      "Placement": {
+        "Position": "-128, -1056, 440"
+      }
+    }
+  ]
+}

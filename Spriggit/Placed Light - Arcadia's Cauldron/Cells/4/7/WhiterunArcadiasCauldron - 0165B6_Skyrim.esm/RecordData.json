@@ -1,0 +1,115 @@
+{
+  "FormKey": "0165B6:Skyrim.esm",
+  "EditorID": "WhiterunArcadiasCauldron",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Arcadia's Cauldron"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F86C:Skyrim.esm",
+  "Owner": "093B16:Skyrim.esm",
+  "LockList": "093AF9:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8ED7:Skyrim.esm",
+      "Base": "0C842B:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "-344.49335, -422.8697, 141.99954",
+        "Rotation": "0, -0, 3.7831924"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8EDA:Skyrim.esm",
+      "Base": "0C842B:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "-539.3121, 75.1817, 215.87032",
+        "Rotation": "0, -0, 5.8831882"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8EDB:Skyrim.esm",
+      "Base": "0C842B:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "-496.5811, 75.10574, 215.68895",
+        "Rotation": "0, -0, 5.1831884"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8EDC:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0C842B:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "-469.9387, 85.00147, 131.36018",
+        "Rotation": "0, -0, 5.883188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8F1D:Skyrim.esm",
+      "Base": "0C842B:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "-285.58563, -238.07806, 346.19974",
+        "Rotation": "0, -0, 2.0931952"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C8F24:Skyrim.esm",
+      "Base": "0C841C:Skyrim.esm",
+      "LocationReference": "01F86C:Skyrim.esm",
+      "Placement": {
+        "Position": "318.94666, -547.8464, 380.81107",
+        "Rotation": "0, -0, 4.983189"
+      }
+    }
+  ]
+}

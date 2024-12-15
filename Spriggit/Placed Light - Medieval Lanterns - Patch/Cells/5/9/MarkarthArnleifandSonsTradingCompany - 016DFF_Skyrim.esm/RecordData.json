@@ -1,0 +1,106 @@
+{
+  "FormKey": "016DFF:Skyrim.esm",
+  "EditorID": "MarkarthArnleifandSonsTradingCompany",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Arnleif and Sons Trading Company"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00212729",
+    "FogFar": 3200.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 3200.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00211E29",
+      "DirectionalXMinus": "#001A1E26",
+      "DirectionalYPlus": "#001E1F28",
+      "DirectionalYMinus": "#001E1C28",
+      "DirectionalZPlus": "#000E0E12",
+      "DirectionalZMinus": "#002D2D3D",
+      "Specular": "#0072634E",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#0072634E",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01F310:Skyrim.esm",
+  "Owner": "06566D:Skyrim.esm",
+  "LockList": "094374:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "09F282:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DF340:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01F310:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-429.92776, 1244.8987, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E1BDA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "01F310:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "764.4625, 1504.3813, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6701:Medieval Lanterns of Skyrim.esp",
+      "Base": "0B7314:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-427.80554, 1245.0325, 69.88809"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C6702:Medieval Lanterns of Skyrim.esp",
+      "Base": "0B7314:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "764.80554, 1503.2836, 153.74489"
+      }
+    }
+  ]
+}

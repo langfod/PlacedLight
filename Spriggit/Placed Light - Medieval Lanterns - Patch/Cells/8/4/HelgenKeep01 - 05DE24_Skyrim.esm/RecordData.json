@@ -1,0 +1,153 @@
+{
+  "FormKey": "05DE24:Skyrim.esm",
+  "MajorRecordFlagsRaw": 524288,
+  "EditorID": "HelgenKeep01",
+  "SkyrimMajorRecordFlags": [
+    "CantWait"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Helgen Keep"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003E4426",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#006DA79B",
+    "FogNear": 750.0,
+    "FogFar": 6000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 0.9,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00444427",
+      "DirectionalXMinus": "#00374424",
+      "DirectionalYPlus": "#003E4726",
+      "DirectionalYMinus": "#003E4026",
+      "DirectionalZPlus": "#001D2011",
+      "DirectionalZMinus": "#005E673A",
+      "Specular": "#0088A6A6",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#0088A6A6",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B7DB8:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "018A4A:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "0F94A6:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0B7ED9:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03E32B:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "018A4A:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-6358.3022, -9577.212, -30000",
+        "Rotation": "6.1351013, 0.071795866, 1.5785177"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "089837:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "018A4A:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-3837.9219, -7446.68, -30000",
+        "Rotation": "0.12879832, 6.2511115, 4.983622"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "089839:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "018A4A:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-3895.5845, -6434.788, -30000",
+        "Rotation": "6.2199435, 6.2802377, 6.187381"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A68:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-6358.3022, -9577.212, -1750.6696",
+        "Rotation": "-0.13962634, 0.06981317, 5.0539894"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A69:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-3895.5845, -6434.788, -1486.6882",
+        "Rotation": "-0.05235988, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "051A6A:Medieval Lanterns of Skyrim.esp",
+      "Base": "00FB18:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-3837.9219, -7446.68, -1463.9628",
+        "Rotation": "0.12217305, -0.031415924, 0"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "CantWait"
+  ]
+}

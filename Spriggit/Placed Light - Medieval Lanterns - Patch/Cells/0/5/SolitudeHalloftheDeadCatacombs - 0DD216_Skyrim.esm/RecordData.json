@@ -1,0 +1,102 @@
+{
+  "FormKey": "0DD216:Skyrim.esm",
+  "EditorID": "SolitudeHalloftheDeadCatacombs",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Solitude Catacombs"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003E3026",
+    "DirectionalColor": "#00100D0C",
+    "FogNearColor": "#00595F66",
+    "FogFar": 4000.0,
+    "FogClipDistance": 5000.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00332B23",
+      "DirectionalXMinus": "#002A2B20",
+      "DirectionalYPlus": "#002F2D22",
+      "DirectionalYMinus": "#002F2822",
+      "DirectionalZPlus": "#0016140F",
+      "DirectionalZMinus": "#00474134",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#002D3E44",
+    "FogMax": 0.7,
+    "LightFadeBegin": 5000.0,
+    "LightFadeEnd": 60000.0
+  },
+  "LightingTemplate": "06AB01:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0200A1:Skyrim.esm",
+  "Owner": "0C13FA:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0E461F:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "086431:Skyrim.esm",
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0200A1:Skyrim.esm",
+      "Placement": {
+        "Position": "57.166775, -4560.6123, -445.46082",
+        "Rotation": "-0, -0, 4.313981"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "086432:Skyrim.esm",
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0200A1:Skyrim.esm",
+      "Placement": {
+        "Position": "90.68393, -4400.4517, -474.33243",
+        "Rotation": "-0, -0, 3.8043332"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "086433:Skyrim.esm",
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0200A1:Skyrim.esm",
+      "Placement": {
+        "Position": "75.307465, -4307.913, -474.41714",
+        "Rotation": "-0, -0, 5.175568"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08643E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02D847:Skyrim.esm",
+      "LocationReference": "0200A1:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "000014:Skyrim.esm",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-274.95834, -3781.7212, -30000",
+        "Rotation": "0, 0, 2.9543362"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0701C6:Medieval Lanterns of Skyrim.esp",
+      "Base": "065F15:Medieval Lanterns of Skyrim.esp",
+      "Placement": {
+        "Position": "-274.9583, -3781.7212, -474.3398"
+      }
+    }
+  ]
+}
