@@ -1,0 +1,52 @@
+{
+  "FormKey": "018276:Dragonborn.esm",
+  "EditorID": "DLC2RRBulwark",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Bulwark"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0E7C5E:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019A25:Dragonborn.esm",
+  "Owner": "01841F:Dragonborn.esm",
+  "SkyAndWeatherFromRegion": "0374BC:Dragonborn.esm",
+  "AcousticSpace": "0FF495:Skyrim.esm",
+  "Music": "01BA72:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm"
+}
