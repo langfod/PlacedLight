@@ -1,0 +1,159 @@
+[
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 384.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeCastle NONE == 1 OR"
+    
+           ]
+          }
+        }
+      ]
+    },
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 256.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeInn NONE == 1 OR",
+            "Self LocationHasKeyword LocTypeStore NONE == 1 OR"
+    
+           ]
+  
+          }
+        }
+      ]
+    },
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 288.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeHouse NONE == 1 OR",
+            "Self LocationHasKeyword LocTypePlayerHouse NONE == 1 OR"
+
+           ]
+  
+          }
+        }
+      ]
+    },
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 288.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeGuild NONE == 1 OR",
+            "Self LocationHasKeyword LocTypeBarracks NONE == 1 OR"
+           ]
+  
+          }
+        }
+      ]
+    },
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 256.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeShip NONE == 1 OR"
+    
+           ]
+  
+          }
+        }
+      ]
+    },
+    {
+      "addonNodes": [ 49 ],
+      "lights": [
+        {
+          "whiteList": [
+            "clutter\\imperial\\impchandelliercandle01.nif",
+            "clutter\\imperial\\impchandelliercandle02.nif",
+            "clutter\\imperial\\impchandelliercandle03.nif",
+            "clutter\\candles\\candlehornchandelier01.nif",
+            "clutter\\candles\\candlehornchandelier02.nif"
+          ],
+          "data": {
+            "light": "Candle",
+            "radius": 304.0,
+            "fade": 1.0,
+            "flags": "PortalStrict",
+            "conditions": [
+             
+            "Self LocationHasKeyword LocTypeJail NONE == 1 OR"
+    
+           ]
+  
+          }
+        }
+      ]
+    }
+]

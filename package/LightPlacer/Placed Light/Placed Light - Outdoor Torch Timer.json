@@ -1,0 +1,23 @@
+[
+  {
+    "addonNodes": [ 231, 122, 123, 227 ],
+    "lights": [
+      {
+        "whiteList": [ 
+          "clutter\\common\\removabletorch01.nif",
+          "clutter\\common\\torchpermanent01.nif",
+          "clutter\\common\\torchsconce01.nif" 
+        ],
+        "data": {
+          "conditions": [
+            
+            "Self LocationHasKeyword LocSetOutdoor NONE == 1 AND",
+            "Self GetCurrentTime NONE NONE >= 19.0 OR",
+            "Self GetCurrentTime NONE NONE <= 6.0 OR"
+          
+          ]
+        }                           
+      }
+    ]
+  }
+]
