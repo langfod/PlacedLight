@@ -6,6 +6,7 @@ SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light -  JK's Nighting
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light -  JK's Septimus Signus's Outpost.esp" -o "Spriggit/Placed Light -  JK's Septimus Signus's Outpost" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - Arcadia's Cauldron.esp" -o "Spriggit/Placed Light - Arcadia's Cauldron" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - Castle Volkihar Rebuilt - Patch.esp" -o "Spriggit/Placed Light - Castle Volkihar Rebuilt - Patch" -g SkyrimSE -p Spriggit.Json
+SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - CC.esp" -o "Spriggit/Placed Light - CC" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - COTN Dawnstar - Patch.esp" -o "Spriggit/Placed Light - COTN Dawnstar - Patch" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - COTN Falkreath - Patch.esp" -o "Spriggit/Placed Light - COTN Falkreath - Patch" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package/Placed Light - JK's Bee and Barb.esp" -o "Spriggit/Placed Light - JK's Bee and Barb" -g SkyrimSE -p Spriggit.Json

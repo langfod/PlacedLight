@@ -15,14 +15,15 @@
       "clutter\\soulgem\\soulgempiece02.nif",
       "clutter\\soulgem\\soulgempiece03.nif",
       "clutter\\soulgem\\soulgempiece04.nif",
-      "clutter\\soulgem\\soulgempiece05.nif" ],
+      "clutter\\soulgem\\soulgempiece05.nif",
+      "clutter\\ingredients\\glowdust01.nif" ],
     "lights": [
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "nocturnallight",
           "radius": 32.0,
-          "fade": 0.8,
+          "fade": 0.7,
           "flags": "Simple"
         }
       }
@@ -38,7 +39,7 @@
         "data": {
           "light": "nocturnallight",
           "radius": 32.0,
-          "fade": 0.5,
+          "fade": 0.7,
           "flags": "Simple"
         }
       }
@@ -52,9 +53,9 @@
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
-          "light": "FXLightGreenBlueGlow",
+          "light": "Bluepotion",
           "radius": 32.0,
-          "fade": 0.5,
+          "fade": 0.7,
           "flags": "Simple"
         }
       }
@@ -64,14 +65,14 @@
     "models": [ 
       "plants\\floradragonstongue01.nif",
       "plants\\floradragonstongue02.nif",
-      "critters\\firefly\\firefly.nif" ],
+      "clutter\\ingredients\\firesaltpile.nif" ],
     "lights": [
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
-          "light": "TestCoryLightOrange",
+          "light": "Orange",
           "radius": 32.0,
-          "fade": 0.5,
+          "fade": 0.7,
           "flags": "Simple"
         }
       }
@@ -126,7 +127,10 @@
       "clutter\\potions\\potionstaminaextreme.nif",
       "clutter\\potions\\potionstaminagreat.nif",
       "clutter\\potions\\potionstaminalesser.nif",
-      "critters\\moths\\crittermothgreen.nif"
+      "critters\\moths\\crittermothgreen.nif",
+      "clutter\\ingredients\\ectoplasm.nif",
+      "critters\\firefly\\FireflyGO.nif",
+      "critters\\firefly\\firefly.nif"
        ],
     "lights": [
       {
@@ -154,7 +158,9 @@
       "clutter\\potions\\potionmagickaextreme.nif",
       "clutter\\potions\\potionmagickagreat.nif",
       "clutter\\potions\\potionmagickalesser.nif",
-      "critters\\moths\\crittermothblue.nif"
+      "critters\\moths\\crittermothblue.nif",
+      "clutter\\ingredients\\frostsalts.nif",
+      "clutter\\ingredients\\icewraithteeth.nif"
     ],
     "lights": [
       {
