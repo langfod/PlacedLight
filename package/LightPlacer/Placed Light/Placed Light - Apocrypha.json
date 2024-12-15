@@ -1,0 +1,140 @@
+[
+  {
+    "models": [  
+      "dlc02\\dungeons\\apocrypha\\animated\\aposconces\\apomouthscone02ani.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\aposconces\\apomouthscone03ani.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\aposconces\\apoheadscone03ani.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\aposconces\\apoheadscone03ani.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apomouthsconce01.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apomouthsconce02.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apomouthsconce03.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apoheadsconce01.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apoheadsconce02.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\clutter\\apoheadsconce03.nif"     
+     ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "data": {
+          "light": "BluePotion",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [  
+      "dlc02\\dungeons\\apocrypha\\animated\\banners\\apobanner01.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\banners\\apobanner02.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\banners\\apobanner03.nif",
+      "dlc02\\dungeons\\apocrypha\\animated\\banners\\apobanner04.nif"     
+     ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "data": {
+          "light": "BluePotion",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [  
+      "dlc02\\dungeons\\apocrypha\\animated\\aposcryetrigger01\\aposcryetrigger01.nif"   
+     ],
+    "lights": [
+      {
+        "nodes": [ "Seed01:18" ],
+        "data": {
+          "light": "GreenPotion",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [  
+      "dlc02\\dungeons\\apocrypha\\clutter\\apohoverlight01.nif"   
+     ],
+    "lights": [
+      {
+        "nodes": [ "ILight01:17" ],
+        "data": {
+          "light": "Yellow",
+          "radius": 512.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [  
+      "dlc02\\dungeons\\apocrypha\\clutter\\apolightpost01.nif",
+      "dlc02\\dungeons\\apocrypha\\clutter\\apolightpost02.nif"   
+     ],
+    "lights": [
+      {
+        "nodes": [ "Post01:18" ],
+        "data": {
+          "light": "Yellow",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [  
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecalchemy.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecalteration.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecarchery.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecblock.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecconjuration.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecdestruction.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecenchanting.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecheavyarmor.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecillusion.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespeclightarmor.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespeclockpicking.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespeconehanded.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecpickpocket.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecrestoration.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecsmithing.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecsneak.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespecspeech.nif",
+    "dlc02\\dungeons\\apocrypha\\respec\\aporespectwohanded.nif"
+     ],
+    "lights": [
+      {
+        "nodes": [ 
+          "Collision04:0",
+          "Collision10:0",
+          "Collision07:0",
+          "Collision01:0",
+          "Collision15:0",
+          "Collision09:0",
+          "Collision05:0",
+          "Collision08:0",
+          "Collision06:0",
+          "Collision12:0",
+          "Collision17:0",
+          "Collision02:0",
+          "Collision14:0",
+          "Collision13:0",
+          "Collision:0",
+          "Collision16:0",
+          "Collision11:0"
+        ],
+        "data": {
+          "light": "GreenPotion",
+          "radius": 128.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  }
+]
