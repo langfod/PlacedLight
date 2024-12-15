@@ -1,0 +1,100 @@
+{
+  "FormKey": "01DA5D:Dragonborn.esm",
+  "EditorID": "DLC2AbandonedLodge",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Abandoned Lodge"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128B:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142C0:Dragonborn.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "0142CD:Dragonborn.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01DB4C:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -335.65833,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142C0:Dragonborn.esm",
+      "Placement": {
+        "Position": "301.60925, 269.8806, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031450:Dragonborn.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 128.60757,
+      "Emittance": "029F3B:Dragonborn.esm",
+      "LocationReference": "0142C0:Dragonborn.esm",
+      "Placement": {
+        "Position": "714.0619, 178.03201, 320.8295"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031451:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088245:Skyrim.esm",
+      "Radius": 2121.2979,
+      "LightData": {
+        "FovOffset": -22.261574,
+        "FadeOffset": 1.343598,
+        "ShadowDepthBias": 38.859806
+      },
+      "LocationReference": "0142C0:Dragonborn.esm",
+      "Placement": {
+        "Position": "892.77966, 157.75685, -30000",
+        "Rotation": "3.1415927, 5.7223883, 3.1415927"
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "FormKey": "054226:Skyrim.esm",
+  "EditorID": "BronzeWaterCave",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bronze Water Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 8000.0,
+    "LightFadeEnd": 9000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "046BAC:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "EncounterZone": "046BBC:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E660C:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 771.35034,
+      "Emittance": "0C5853:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 5.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "046BAC:Skyrim.esm",
+      "Placement": {
+        "Position": "4484.721, 1558.462, -5388.615"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E660E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 2142.275,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -0.167073,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "046BAC:Skyrim.esm",
+      "Placement": {
+        "Position": "3541.8035, 1571.5195, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E6611:Skyrim.esm",
+      "Base": "0172C4:Skyrim.esm",
+      "Radius": 1255.64,
+      "Emittance": "0C5853:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 34.675915
+      },
+      "LocationReference": "046BAC:Skyrim.esm",
+      "Placement": {
+        "Position": "2499.284, 1713.2809, -4902.8716",
+        "Rotation": "0, 4.712389, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E6612:Skyrim.esm",
+      "Base": "0879AF:Skyrim.esm",
+      "Radius": 609.81055,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -0.312495,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "046BAC:Skyrim.esm",
+      "Placement": {
+        "Position": "2418.517, 1575.0912, -5782.527"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "FormKey": "089D51:Skyrim.esm",
+  "EditorID": "RiftenBeggarsRow",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Beggar's Row"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 30,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "05C735:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "05E0FC:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\MineCube_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0189AE:Skyrim.esm",
+      "Base": "07776E:Skyrim.esm",
+      "Emittance": "0182CA:Dawnguard.esm",
+      "LocationReference": "05E0FC:Skyrim.esm",
+      "Placement": {
+        "Position": "1136, 144, 72",
+        "Rotation": "0, -0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0189B4:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": 532.8242,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 33.0
+      },
+      "LocationReference": "05E0FC:Skyrim.esm",
+      "Placement": {
+        "Position": "1411.8395, 319.31516, 118.79147"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0189C0:Skyrim.esm",
+      "Base": "02EE04:Skyrim.esm",
+      "Radius": 244.0,
+      "LocationReference": "05E0FC:Skyrim.esm",
+      "Placement": {
+        "Position": "1011.31415, -294.57263, 64",
+        "Rotation": "0, 0, 5.70319"
+      }
+    }
+  ]
+}

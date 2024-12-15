@@ -1,0 +1,99 @@
+{
+  "FormKey": "016775:Skyrim.esm",
+  "EditorID": "WindhelmNiranyesHouseBasement",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Niranye's Basement"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor"
+    ]
+  },
+  "LightingTemplate": "0C3D39:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0209F1:Skyrim.esm",
+  "Owner": "014123:Skyrim.esm",
+  "LockList": "014123:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5352:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EE04:Skyrim.esm",
+      "Radius": -37.274887,
+      "LightData": {
+        "FadeOffset": 0.442479,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "0209F1:Skyrim.esm",
+      "Placement": {
+        "Position": "-276.8547, 70.0146, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5353:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EE04:Skyrim.esm",
+      "Radius": 100.06729,
+      "LightData": {
+        "FadeOffset": 0.650531,
+        "ShadowDepthBias": 15.441948
+      },
+      "LocationReference": "0209F1:Skyrim.esm",
+      "Placement": {
+        "Position": "153.08429, -76.197815, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F5354:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02EE04:Skyrim.esm",
+      "Radius": -43.181717,
+      "LightData": {
+        "FadeOffset": 0.485438,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0209F1:Skyrim.esm",
+      "Placement": {
+        "Position": "-601.61957, -154.83917, -30000"
+      }
+    }
+  ]
+}

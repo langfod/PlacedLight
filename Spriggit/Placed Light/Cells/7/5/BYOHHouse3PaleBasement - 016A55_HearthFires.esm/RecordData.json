@@ -1,0 +1,159 @@
+{
+  "FormKey": "016A55:HearthFires.esm",
+  "EditorID": "BYOHHouse3PaleBasement",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Heljarchen Hall, Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0660A3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "00BE1D:HearthFires.esm",
+  "Owner": "000DB1:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000C4B:HearthFires.esm",
+      "Base": "02EE05:Skyrim.esm",
+      "Radius": 24.738373,
+      "LightData": {
+        "FadeOffset": 0.2,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "01747B:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "3.451636, -2233.4026, 164.63527"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01755B:HearthFires.esm",
+      "Base": "088238:Skyrim.esm",
+      "Radius": -64.89642,
+      "LightData": {
+        "FadeOffset": 0.2,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "01747C:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "127.00753, -1537.1082, 162.59468",
+        "Rotation": "0, 0, 3.1831944"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01758A:HearthFires.esm",
+      "Base": "02EE05:Skyrim.esm",
+      "Radius": -70.57283,
+      "LightData": {
+        "FadeOffset": 0.2,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "017483:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "339.43878, -1923.4976, 179.92197"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01758B:HearthFires.esm",
+      "Base": "088238:Skyrim.esm",
+      "Radius": -56.0,
+      "LightData": {
+        "FadeOffset": 0.2,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "017476:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-316.52502, -2749.3748, 160.02687"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0175A7:HearthFires.esm",
+      "Base": "088238:Skyrim.esm",
+      "Radius": -26.0,
+      "LightData": {
+        "FadeOffset": 0.7,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "017498:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "335.4387, -2857.1929, 143.29613",
+        "Rotation": "0, 0, 3.8831918"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0175A9:HearthFires.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 274.0,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "00BE1D:HearthFires.esm",
+      "EnableParent": {
+        "Reference": "017475:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "0.868008, -2561.1506, 122.40034",
+        "Rotation": "0, 1.5707964, 0"
+      }
+    }
+  ]
+}

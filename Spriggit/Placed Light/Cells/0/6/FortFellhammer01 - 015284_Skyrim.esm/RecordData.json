@@ -1,0 +1,111 @@
+{
+  "FormKey": "015284:Skyrim.esm",
+  "EditorID": "FortFellhammer01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Fellhammer Garrison"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00283E58",
+      "DirectionalXMinus": "#00283E58",
+      "DirectionalYPlus": "#00283E58",
+      "DirectionalYMinus": "#00283E58",
+      "DirectionalZPlus": "#00283E58",
+      "DirectionalZMinus": "#00283E58",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0195D3:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917F:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1D:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E65E0:Skyrim.esm",
+      "Base": "0194F5:Skyrim.esm",
+      "Radius": 62.519836,
+      "LightData": {
+        "FadeOffset": 0.6,
+        "ShadowDepthBias": 22.32
+      },
+      "LocationReference": "01917F:Skyrim.esm",
+      "Placement": {
+        "Position": "47.28603, 344.26413, 190.6305"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E65E1:Skyrim.esm",
+      "Base": "0194F5:Skyrim.esm",
+      "Radius": 155.51999,
+      "LightData": {
+        "FadeOffset": 0.75,
+        "ShadowDepthBias": 28.56
+      },
+      "LocationReference": "01917F:Skyrim.esm",
+      "Placement": {
+        "Position": "557.92773, 226.32677, 214.16785",
+        "Rotation": "0, 0, 4.100002"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E65E3:Skyrim.esm",
+      "Base": "036464:Skyrim.esm",
+      "Radius": 359.91858,
+      "LightData": {
+        "FadeOffset": 1.25,
+        "ShadowDepthBias": 34.86
+      },
+      "LocationReference": "01917F:Skyrim.esm",
+      "Placement": {
+        "Position": "-186.50339, 840.4999, 189.73373",
+        "Rotation": "0, 0, 2.1400006"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EB661:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0C56C4:Skyrim.esm",
+      "LocationReference": "01917F:Skyrim.esm",
+      "Placement": {
+        "Position": "734.00806, 148.62357, -30000"
+      }
+    }
+  ]
+}

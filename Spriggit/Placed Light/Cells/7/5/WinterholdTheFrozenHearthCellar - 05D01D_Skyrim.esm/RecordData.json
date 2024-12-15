@@ -1,0 +1,150 @@
+{
+  "FormKey": "05D01D:Skyrim.esm",
+  "EditorID": "WinterholdTheFrozenHearthCellar",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Frozen Hearth Cellar"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01EB7C:Skyrim.esm",
+  "Owner": "0CD698:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "0622AB:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D1D9:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -84.92871,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1698.2366, 33.9444, 175.9223",
+        "Rotation": "1.5707964, 1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D1DB:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -203.62067,
+      "LightData": {
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1438.3234, 33.9444, 175.9223",
+        "Rotation": "1.5707964, 1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D1DE:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -140.0928,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "2081.648, -222.208, 189.27057",
+        "Rotation": "1.5707964, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D275:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -136.28351,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1567.1075, 345.90335, 187.5029"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D2AA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "Scale": 0.89,
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1183.9479, -341.33243, -30000",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D2B5:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "Scale": 0.89,
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1183.3083, -104.69941, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05D4BF:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -367.0,
+      "LocationReference": "01EB7C:Skyrim.esm",
+      "Placement": {
+        "Position": "1407.9689, 588.5178, 86.71737",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    }
+  ]
+}

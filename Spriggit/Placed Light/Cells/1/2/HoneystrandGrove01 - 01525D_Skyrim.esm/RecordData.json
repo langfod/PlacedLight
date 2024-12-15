@@ -1,0 +1,115 @@
+{
+  "FormKey": "01525D:Skyrim.esm",
+  "EditorID": "HoneystrandGrove01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Honeystrand Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "094E50:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019199:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC39:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "044C79:Skyrim.esm",
+      "Base": "088245:Skyrim.esm",
+      "Radius": 1202.2979,
+      "Emittance": "0C5857:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.0,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019199:Skyrim.esm",
+      "Placement": {
+        "Position": "1424.7726, 2393.5774, 633.48016",
+        "Rotation": "4.323884, 4.874359, 2.5714912"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05AD37:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088238:Skyrim.esm",
+      "Radius": 310.8407,
+      "LightData": {
+        "FadeOffset": 2.222718,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019199:Skyrim.esm",
+      "Placement": {
+        "Position": "790.8805, 1089.5221, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05AD62:Skyrim.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 1129.4331,
+      "Emittance": "0C5857:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.626987,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019199:Skyrim.esm",
+      "Placement": {
+        "Position": "164.36853, -1272.899, 339.86142"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F86FB:Skyrim.esm",
+      "Base": "088249:Skyrim.esm",
+      "Radius": 872.65,
+      "Emittance": "0C5857:Skyrim.esm",
+      "LocationReference": "019199:Skyrim.esm",
+      "Placement": {
+        "Position": "1239.7758, 1612.4701, 68.18164"
+      }
+    }
+  ]
+}

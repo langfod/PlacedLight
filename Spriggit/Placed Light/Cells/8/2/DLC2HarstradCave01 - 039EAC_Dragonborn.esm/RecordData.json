@@ -1,0 +1,85 @@
+{
+  "FormKey": "039EAC:Dragonborn.esm",
+  "EditorID": "DLC2HarstradCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Harstrad Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00283E58",
+      "DirectionalXMinus": "#00283E58",
+      "DirectionalYPlus": "#00283E58",
+      "DirectionalYMinus": "#00283E58",
+      "DirectionalZPlus": "#00283E58",
+      "DirectionalZMinus": "#00283E58",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0195D3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "039F98:Dragonborn.esm",
+  "SkyAndWeatherFromRegion": "028649:Dragonborn.esm",
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "EncounterZone": "039F99:Dragonborn.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039EBC:Dragonborn.esm",
+      "Base": "088246:Skyrim.esm",
+      "Radius": 477.48938,
+      "Emittance": "028649:Dragonborn.esm",
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039F98:Dragonborn.esm",
+      "Placement": {
+        "Position": "1586.5813, 4639.3643, 7365.7417"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039ED8:Dragonborn.esm",
+      "Base": "077788:Skyrim.esm",
+      "Radius": 460.19812,
+      "LightData": {
+        "FadeOffset": -0.409285,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "039F98:Dragonborn.esm",
+      "Placement": {
+        "Position": "1497.5074, 2830.1152, 7176.4097"
+      }
+    }
+  ]
+}

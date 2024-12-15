@@ -1,0 +1,68 @@
+{
+  "FormKey": "033779:Skyrim.esm",
+  "EditorID": "Gloomreach02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Gloomreach Hive"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00213038",
+      "DirectionalXMinus": "#00213038",
+      "DirectionalYPlus": "#00213038",
+      "DirectionalYMinus": "#00213038",
+      "DirectionalZPlus": "#00213038",
+      "DirectionalZMinus": "#00213038",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0C1300:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01918A:Skyrim.esm",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\quicksky_e.dds",
+  "EncounterZone": "03EC2A:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0B9E1E:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B396:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 328.58734,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01918A:Skyrim.esm",
+      "Placement": {
+        "Position": "1238.471, -559.541, -1606.0663"
+      }
+    }
+  ]
+}

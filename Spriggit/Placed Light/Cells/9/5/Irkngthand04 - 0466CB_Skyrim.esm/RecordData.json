@@ -1,0 +1,121 @@
+{
+  "FormKey": "0466CB:Skyrim.esm",
+  "MajorRecordFlagsRaw": 524288,
+  "EditorID": "Irkngthand04",
+  "SkyrimMajorRecordFlags": [
+    "CantWait"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Irkngthand Sanctuary"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01919D:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "EncounterZone": "03EC3E:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0C686A:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB61D:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 1816.147,
+      "LightData": {
+        "FadeOffset": 3.0,
+        "ShadowDepthBias": 37.61832
+      },
+      "LocationReference": "01919D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0C2268:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "12041.216, 14603.906, -6926.838",
+        "Rotation": "3.6408353, 1.3350512, 3.2592995"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB61E:Skyrim.esm",
+      "Base": "075489:Skyrim.esm",
+      "Radius": 214.96112,
+      "Emittance": "0C5853:Skyrim.esm",
+      "LightData": {
+        "FovOffset": -57.323456,
+        "FadeOffset": 9.0,
+        "ShadowDepthBias": 30.199999
+      },
+      "LocationReference": "01919D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0C225D:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "10899.057, 15730.344, -5783.4565",
+        "Rotation": "0, 4.882389, 0.22000049"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FB901:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088243:Skyrim.esm",
+      "Radius": 275.25806,
+      "LightData": {
+        "FadeOffset": 4.123752,
+        "ShadowDepthBias": 37.618317
+      },
+      "LocationReference": "01919D:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0C225E:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "10371.11, 15170.834, -6407.2188",
+        "Rotation": "3.6408353, 1.3350512, 3.2592995"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "CantWait"
+  ]
+}

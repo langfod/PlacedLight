@@ -1,0 +1,104 @@
+{
+  "FormKey": "034864:Skyrim.esm",
+  "EditorID": "FortSungard05",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Sungard Muster"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019185:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC23:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06878C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088237:Skyrim.esm",
+      "Radius": 141.79608,
+      "LightData": {
+        "FadeOffset": 0.75,
+        "ShadowDepthBias": 17.898571
+      },
+      "LocationReference": "019185:Skyrim.esm",
+      "Placement": {
+        "Position": "-1870.1267, 555.32025, 538.2511"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068790:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088243:Skyrim.esm",
+      "Radius": 12.43924,
+      "LightData": {
+        "FadeOffset": 0.700359,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019185:Skyrim.esm",
+      "Placement": {
+        "Position": "280.4067, -50.794254, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "068791:Skyrim.esm",
+      "Base": "088243:Skyrim.esm",
+      "Radius": 291.71997,
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019185:Skyrim.esm",
+      "Placement": {
+        "Position": "-105.30094, 80.39215, 119.48542"
+      }
+    }
+  ]
+}

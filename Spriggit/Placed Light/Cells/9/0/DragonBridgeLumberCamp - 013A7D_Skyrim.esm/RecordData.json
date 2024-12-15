@@ -1,0 +1,149 @@
+{
+  "FormKey": "013A7D:Skyrim.esm",
+  "EditorID": "DragonBridgeLumberCamp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dragon Bridge Lumber Camp"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "020078:Skyrim.esm",
+  "Owner": "0B875F:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E3568:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -366.2769,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1374.0847, -7.424804, 339.20294",
+        "Rotation": "0, 0, 2.6831942"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E3574:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": 15.123596,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1379.2695, -63.995018, 568.28394"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E3575:Skyrim.esm",
+      "Base": "059A93:Skyrim.esm",
+      "Radius": -337.67426,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1180.6274, 71.94003, 119.8957"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E359D:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F249:Skyrim.esm",
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1550.1699, 168.20694, -30000",
+        "Rotation": "0, 0, 5.4785886"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E359F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F249:Skyrim.esm",
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1795.7407, -63.74106, -30000",
+        "Rotation": "0, 0, 5.578589"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E35A2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F249:Skyrim.esm",
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1729.7087, -104.65671, -30000",
+        "Rotation": "0, 0, 5.4785886"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E35BB:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -125.176056,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "020078:Skyrim.esm",
+      "Placement": {
+        "Position": "1678.4592, -291.03903, 142.99898"
+      }
+    }
+  ]
+}

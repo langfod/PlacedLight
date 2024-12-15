@@ -1,0 +1,150 @@
+{
+  "FormKey": "007203:Dawnguard.esm",
+  "EditorID": "DLC1VampireCastleZCell1",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Volkihar North Tower"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "017940:Dawnguard.esm",
+  "WaterHeight": 0.0,
+  "Location": "00357E:Dawnguard.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "003580:Dawnguard.esm",
+  "Music": "00EEB9:Dawnguard.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00C9C8:Dawnguard.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 564.0,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "1269.4856, 2321.7605, 6554.6777",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00C9D4:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088241:Skyrim.esm",
+      "Radius": -89.576675,
+      "LightData": {
+        "FadeOffset": -0.576876,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "3137.5896, 1183.3376, -30000",
+        "Rotation": "0, 0, 0.31415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00C9D5:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "106910:Skyrim.esm",
+      "Radius": 301.27448,
+      "LightData": {
+        "FadeOffset": 0.123931,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "3016.1582, 1967.1946, -30000",
+        "Rotation": "0, 0, 0.31415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00C9D7:Dawnguard.esm",
+      "Base": "106910:Skyrim.esm",
+      "Radius": 262.8437,
+      "LightData": {
+        "FadeOffset": 0.044188,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "2062.3848, 3463.0996, 7007.308",
+        "Rotation": "0, 0, 0.31415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00CB05:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "019527:Skyrim.esm",
+      "Radius": 24.70932,
+      "LightData": {
+        "FadeOffset": 1.504463,
+        "ShadowDepthBias": 23.612297
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "1355.0286, 1672.1503, -30000",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019B24:Dawnguard.esm",
+      "Base": "088243:Skyrim.esm",
+      "Radius": 751.8786,
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "00357E:Dawnguard.esm",
+      "Placement": {
+        "Position": "1430.5884, 2356.039, 6720.36"
+      }
+    }
+  ]
+}

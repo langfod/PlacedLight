@@ -1,0 +1,141 @@
+{
+  "FormKey": "01D09A:Skyrim.esm",
+  "EditorID": "Ragnvald03",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ragnvald Canal"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "0EDA91:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01928F:Skyrim.esm",
+  "Water": "0CC7B4:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC57:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01D339:Skyrim.esm",
+      "Base": "02EE05:Skyrim.esm",
+      "Radius": 37.27841,
+      "LightData": {
+        "FadeOffset": 0.7,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "4463.238, 1751.7328, 7680",
+        "Rotation": "0, 0, 4.7123923"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08694D:Skyrim.esm",
+      "Base": "02EE05:Skyrim.esm",
+      "Radius": -35.759995,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "5104.8843, 597.74896, 7284.8438"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EE104:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": -29.915161,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 8.572189
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "1815.6266, 3027.6936, 7313.393",
+        "Rotation": "0, 0, 5.826993"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EE109:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 721.8511,
+      "LightData": {
+        "FadeOffset": -0.25,
+        "ShadowDepthBias": 30.421455
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "-39.65883, 2494.5525, 7338.2524"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EE114:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": -15.229996,
+      "LightData": {
+        "FadeOffset": 0.75,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "534.12146, 3493.7644, 7678.116"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EE123:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 66.32999,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "4705.1826, 477.55832, 7816.5596"
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "FormKey": "01CB84:Skyrim.esm",
+  "EditorID": "RiverwoodSvensHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sven and Hilde's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 150,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01CB8B:Skyrim.esm",
+  "Owner": "035D43:Skyrim.esm",
+  "LockList": "093812:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01F24E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-383.41745, 242.23317, -30000",
+        "Rotation": "0, -0, 1.3411046E-06"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "059A6F:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -249.91534,
+      "LightData": {
+        "FadeOffset": 0.39999998,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "85.36737, 15.400843, 132.89928",
+        "Rotation": "1.5707964, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "059B29:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -251.42969,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-557.9122, -59.0478, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "059B70:Skyrim.esm",
+      "Base": "059B71:Skyrim.esm",
+      "Radius": 198.58038,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-509.51828, 225.26245, 47.57437",
+        "Rotation": "0, 0, 4.6831894"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "059B72:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-128.34747, 240.53104, -30000",
+        "Rotation": "0, -0, 1.3411046E-06"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C00F:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -242.9921,
+      "LightData": {
+        "FadeOffset": 0.20000005,
+        "ShadowDepthBias": 20.0
+      },
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-762.8142, 158.76276, 80.576065",
+        "Rotation": "1.5707964, 0, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C067:Skyrim.esm",
+      "Base": "059A70:Skyrim.esm",
+      "Radius": -324.0,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "FovOffset": 75.0,
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 33.0
+      },
+      "LocationReference": "01CB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-870.5613, -32.265343, 299.26898",
+        "Rotation": "0, 5.6897736, 0"
+      }
+    }
+  ]
+}

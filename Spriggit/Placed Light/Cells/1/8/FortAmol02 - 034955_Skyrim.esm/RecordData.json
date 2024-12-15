@@ -1,0 +1,99 @@
+{
+  "FormKey": "034955:Skyrim.esm",
+  "EditorID": "FortAmol02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Amol Prison"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01917C:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC1A:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C2E0:Skyrim.esm",
+      "Base": "0BCC9D:Skyrim.esm",
+      "Radius": -67.85712,
+      "LightData": {
+        "FadeOffset": 1.223951,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01917C:Skyrim.esm",
+      "Placement": {
+        "Position": "539.0616, 359.79974, -230.91483"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C2E7:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 453.25,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 26.649305
+      },
+      "LocationReference": "01917C:Skyrim.esm",
+      "Placement": {
+        "Position": "600.4105, 1243.3767, -443.08023"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0008E6:Placed Light.esp",
+      "Base": "07274C:Skyrim.esm",
+      "Placement": {
+        "Position": "-528.6565, -5.199886, -112"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0008E7:Placed Light.esp",
+      "Base": "07274C:Skyrim.esm",
+      "Placement": {
+        "Position": "-776.75793, -458.3272, -177.85056"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "FormKey": "02529E:Skyrim.esm",
+  "EditorID": "MehrunesDagonShrine",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shrine of Mehrunes Dagon"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "WaterHeight": -2.1474836E+09,
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FFA52:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 97.72,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "424.46613, -2420.071, 197.0357"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FFA58:Skyrim.esm",
+      "Base": "02EE00:Skyrim.esm",
+      "Radius": 112.98999,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-595.5901, -2404.421, 197.0357"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0FFA59:Skyrim.esm",
+      "Base": "02F364:Skyrim.esm",
+      "Radius": 285.71002,
+      "LightData": {
+        "FadeOffset": 2.25,
+        "ShadowDepthBias": 24.348259
+      },
+      "Placement": {
+        "Position": "-57.999855, -2112.5786, 367.96567",
+        "Rotation": "5.072747, 5.8223243, 1.3219298"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "101B0B:Skyrim.esm",
+      "Base": "0368C4:Skyrim.esm",
+      "Placement": {
+        "Position": "-308.0233, -2529.2175, 36.86593"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "101B0C:Skyrim.esm",
+      "Base": "0368C4:Skyrim.esm",
+      "Placement": {
+        "Position": "149.84253, -2530.949, 36.86593"
+      }
+    }
+  ]
+}

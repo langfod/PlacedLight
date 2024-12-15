@@ -1,0 +1,97 @@
+{
+  "FormKey": "015281:Skyrim.esm",
+  "EditorID": "JaphetsFolly01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sea Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00283E58",
+      "DirectionalXMinus": "#00283E58",
+      "DirectionalYPlus": "#00283E58",
+      "DirectionalYMinus": "#00283E58",
+      "DirectionalZPlus": "#00283E58",
+      "DirectionalZMinus": "#00283E58",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01952F:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019178:Skyrim.esm",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\caveicecubemap_e.dds",
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "EncounterZone": "03EC16:Skyrim.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7C59:Skyrim.esm",
+      "Base": "0194F3:Skyrim.esm",
+      "Radius": 434.5912,
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019178:Skyrim.esm",
+      "Placement": {
+        "Position": "1496.6748, -1520.0464, 612.29095"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7C5A:Skyrim.esm",
+      "Base": "0194F4:Skyrim.esm",
+      "Radius": 307.3661,
+      "LightData": {
+        "FadeOffset": 0.798276,
+        "ShadowDepthBias": 23.655396
+      },
+      "LocationReference": "019178:Skyrim.esm",
+      "Placement": {
+        "Position": "1380.0477, -2516.9692, 613.96564"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7C5C:Skyrim.esm",
+      "Base": "01950E:Skyrim.esm",
+      "Radius": 102.350006,
+      "LightData": {
+        "FadeOffset": 1.25,
+        "ShadowDepthBias": 15.597546
+      },
+      "LocationReference": "019178:Skyrim.esm",
+      "Placement": {
+        "Position": "96.21349, -2504.9817, 846.9825"
+      }
+    }
+  ]
+}

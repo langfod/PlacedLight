@@ -1,0 +1,108 @@
+{
+  "FormKey": "0198DE:Skyrim.esm",
+  "EditorID": "LeftHandMineDaighresHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Daighre's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00383F23",
+      "DirectionalXMinus": "#00383F23",
+      "DirectionalYPlus": "#00383F23",
+      "DirectionalYMinus": "#00383F23",
+      "DirectionalZPlus": "#00383F23",
+      "DirectionalZMinus": "#00383F23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "08810C:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F7B8:Skyrim.esm",
+  "Owner": "065666:Skyrim.esm",
+  "LockList": "09E478:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014446:Skyrim.esm",
+      "MajorRecordFlagsRaw": 67584,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": 112.36377,
+      "LightData": {
+        "FadeOffset": -0.59052277,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7B8:Skyrim.esm",
+      "Placement": {
+        "Position": "599.6233, -218.83177, -30000",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01444C:Skyrim.esm",
+      "MajorRecordFlagsRaw": 67584,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": 105.20325,
+      "LightData": {
+        "FadeOffset": -0.59052277,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7B8:Skyrim.esm",
+      "Placement": {
+        "Position": "-16.347858, -202.33034, -30000",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014465:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 512.0,
+      "LightData": {
+        "FadeOffset": 0.25,
+        "ShadowDepthBias": 33.0
+      },
+      "LocationReference": "01F7B8:Skyrim.esm",
+      "Placement": {
+        "Position": "274.2264, -10.630123, 2015.5266",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    }
+  ]
+}

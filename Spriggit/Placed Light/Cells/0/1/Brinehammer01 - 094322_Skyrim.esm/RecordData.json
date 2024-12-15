@@ -1,0 +1,97 @@
+{
+  "FormKey": "094322:Skyrim.esm",
+  "EditorID": "Brinehammer01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Brinehammer Below Deck"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01FB68:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0192A0:Skyrim.esm",
+  "AcousticSpace": "0D78B3:Skyrim.esm",
+  "EncounterZone": "03EC67:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "0A28E6:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094E09:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": 8.079987,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 3.041681
+      },
+      "LocationReference": "0192A0:Skyrim.esm",
+      "Placement": {
+        "Position": "2095.1428, 1533.0662, 10609.029"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0950F3:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": 38.912933,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 9.490353
+      },
+      "LocationReference": "0192A0:Skyrim.esm",
+      "Placement": {
+        "Position": "2652.6565, 1448.1165, 10698.033"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0950F4:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": 28.359863,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 7.806786
+      },
+      "LocationReference": "0192A0:Skyrim.esm",
+      "Placement": {
+        "Position": "1613.2802, 2571.1362, 10783.926",
+        "Rotation": "0, 0, 5.3831873"
+      }
+    }
+  ]
+}

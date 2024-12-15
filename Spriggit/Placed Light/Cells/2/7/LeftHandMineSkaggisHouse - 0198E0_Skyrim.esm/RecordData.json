@@ -1,0 +1,87 @@
+{
+  "FormKey": "0198E0:Skyrim.esm",
+  "EditorID": "LeftHandMineSkaggisHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Skaggi's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "WaterHeight": 0.0,
+  "Location": "01F7B5:Skyrim.esm",
+  "Owner": "065662:Skyrim.esm",
+  "LockList": "09E479:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014470:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 644.0,
+      "LightData": {
+        "FadeOffset": 0.25,
+        "ShadowDepthBias": 33.0
+      },
+      "LocationReference": "01F7B5:Skyrim.esm",
+      "Placement": {
+        "Position": "423.58472, 611.89777, 2938.1348",
+        "Rotation": "4.712389, 1.5707964, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014471:Skyrim.esm",
+      "MajorRecordFlagsRaw": 67584,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "0DA628:Skyrim.esm",
+      "Radius": 512.0,
+      "LightData": {
+        "FadeOffset": -1.2,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F7B5:Skyrim.esm",
+      "Placement": {
+        "Position": "387.65634, 612.79486, 2932.671",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    }
+  ]
+}

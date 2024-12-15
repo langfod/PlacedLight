@@ -1,0 +1,141 @@
+{
+  "FormKey": "04B8FB:Skyrim.esm",
+  "EditorID": "StonyCreekCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Stony Creek Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "080F28:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "080F29:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "04B94D:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": 98.79001,
+      "LightData": {
+        "FadeOffset": 0.75,
+        "ShadowDepthBias": 16.83
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "-1048.575, 385.9375, -94.19702"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "04B950:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": 94.859985,
+      "LightData": {
+        "FadeOffset": 0.25,
+        "ShadowDepthBias": 25.07
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "339.48587, -183.0809, 170.1573",
+        "Rotation": "0, 0, 1.5999992"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "080F0C:Skyrim.esm",
+      "Base": "06ED65:Skyrim.esm",
+      "Radius": 220.18341,
+      "Emittance": "0C5853:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 9.447997,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "-4624.999, 4558.3623, -997.30646",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F441C:Skyrim.esm",
+      "Base": "088243:Skyrim.esm",
+      "Radius": 161.79001,
+      "LightData": {
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 12.252209
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "-911.3478, 768.0433, -339.2131"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F441F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088243:Skyrim.esm",
+      "Radius": 55.901703,
+      "LightData": {
+        "FadeOffset": 3.64665,
+        "ShadowDepthBias": 11.626652
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "763.339, 1549.1852, -30000"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F443F:Skyrim.esm",
+      "Base": "088238:Skyrim.esm",
+      "Radius": -28.059998,
+      "LightData": {
+        "FadeOffset": 0.25,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "080F28:Skyrim.esm",
+      "Placement": {
+        "Position": "-898.00433, -142.43584, 108.68403"
+      }
+    }
+  ]
+}

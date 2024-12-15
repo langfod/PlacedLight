@@ -1,0 +1,68 @@
+{
+  "FormKey": "0EEC55:Skyrim.esm",
+  "EditorID": "BlackreachZCell10",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sinderion's Field Laboratory"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 270,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00383F23",
+      "DirectionalXMinus": "#00383F23",
+      "DirectionalYPlus": "#00383F23",
+      "DirectionalYMinus": "#00383F23",
+      "DirectionalZPlus": "#00383F23",
+      "DirectionalZMinus": "#00383F23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08810C:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018EE8:Skyrim.esm",
+  "AcousticSpace": "0F993E:Skyrim.esm",
+  "EncounterZone": "0F90B1:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EECC9:Skyrim.esm",
+      "Base": "088237:Skyrim.esm",
+      "Radius": -28.004639,
+      "LightData": {
+        "FadeOffset": 1.306894,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "731.9134, 689.3412, 2983.7512",
+        "Rotation": "6.265732, 4.7128778, 3.159046"
+      }
+    }
+  ]
+}

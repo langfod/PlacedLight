@@ -1,0 +1,150 @@
+{
+  "FormKey": "01DD03:Dragonborn.esm",
+  "EditorID": "DLC2Fahlbtharz04",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fahlbtharz Grand Hall"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00383F23",
+      "DirectionalXMinus": "#00383F23",
+      "DirectionalYPlus": "#00383F23",
+      "DirectionalYMinus": "#00383F23",
+      "DirectionalZPlus": "#00383F23",
+      "DirectionalZMinus": "#00383F23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08810A:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142A0:Dragonborn.esm",
+  "SkyAndWeatherFromRegion": "09B0B0:Skyrim.esm",
+  "AcousticSpace": "0E3247:Skyrim.esm",
+  "EncounterZone": "0142A1:Dragonborn.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0C686A:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0299B8:Dragonborn.esm",
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 248.18356,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "1863.7117, 7858.9907, 7616.873",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0299CC:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088248:Skyrim.esm",
+      "Radius": 1172.6785,
+      "Emittance": "09B0B0:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.920714,
+        "ShadowDepthBias": 34.13241
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "595.5123, 7506.7314, 10468.684",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A668:Dragonborn.esm",
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 196.6376,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "1746.0519, 6917.9985, 7383.6675",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A66F:Dragonborn.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 103.76962,
+      "Emittance": "09B0B0:Skyrim.esm",
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "565.078, 7499.461, 7531.845",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A670:Dragonborn.esm",
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 307.36646,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "1726.8588, 2384.253, 6847.391"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A671:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 1156.7025,
+      "LightData": {
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "1878.0675, 4430.7607, 7604.436",
+        "Rotation": "0, 4.712389, 0"
+      }
+    }
+  ]
+}

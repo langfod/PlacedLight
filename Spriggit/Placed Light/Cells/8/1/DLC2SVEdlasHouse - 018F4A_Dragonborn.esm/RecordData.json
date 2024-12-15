@@ -1,0 +1,133 @@
+{
+  "FormKey": "018F4A:Dragonborn.esm",
+  "EditorID": "DLC2SVEdlasHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Edla's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "035560:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "01D938:Dragonborn.esm",
+  "Owner": "018FBC:Dragonborn.esm",
+  "LockList": "018FC4:Dragonborn.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29A:Dragonborn.esm",
+      "Base": "0CD48D:Skyrim.esm",
+      "Radius": 121.440704,
+      "LightData": {
+        "FadeOffset": 0.52,
+        "ShadowDepthBias": 16.793142
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-604.2113, 775.42676, 300.4723",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29C:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 83.04224,
+      "Emittance": "037562:Dragonborn.esm",
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-611.12317, 1255.6086, 149.9047",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29D:Dragonborn.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -361.19775,
+      "LightData": {
+        "FadeOffset": -1.0,
+        "ShadowDepthBias": 18.343136
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-110.0236, 777.6388, 41.29126",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29E:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 99.809814,
+      "Emittance": "037562:Dragonborn.esm",
+      "LightData": {
+        "FadeOffset": -0.496642,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-609.8505, 297.67084, 169.29265",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29F:Dragonborn.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": -5.294693,
+      "Emittance": "037562:Dragonborn.esm",
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-847.9647, 906.74036, 167.48212",
+        "Rotation": "0, 0, 1.5123976"
+      }
+    }
+  ]
+}

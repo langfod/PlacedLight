@@ -1,0 +1,147 @@
+{
+  "FormKey": "01382D:Skyrim.esm",
+  "EditorID": "StonehillsSorlisHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sorli's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01EB8B:Skyrim.esm",
+  "Owner": "09E29C:Skyrim.esm",
+  "LockList": "09E29F:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "0E3261:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E56DC:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1090.7849, -323.5906, -30000",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E570E:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -310.07355,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 12.0
+      },
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-541.0288, 34.751003, 96.439964",
+        "Rotation": "0, 0, 1.5999992"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5719:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1341.7, -323.5906, -30000",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E571A:Skyrim.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01F248:Skyrim.esm",
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-578.1284, -323.5906, -30000",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5723:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -311.99585,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 12.0
+      },
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1439.5664, 44.97943, 119.01764",
+        "Rotation": "0, 0, 3.1000032"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5724:Skyrim.esm",
+      "Base": "05C009:Skyrim.esm",
+      "Radius": -233.05585,
+      "LightData": {
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 16.779999
+      },
+      "LocationReference": "01EB8B:Skyrim.esm",
+      "Placement": {
+        "Position": "-1596.6383, -236.64586, 161.2694",
+        "Rotation": "0, 0, 1.5999992"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000BA6:Placed Light.esp",
+      "Base": "07274C:Skyrim.esm",
+      "Placement": {
+        "Position": "-578.1284, -323.5906, 139.23134"
+      }
+    }
+  ]
+}
