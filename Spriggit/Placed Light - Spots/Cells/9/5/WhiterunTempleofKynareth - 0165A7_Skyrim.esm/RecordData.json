@@ -1,0 +1,67 @@
+{
+  "FormKey": "0165A7:Skyrim.esm",
+  "EditorID": "WhiterunTempleofKynareth",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Temple of Kynareth"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "NoLodWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00554B3E",
+    "DirectionalColor": "#00535C66",
+    "FogNearColor": "#00000000",
+    "FogFar": 2700.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#005D4B40",
+      "DirectionalXMinus": "#004C4B3B",
+      "DirectionalYPlus": "#00554E3E",
+      "DirectionalYMinus": "#0055473E",
+      "DirectionalZPlus": "#00473F32",
+      "DirectionalZMinus": "#0081725F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "FogColor",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F87D:Skyrim.esm",
+  "Water": "074EEA:Skyrim.esm",
+  "Owner": "0ECC44:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\WRTemple_e.dds",
+  "SkyAndWeatherFromRegion": "070408:Skyrim.esm",
+  "AcousticSpace": "10F90D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0D485E:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "074ED7:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "074ED6:Skyrim.esm",
+      "Radius": -23.770233,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "223.03027, 262.30905, 87.35417"
+      }
+    }
+  ]
+}

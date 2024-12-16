@@ -16,7 +16,7 @@
         ],    
         "data": {
           "light": "LightCampFire01",
-          "radius": 256.0,
+          "radius": 300.0,
           "fade": 1.0,
           "flags": "ignorescale"
         }
@@ -40,7 +40,7 @@
         ],
         "data": {
           "light": "LightCampFire01",
-          "radius": 325.0,
+          "radius": 300.0,
           "fade": 1.0,
           "flags": "ignorescale"
         }
@@ -52,6 +52,7 @@
     "lights": [
       {
         "whiteList": [
+          "clutter\\common\\candlelanternwithcandle01.nif",
           "clutter\\glazedcandles01.nif",
           "clutter\\glazedcandlesstatic02.nif",
           "clutter\\imperial\\impcandle01.nif",
@@ -78,8 +79,8 @@
         ],
         "data": {
           "light": "Candle",
-          "radius": 50.0,
-          "fade": 0.8
+          "radius": 64.0,
+          "fade": 1.0
         }
       }
     ]
@@ -137,7 +138,8 @@
     "models": [ 
       "furniture\\alchemyworkbench.nif",
       "furniture\\alchemyworkstation.nif",
-      "furniture\\workbenches\\alchemyworkbench01.nif" ],
+      "furniture\\workbenches\\alchemyworkbench01.nif" 
+    ],
     "lights": [
       {
         "nodes": ["Burner01"],
@@ -162,7 +164,7 @@
           "light": "DefaultTorch01NS",
           "radius": 512.0,
           "fade": 1.0
-        }
+        }                           
       }
     ]
   },
@@ -174,7 +176,7 @@
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
-          "light": "FXLightWhiteBasic",
+          "light": "BluePotion",
           "radius": 128.0,
           "fade": 1.0
         }

@@ -1,0 +1,68 @@
+{
+  "FormKey": "015238:Skyrim.esm",
+  "EditorID": "NarzulburMauhulakhsLonghouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mauhulakh's Longhouse"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00000000",
+      "DirectionalXMinus": "#00000000",
+      "DirectionalYPlus": "#00000000",
+      "DirectionalYMinus": "#00000000",
+      "DirectionalZPlus": "#00000000",
+      "DirectionalZMinus": "#00000000",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "020A00:Skyrim.esm",
+  "Owner": "02C006:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D5789:Skyrim.esm",
+      "FormVersion": 34,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 1074.4688,
+      "Emittance": "07548E:Skyrim.esm",
+      "Placement": {
+        "Position": "331.73947, -462.9349, -136.95042"
+      }
+    }
+  ]
+}

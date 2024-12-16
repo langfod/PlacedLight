@@ -1,0 +1,158 @@
+{
+  "FormKey": "04401B:Skyrim.esm",
+  "EditorID": "DruadachRedoubt01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Druadach Redoubt Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#004A6275",
+    "FogNearColor": "#00172116",
+    "FogNear": 750.0,
+    "FogFar": 4500.0,
+    "DirectionalRotationZ": 270,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001E1D25",
+      "DirectionalXMinus": "#00191D22",
+      "DirectionalYPlus": "#001C1E24",
+      "DirectionalYMinus": "#001C1B24",
+      "DirectionalZPlus": "#000D0D10",
+      "DirectionalZMinus": "#002A2C37",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128C:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01916F:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "EncounterZone": "03EC0F:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "09F363:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B3E:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088248:Skyrim.esm",
+      "Radius": 573.7494,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 14.802103,
+        "ShadowDepthBias": 27.002426
+      },
+      "Placement": {
+        "Position": "6274.3896, 2679.9658, 8275.268"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B3F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088248:Skyrim.esm",
+      "Radius": 66.21362,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.011451721,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "5474.1206, 2769.9736, 8054.5303"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B77:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "094E6B:Skyrim.esm",
+      "Radius": 2995.4155,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": -13.308022,
+        "FadeOffset": 4.3923044,
+        "ShadowDepthBias": 41.623215
+      },
+      "Placement": {
+        "Position": "1813.2191, 3995.3687, 9211.292",
+        "Rotation": "2.1001477, 4.960346, 5.017785"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "083B78:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "094E6E:Skyrim.esm",
+      "Radius": 678.377,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -3.0045705,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2064.8835, 2126.1182, 8083.9355"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F3429:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "094E6E:Skyrim.esm",
+      "Radius": 188.91684,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -1.8169551,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1865.1586, 3454.4707, 8778.746"
+      }
+    }
+  ]
+}

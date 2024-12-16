@@ -1,0 +1,122 @@
+{
+  "FormKey": "01678B:Skyrim.esm",
+  "EditorID": "WindhelmBrunwulfFreeWintersHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Brunwulf Free-Winter's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00515151",
+    "DirectionalColor": "#00A6A6A6",
+    "FogNearColor": "#0098D9FC",
+    "FogFar": 4000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#007D7277",
+      "DirectionalXMinus": "#0066726C",
+      "DirectionalYPlus": "#00727772",
+      "DirectionalYMinus": "#00726C72",
+      "DirectionalZPlus": "#00363633",
+      "DirectionalZMinus": "#00ADADB0",
+      "Specular": "#003E4A59",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#003E4A59",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0C0C76:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209E8:Skyrim.esm",
+  "Owner": "014149:Skyrim.esm",
+  "LockList": "014149:Skyrim.esm",
+  "AcousticSpace": "0C5D0A:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0C78:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 120.62427,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -4.2409954,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "725.99817, -2278.1008, 234.5826"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0C7C:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 120.62427,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -2.547925,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "422.55066, -2054.3933, 447.33777"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C0D4E:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 25.148773,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -4.4650226,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1279.4666, -2359.967, 234.5826"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C9600:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "02F37B:Skyrim.esm",
+      "Radius": 120.62427,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -3.9486942,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1273.6394, -2088.7666, 234.5826"
+      }
+    }
+  ]
+}

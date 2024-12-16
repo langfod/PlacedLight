@@ -1,0 +1,88 @@
+{
+  "FormKey": "075270:Skyrim.esm",
+  "EditorID": "XTestGrantInt3",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Magic Visuals Test Hall"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00313339",
+    "FogNearColor": "#00000000",
+    "FogFar": 4000.0,
+    "DirectionalRotationXY": 45,
+    "DirectionalRotationZ": 210,
+    "FogClipDistance": 6500.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#000D1417",
+      "DirectionalXMinus": "#00131515",
+      "DirectionalYPlus": "#0014171B",
+      "DirectionalYMinus": "#00101418",
+      "DirectionalZPlus": "#0066675C",
+      "DirectionalZMinus": "#00AFC1C7",
+      "Specular": "#00687D8C",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00687D8C",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "WaterHeight": -2.1474836E+09,
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "ImageSpace": "04E261:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B93F6:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "0B9402:Skyrim.esm",
+      "Radius": 1956.7788,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": -65.0,
+        "FadeOffset": 0.4000001,
+        "EndDistanceCap": 256.0,
+        "ShadowDepthBias": 25.0
+      },
+      "Placement": {
+        "Position": "-734.1535, 3945.7979, 1441.2516",
+        "Rotation": "-0.28697306, -1.3127375, 0.724818"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B9401:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "0B9402:Skyrim.esm",
+      "Radius": 1956.7788,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": -65.0,
+        "FadeOffset": 0.4000001,
+        "ShadowDepthBias": 25.0
+      },
+      "Placement": {
+        "Position": "-183.15941, 4166.1216, 1474.9602",
+        "Rotation": "-0.28697306, -1.3127375, 0.724818"
+      }
+    }
+  ]
+}

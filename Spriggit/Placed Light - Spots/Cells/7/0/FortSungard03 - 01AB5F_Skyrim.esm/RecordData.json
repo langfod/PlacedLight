@@ -1,0 +1,114 @@
+{
+  "FormKey": "01AB5F:Skyrim.esm",
+  "EditorID": "FortSungard03",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Sungard Oubliette"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019185:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC23:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0684E2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 31,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 205.51782,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 29.574574,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2467.9922, -3114.9597, -2365.592"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0684EA:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 31,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 338.15167,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "Placement": {
+        "Position": "2476.5957, -2619.2295, -2606.0046"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06F1A0:Skyrim.esm",
+      "MajorRecordFlagsRaw": 536870912,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x20000000"
+      ],
+      "VirtualMachineAdapter": {
+        "Version": 4,
+        "ObjectFormat": 1,
+        "Scripts": [
+          {
+            "Name": "defaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0798C1:Skyrim.esm",
+      "Placement": {
+        "Position": "899.36346, -835.06256, -2495.3372",
+        "Rotation": "2.040139, 1.3388282, 1.7485536"
+      }
+    }
+  ]
+}

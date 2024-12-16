@@ -1,0 +1,91 @@
+{
+  "FormKey": "02D525:Skyrim.esm",
+  "EditorID": "Angarvunde02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Angarvunde Ruins"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00282828",
+    "DirectionalColor": "#00333A2C",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "094E50:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018EE3:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBE8:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "018645:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "088246:Skyrim.esm",
+      "Radius": -47.680252,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 2.0825853,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-1900.1696, -4086.5396, -720.2619"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F24A3:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "088246:Skyrim.esm",
+      "Radius": 130.5904,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 1.8089492,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-1920.643, -4323.223, -1171.0669"
+      }
+    }
+  ]
+}

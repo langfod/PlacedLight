@@ -1,0 +1,63 @@
+{
+  "FormKey": "015200:Skyrim.esm",
+  "EditorID": "TrevasWatch01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Treva's Watch"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00505050",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128B:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0192BD:Skyrim.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "03EC81:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B459A:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "01B00C:Skyrim.esm",
+      "RagdollData": "0x00DBFB30003A05410000000000CC95BFDD0FC9BF00008032C276484000000000BA9E1740060072B900E8542C00000080000000806FA5C93F",
+      "Placement": {
+        "Position": "1578.9275, 1848.282, 1973.0846",
+        "Rotation": "0, -0, 3.3331907"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "FormKey": "01525C:Skyrim.esm",
+  "EditorID": "LargashburShagrolsLonghouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Largashbur Longhouse"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#003F615F",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00A5C7C4",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00A5C7C4",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0345A4:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "03BC2B:Skyrim.esm",
+  "Owner": "02C005:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C816B:Skyrim.esm",
+      "FormVersion": 34,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 1074.4688,
+      "Emittance": "07548E:Skyrim.esm",
+      "Placement": {
+        "Position": "331.73947, -504.3244, -99.692764"
+      }
+    }
+  ]
+}

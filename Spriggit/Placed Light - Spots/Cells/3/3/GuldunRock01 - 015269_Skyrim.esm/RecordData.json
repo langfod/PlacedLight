@@ -1,0 +1,76 @@
+{
+  "FormKey": "015269:Skyrim.esm",
+  "EditorID": "GuldunRock01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Guldun Rock Cave"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "0B6BC7:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01918E:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "0B8AA2:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BB9D1:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 31,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088246:Skyrim.esm",
+      "Radius": 395.33923,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 8.828328,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "210.7435, -182.69347, -310.51715",
+        "Rotation": "0, -0, 2.8968184"
+      }
+    }
+  ]
+}

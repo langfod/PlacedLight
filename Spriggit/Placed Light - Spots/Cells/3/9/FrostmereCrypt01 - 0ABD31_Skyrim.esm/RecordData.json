@@ -1,0 +1,71 @@
+{
+  "FormKey": "0ABD31:Skyrim.esm",
+  "EditorID": "FrostmereCrypt01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Frostmere Crypt"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#0055422F",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0030271C",
+      "DirectionalXMinus": "#00272719",
+      "DirectionalYPlus": "#002C281B",
+      "DirectionalYMinus": "#002C251B",
+      "DirectionalZPlus": "#0014120C",
+      "DirectionalZMinus": "#005C5238",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "03128C:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0192B8:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC7C:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0155CF:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 409.3802,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.63528275,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1039.9276, 2322.4011, -798.0356"
+      }
+    }
+  ]
+}

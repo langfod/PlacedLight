@@ -1,0 +1,108 @@
+{
+  "FormKey": "0151F6:Skyrim.esm",
+  "EditorID": "WolfskullCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wolfskull Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 4000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 0.7,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "0B7DB8:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0192C8:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC8E:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02BB91:Skyrim.esm",
+      "FormVersion": 36,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 469.61908,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 3.9558687,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-416.10278, -995.8248, 912.2333"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02BB9A:Skyrim.esm",
+      "FormVersion": 36,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 388.21045,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 1.7925947,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-1409.659, 5284.7363, -1078.976"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A9D1E:Skyrim.esm",
+      "FormVersion": 36,
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 1223.5662,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": -43.063675,
+        "ShadowDepthBias": 34.470108
+      },
+      "Placement": {
+        "Position": "-1548.1619, 5504.113, 382.30005",
+        "Rotation": "-1.5707967, -1.4707965, 1.5707967"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "FormKey": "081D5B:Skyrim.esm",
+  "EditorID": "LabyrinthianPriestSanctuary",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bromjunaar Sanctuary"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00423C28",
+    "DirectionalColor": "#0062696A",
+    "FogNearColor": "#004B6361",
+    "FogFar": 3000.0,
+    "DirectionalRotationZ": 270,
+    "FogClipDistance": 12000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#003A3021",
+      "DirectionalXMinus": "#002F301E",
+      "DirectionalYPlus": "#00353220",
+      "DirectionalYMinus": "#00352D20",
+      "DirectionalZPlus": "#0019160E",
+      "DirectionalZMinus": "#00504931",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004B6361",
+    "FogMax": 0.7,
+    "LightFadeBegin": 12000.0,
+    "LightFadeEnd": 15000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalFade"
+    ]
+  },
+  "LightingTemplate": "03128D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0F8474:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "106667:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "081D65:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "0395FE:Skyrim.esm",
+      "Radius": 2986.4937,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "ShadowDepthBias": 17.373241
+      },
+      "Placement": {
+        "Position": "-5626.738, 9915.698, 597.01733",
+        "Rotation": "1.5707942, -0, 4.302397"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F8486:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1073741824,
+      "FormVersion": 40,
+      "SkyrimMajorRecordFlags": [
+        "0x40000000"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "dunLabyrinthianMaskBustSCRIPT",
+            "Flags": "Inherited",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptObjectProperty",
+                "Name": "FinalMaskRevealMusic",
+                "Object": "03B565:Skyrim.esm"
+              }
+            ]
+          }
+        ]
+      },
+      "Base": "0F8485:Skyrim.esm",
+      "Primitive": {
+        "Bounds": "15.927734, 16.097656, 23.5717",
+        "Color": "#00CC4C33",
+        "Unknown": 0.15,
+        "Type": "Box"
+      },
+      "CollisionLayer": 15,
+      "LinkedReferences": [
+        {
+          "Reference": "081D6C:Skyrim.esm"
+        }
+      ],
+      "Placement": {
+        "Position": "-6240.4873, 10305.325, -215.2957",
+        "Rotation": "0, -0, 2.6315982"
+      }
+    }
+  ]
+}

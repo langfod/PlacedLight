@@ -1,0 +1,77 @@
+{
+  "FormKey": "07144C:Skyrim.esm",
+  "EditorID": "FortDunstad04",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Stumbling Sabrecat"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001A133E",
+    "DirectionalColor": "#00024951",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00142F2E",
+      "DirectionalXMinus": "#00112F29",
+      "DirectionalYPlus": "#0013312C",
+      "DirectionalYMinus": "#00132C2C",
+      "DirectionalZPlus": "#00091613",
+      "DirectionalZMinus": "#001C4744",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01917E:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "03EC1C:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06911B:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 193.64584,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "Placement": {
+        "Position": "600.9862, 436.94006, 1088.8551"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06911D:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 193.64584,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "Placement": {
+        "Position": "-66.69577, 436.58945, 1088.8551"
+      }
+    }
+  ]
+}

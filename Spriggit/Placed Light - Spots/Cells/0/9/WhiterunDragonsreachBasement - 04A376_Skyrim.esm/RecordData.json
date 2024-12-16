@@ -1,0 +1,57 @@
+{
+  "FormKey": "04A376:Skyrim.esm",
+  "EditorID": "WhiterunDragonsreachBasement",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dragonsreach Dungeon"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogFar": 3000.0,
+    "FogClipDistance": 3000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00211E29",
+      "DirectionalXMinus": "#001A1E26",
+      "DirectionalYPlus": "#001E1F28",
+      "DirectionalYMinus": "#001E1C28",
+      "DirectionalZPlus": "#000E0E12",
+      "DirectionalZMinus": "#002D2D3D",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear"
+    ]
+  },
+  "LightingTemplate": "06175D:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0C0BA0:Skyrim.esm",
+  "Owner": "065795:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "06D542:Skyrim.esm",
+  "ImageSpace": "036ED2:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E28EF:Skyrim.esm",
+      "FormVersion": 36,
+      "Base": "0E2969:Skyrim.esm",
+      "Radius": 189.86414,
+      "Placement": {
+        "Position": "753.29285, 1116.9575, -171.50311",
+        "Rotation": "0.7853982, 0, 4.712389"
+      }
+    }
+  ]
+}

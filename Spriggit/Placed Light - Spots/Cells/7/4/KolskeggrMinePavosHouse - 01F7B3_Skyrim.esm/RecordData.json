@@ -1,0 +1,80 @@
+{
+  "FormKey": "01F7B3:Skyrim.esm",
+  "EditorID": "KolskeggrMinePavosHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Pavo's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#001E1E28",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00000000",
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00313032",
+      "DirectionalXMinus": "#0028302D",
+      "DirectionalYPlus": "#002D3230",
+      "DirectionalYMinus": "#002D2D30",
+      "DirectionalZPlus": "#00151615",
+      "DirectionalZMinus": "#0044494A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01F7D3:Skyrim.esm",
+  "Owner": "0284B0:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08BEB2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 512,
+      "FormVersion": 34,
+      "SkyrimMajorRecordFlags": [
+        "0x200"
+      ],
+      "Base": "088245:Skyrim.esm",
+      "Radius": 367.78815,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 47.03
+      },
+      "Placement": {
+        "Position": "-635.7781, -146.18857, 627.26263",
+        "Rotation": "0.015755681, -0.59524685, 6.200494"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E5D81:Skyrim.esm",
+      "FormVersion": 34,
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -245.4241,
+      "Placement": {
+        "Position": "-297.0233, -183.47588, 337.72156"
+      }
+    }
+  ]
+}

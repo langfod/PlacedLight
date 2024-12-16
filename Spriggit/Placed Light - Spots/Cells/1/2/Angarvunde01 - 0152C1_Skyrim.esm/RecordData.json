@@ -1,0 +1,89 @@
+{
+  "FormKey": "0152C1:Skyrim.esm",
+  "EditorID": "Angarvunde01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Angarvunde"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#002C2C23",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "094E50:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018EE3:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBE8:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0185F4:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "03C5A5:Skyrim.esm",
+      "Radius": 502.10425,
+      "Emittance": "068853:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -1.7886174,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "3998.9602, -7705.0986, -825.6421"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F2389:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "03C5A5:Skyrim.esm",
+      "Radius": 230.29144,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -2.0635688,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "4134.7056, -7666.676, 462.30945"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "FormKey": "03EA9D:Skyrim.esm",
+  "EditorID": "MarkarthTempleInnerSanctum",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Inner Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#0027272F",
+    "DirectionalColor": "#00B6CBDE",
+    "FogNearColor": "#0057685C",
+    "FogFar": 6000.0,
+    "DirectionalRotationZ": 270,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#004D5E73",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004D5E73",
+    "FogMax": 1.0,
+    "Inherits": [
+      "DirectionalFade",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01F317:Skyrim.esm",
+  "Owner": "0656EA:Skyrim.esm",
+  "LockList": "094387:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0DDD27:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1085A5:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1073741824,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x40000000"
+      ],
+      "Base": "01B010:Skyrim.esm",
+      "RagdollData": "0x0028F3000000000000000000000000005759FBBFFB8084BB1CA147400031160000D615400000000000808ABCE4B9F438021E86BA6080C93F",
+      "Placement": {
+        "Position": "-1712.7583, -561.00244, -554.8079",
+        "Rotation": "-1.5999886, -0, 0"
+      }
+    }
+  ]
+}

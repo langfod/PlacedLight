@@ -1,0 +1,69 @@
+{
+  "FormKey": "01CB84:Skyrim.esm",
+  "EditorID": "RiverwoodSvensHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Sven and Hilde's House"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#002D3030",
+    "DirectionalColor": "#00232832",
+    "FogNearColor": "#001F342E",
+    "FogFar": 4000.0,
+    "DirectionalRotationZ": 150,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00313032",
+      "DirectionalXMinus": "#0028302D",
+      "DirectionalYPlus": "#002D3230",
+      "DirectionalYMinus": "#002D2D30",
+      "DirectionalZPlus": "#00151615",
+      "DirectionalZMinus": "#0044494A",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#001F342E",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01CB8B:Skyrim.esm",
+  "Owner": "035D43:Skyrim.esm",
+  "LockList": "093812:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "06D546:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "059B29:Skyrim.esm",
+      "FormVersion": 34,
+      "Base": "059B5F:Skyrim.esm",
+      "Radius": -251.42969,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-557.9122, -59.0478, 16.658688"
+      }
+    }
+  ]
+}

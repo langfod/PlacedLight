@@ -1,0 +1,92 @@
+{
+  "FormKey": "037CC6:Skyrim.esm",
+  "MajorRecordFlagsRaw": 655360,
+  "EditorID": "RiftenMercerFreyHouse",
+  "SkyrimMajorRecordFlags": [
+    "Dangerous_OffLimits_InteriorCell",
+    "CantWait"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Riftweald Manor"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00464646",
+    "FogNearColor": "#00000000",
+    "FogFar": 4000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 4000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0050432E",
+      "DirectionalXMinus": "#00414329",
+      "DirectionalYPlus": "#0049462C",
+      "DirectionalYMinus": "#00493F2C",
+      "DirectionalZPlus": "#00221F13",
+      "DirectionalZMinus": "#006F6644",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower"
+    ]
+  },
+  "LightingTemplate": "0B2157:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01706E:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "050A02:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "0B3489:Skyrim.esm",
+      "Radius": 351.77728,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-2045.7213, 2527.9956, -375.0507"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "050BA3:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "0B3489:Skyrim.esm",
+      "Radius": 40.04883,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-2794.2512, 1586.9369, -381.46017",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "OffLimits",
+    "CantWait"
+  ]
+}

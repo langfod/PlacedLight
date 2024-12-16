@@ -1,0 +1,97 @@
+{
+  "FormKey": "0527F2:Skyrim.esm",
+  "EditorID": "Irkngthand03",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Irkngthand Slave Pens"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#000A0A0A",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 1000.0,
+    "FogFar": 8000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#000B0A0A",
+      "DirectionalXMinus": "#00080A09",
+      "DirectionalYPlus": "#000A0A0A",
+      "DirectionalYMinus": "#000A090A",
+      "DirectionalZPlus": "#00040404",
+      "DirectionalZMinus": "#000F0F0F",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0B9E23:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01919D:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC3E:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "0B9E1E:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB701:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "0B9E28:Skyrim.esm",
+      "Radius": 376.04572,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -0.17631608,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "7261.841, 8522.309, -5124.1284"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CBA8F:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1073741824,
+      "FormVersion": 39,
+      "SkyrimMajorRecordFlags": [
+        "0x40000000"
+      ],
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 658.0343,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.57069504,
+        "ShadowDepthBias": 1.0
+      },
+      "EnableParent": {
+        "Reference": "08F1E7:Skyrim.esm",
+        "Unknown": "0x0DBF38"
+      },
+      "Placement": {
+        "Position": "11091.314, 12676.632, -6623.227"
+      }
+    }
+  ]
+}

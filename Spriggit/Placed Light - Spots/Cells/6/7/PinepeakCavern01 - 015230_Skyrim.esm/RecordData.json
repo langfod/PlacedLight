@@ -1,0 +1,159 @@
+{
+  "FormKey": "015230:Skyrim.esm",
+  "EditorID": "PinepeakCavern01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Pinepeak Cavern"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00000000",
+    "DirectionalColor": "#00434F52",
+    "FogNearColor": "#00B0DCF7",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0033291D",
+      "DirectionalXMinus": "#002A291A",
+      "DirectionalYPlus": "#002F2A1C",
+      "DirectionalYMinus": "#002F271C",
+      "DirectionalZPlus": "#0016130C",
+      "DirectionalZMinus": "#005C5138",
+      "Specular": "#00B0DCF7",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00B0DCF7",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019289:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095B68:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 965.9497,
+      "Emittance": "075492:Skyrim.esm",
+      "Placement": {
+        "Position": "1551.6812, 1817.9983, 230.45978"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095BE7:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 518.80194,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 23.47221,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "845.24695, -1826.4336, 751.10175"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095BEE:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 965.9497,
+      "Emittance": "075492:Skyrim.esm",
+      "Placement": {
+        "Position": "794.9102, -1097.7699, 448.03473"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095C19:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 293.58954,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 6.289502,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1488.18, 1717.4583, 206.82315"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095C22:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 495.77716,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 0.3876195,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "633.5495, 855.91785, 63.084995"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C49F3:Skyrim.esm",
+      "FormVersion": 35,
+      "Base": "094E6B:Skyrim.esm",
+      "Radius": 1652.6439,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 4.311639,
+        "ShadowDepthBias": 36.865067
+      },
+      "Placement": {
+        "Position": "1833.518, 2119.9915, 1331.9658",
+        "Rotation": "3.1415927, -1.4207964, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C4A25:Skyrim.esm",
+      "FormVersion": 31,
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 407.05316,
+      "Placement": {
+        "Position": "1830.168, 2098.9578, 1846.657"
+      }
+    }
+  ]
+}

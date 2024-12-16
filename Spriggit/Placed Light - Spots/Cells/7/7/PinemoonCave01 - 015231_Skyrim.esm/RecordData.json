@@ -1,0 +1,68 @@
+{
+  "FormKey": "015231:Skyrim.esm",
+  "EditorID": "PinemoonCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Pinemoon Cave"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00162729",
+    "DirectionalColor": "#001C7079",
+    "FogNearColor": "#0046C2FF",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0018272A",
+      "DirectionalXMinus": "#00132727",
+      "DirectionalYPlus": "#00162829",
+      "DirectionalYMinus": "#00162529",
+      "DirectionalZPlus": "#000A1212",
+      "DirectionalZMinus": "#00213B3F",
+      "Specular": "#001A86B5",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#001A86B5",
+    "FogMax": 0.8,
+    "Inherits": [
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01952F:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019288:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC50:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A28E6:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A2781:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 289.25146,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 13.073156,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2640.382, -5299.088, 443.7314"
+      }
+    }
+  ]
+}

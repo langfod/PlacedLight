@@ -1,0 +1,81 @@
+{
+  "FormKey": "01677D:Skyrim.esm",
+  "EditorID": "WindhelmHouseofClanCruelSea",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "House of Clan Cruel-Sea"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00959595",
+    "DirectionalColor": "#00D7D7D7",
+    "FogNearColor": "#00649FD0",
+    "FogFar": 3000.0,
+    "DirectionalRotationZ": 90,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#001D1810",
+      "DirectionalXMinus": "#0018180F",
+      "DirectionalYPlus": "#001B1910",
+      "DirectionalYMinus": "#001B1610",
+      "DirectionalZPlus": "#00000000",
+      "DirectionalZMinus": "#00CABEA4",
+      "Specular": "#00BD9662",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00BD9662",
+    "FogMax": 1.0,
+    "LightFadeEnd": 5000.0
+  },
+  "LightingTemplate": "0C0C76:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209ED:Skyrim.esm",
+  "Owner": "045F62:Skyrim.esm",
+  "LockList": "09C86B:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D65F8:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 589.7684,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": 17.23912,
+        "FadeOffset": -1.6843038,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-2468.6812, -3196.9414, 2218.3245",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D65F9:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "02EDEC:Skyrim.esm",
+      "Radius": 589.7684,
+      "Emittance": "0703C2:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FovOffset": 17.23912,
+        "FadeOffset": 1.5263224,
+        "ShadowDepthBias": 50.0
+      },
+      "Placement": {
+        "Position": "-1328.4426, -4087.6553, 2130.1465",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    }
+  ]
+}

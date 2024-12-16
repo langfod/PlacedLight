@@ -10,17 +10,14 @@
       "effects\\fxfirewithembers02.nif",
       "effects\\fxfirewithembers03.nif",
       "effects\\fxfirewithembers04.nif",
-      "effects\\fxfirewithembers05.nif",
-      "effects\\fxfirewithemberslogs01.nif",
-      "effects\\fxfirewithemberslogs02.nif",
-      "effects\\fxfirewithemberslogs03.nif",
-      "effects\\fxfirewithemberslogs04.nif"],
+      "effects\\fxfirewithembers05.nif"
+    ],
     "lights": [
       {
         "points": [ [ 0, 0, 0 ] ],
         "data": {
           "light": "LightCampFire01",
-          "radius": 512.0,
+          "radius": 300.0,
           "fade": 1.0,
           "flags": "ignorescale"
         }
@@ -33,11 +30,15 @@
       {
         "whiteList": [
           "effects\\fxfirewithembers01_cheap.nif", 
-          "effects\\fxfirewithemberslogs01.nif" 
+          "effects\\fxfirewithemberslogs01.nif",
+          "effects\\fxfirewithemberslogs01.nif",
+          "effects\\fxfirewithemberslogs02.nif",
+          "effects\\fxfirewithemberslogs03.nif",
+          "effects\\fxfirewithemberslogs04.nif" 
         ],
         "data": {
           "light": "LightCampFire01",
-          "radius": 512.0,
+          "radius": 300.0,
           "fade": 1.0,
           "flags": "ignorescale"
         }
@@ -174,7 +175,7 @@
       {
         "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
-          "light": "FXLightWhiteBasic",
+          "light": "BluePotion",
           "radius": 128.0,
           "fade": 1.0
         }

@@ -4,9 +4,14 @@
   "Time": -1,
   "Radius": 300,
   "Color": "#00B1662A",
+  "Flags": [
+    "Dynamic",
+    "FlickerSlow"
+  ],
   "FalloffExponent": 1.0,
   "FOV": 90.0,
-  "NearClip": 1.0,
   "FlickerPeriod": 1.0,
+  "FlickerIntensityAmplitude": 0.5,
+  "FlickerMovementAmplitude": 1.8,
   "FadeValue": 1.2
 }

@@ -1,0 +1,91 @@
+{
+  "FormKey": "0152B1:Skyrim.esm",
+  "EditorID": "BrokenFangCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Broken Fang Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#0018251E",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#002F463A",
+    "FogNear": 340.0,
+    "FogFar": 14000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#000B0A0A",
+      "DirectionalXMinus": "#00080A09",
+      "DirectionalYPlus": "#000A0A0A",
+      "DirectionalYMinus": "#000A090A",
+      "DirectionalZPlus": "#00040404",
+      "DirectionalZMinus": "#000F0F0F",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#002F463A",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "068B3E:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01914D:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EBF5:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0B824F:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 152.33359,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 2.258693,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "278.39505, -667.66534, 164.55789"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E404C:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 497.47748,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 60.233246,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "312.12683, -1426.5865, 456.3091"
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "FormKey": "0371DD:Skyrim.esm",
+  "EditorID": "BleakFallsBarrow02",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bleak Falls Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00423C28",
+    "DirectionalColor": "#002C2F30",
+    "FogNearColor": "#004B6361",
+    "FogFar": 12000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 12000.0,
+    "FogPower": 0.55,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00483C29",
+      "DirectionalXMinus": "#003B3C26",
+      "DirectionalYPlus": "#00423E28",
+      "DirectionalYMinus": "#00423928",
+      "DirectionalZPlus": "#001F1C12",
+      "DirectionalZMinus": "#00645B3D",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004B6361",
+    "FogMax": 1.0
+  },
+  "LightingTemplate": "03128D:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "018EE9:Skyrim.esm",
+  "Water": "033DA7:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\BleakFallsCube_e.dds",
+  "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "EncounterZone": "038AB1:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "02EDEB:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "037AD6:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "06ED65:Skyrim.esm",
+      "Radius": 1419.495,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 1.9366841,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-14723.615, -335.79016, 2181.0823"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "037ADA:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "02EDF0:Skyrim.esm",
+      "Radius": 1615.9492,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -3.5264335,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-7343.292, -2532.7336, 2323.3203"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "037ADC:Skyrim.esm",
+      "FormVersion": 39,
+      "Base": "02EDF0:Skyrim.esm",
+      "Radius": 1615.9492,
+      "Emittance": "02A72D:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -3.6934428,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-5092.1016, -633.46747, 491.52078"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0428D1:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 39,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 2168.532,
+      "Emittance": "075DE6:Skyrim.esm",
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -2.0,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-7437.0464, -404.6549, 1482.0833"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "075DD2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 39,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 1246.6144,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": -2.5,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-7519.264, -2339.2122, 4832.7744"
+      }
+    }
+  ]
+}
