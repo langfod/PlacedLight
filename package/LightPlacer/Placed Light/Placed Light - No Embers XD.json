@@ -1,6 +1,6 @@
 [
   {
-    "models": [ 
+    "models": [
       "effects\\fxfirewithembers02.nif",
       "effects\\fxfirewithembers01_brazier.nif",
       "effects\\fxfirepit01.nif",
@@ -14,7 +14,7 @@
     ],
     "lights": [
       {
-        "points": [ [ 0, 0, 0 ] ],
+        "points": [[0, 0, 0]],
         "data": {
           "light": "LightCampFire01",
           "radius": 300.0,
@@ -25,16 +25,16 @@
     ]
   },
   {
-    "addonNodes": [ 4 ],
+    "addonNodes": [4],
     "lights": [
       {
         "whiteList": [
-          "effects\\fxfirewithembers01_cheap.nif", 
+          "effects\\fxfirewithembers01_cheap.nif",
           "effects\\fxfirewithemberslogs01.nif",
           "effects\\fxfirewithemberslogs01.nif",
           "effects\\fxfirewithemberslogs02.nif",
           "effects\\fxfirewithemberslogs03.nif",
-          "effects\\fxfirewithemberslogs04.nif" 
+          "effects\\fxfirewithemberslogs04.nif"
         ],
         "data": {
           "light": "LightCampFire01",
@@ -46,14 +46,14 @@
     ]
   },
   {
-    "models": [ 
+    "models": [
       "clutter\\woodfires\\campfire01burning.nif",
       "clutter\\woodfires\\fireplacewood01burning.nif",
-      "clutter\\woodfires\\campfire01landburning.nif" 
+      "clutter\\woodfires\\campfire01landburning.nif"
     ],
     "lights": [
       {
-        "points": [ [ 0, 0, 0 ] ],
+        "points": [[0, 0, 0]],
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -101,7 +101,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -119,7 +119,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -135,10 +135,11 @@
     ]
   },
   {
-    "models": [ 
+    "models": [
       "furniture\\alchemyworkbench.nif",
       "furniture\\alchemyworkstation.nif",
-      "furniture\\workbenches\\alchemyworkbench01.nif" ],
+      "furniture\\workbenches\\alchemyworkbench01.nif"
+    ],
     "lights": [
       {
         "nodes": ["Burner01"],
@@ -151,13 +152,13 @@
     ]
   },
   {
-    "addonNodes": [ 7, 46 ],
+    "addonNodes": [7, 46],
     "lights": [
       {
-        "whiteList": [ 
+        "whiteList": [
           "clutter\\common\\removabletorch01.nif",
           "clutter\\common\\torchpermanent01.nif",
-          "clutter\\common\\torchsconce01.nif" 
+          "clutter\\common\\torchsconce01.nif"
         ],
         "data": {
           "light": "DefaultTorch01NS",
@@ -168,12 +169,13 @@
     ]
   },
   {
-    "models": [ 
+    "models": [
       "effects\\MGMagicFirePillar01.nif",
-      "Magic\\LightSpellStaticLight.nif" ],
+      "Magic\\LightSpellStaticLight.nif"
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "BluePotion",
           "radius": 128.0,

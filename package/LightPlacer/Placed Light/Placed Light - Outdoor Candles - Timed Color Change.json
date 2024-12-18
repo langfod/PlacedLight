@@ -1,6 +1,6 @@
 [
   {
-    "addonNodes": [ 49, 64 ],
+    "addonNodes": [49, 64],
     "lights": [
       {
         "whiteList": [
@@ -33,51 +33,49 @@
           "fade": 0.6,
           "flags": "RandomAnimStart",
           "conditions": [
-            
             "Self GetInWorldspace Tamriel NONE == 1 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
           ],
           "colorController": {
             "interpolation": "Linear",
             "keys": [
-               {
-                 "time": 0.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 3.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 8.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 13.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 20.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 23.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 30.0,
-                 "color": [ 230, 112, 0 ]
-               }
-             ]
+              {
+                "time": 0.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 3.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 8.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 13.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 20.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 23.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 30.0,
+                "color": [230, 112, 0]
+              }
+            ]
           }
-      }
+        }
       }
     ]
   },
   {
-    "addonNodes": [ 49, 64 ],
+    "addonNodes": [49, 64],
     "lights": [
       {
         "whiteList": [
@@ -92,44 +90,42 @@
           "fade": 0.8,
           "flags": "RandomAnimStart",
           "conditions": [
-            
             "Self GetInWorldspace Tamriel NONE == 1 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
           ],
           "colorController": {
             "interpolation": "Linear",
             "keys": [
-               {
-                 "time": 0.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 3.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 8.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 13.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 20.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 23.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 30.0,
-                 "color": [ 230, 112, 0 ]
-               }
-             ]
+              {
+                "time": 0.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 3.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 8.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 13.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 20.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 23.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 30.0,
+                "color": [230, 112, 0]
+              }
+            ]
           }
         }
       }
