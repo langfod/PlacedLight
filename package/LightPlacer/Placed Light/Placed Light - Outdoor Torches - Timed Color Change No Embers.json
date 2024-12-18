@@ -1,25 +1,23 @@
 [
   {
-    "addonNodes": [ 7, 46 ],
+    "addonNodes": [7, 46],
     "lights": [
       {
-        "whiteList": [ 
+        "whiteList": [
           "clutter\\common\\removabletorch01.nif",
           "clutter\\common\\torchpermanent01.nif",
-          "clutter\\common\\torchsconce01.nif" 
+          "clutter\\common\\torchsconce01.nif"
         ],
         "data": {
           "light": "DefaultTorch01NS",
           "radius": 512.0,
           "fade": 1.0,
           "conditions": [
-            
             "Self GetInWorldspace Tamriel NONE == 1 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
-             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE <= 6.00 OR"
           ]
-        }                           
+        }
       }
     ]
   }

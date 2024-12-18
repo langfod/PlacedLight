@@ -1,11 +1,9 @@
 [
   {
-    "visualEffects": [ 
-      "EnchFireFXShader" 
-  ],
+    "visualEffects": ["EnchFireFXShader"],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Orange",
           "fade": 1.0,
@@ -15,15 +13,15 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "EnchFrostFXShader",
       "EnchElementalFuryFXS",
       "EnchBlueFXShader",
-      "EnchDamageBlueFXS" 
+      "EnchDamageBlueFXS"
     ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "BluePotion",
           "fade": 1.0,
@@ -33,14 +31,14 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "EnchShockFXShader",
       "EnchPurpleFXShader",
       "EnchBoundSwordFXS"
     ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "nocturnallight",
           "fade": 1.0,
@@ -50,13 +48,10 @@
     ]
   },
   {
-    "visualEffects": [ 
-      "EnchGreenFXShader",
-      "EnchDamageGreenFXS"
-    ],
+    "visualEffects": ["EnchGreenFXShader", "EnchDamageGreenFXS"],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "GreenPotion",
           "fade": 1.0,
@@ -66,12 +61,10 @@
     ]
   },
   {
-    "visualEffects": [ 
-      "EnchRedFXShader"
-    ],
+    "visualEffects": ["EnchRedFXShader"],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "RedPotion",
           "fade": 1.0,
@@ -80,4 +73,4 @@
       }
     ]
   }
-] 
+]

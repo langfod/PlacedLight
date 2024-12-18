@@ -1,6 +1,6 @@
 [
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -13,7 +13,7 @@
           "effects\\fxfirewithembers03.nif",
           "effects\\fxfirewithembers04.nif",
           "effects\\fxfirewithembers05.nif"
-        ],    
+        ],
         "data": {
           "light": "LightCampFire01",
           "radius": 300.0,
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -86,12 +86,10 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\common\\candlelanternwithcandle01.nif"
-        ],
+        "whiteList": ["clutter\\common\\candlelanternwithcandle01.nif"],
         "data": {
           "light": "Candle",
           "radius": 85.0,
@@ -101,7 +99,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -119,7 +117,7 @@
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -135,10 +133,10 @@
     ]
   },
   {
-    "models": [ 
+    "models": [
       "furniture\\alchemyworkbench.nif",
       "furniture\\alchemyworkstation.nif",
-      "furniture\\workbenches\\alchemyworkbench01.nif" 
+      "furniture\\workbenches\\alchemyworkbench01.nif"
     ],
     "lights": [
       {
@@ -152,29 +150,30 @@
     ]
   },
   {
-    "addonNodes": [ 231, 122, 123, 227 ],
+    "addonNodes": [231, 122, 123, 227],
     "lights": [
       {
-        "whiteList": [ 
+        "whiteList": [
           "clutter\\common\\removabletorch01.nif",
           "clutter\\common\\torchpermanent01.nif",
-          "clutter\\common\\torchsconce01.nif" 
+          "clutter\\common\\torchsconce01.nif"
         ],
         "data": {
           "light": "DefaultTorch01NS",
           "radius": 512.0,
           "fade": 1.0
-        }                           
+        }
       }
     ]
   },
   {
-    "models": [ 
+    "models": [
       "effects\\MGMagicFirePillar01.nif",
-      "Magic\\LightSpellStaticLight.nif" ],
+      "Magic\\LightSpellStaticLight.nif"
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "BluePotion",
           "radius": 128.0,
