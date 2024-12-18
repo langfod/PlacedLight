@@ -1,0 +1,22 @@
+name: Validate LightPlacer jsons
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+          ref: ${{ github.head_ref }}
+
+      - name: Validate json
+        uses: cardinalby/schema-validator-action@v3
+        with:
+            schema: https://raw.githubusercontent.com/FlayaN/LightPlacer-VR/refs/heads/json-schema/schema.json
+            file: package/**/LightPlacer/**/*.json
