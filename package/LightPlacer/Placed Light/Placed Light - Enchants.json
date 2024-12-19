@@ -1,9 +1,42 @@
 [
   {
-    "visualEffects": ["EnchFireFXShader"],
+    "addonNodes": [ 49 ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "whiteList": [
+          "furniture\\enchantingworkbench.nif",
+          "furniture\\enchantingworkstation.nif"
+        ],
+        "data": {
+          "light": "Candle",
+          "radius": 64.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [ 
+      "effects\\MGMagicFirePillar01.nif",
+      "Magic\\LightSpellStaticLight.nif" ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
+        "data": {
+          "light": "BluePotion",
+          "radius": 128.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "visualEffects": [ 
+      "EnchFireFXShader" 
+  ],
+    "lights": [
+      {
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "Orange",
           "fade": 1.0,
@@ -13,15 +46,15 @@
     ]
   },
   {
-    "visualEffects": [
+    "visualEffects": [ 
       "EnchFrostFXShader",
       "EnchElementalFuryFXS",
       "EnchBlueFXShader",
-      "EnchDamageBlueFXS"
+      "EnchDamageBlueFXS" 
     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "BluePotion",
           "fade": 1.0,
@@ -31,14 +64,14 @@
     ]
   },
   {
-    "visualEffects": [
+    "visualEffects": [ 
       "EnchShockFXShader",
       "EnchPurpleFXShader",
       "EnchBoundSwordFXS"
     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "nocturnallight",
           "fade": 1.0,
@@ -48,10 +81,13 @@
     ]
   },
   {
-    "visualEffects": ["EnchGreenFXShader", "EnchDamageGreenFXS"],
+    "visualEffects": [ 
+      "EnchGreenFXShader",
+      "EnchDamageGreenFXS"
+    ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "GreenPotion",
           "fade": 1.0,
@@ -61,10 +97,12 @@
     ]
   },
   {
-    "visualEffects": ["EnchRedFXShader"],
+    "visualEffects": [ 
+      "EnchRedFXShader"
+    ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "RedPotion",
           "fade": 1.0,
@@ -73,4 +111,4 @@
       }
     ]
   }
-]
+] 

@@ -1,6 +1,6 @@
 [
   {
-    "visualEffects": [
+    "visualEffects": [ 
       "FEC_SoulAbsorbFireFXS",
       "FEC_FireFXS",
       "FEC_SunDisintegrateFXS",
@@ -15,7 +15,7 @@
     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "Orange",
           "fade": 1.0,
@@ -25,10 +25,14 @@
     ]
   },
   {
-    "visualEffects": ["FEC_FrostFXS", "FEC_FrostIceFormFXS"],
+    "visualEffects": [ 
+      "FEC_FrostFXS",
+      "FEC_FrostIceFormFXS"
+      
+    ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "BluePotion",
           "fade": 1.0,
@@ -38,7 +42,7 @@
     ]
   },
   {
-    "visualEffects": [
+    "visualEffects": [ 
       "FEC_SoulPowerAbsorbFXS",
       "FEC_ShockFXS",
       "FEC_SoulTrapSkinFXS",
@@ -46,10 +50,10 @@
       "FEC_SoulTrapFXS",
       "FEC_ShockCorpseDMGEffect",
       "FEC_ShockCorpseMODEffect"
-    ],
+     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "nocturnallight",
           "fade": 1.0,
@@ -59,10 +63,13 @@
     ]
   },
   {
-    "visualEffects": ["FEC_FireCorpseFearEffect"],
+    "visualEffects": [ 
+      "FEC_FireCorpseFearEffect"
+
+     ],
     "lights": [
       {
-        "points": [[0.0, 0.0, 0.0]],
+        "points": [ [ 0.0, 0.0, 0.0 ] ],
         "data": {
           "light": "RedPotion",
           "fade": 1.0,
@@ -71,4 +78,4 @@
       }
     ]
   }
-]
+] 

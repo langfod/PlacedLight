@@ -1,5 +1,5 @@
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package\PL - Dark.esp" -o "Spriggit/PL - Dark" -g SkyrimSE -p Spriggit.Json
-SpriggitCLI\Spriggit.CLI.exe serialize -i "package\PL - Darkest.esp" -o "Spriggit/PL - Darkest" -g SkyrimSE -p Spriggit.Json
+SpriggitCLI\Spriggit.CLI.exe serialize -i "package\PL - Default.esp" -o "Spriggit/PL - Default" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light - Spots.esp" -o "Spriggit/Placed Light - Spots" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light Exteriors.esp" -o "Spriggit/Placed Light Exteriors" -g SkyrimSE -p Spriggit.Json
 SpriggitCLI\Spriggit.CLI.exe serialize -i "package\Placed Light.esm" -o "Spriggit/Placed Light" -g SkyrimSE -p Spriggit.Json
