@@ -1,0 +1,56 @@
+[
+  {
+    "models": [
+      "dlc01\\furniture\\oven01.nif",
+      "_byoh\\furniture\\ovenmarker.nif"
+    ],
+    "lights": [
+      {
+        "points": [
+          [
+            0.0,
+            0.0,
+            4.5
+          ]
+        ],
+        "data": {
+          "light": "Redpotion",
+          "radius": 7.0,
+          "fade": 5.0,
+          "flags": "Simple|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [49],
+    "lights": [
+      {
+        "whiteList": [
+        ],
+        "data": {
+          "light": "Candle",
+          "radius": 64.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [235],
+    "lights": [
+      {
+        "whiteList": [
+          "furniture\\blacksmithforgemarker.nif",
+          "furniture\\blacksmithforgemarkerwr.nif",
+          "furniture\\blacksmithingskyforgemarker.nif"
+        ],
+        "data": {
+          "light": "Candle",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  }
+]
