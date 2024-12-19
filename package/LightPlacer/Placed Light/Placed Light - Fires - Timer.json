@@ -1,6 +1,6 @@
 [
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -13,22 +13,19 @@
           "effects\\fxfirewithembers03.nif",
           "effects\\fxfirewithembers04.nif",
           "effects\\fxfirewithembers05.nif"
-        ],    
+        ],
         "data": {
           "light": "LightCampFire01",
           "radius": 450.0,
           "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": [
-            
-            "Self IsInInterior NONE NONE == 1 AND"      
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -47,17 +44,13 @@
           "radius": 300.0,
           "fade": 1.0,
           "flags": "IgnoreScale",
-          "conditions": [
-            
-              "Self IsInInterior NONE NONE == 1 AND"
-          
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 4, 239 ],
+    "addonNodes": [4, 239],
     "lights": [
       {
         "whiteList": [
@@ -99,17 +92,13 @@
           "radius": 256.0,
           "fade": 1.1,
           "flags": "IgnoreScale",
-          "conditions": [
-            
-              "Self IsInInterior NONE NONE == 1 AND"
-          
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -122,25 +111,23 @@
           "effects\\fxfirewithembers03.nif",
           "effects\\fxfirewithembers04.nif",
           "effects\\fxfirewithembers05.nif"
-        ],    
+        ],
         "data": {
           "light": "LightCampFire01",
           "radius": 450.0,
           "fade": 1.0,
           "flags": "IgnoreScale",
           "conditions": [
-            
             "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
-             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE <= 6.00 OR"
           ]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -160,18 +147,16 @@
           "fade": 0.8,
           "flags": "IgnoreScale",
           "conditions": [
-            
             "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
-             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE <= 6.00 OR"
           ]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 224, 233, 232, 230, 4, 225, 229, 239 ],
+    "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
         "whiteList": [
@@ -191,18 +176,16 @@
           "fade": 1.0,
           "flags": "IgnoreScale",
           "conditions": [
-            
-            "Self IsInInterior NONE NONE == 0 AND",            
+            "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE <= 19.00 AND",
-             "Self GetCurrentTime NONE NONE >= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE >= 6.00 OR"
           ]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 4, 239 ],
+    "addonNodes": [4, 239],
     "lights": [
       {
         "whiteList": [
@@ -244,18 +227,16 @@
           "fade": 1.0,
           "flags": "IgnoreScale",
           "conditions": [
-            
-            "Self IsInInterior NONE NONE == 0 AND",            
+            "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 AND",
-             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE <= 6.00 OR"
           ]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 4, 239 ],
+    "addonNodes": [4, 239],
     "lights": [
       {
         "whiteList": [
@@ -297,11 +278,9 @@
           "fade": 1.0,
           "flags": "IgnoreScale",
           "conditions": [
-            
-            "Self IsInInterior NONE NONE == 0 AND",            
+            "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE <= 19.00 AND",
-             "Self GetCurrentTime NONE NONE >= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE >= 6.00 OR"
           ]
         }
       }

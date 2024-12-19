@@ -1,7 +1,7 @@
 [
   {
-    "visualEffects": [ 
-      "FireFXShader", 
+    "visualEffects": [
+      "FireFXShader",
       "FireCloakFXShader",
       "AtronachFlameDeathFXS",
       "AtronachFlameGlowFXS",
@@ -30,7 +30,7 @@
     ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "Orange",
           "fade": 1.0,
@@ -40,15 +40,15 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "WardFXShader",
-      "WardConcSelf0", 
+      "WardConcSelf0",
       "FrostFXShader",
-      "FrostshortFXShader", 
+      "FrostshortFXShader",
       "GhostFXShader",
       "GhostFXShaderNightingale",
       "IceWraithFXS",
-      "AtronachFrostFXS", 
+      "AtronachFrostFXS",
       "FrostSpikeFXShader",
       "GhostEtherealFXShader",
       "GhostEtherealFXShaderIntro",
@@ -79,7 +79,7 @@
     ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "BluePotion",
           "fade": 1.0,
@@ -89,7 +89,7 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "ShockStormFXShader",
       "SoulTrapFXShader",
       "SoulTrapTargetActFXS",
@@ -133,10 +133,10 @@
       "SummonFlameThrallPotent",
       "SummonFrostThrallPotent",
       "SummonStormThrallPotent"
-     ],
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "MagicLightShockHand",
           "fade": 1.0,
@@ -146,75 +146,39 @@
             "keys": [
               {
                 "time": 0.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 8.5,
-                "color": [
-                  123,
-                  18,
-                  252
-                ]
+                "color": [123, 18, 252]
               },
               {
                 "time": 9.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 17.0,
-                "color": [
-                  21,
-                  3,
-                  43
-                ]
+                "color": [21, 3, 43]
               },
               {
                 "time": 17.5,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 26.5,
-                "color": [
-                  155,
-                  79,
-                  247
-                ]
+                "color": [155, 79, 247]
               },
               {
                 "time": 27.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 35.0,
-                "color": [
-                  21,
-                  3,
-                  43
-                ]
+                "color": [21, 3, 43]
               },
               {
                 "time": 35.5,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               }
             ]
           }
@@ -223,7 +187,7 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "BackupHealFXS",
       "HealFXS",
       "HealMysticFXS",
@@ -234,10 +198,10 @@
       "RestoreHealthFFSelfArea",
       "RestoreHealthFFSelf50",
       "RestoreHealthFFActor"
-     ],
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "Yellow",
           "fade": 1.0,
@@ -247,7 +211,7 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "FXSspiderSpitHit",
       "MagicArmorOakFleshFXS",
       "MagicArmorStoneFleshFXS",
@@ -259,10 +223,10 @@
       "crChaurusSpitFFAimed",
       "crVampireAbsorbStaminaConcAimed",
       "AbFXSpriggan"
-     ],
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "GreenPotion",
           "fade": 1.0,
@@ -272,7 +236,7 @@
     ]
   },
   {
-    "visualEffects": [ 
+    "visualEffects": [
       "IlliusionFearFXS",
       "AbsorbHealthFXS",
       "GhostRedFXShader",
@@ -281,10 +245,10 @@
       "FXIllusionMassRedBodyHolder",
       "FXIllusionMassGreenBodyHolder",
       "crVampireAbsorbHealthConcAimed"
-     ],
+    ],
     "lights": [
       {
-        "points": [ [ 0.0, 0.0, 5.0 ] ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "RedPotion",
           "fade": 1.0,
@@ -293,4 +257,4 @@
       }
     ]
   }
-] 
+]

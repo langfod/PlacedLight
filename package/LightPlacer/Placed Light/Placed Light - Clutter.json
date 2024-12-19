@@ -7,9 +7,7 @@
     ],
     "lights": [
       {
-        "nodes": [
-          "Burner01"
-        ],
+        "nodes": ["Burner01"],
         "data": {
           "light": "Candle",
           "radius": 32.0,
@@ -31,9 +29,7 @@
     ],
     "lights": [
       {
-        "nodes": [
-          "Burner01"
-        ],
+        "nodes": ["Burner01"],
         "data": {
           "light": "Candle",
           "radius": 32.0,
@@ -63,13 +59,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "nocturnallight",
           "radius": 10.0,
@@ -80,19 +70,10 @@
     ]
   },
   {
-    "models": [
-      "plants\\floradeathbell01.nif",
-      "plants\\floradeathbell02.nif"
-    ],
+    "models": ["plants\\floradeathbell01.nif", "plants\\floradeathbell02.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "nocturnallight",
           "radius": 32.0,
@@ -109,13 +90,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Bluepotion",
           "radius": 32.0,
@@ -132,13 +107,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Orange",
           "radius": 32.0,
@@ -155,13 +124,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.5]],
         "data": {
           "light": "Redpotion",
           "radius": 5.5,
@@ -179,13 +142,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.5]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.5,
@@ -205,13 +162,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.5]],
         "data": {
           "light": "Bluepotion",
           "radius": 5.5,
@@ -228,13 +179,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Redpotion",
           "radius": 6.0,
@@ -245,59 +190,31 @@
             "keys": [
               {
                 "time": 0.0,
-                "color": [
-                  201,
-                  10,
-                  10
-                ]
+                "color": [201, 10, 10]
               },
               {
                 "time": 3.0,
-                "color": [
-                  230,
-                  55,
-                  55
-                ]
+                "color": [230, 55, 55]
               },
               {
                 "time": 6.0,
-                "color": [
-                  148,
-                  24,
-                  24
-                ]
+                "color": [148, 24, 24]
               },
               {
                 "time": 9.0,
-                "color": [
-                  94,
-                  7,
-                  7
-                ]
+                "color": [94, 7, 7]
               },
               {
                 "time": 12.0,
-                "color": [
-                  161,
-                  2,
-                  2
-                ]
+                "color": [161, 2, 2]
               },
               {
                 "time": 15.0,
-                "color": [
-                  235,
-                  28,
-                  28
-                ]
+                "color": [235, 28, 28]
               },
               {
                 "time": 18.0,
-                "color": [
-                  201,
-                  10,
-                  10
-                ]
+                "color": [201, 10, 10]
               }
             ]
           }
@@ -306,18 +223,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\firesaltpile.nif"
-    ],
+    "models": ["clutter\\ingredients\\firesaltpile.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            5.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "Orange",
           "radius": 5.25,
@@ -328,40 +237,24 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\ectoplasm.nif"
-    ],
+    "models": ["clutter\\ingredients\\ectoplasm.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            5.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 7.5,
-          "fade": 7.50,
+          "fade": 7.5,
           "flags": "IgnoreScale"
         }
       }
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\frostsalts.nif"
-    ],
+    "models": ["clutter\\ingredients\\frostsalts.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            5.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "BluePotion",
           "radius": 5.25,
@@ -372,18 +265,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\voidsalts.nif"
-    ],
+    "models": ["clutter\\ingredients\\voidsalts.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            5.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "MagicLightShockHand",
           "radius": 5.25,
@@ -394,75 +279,39 @@
             "keys": [
               {
                 "time": 0.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 8.5,
-                "color": [
-                  123,
-                  18,
-                  252
-                ]
+                "color": [123, 18, 252]
               },
               {
                 "time": 9.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 17.0,
-                "color": [
-                  21,
-                  3,
-                  43
-                ]
+                "color": [21, 3, 43]
               },
               {
                 "time": 17.5,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 26.5,
-                "color": [
-                  155,
-                  79,
-                  247
-                ]
+                "color": [155, 79, 247]
               },
               {
                 "time": 27.0,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               },
               {
                 "time": 35.0,
-                "color": [
-                  21,
-                  3,
-                  43
-                ]
+                "color": [21, 3, 43]
               },
               {
                 "time": 35.5,
-                "color": [
-                  45,
-                  2,
-                  97
-                ]
+                "color": [45, 2, 97]
               }
             ]
           }
@@ -471,18 +320,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\glowdust01.nif"
-    ],
+    "models": ["clutter\\ingredients\\glowdust01.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            2.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 2.5]],
         "data": {
           "light": "AzuraSuperBlue01",
           "radius": 5.25,
@@ -493,18 +334,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealrateextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealrateextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -515,18 +348,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealrateextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealrateextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -537,18 +362,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealrategreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealrategreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -559,18 +376,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealratelesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealratelesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -581,18 +390,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealthextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealthextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -603,18 +404,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealthextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealthextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -625,18 +418,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealthgreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealthgreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -647,18 +432,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifyhealthlesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifyhealthlesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -669,18 +446,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionhealthextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionhealthextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -691,18 +460,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionhealthextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionhealthextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -713,18 +474,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionhealthgreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionhealthgreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            8.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 8.5]],
         "data": {
           "light": "Redpotion",
           "radius": 5.25,
@@ -735,18 +488,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionhealthlesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionhealthlesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 5.15,
@@ -763,13 +508,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            5.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 5.0]],
         "data": {
           "light": "DLC2dunKolbjornRitualLight",
           "radius": 6.15,
@@ -796,13 +535,7 @@
     ],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -813,18 +546,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystaminaextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystaminaextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -835,18 +560,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystaminaextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystaminaextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -857,18 +574,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystaminagreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystaminagreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -879,18 +588,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystaminalesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystaminalesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -901,18 +602,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystamrateextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystamrateextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -923,18 +616,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystamrateextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystamrateextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -945,18 +630,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystamrategreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystamrategreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -967,18 +644,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifystamratelesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifystamratelesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -989,18 +658,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionstaminaextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionstaminaextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1011,18 +672,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionstaminaextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionstaminaextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1033,18 +686,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionstaminagreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionstaminagreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1055,18 +700,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionstaminalesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionstaminalesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-           4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1077,18 +714,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifycarryextra.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifycarryextra.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1099,18 +728,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifycarryextreme.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifycarryextreme.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1121,18 +742,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifycarrygreat.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifycarrygreat.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1143,18 +756,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionfortifycarrylesser.nif"
-    ],
+    "models": ["clutter\\potions\\potionfortifycarrylesser.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 5.25,
@@ -1165,18 +770,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistshock100.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistshock100.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1187,18 +784,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistshock50.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistshock50.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1209,18 +798,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistmagicka100.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistmagicka100.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1231,18 +812,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistmagicka50.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistmagicka50.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1253,18 +826,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistfrost100.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistfrost100.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1275,18 +840,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistfrost50.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistfrost50.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MagicLightWhite01",
           "radius": 5.25,
@@ -1297,18 +854,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistfire100.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistfire100.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MiddenRedEye01",
           "radius": 5.25,
@@ -1319,18 +868,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\potionresistfire50.nif"
-    ],
+    "models": ["clutter\\potions\\potionresistfire50.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            7.5
-          ]
-        ],
+        "points": [[0.0, 0.0, 7.5]],
         "data": {
           "light": "MiddenRedEye01",
           "radius": 5.25,
@@ -1341,18 +882,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\poisondamagestamina01.nif"
-    ],
+    "models": ["clutter\\potions\\poisondamagestamina01.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 4.75,
@@ -1363,18 +896,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\poisonweaknessshock.nif"
-    ],
+    "models": ["clutter\\potions\\poisonweaknessshock.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "SolitudeInteriorLightBlueMD2",
           "radius": 6.0,
@@ -1385,18 +910,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\potions\\poisondamagehealth01.nif"
-    ],
+    "models": ["clutter\\potions\\poisondamagehealth01.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            4.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 4.0]],
         "data": {
           "light": "Redpotion",
           "radius": 4.75,
@@ -1407,59 +924,31 @@
             "keys": [
               {
                 "time": 0.0,
-                "color": [
-                  201,
-                  10,
-                  10
-                ]
+                "color": [201, 10, 10]
               },
               {
                 "time": 3.0,
-                "color": [
-                  230,
-                  55,
-                  55
-                ]
+                "color": [230, 55, 55]
               },
               {
                 "time": 6.0,
-                "color": [
-                  148,
-                  24,
-                  24
-                ]
+                "color": [148, 24, 24]
               },
               {
                 "time": 9.0,
-                "color": [
-                  94,
-                  7,
-                  7
-                ]
+                "color": [94, 7, 7]
               },
               {
                 "time": 12.0,
-                "color": [
-                  161,
-                  2,
-                  2
-                ]
+                "color": [161, 2, 2]
               },
               {
                 "time": 15.0,
-                "color": [
-                  235,
-                  28,
-                  28
-                ]
+                "color": [235, 28, 28]
               },
               {
                 "time": 18.0,
-                "color": [
-                  201,
-                  10,
-                  10
-                ]
+                "color": [201, 10, 10]
               }
             ]
           }
@@ -1468,61 +957,53 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\frostbitevenom01.nif"
-    ],
+    "models": ["clutter\\ingredients\\frostbitevenom01.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            10.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 10.0]],
         "data": {
           "light": "BoethiahBluePulseLight",
           "radius": 8.5,
           "fade": 50.0,
-         "flags": "IgnoreScale|RandomAnimStart",
+          "flags": "IgnoreScale|RandomAnimStart",
           "colorController": {
             "interpolation": "Linear",
             "keys": [
               {
                 "time": 0.0,
-                "color": [  119, 197, 252  ]
+                "color": [119, 197, 252]
               },
               {
                 "time": 8.5,
-                "color": [  145, 181, 207 ]
+                "color": [145, 181, 207]
               },
               {
                 "time": 9.0,
-                "color": [  119, 197, 252  ]
+                "color": [119, 197, 252]
               },
               {
                 "time": 17.0,
-                "color": [  59, 148, 212  ]
+                "color": [59, 148, 212]
               },
               {
                 "time": 17.5,
-                "color": [  119, 197, 252  ]
+                "color": [119, 197, 252]
               },
               {
                 "time": 26.5,
-                "color": [  255,255,255  ]
+                "color": [255, 255, 255]
               },
               {
                 "time": 27.0,
-                "color": [  119, 197, 252  ]
+                "color": [119, 197, 252]
               },
               {
                 "time": 35.0,
-                "color": [  22, 127, 201  ]
+                "color": [22, 127, 201]
               },
               {
                 "time": 35.5,
-                "color": [  119, 197, 252  ]
+                "color": [119, 197, 252]
               }
             ]
           }
@@ -1531,18 +1012,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\icewraithteeth.nif"
-    ],
+    "models": ["clutter\\ingredients\\icewraithteeth.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            -2.0,
-            0.0
-          ]
-        ],
+        "points": [[0.0, -2.0, 0.0]],
         "data": {
           "light": "DwarvenOmniLight_NoMove",
           "radius": 6.25,
@@ -1553,18 +1026,10 @@
     ]
   },
   {
-    "models": [
-      "clutter\\ingredients\\sap.nif"
-    ],
+    "models": ["clutter\\ingredients\\sap.nif"],
     "lights": [
       {
-        "points": [
-          [
-            0.0,
-            0.0,
-            2.0
-          ]
-        ],
+        "points": [[0.0, 0.0, 2.0]],
         "data": {
           "light": "Greenpotion",
           "radius": 6.25,

@@ -1,6 +1,6 @@
 [
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -32,17 +32,13 @@
           "light": "Candle",
           "radius": 64.0,
           "fade": 1.0,
-          "conditions": [
-            
-            "Self IsInInterior NONE NONE == 1 AND"
-          
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -55,17 +51,13 @@
           "light": "Candle",
           "radius": 256.0,
           "fade": 1.0,
-          "conditions": [
-            
-            "Self IsInInterior NONE NONE == 1 AND"
-          
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -164,17 +156,13 @@
           "light": "Candle",
           "radius": 64.0,
           "fade": 0.8,
-          "conditions": [
-            
-            "Self IsInInterior NONE NONE == 1 AND"
-          
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [ 49, 64 ],
+    "addonNodes": [49, 64],
     "lights": [
       {
         "whiteList": [
@@ -207,51 +195,49 @@
           "fade": 0.6,
           "flags": "RandomAnimStart",
           "conditions": [
-            
             "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
           ],
           "colorController": {
             "interpolation": "Linear",
             "keys": [
-               {
-                 "time": 0.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 3.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 8.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 13.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 20.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 23.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 30.0,
-                 "color": [ 230, 112, 0 ]
-               }
-             ]
+              {
+                "time": 0.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 3.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 8.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 13.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 20.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 23.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 30.0,
+                "color": [230, 112, 0]
+              }
+            ]
           }
-      }
+        }
       }
     ]
   },
   {
-    "addonNodes": [ 49, 64 ],
+    "addonNodes": [49, 64],
     "lights": [
       {
         "whiteList": [
@@ -266,51 +252,49 @@
           "fade": 0.8,
           "flags": "RandomAnimStart",
           "conditions": [
-            
             "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
           ],
           "colorController": {
             "interpolation": "Linear",
             "keys": [
-               {
-                 "time": 0.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 3.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 8.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 13.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 20.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 23.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 30.0,
-                 "color": [ 230, 112, 0 ]
-               }
-             ]
+              {
+                "time": 0.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 3.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 8.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 13.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 20.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 23.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 30.0,
+                "color": [230, 112, 0]
+              }
+            ]
           }
         }
       }
     ]
   },
   {
-    "addonNodes": [ 49 ],
+    "addonNodes": [49],
     "lights": [
       {
         "whiteList": [
@@ -411,44 +395,42 @@
           "fade": 0.8,
           "flags": "RandomAnimStart",
           "conditions": [
-               
             "Self IsInInterior NONE NONE == 0 AND",
             "Self GetCurrentTime NONE NONE >= 19.00 OR",
-             "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          
+            "Self GetCurrentTime NONE NONE <= 6.00 OR"
           ],
           "colorController": {
             "interpolation": "Linear",
             "keys": [
-               {
-                 "time": 0.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 3.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 8.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 13.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 20.0,
-                 "color": [ 230, 112, 0 ]
-               },
-               {
-                 "time": 23.0,
-                 "color": [ 250, 160, 70 ]
-               },
-               {
-                 "time": 30.0,
-                 "color": [ 230, 112, 0 ]
-               }
-             ]
+              {
+                "time": 0.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 3.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 8.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 13.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 20.0,
+                "color": [230, 112, 0]
+              },
+              {
+                "time": 23.0,
+                "color": [250, 160, 70]
+              },
+              {
+                "time": 30.0,
+                "color": [230, 112, 0]
+              }
+            ]
           }
         }
       }
