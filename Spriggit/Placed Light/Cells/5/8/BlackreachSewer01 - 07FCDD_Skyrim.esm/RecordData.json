@@ -35,10 +35,15 @@
     "Inherits": [
       "AmbientColor",
       "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
       "DirectionalRotation",
       "DirectionalFade",
       "ClipDistance",
-      "FogPower"
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
     ]
   },
   "LightingTemplate": "087999:Skyrim.esm",

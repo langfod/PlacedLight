@@ -54,24 +54,6 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "00000F:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
-      "Placement": {
-        "Position": "175628.69, -99113.71, 11453.004",
-        "Rotation": "0, 0, 0.8000205"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "000016:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
-      "Placement": {
-        "Position": "172583.94, -99288.734, 11381.6455",
-        "Rotation": "0, 0, 5.3000236"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "1097DC:Skyrim.esm",
       "MajorRecordFlagsRaw": 2048,
       "SkyrimMajorRecordFlags": [
@@ -92,11 +74,11 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000015:Placed Light Exteriors.esp",
-      "Base": "0D8759:Skyrim.esm",
+      "FormKey": "00000F:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
       "Placement": {
-        "Position": "172513.12, -99247.12, 11128.642",
-        "Rotation": "0, 0, 2.1000116"
+        "Position": "175628.69, -99113.71, 11453.004",
+        "Rotation": "0, 0, 0.8000205"
       }
     },
     {
@@ -110,15 +92,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "000013:Placed Light Exteriors.esp",
-      "Base": "02D847:Skyrim.esm",
-      "Placement": {
-        "Position": "174165.84, -98964.89, 11377.135",
-        "Rotation": "0, 0, 0.5000228"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "000012:Placed Light Exteriors.esp",
       "Base": "0D8759:Skyrim.esm",
       "Placement": {
@@ -128,40 +101,29 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "1097DD:Skyrim.esm",
-      "MajorRecordFlagsRaw": 198656,
-      "SkyrimMajorRecordFlags": [
-        "InitiallyDisabled",
-        "0x10000",
-        "Dangerous_OffLimits_InteriorCell"
-      ],
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 55.461838,
-      "Emittance": "08277B:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "018A58:Skyrim.esm",
-      "EnableParent": {
-        "Reference": "000014:Skyrim.esm",
-        "Flags": [
-          "SetEnableStateToOppositeOfParent"
-        ],
-        "Unknown": "0x000000"
-      },
+      "FormKey": "000013:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
       "Placement": {
-        "Position": "172388.22, -100236.63, -30000"
+        "Position": "174165.84, -98964.89, 11377.135",
+        "Rotation": "0, 0, 0.5000228"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "00000E:Placed Light Exteriors.esp",
-      "Base": "0B215E:Skyrim.esm",
-      "Radius": 108.55846,
+      "FormKey": "000015:Placed Light Exteriors.esp",
+      "Base": "0D8759:Skyrim.esm",
       "Placement": {
-        "Position": "175629.34, -99115.984, 11463.024",
-        "Rotation": "0, 0, 5.583198"
+        "Position": "172513.12, -99247.12, 11128.642",
+        "Rotation": "0, 0, 2.1000116"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000016:Placed Light Exteriors.esp",
+      "Base": "02D847:Skyrim.esm",
+      "Placement": {
+        "Position": "172583.94, -99288.734, 11381.6455",
+        "Rotation": "0, 0, 5.3000236"
       }
     }
   ]
