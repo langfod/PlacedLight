@@ -1,0 +1,80 @@
+{
+  "FormKey": "039EAC:Dragonborn.esm",
+  "EditorID": "DLC2HarstradCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Harstrad Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00172116",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00314F56",
+      "DirectionalXMinus": "#00284F4F",
+      "DirectionalYPlus": "#002D5253",
+      "DirectionalYMinus": "#002D4B53",
+      "DirectionalZPlus": "#00152525",
+      "DirectionalZMinus": "#00447880",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0195D3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "039F98:Dragonborn.esm",
+  "SkyAndWeatherFromRegion": "028649:Dragonborn.esm",
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "EncounterZone": "039F99:Dragonborn.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039EBC:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "088246:Skyrim.esm",
+      "Emittance": "028649:Dragonborn.esm",
+      "Placement": {
+        "Position": "1557.5884, 4560.609, 7296.1396"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "039ED8:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "077788:Skyrim.esm",
+      "Radius": 271.8968,
+      "LightData": {
+        "FadeOffset": -0.40928513,
+        "ShadowDepthBias": 1.0,
+        "Unknown": 708397824
+      },
+      "Placement": {
+        "Position": "1497.5074, 2830.1152, 7487.812"
+      }
+    }
+  ]
+}

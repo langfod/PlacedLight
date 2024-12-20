@@ -1,0 +1,98 @@
+{
+  "FormKey": "009BDE:Dawnguard.esm",
+  "EditorID": "DLC1HunterCave01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dead Drop Falls"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#002E3D3C",
+    "FogFar": 4000.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004B5F5C",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "10ACD3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019C8E:Dawnguard.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "09F363:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00B23D:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 43,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "06ED65:Skyrim.esm",
+      "Radius": -14.382263,
+      "Placement": {
+        "Position": "1590.3256, -603.92816, 8402.725",
+        "Rotation": "0, -0, 5.38319"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014563:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0CB626:Skyrim.esm",
+      "Radius": 340.93787,
+      "Placement": {
+        "Position": "-249.1828, -6328.868, 7185.406"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014565:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0C7735:Skyrim.esm",
+      "Radius": 504.60608,
+      "LightData": {
+        "FadeOffset": 0.40607643,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2458.3152, -6763.413, 7300.5977"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01456B:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 98.342865,
+      "LightData": {
+        "FadeOffset": 0.91269433,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2811.0752, -5609.745, 7259.1836"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "FormKey": "0154D5:Dawnguard.esm",
+  "EditorID": "DLC1VampireCastleZCell2",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Volkihar East Tower"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00778991",
+    "FogFar": 3500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#0029343B",
+      "DirectionalXMinus": "#00223436",
+      "DirectionalYPlus": "#00263639",
+      "DirectionalYMinus": "#00263139",
+      "DirectionalZPlus": "#00121819",
+      "DirectionalZMinus": "#00415A65",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00486166",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogNear",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01793F:Dawnguard.esm",
+  "WaterHeight": 0.0,
+  "Location": "00357E:Dawnguard.esm",
+  "AcousticSpace": "04075D:Skyrim.esm",
+  "EncounterZone": "003580:Dawnguard.esm",
+  "Music": "00EEB9:Dawnguard.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015556:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "106910:Skyrim.esm",
+      "Radius": 518.33954,
+      "LightData": {
+        "FadeOffset": 0.021392345,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2398.0354, 2520.1387, 7153.9424"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015557:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "106910:Skyrim.esm",
+      "Radius": -88.419205,
+      "LightData": {
+        "FadeOffset": 0.16553688,
+        "ShadowDepthBias": 1.0,
+        "Unknown": 833279744
+      },
+      "Placement": {
+        "Position": "2463.9502, 2920.5054, 7251.183"
+      }
+    }
+  ]
+}
