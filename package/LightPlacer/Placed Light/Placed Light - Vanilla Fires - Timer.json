@@ -18,18 +18,16 @@
     ],
     "lights": [
       {
-        "points": [ [ 0, 0, 25 ] ],
+        "points": [[0, 0, 25]],
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
           "fade": 1.0,
-          "conditions": [
-            "Self IsInInterior NONE NONE == 1 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       },
       {
-        "points": [ [ 0, 0, 25 ] ],
+        "points": [[0, 0, 25]],
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
@@ -44,7 +42,7 @@
     ]
   },
   {
-    "addonNodes": [ 4 ],
+    "addonNodes": [4],
     "lights": [
       {
         "whiteList": [
@@ -71,9 +69,7 @@
           "light": "LightCampFire01",
           "radius": 512.0,
           "fade": 1.0,
-          "conditions": [
-            "Self IsInInterior NONE NONE == 1 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
@@ -88,7 +84,7 @@
     ],
     "lights": [
       {
-        "points": [ [ 0, 0, 0 ] ],
+        "points": [[0, 0, 0]],
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
@@ -101,14 +97,12 @@
         }
       },
       {
-        "points": [ [ 0, 0, 0 ] ],
+        "points": [[0, 0, 0]],
         "data": {
           "light": "LightCampFire01",
           "radius": 512.0,
           "fade": 1.0,
-          "conditions": [
-            "Self IsInInterior NONE NONE == 1 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
