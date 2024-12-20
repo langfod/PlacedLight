@@ -1,0 +1,94 @@
+{
+  "FormKey": "001DBA:Dawnguard.esm",
+  "EditorID": "DLC1DawnguardHQ01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fort Dawnguard"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#0062EE8F",
+    "DirectionalColor": "#003A442F",
+    "FogNearColor": "#009BA28C",
+    "FogNear": 1400.0,
+    "FogFar": 9000.0,
+    "FogClipDistance": 9000.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002D291F",
+      "DirectionalXMinus": "#0024291C",
+      "DirectionalYPlus": "#00292A1E",
+      "DirectionalYMinus": "#0029271E",
+      "DirectionalZPlus": "#0013130D",
+      "DirectionalZMinus": "#003E3E2E",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00949B84",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "094E50:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0128FE:Dawnguard.esm",
+  "SkyAndWeatherFromRegion": "0C5858:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "06D542:Skyrim.esm",
+  "ImageSpace": "09F363:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0100FE:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 3072,
+      "EditorID": "DLC1DawnguardLightBeamLightRef",
+      "FormVersion": 43,
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled"
+      ],
+      "Base": "0F4851:Skyrim.esm",
+      "Radius": 275.02063,
+      "LightData": {
+        "FovOffset": 20.78331,
+        "FadeOffset": 1.7378442,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "-1104, 240, 96",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "003D88:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0F4851:Skyrim.esm",
+      "Radius": 275.02063,
+      "LightData": {
+        "FovOffset": 20.78331,
+        "FadeOffset": 1.7378442,
+        "ShadowDepthBias": 1.0,
+        "Unknown": 648245760
+      },
+      "Placement": {
+        "Position": "-1104, 240, 96",
+        "Rotation": "0, -0, 3.1415927"
+      }
+    }
+  ]
+}

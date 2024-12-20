@@ -1,0 +1,67 @@
+{
+  "FormKey": "017729:Dragonborn.esm",
+  "EditorID": "DLC2TelMithrynStewardsHouse",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tel Mithryn Steward's House"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00332717",
+    "DirectionalColor": "#00454E50",
+    "FogNearColor": "#00243130",
+    "FogFar": 4300.0,
+    "FogPower": 0.7,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00382718",
+      "DirectionalXMinus": "#002D2715",
+      "DirectionalYPlus": "#00332817",
+      "DirectionalYMinus": "#00332517",
+      "DirectionalZPlus": "#0018120A",
+      "DirectionalZMinus": "#004D3B23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00536C6A",
+    "FogMax": 0.9,
+    "LightFadeBegin": 4000.0,
+    "LightFadeEnd": 5000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034F4B:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "01CDED:Dragonborn.esm",
+  "Owner": "017775:Dragonborn.esm",
+  "LockList": "017E86:Dragonborn.esm",
+  "AcousticSpace": "039751:Dragonborn.esm",
+  "EncounterZone": "01D751:Dragonborn.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "034F4A:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 311.2552,
+      "LightData": {
+        "FadeOffset": -0.41648924,
+        "ShadowDepthBias": 14.637871
+      },
+      "Placement": {
+        "Position": "420.94235, -268.46472, 217.44687"
+      }
+    }
+  ]
+}

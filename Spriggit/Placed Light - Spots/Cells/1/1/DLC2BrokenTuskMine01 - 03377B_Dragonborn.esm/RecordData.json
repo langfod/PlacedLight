@@ -1,0 +1,67 @@
+{
+  "FormKey": "03377B:Dragonborn.esm",
+  "EditorID": "DLC2BrokenTuskMine01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Broken Tusk Mine"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00172116",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00172116",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "05EAE8:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142C1:Dragonborn.esm",
+  "AcousticSpace": "02B3AE:Skyrim.esm",
+  "EncounterZone": "033953:Dragonborn.esm",
+  "Music": "05228A:Skyrim.esm",
+  "ImageSpace": "013B32:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031517:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 480.5832,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 12.148166,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "2234.6018, 3289.6953, 7246.339"
+      }
+    }
+  ]
+}

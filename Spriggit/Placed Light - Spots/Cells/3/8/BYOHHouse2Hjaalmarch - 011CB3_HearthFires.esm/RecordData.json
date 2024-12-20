@@ -1,0 +1,71 @@
+{
+  "FormKey": "011CB3:HearthFires.esm",
+  "EditorID": "BYOHHouse2Hjaalmarch",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Windstad Manor"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C4244",
+    "DirectionalColor": "#004D4D44",
+    "FogNearColor": "#00474338",
+    "FogFar": 3000.0,
+    "DirectionalRotationZ": 270,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00414447",
+      "DirectionalXMinus": "#00354240",
+      "DirectionalYPlus": "#003C4544",
+      "DirectionalYMinus": "#003C4244",
+      "DirectionalZPlus": "#001C1F1E",
+      "DirectionalZMinus": "#005B6469",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00394146",
+    "FogMax": 1.0,
+    "LightFadeBegin": 3000.0,
+    "LightFadeEnd": 4000.0,
+    "Inherits": [
+      "FogNear",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "0A1196:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "00BE0A:HearthFires.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000BA2:HearthFires.esm",
+      "MajorRecordFlagsRaw": 2048,
+      "FormVersion": 43,
+      "SkyrimMajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "088246:Skyrim.esm",
+      "Radius": 338.28033,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -0.23804122,
+        "ShadowDepthBias": 1.0
+      },
+      "EnableParent": {
+        "Reference": "011D09:HearthFires.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "-584.478, 23.008026, 172.63228",
+        "Rotation": "0, -0, 4.712389"
+      }
+    }
+  ]
+}

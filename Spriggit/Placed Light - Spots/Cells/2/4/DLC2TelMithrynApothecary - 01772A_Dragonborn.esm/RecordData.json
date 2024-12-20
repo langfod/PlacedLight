@@ -1,0 +1,64 @@
+{
+  "FormKey": "01772A:Dragonborn.esm",
+  "EditorID": "DLC2TelMithrynApothecary",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tel Mithryn Apothecary"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#002D3E3D",
+    "FogFar": 2200.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#004B6361",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "FogPower",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034F4B:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "01CDEB:Dragonborn.esm",
+  "Owner": "017775:Dragonborn.esm",
+  "LockList": "017E86:Dragonborn.esm",
+  "AcousticSpace": "039751:Dragonborn.esm",
+  "EncounterZone": "01D751:Dragonborn.esm",
+  "Music": "033917:Dragonborn.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "031AE1:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "0F7CBF:Skyrim.esm",
+      "Radius": 168.72577,
+      "LightData": {
+        "FadeOffset": -0.5389188,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "252.84468, -308.43192, 84.644226"
+      }
+    }
+  ]
+}

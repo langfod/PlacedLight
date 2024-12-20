@@ -1,0 +1,100 @@
+{
+  "FormKey": "036798:Dragonborn.esm",
+  "EditorID": "DLC2AltarOfThrond01",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Altar of Thrond Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00202621",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#00172116",
+    "FogFar": 4500.0,
+    "FogPower": 0.6,
+    "AmbientColors": {
+      "DirectionalXPlus": "#002C2418",
+      "DirectionalXMinus": "#00232415",
+      "DirectionalYPlus": "#00282517",
+      "DirectionalYMinus": "#00282217",
+      "DirectionalZPlus": "#0013110A",
+      "DirectionalZMinus": "#003C3623",
+      "Specular": "#00172116",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00172116",
+    "FogMax": 1.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "ClipDistance"
+    ]
+  },
+  "LightingTemplate": "02BCA3:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "014294:Dragonborn.esm",
+  "AcousticSpace": "0FD942:Skyrim.esm",
+  "EncounterZone": "014295:Dragonborn.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "089D4E:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0367C3:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "08E79A:Skyrim.esm",
+      "Radius": 231.30579,
+      "Placement": {
+        "Position": "1856, 1456, 7216"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0367C4:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "01950C:Skyrim.esm",
+      "Radius": 338.5061,
+      "LightData": {
+        "ShadowDepthBias": 11.965141
+      },
+      "Placement": {
+        "Position": "1936, 2432, 7008"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0367CA:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "01950C:Skyrim.esm",
+      "Radius": 338.5061,
+      "Placement": {
+        "Position": "1744, 3744, 6544"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0367D4:Dragonborn.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "FormVersion": 43,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0B3404:Skyrim.esm",
+      "Radius": 1415.038,
+      "LightData": {
+        "FadeOffset": -3.772821,
+        "ShadowDepthBias": 36.327183
+      },
+      "Placement": {
+        "Position": "4311.5825, 4387.7705, 7369.1807",
+        "Rotation": "0, -0, 1.5707964"
+      }
+    }
+  ]
+}
