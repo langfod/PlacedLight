@@ -107,5 +107,18 @@
         }
       }
     ]
+  },
+  {
+    "models": ["smim\\moveablelantern_smim.nif"],
+    "lights": [
+      {
+        "nodes": ["CandleFlameSm", "CandleFlameLg"],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 256.0,
+          "fade": 1.0
+        }
+      }
+    ]
   }
 ]
