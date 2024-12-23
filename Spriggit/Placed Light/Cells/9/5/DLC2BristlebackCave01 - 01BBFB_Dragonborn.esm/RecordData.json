@@ -47,5 +47,38 @@
   "Location": "032892:Dragonborn.esm",
   "AcousticSpace": "02B3AE:Skyrim.esm",
   "EncounterZone": "032893:Dragonborn.esm",
-  "Music": "05228A:Skyrim.esm"
+  "Music": "05228A:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0206F6:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 561.958,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.7313082,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "1754.9994, -3639, 4947"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0206FA:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 561.958,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.7313082,
+        "ShadowDepthBias": 1.0,
+        "Unknown": 661533440
+      },
+      "Placement": {
+        "Position": "1722.9994, -4775, 4963"
+      }
+    }
+  ]
 }

@@ -50,5 +50,29 @@
   "SkyAndWeatherFromRegion": "0C5857:Skyrim.esm",
   "AcousticSpace": "0C5D0A:Skyrim.esm",
   "Music": "0622AB:Skyrim.esm",
-  "ImageSpace": "059B60:Skyrim.esm"
+  "ImageSpace": "059B60:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "019E03:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
+      "EditorID": "LynlyRef",
+      "FormVersion": 34,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
+      "Base": "0136BC:Skyrim.esm",
+      "PersistentLocation": "018A4B:Skyrim.esm",
+      "LocationRefTypes": [
+        "0130F7:Skyrim.esm"
+      ],
+      "Placement": {
+        "Position": "1548.2704, 192.79068, 6.1035156E-05",
+        "Rotation": "0, 0, 3.1415927"
+      },
+      "MajorFlags": [
+        "Persistent"
+      ]
+    }
+  ]
 }
