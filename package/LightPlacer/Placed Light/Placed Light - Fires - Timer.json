@@ -5,7 +5,7 @@
       {
         "whiteList": ["0xDCC21"],
         "data": {
-          "light": "PL_Candle_Shadow",
+          "light": "PL_Candle",
           "radius": 450.0,
           "fade": 1.5,
           "shadowDepthBias": 0.0,
@@ -42,6 +42,22 @@
           "fade": 2.5,
           "shadowDepthBias": 0.0,
           "offset": [-75.0, -40.0, 150.0],
+          "flags": "Shadow|IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [4],
+    "lights": [
+      {
+        "whiteList": ["2B0E92F8"],
+        "data": {
+          "light": "PL_Candle_Shadow",
+          "radius": 300.0,
+          "fade": 5.0,
+          "shadowDepthBias": 0.0,
+          "offset": [0.0, 50.0, 125.0],
           "flags": "Shadow|IgnoreScale"
         }
       }
