@@ -3,19 +3,17 @@
     "addonNodes": [4],
     "lights": [
       {
-        "whiteList": [
-          "0xDCC21"
-        ],
+        "whiteList": ["0xDCC21"],
         "data": {
           "light": "PL_Candle_Shadow",
           "radius": 450.0,
           "fade": 1.5,
           "shadowDepthBias": 0.0,
-          "offset": [0.0,0.0,75.0],
+          "offset": [0.0, 0.0, 75.0],
           "flags": "Shadow|IgnoreScale"
+        }
       }
-    }
-  ]
+    ]
   },
   {
     "addonNodes": [4],
