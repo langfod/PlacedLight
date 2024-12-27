@@ -52,6 +52,31 @@
   "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
   "AcousticSpace": "0FD942:Skyrim.esm",
   "ImageSpace": "0614E1:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "063325:Skyrim.esm",
+      "MajorRecordFlagsRaw": 68608,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled",
+        "0x10000"
+      ],
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 281.60046,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 1.3957918,
+        "ShadowDepthBias": 32.67
+      },
+      "Placement": {
+        "Position": "4538.14, 2337.6702, 8357.068"
+      }
+    }
+  ],
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -323,6 +348,28 @@
       "Placement": {
         "Position": "4024, 3648, 8968",
         "Rotation": "0, 0, 2.28"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "063326:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 711.7259,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 2.4645002,
+        "ShadowDepthBias": 27.23
+      },
+      "EnableParent": {
+        "Reference": "071C2C:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2289.331, 6848.332, 8877.635",
+        "Rotation": "0, -0, 1.4200001"
       }
     }
   ]
