@@ -27,6 +27,8 @@
     },
     "FogFarColor": "#00172116",
     "FogMax": 1.0,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
       "DirectionalColor",
@@ -35,7 +37,6 @@
       "FogFar",
       "DirectionalRotation",
       "DirectionalFade",
-      "ClipDistance",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
