@@ -52,6 +52,36 @@
   "EncounterZone": "10D415:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "Persistent": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0AEBC2:Skyrim.esm",
+      "MajorRecordFlagsRaw": 3072,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled"
+      ],
+      "Base": "0DDF68:Skyrim.esm",
+      "Placement": {
+        "Position": "2909.197, -3795.6174, -993.74634"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0AEBC3:Skyrim.esm",
+      "MajorRecordFlagsRaw": 3072,
+      "FormVersion": 37,
+      "SkyrimMajorRecordFlags": [
+        "0x400",
+        "InitiallyDisabled"
+      ],
+      "Base": "0DDF68:Skyrim.esm",
+      "Placement": {
+        "Position": "2759.1401, 423.7056, -453.5849"
+      }
+    }
+  ],
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -245,6 +275,22 @@
       },
       "Placement": {
         "Position": "-295.25934, -1383.4556, -270.9823"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CF06D:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "0B9E26:Skyrim.esm",
+      "Radius": -26.910751,
+      "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
+        "ShadowDepthBias": 2.0
+      },
+      "Placement": {
+        "Position": "1848.6039, 204.38579, -456.60068"
       }
     }
   ]

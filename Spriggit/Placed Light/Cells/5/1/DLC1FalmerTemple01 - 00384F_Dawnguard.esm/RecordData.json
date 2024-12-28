@@ -111,6 +111,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "006BC6:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0B9E26:Skyrim.esm",
+      "Radius": 1042.155,
+      "LightData": {
+        "FadeOffset": -0.2356425,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "4016, 2944, 7104"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "00D9A2:Dawnguard.esm",
       "FormVersion": 43,
       "Base": "03C5A6:Skyrim.esm",
@@ -371,6 +385,72 @@
       "Placement": {
         "Position": "395.98495, 351.46906, 6996.531",
         "Rotation": "0, 0, 4.623188"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "018D0A:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0B9E26:Skyrim.esm",
+      "Radius": 311.71185,
+      "LightData": {
+        "FadeOffset": -0.6639354,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "6404.7935, -760.76483, 7021.0776"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "018D0C:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0B9E26:Skyrim.esm",
+      "Radius": 250.99661,
+      "LightData": {
+        "FadeOffset": -0.40643233,
+        "ShadowDepthBias": 1.0
+      },
+      "Placement": {
+        "Position": "6580.704, -1864.4984, 6994.642"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "018D18:Dawnguard.esm",
+      "FormVersion": 43,
+      "Base": "0B9E25:Skyrim.esm",
+      "Radius": 683.7356,
+      "LightData": {
+        "FadeOffset": 0.3311919,
+        "ShadowDepthBias": 29.864937
+      },
+      "Placement": {
+        "Position": "6600.575, -2196.9539, 7119.2114",
+        "Rotation": "0, 0, 1.5707964"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "019ACE:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 131072,
+      "FormVersion": 43,
+      "SkyrimMajorRecordFlags": [
+        "Dangerous_OffLimits_InteriorCell"
+      ],
+      "Base": "0B9E26:Skyrim.esm",
+      "Radius": 57.198242,
+      "LightData": {
+        "FadeOffset": 1.2558086,
+        "ShadowDepthBias": 18.616558
+      },
+      "EnableParent": {
+        "Reference": "019AC8:Dawnguard.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "6557.6074, -495.16272, 6877.844",
+        "Rotation": "0, -0, 2.1731894"
       }
     }
   ]
