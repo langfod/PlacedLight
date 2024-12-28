@@ -1,0 +1,106 @@
+{
+  "FormKey": "0161F7:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "KatlasFarm",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Katla's Farm"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 3000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0B37B0:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01705C:Skyrim.esm",
+  "Owner": "1020A2:Skyrim.esm",
+  "LockList": "1020A3:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "Music": "0B9DCB:Skyrim.esm",
+  "ImageSpace": "0ABDB4:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE2E2:Skyrim.esm",
+      "Base": "0A56A9:Skyrim.esm",
+      "Radius": 43.13022,
+      "LightData": {
+        "FovOffset": -22.082169,
+        "ShadowDepthBias": 19.264683
+      },
+      "LocationReference": "01705C:Skyrim.esm",
+      "Placement": {
+        "Position": "118.35185, -694.7047, 28.692743",
+        "Rotation": "-2.642119, -1.5707964, 5.77704"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10FAA7:Skyrim.esm",
+      "Base": "0D4C27:Skyrim.esm",
+      "Radius": 232.26743,
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "01705C:Skyrim.esm",
+      "Placement": {
+        "Position": "317.25806, -962.3124, 125.87453"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0163C0:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": 28.97525,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -1.0,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01705C:Skyrim.esm",
+      "Placement": {
+        "Position": "576.4131, -970.0981, 439.0704"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

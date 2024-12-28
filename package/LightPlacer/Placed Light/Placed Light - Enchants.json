@@ -1,37 +1,5 @@
 [
   {
-    "addonNodes": [49],
-    "lights": [
-      {
-        "whiteList": [
-          "furniture\\enchantingworkbench.nif",
-          "furniture\\enchantingworkstation.nif"
-        ],
-        "data": {
-          "light": "PL_Candle",
-          "radius": 64.0,
-          "fade": 1.0
-        }
-      }
-    ]
-  },
-  {
-    "models": [
-      "effects\\MGMagicFirePillar01.nif",
-      "Magic\\LightSpellStaticLight.nif"
-    ],
-    "lights": [
-      {
-        "points": [[0.0, 0.0, 0.0]],
-        "data": {
-          "light": "PL_BluePotion",
-          "radius": 128.0,
-          "fade": 1.0
-        }
-      }
-    ]
-  },
-  {
     "visualEffects": ["EnchFireFXShader"],
     "lights": [
       {

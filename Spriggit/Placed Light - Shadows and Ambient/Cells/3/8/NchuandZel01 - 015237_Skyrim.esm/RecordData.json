@@ -1,0 +1,123 @@
+{
+  "FormKey": "015237:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "NchuandZel01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Nchuand-Zel Excavation Site"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "01EE51:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019283:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC4D:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "01F507:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A67CB:Skyrim.esm",
+      "Base": "0897C9:Skyrim.esm",
+      "Radius": 859.95325,
+      "LightData": {
+        "FovOffset": -32.59297,
+        "FadeOffset": 17.852325,
+        "ShadowDepthBias": 31.37378
+      },
+      "LocationReference": "019283:Skyrim.esm",
+      "Placement": {
+        "Position": "2985.1772, 399.32513, 1613.8419",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01F10B:Skyrim.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 155.89142,
+      "LightData": {
+        "FadeOffset": 5.055935,
+        "ShadowDepthBias": 16.93454
+      },
+      "LocationReference": "019283:Skyrim.esm",
+      "Placement": {
+        "Position": "-1173.0074, 1191.1088, 195.04147",
+        "Rotation": "0, 0, 4.98001"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01EF2F:Skyrim.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 37.79425,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 2.2740135
+      },
+      "LocationReference": "019283:Skyrim.esm",
+      "Placement": {
+        "Position": "1090, 1812, 1065",
+        "Rotation": "0, 0, 4.2236967"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01FB5C:Skyrim.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 1219.1469,
+      "LightData": {
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 34.22988
+      },
+      "LocationReference": "019283:Skyrim.esm",
+      "Placement": {
+        "Position": "1720.9783, -2350.8523, 336.19208"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
