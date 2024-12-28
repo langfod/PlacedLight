@@ -52,11 +52,15 @@
   "EncounterZone": "03EBF3:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
-  "Temporary": [
+  "Persistent": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0804AE:Skyrim.esm",
+      "MajorRecordFlagsRaw": 1024,
       "FormVersion": 36,
+      "SkyrimMajorRecordFlags": [
+        "0x400"
+      ],
       "Base": "0F7CBF:Skyrim.esm",
       "Radius": 63.48889,
       "LightData": {
