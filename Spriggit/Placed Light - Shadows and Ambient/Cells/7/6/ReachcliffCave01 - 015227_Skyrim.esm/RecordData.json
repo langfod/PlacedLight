@@ -1,0 +1,94 @@
+{
+  "FormKey": "015227:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "ReachcliffCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Reachcliff Cave"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "034566:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019292:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
+  "AcousticSpace": "01989F:Skyrim.esm",
+  "EncounterZone": "03EC5A:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01552F:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 399.86047,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 11.079194,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019292:Skyrim.esm",
+      "Placement": {
+        "Position": "-1574.1499, 10217.207, 1995.5253"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "015531:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 399.86047,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 0.9374869,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019292:Skyrim.esm",
+      "Placement": {
+        "Position": "-1561.0616, 9539.437, 1710.182"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

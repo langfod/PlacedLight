@@ -1,46 +1,6 @@
 [
   {
     "models": [
-      "furniture\\alchemyworkbench.nif",
-      "furniture\\alchemyworkstation.nif",
-      "furniture\\workbenches\\alchemyworkbench01.nif"
-    ],
-    "lights": [
-      {
-        "nodes": ["Burner01"],
-        "data": {
-          "light": "PL_Candle",
-          "radius": 32.0,
-          "fade": 1.0,
-          "flags": "IgnoreScale"
-        }
-      }
-    ]
-  },
-  {
-    "models": [
-      "furniture\\alchemyworkbench_1.nif",
-      "furniture\\alchemyworkbench_2.nif",
-      "furniture\\alchemyworkbench_3.nif",
-      "furniture\\alchemyworkstation_1.nif",
-      "furniture\\alchemyworkstation_2.nif",
-      "furniture\\alchemyworkstation_3.nif",
-      "furniture\\workbenches\\alchemyworkstation01.nif"
-    ],
-    "lights": [
-      {
-        "nodes": ["Burner01"],
-        "data": {
-          "light": "PL_Candle",
-          "radius": 32.0,
-          "fade": 1.0,
-          "flags": "IgnoreScale"
-        }
-      }
-    ]
-  },
-  {
-    "models": [
       "clutter\\soulgem\\soulgemcommon_full.nif",
       "clutter\\soulgem\\soulgemcommon01.nif",
       "clutter\\soulgem\\soulgemgrand01.nif",
@@ -93,7 +53,7 @@
         "points": [[0.0, 0.0, 0.0]],
         "data": {
           "light": "PL_BluePotion",
-          "radius": 32.0,
+          "radius": 15.0,
           "fade": 0.7,
           "flags": "Simple|IgnoreScale"
         }
@@ -510,7 +470,7 @@
       {
         "points": [[0.0, 0.0, 5.0]],
         "data": {
-          "light": "DLC2dunKolbjornRitualLight",
+          "light": "PL_RedPotion",
           "radius": 6.15,
           "fade": 75.0,
           "flags": "IgnoreScale"

@@ -1,0 +1,151 @@
+{
+  "FormKey": "015229:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RannveigsFast01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Rannveig's Fast"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "0E2016:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019290:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "02A72D:Skyrim.esm",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC58:Skyrim.esm",
+  "Music": "094BDD:Skyrim.esm",
+  "ImageSpace": "0E2017:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E2049:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 110.79416,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.6393664,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "741.8325, 8915.758, 152.7428"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E202E:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 610.0676,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.8210058,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "-1611.232, 3280.4604, 350.3178"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E202D:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 610.0676,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 3.8210058,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "-1496.8335, 2431.436, 350.3178"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E2033:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 928.8136,
+      "Emittance": "07548E:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.133681,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "-2309.4368, 3182.4736, 120.49399"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E2048:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 374.95074,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 2.6393664,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "741.8325, 8915.758, -639.2843"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E205D:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 198.55875,
+      "LocationReference": "019290:Skyrim.esm",
+      "Placement": {
+        "Position": "2017.3236, 8859.568, -1600.6792"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

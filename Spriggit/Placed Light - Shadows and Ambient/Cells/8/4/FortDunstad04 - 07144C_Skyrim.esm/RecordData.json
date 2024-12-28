@@ -1,0 +1,88 @@
+{
+  "FormKey": "07144C:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "FortDunstad04",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "The Stumbling Sabrecat"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalFade": 1.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "06909B:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "01917E:Skyrim.esm",
+  "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
+  "AcousticSpace": "0C5B6B:Skyrim.esm",
+  "EncounterZone": "03EC1C:Skyrim.esm",
+  "Music": "0B9DCE:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06911D:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 193.64584,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LocationReference": "01917E:Skyrim.esm",
+      "Placement": {
+        "Position": "-66.69577, 436.58945, 1088.8551"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06911B:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": 193.64584,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LocationReference": "01917E:Skyrim.esm",
+      "Placement": {
+        "Position": "600.9862, 436.94006, 1088.8551"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

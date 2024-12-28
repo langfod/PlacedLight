@@ -1,56 +1,76 @@
 [
   {
-    "addonNodes": [49],
+    "addonNodes": [49, 64],
     "lights": [
       {
         "whiteList": [
+          "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
           "clutter\\glazedcandles01.nif",
           "clutter\\glazedcandlesstatic02.nif",
+          "clutter\\silver\\silvercandlestick02.nif",
+          "clutter\\sovngarde\\sovcandlestick02.nif",
+          "clutter\\sovngarde\\sovcandlestick02static.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon02.nif",
+          "clutter\\ruins\\ruinscandlesconceon01.nif",
+          "clutter\\ruins\\ruinscandlesconceon02.nif"
+        ],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.0,
+          "offset": [0.0, 0.0, 15.0],
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [49, 64],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\candles\\candlehorntable01.nif",
+          "clutter\\candles\\candlehornwall01.nif",
           "clutter\\imperial\\impcandle01.nif",
           "clutter\\imperial\\impwallsconcecandle01.nif",
           "clutter\\imperial\\impwallsconcecandle02.nif",
-          "clutter\\ruins\\ruinscandlesconceon01.nif",
-          "clutter\\ruins\\ruinscandlesconceon02.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampsmon.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampsmon02.nif",
           "clutter\\silver\\silvercandlestick01.nif",
-          "clutter\\silver\\silvercandlestick02.nif",
           "clutter\\silver\\silvercandlestick03.nif",
-          "clutter\\candles\\candlehornwall01.nif",
-          "clutter\\candles\\candlehorntable01.nif",
           "clutter\\sovngarde\\sovcandlestick01.nif",
-          "clutter\\sovngarde\\sovcandlestick02.nif",
           "clutter\\sovngarde\\sovcandlestick03.nif",
           "clutter\\sovngarde\\sovcandlestick01static.nif",
-          "clutter\\sovngarde\\sovcandlestick02static.nif",
           "clutter\\sovngarde\\sovcandlestick03static.nif",
           "clutter\\shrines\\shrinebase.nif"
         ],
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 1.0,
+          "fade": 0.8,
+          "offset": [0.0, 0.0, 0.0],
+          "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [49],
+    "models": [
+      "clutter\\imperial\\impcandelabracandle01.nif",
+      "clutter\\imperial\\impcandelabracandle02.nif",
+      "clutter\\imperial\\impwallsconce02candleon01.nif",
+      "clutter\\candles\\candlehornfloor01.nif"
+    ],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\imperial\\impcandelabracandle01.nif",
-          "clutter\\imperial\\impcandelabracandle02.nif",
-          "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif"
-        ],
+        "points": [[0.0, 0.0, 125.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 256.0,
-          "fade": 1.0,
+          "radius": 275.0,
+          "fade": 2.0,
+          "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
@@ -70,20 +90,6 @@
           "clutter\\GlazedCandles01_H.nif",
           "clutter\\GlazedCandles01_I.nif",
           "clutter\\GlazedCandles01_J.nif",
-          "clutter\\GlazedCandlesStatic03.nif",
-          "clutter\\GlazedCandlesStatic04.nif",
-          "clutter\\GlazedCandlesStatic05.nif",
-          "clutter\\GlazedCandlesStatic06.nif",
-          "clutter\\GlazedCandlesStatic07.nif",
-          "clutter\\GlazedCandlesStatic08.nif",
-          "clutter\\GlazedCandlesStatic09.nif",
-          "clutter\\GlazedCandlesStatic10.nif",
-          "clutter\\GlazedCandlesStatic11.nif",
-          "clutter\\GlazedCandlesStatic12.nif",
-          "clutter\\GlazedCandlesStatic13.nif",
-          "clutter\\GlazedCandlesStatic14.nif",
-          "clutter\\GlazedCandlesStatic15.nif",
-          "clutter\\GlazedCandlesStatic16.nif",
           "clutter\\imperial\\impcandle01_B.nif",
           "clutter\\imperial\\impcandle01_C.nif",
           "clutter\\imperial\\impcandle01_D.nif",
@@ -125,20 +131,6 @@
           "clutter\\silver\\SilverCandleStick01_H.nif",
           "clutter\\silver\\SilverCandleStick01_I.nif",
           "clutter\\silver\\SilverCandleStick01_J.nif",
-          "clutter\\silver\\silvercandlestick02_B.nif",
-          "clutter\\silver\\silvercandlestick02_C.nif",
-          "clutter\\silver\\silvercandlestick02_D.nif",
-          "clutter\\silver\\silvercandlestick02_E.nif",
-          "clutter\\silver\\silvercandlestick02_F.nif",
-          "clutter\\silver\\silvercandlestick02_G.nif",
-          "clutter\\silver\\silvercandlestick02_H.nif",
-          "clutter\\silver\\silvercandlestick02_I.nif",
-          "clutter\\silver\\silvercandlestick02_J.nif",
-          "clutter\\silver\\silvercandlestick02_K.nif",
-          "clutter\\silver\\silvercandlestick02_L.nif",
-          "clutter\\silver\\silvercandlestick02_M.nif",
-          "clutter\\silver\\silvercandlestick02_N.nif",
-          "clutter\\silver\\silvercandlestick02_O.nif",
           "clutter\\silver\\SilverCandleStick03_B.nif",
           "clutter\\silver\\SilverCandleStick03_C.nif",
           "clutter\\silver\\SilverCandleStick03_D.nif",
@@ -153,6 +145,51 @@
           "light": "PL_Candle",
           "radius": 64.0,
           "fade": 0.8,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [49],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\GlazedCandlesStatic03.nif",
+          "clutter\\GlazedCandlesStatic04.nif",
+          "clutter\\GlazedCandlesStatic05.nif",
+          "clutter\\GlazedCandlesStatic06.nif",
+          "clutter\\GlazedCandlesStatic07.nif",
+          "clutter\\GlazedCandlesStatic08.nif",
+          "clutter\\GlazedCandlesStatic09.nif",
+          "clutter\\GlazedCandlesStatic10.nif",
+          "clutter\\GlazedCandlesStatic11.nif",
+          "clutter\\GlazedCandlesStatic12.nif",
+          "clutter\\GlazedCandlesStatic13.nif",
+          "clutter\\GlazedCandlesStatic14.nif",
+          "clutter\\GlazedCandlesStatic15.nif",
+          "clutter\\GlazedCandlesStatic16.nif",
+          "clutter\\silver\\silvercandlestick02_B.nif",
+          "clutter\\silver\\silvercandlestick02_C.nif",
+          "clutter\\silver\\silvercandlestick02_D.nif",
+          "clutter\\silver\\silvercandlestick02_E.nif",
+          "clutter\\silver\\silvercandlestick02_F.nif",
+          "clutter\\silver\\silvercandlestick02_G.nif",
+          "clutter\\silver\\silvercandlestick02_H.nif",
+          "clutter\\silver\\silvercandlestick02_I.nif",
+          "clutter\\silver\\silvercandlestick02_J.nif",
+          "clutter\\silver\\silvercandlestick02_K.nif",
+          "clutter\\silver\\silvercandlestick02_L.nif",
+          "clutter\\silver\\silvercandlestick02_M.nif",
+          "clutter\\silver\\silvercandlestick02_N.nif",
+          "clutter\\silver\\silvercandlestick02_O.nif"
+        ],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.0,
+          "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
@@ -163,133 +200,78 @@
     "lights": [
       {
         "whiteList": [
+          "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
           "clutter\\glazedcandles01.nif",
           "clutter\\glazedcandlesstatic02.nif",
+          "clutter\\silver\\silvercandlestick02.nif",
+          "clutter\\sovngarde\\sovcandlestick02.nif",
+          "clutter\\sovngarde\\sovcandlestick02static.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon.nif",
+          "clutter\\ruins\\ruinsfloorcandlelampsmon02.nif",
+          "clutter\\ruins\\ruinscandlesconceon01.nif",
+          "clutter\\ruins\\ruinscandlesconceon02.nif"
+        ],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.5,
+          "offset": [0.0, 0.0, 15.0],
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [49, 64],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\candles\\candlehorntable01.nif",
+          "clutter\\candles\\candlehornwall01.nif",
           "clutter\\imperial\\impcandle01.nif",
           "clutter\\imperial\\impwallsconcecandle01.nif",
           "clutter\\imperial\\impwallsconcecandle02.nif",
-          "clutter\\ruins\\ruinscandlesconceon01.nif",
-          "clutter\\ruins\\ruinscandlesconceon02.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampmidon.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampmidon02.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampsmon.nif",
-          "clutter\\ruins\\ruinsfloorcandlelampsmon02.nif",
           "clutter\\silver\\silvercandlestick01.nif",
-          "clutter\\silver\\silvercandlestick02.nif",
           "clutter\\silver\\silvercandlestick03.nif",
-          "clutter\\candles\\candlehornwall01.nif",
-          "clutter\\candles\\candlehorntable01.nif",
           "clutter\\sovngarde\\sovcandlestick01.nif",
-          "clutter\\sovngarde\\sovcandlestick02.nif",
           "clutter\\sovngarde\\sovcandlestick03.nif",
           "clutter\\sovngarde\\sovcandlestick01static.nif",
-          "clutter\\sovngarde\\sovcandlestick02static.nif",
           "clutter\\sovngarde\\sovcandlestick03static.nif"
         ],
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 0.6,
-          "flags": "RandomAnimStart",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND",
-            "Self GetCurrentTime NONE NONE >= 19.00 OR",
-            "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          ],
-          "colorController": {
-            "interpolation": "Linear",
-            "keys": [
-              {
-                "time": 0.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 3.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 8.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 13.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 20.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 23.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 30.0,
-                "color": [230, 112, 0]
-              }
-            ]
-          }
+          "fade": 1.25,
+          "offset": [0.0, 0.0, 0.0],
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
   },
   {
-    "addonNodes": [49, 64],
+    "models": [
+      "clutter\\imperial\\impcandelabracandle01.nif",
+      "clutter\\imperial\\impcandelabracandle02.nif",
+      "clutter\\imperial\\impwallsconce02candleon01.nif",
+      "clutter\\candles\\candlehornfloor01.nif"
+    ],
     "lights": [
       {
-        "whiteList": [
-          "clutter\\imperial\\impcandelabracandle01.nif",
-          "clutter\\imperial\\impcandelabracandle02.nif",
-          "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif"
-        ],
+        "points": [[0.0, 0.0, 125.0]],
         "data": {
           "light": "PL_Candle",
-          "radius": 256.0,
-          "fade": 0.8,
-          "flags": "RandomAnimStart",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND",
-            "Self GetCurrentTime NONE NONE >= 19.00 OR",
-            "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          ],
-          "colorController": {
-            "interpolation": "Linear",
-            "keys": [
-              {
-                "time": 0.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 3.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 8.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 13.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 20.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 23.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 30.0,
-                "color": [230, 112, 0]
-              }
-            ]
-          }
+          "radius": 275.0,
+          "fade": 2.25,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
   },
+
   {
     "addonNodes": [49],
     "lights": [
@@ -304,20 +286,6 @@
           "clutter\\GlazedCandles01_H.nif",
           "clutter\\GlazedCandles01_I.nif",
           "clutter\\GlazedCandles01_J.nif",
-          "clutter\\GlazedCandlesStatic03.nif",
-          "clutter\\GlazedCandlesStatic04.nif",
-          "clutter\\GlazedCandlesStatic05.nif",
-          "clutter\\GlazedCandlesStatic06.nif",
-          "clutter\\GlazedCandlesStatic07.nif",
-          "clutter\\GlazedCandlesStatic08.nif",
-          "clutter\\GlazedCandlesStatic09.nif",
-          "clutter\\GlazedCandlesStatic10.nif",
-          "clutter\\GlazedCandlesStatic11.nif",
-          "clutter\\GlazedCandlesStatic12.nif",
-          "clutter\\GlazedCandlesStatic13.nif",
-          "clutter\\GlazedCandlesStatic14.nif",
-          "clutter\\GlazedCandlesStatic15.nif",
-          "clutter\\GlazedCandlesStatic16.nif",
           "clutter\\imperial\\impcandle01_B.nif",
           "clutter\\imperial\\impcandle01_C.nif",
           "clutter\\imperial\\impcandle01_D.nif",
@@ -359,20 +327,6 @@
           "clutter\\silver\\SilverCandleStick01_H.nif",
           "clutter\\silver\\SilverCandleStick01_I.nif",
           "clutter\\silver\\SilverCandleStick01_J.nif",
-          "clutter\\silver\\silvercandlestick02_B.nif",
-          "clutter\\silver\\silvercandlestick02_C.nif",
-          "clutter\\silver\\silvercandlestick02_D.nif",
-          "clutter\\silver\\silvercandlestick02_E.nif",
-          "clutter\\silver\\silvercandlestick02_F.nif",
-          "clutter\\silver\\silvercandlestick02_G.nif",
-          "clutter\\silver\\silvercandlestick02_H.nif",
-          "clutter\\silver\\silvercandlestick02_I.nif",
-          "clutter\\silver\\silvercandlestick02_J.nif",
-          "clutter\\silver\\silvercandlestick02_K.nif",
-          "clutter\\silver\\silvercandlestick02_L.nif",
-          "clutter\\silver\\silvercandlestick02_M.nif",
-          "clutter\\silver\\silvercandlestick02_N.nif",
-          "clutter\\silver\\silvercandlestick02_O.nif",
           "clutter\\silver\\SilverCandleStick03_B.nif",
           "clutter\\silver\\SilverCandleStick03_C.nif",
           "clutter\\silver\\SilverCandleStick03_D.nif",
@@ -386,46 +340,53 @@
         "data": {
           "light": "PL_Candle",
           "radius": 64.0,
-          "fade": 0.8,
-          "flags": "RandomAnimStart",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND",
-            "Self GetCurrentTime NONE NONE >= 19.00 OR",
-            "Self GetCurrentTime NONE NONE <= 6.00 OR"
-          ],
-          "colorController": {
-            "interpolation": "Linear",
-            "keys": [
-              {
-                "time": 0.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 3.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 8.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 13.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 20.0,
-                "color": [230, 112, 0]
-              },
-              {
-                "time": 23.0,
-                "color": [250, 160, 70]
-              },
-              {
-                "time": 30.0,
-                "color": [230, 112, 0]
-              }
-            ]
-          }
+          "fade": 1.25,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [49],
+    "lights": [
+      {
+        "whiteList": [
+          "clutter\\GlazedCandlesStatic03.nif",
+          "clutter\\GlazedCandlesStatic04.nif",
+          "clutter\\GlazedCandlesStatic05.nif",
+          "clutter\\GlazedCandlesStatic06.nif",
+          "clutter\\GlazedCandlesStatic07.nif",
+          "clutter\\GlazedCandlesStatic08.nif",
+          "clutter\\GlazedCandlesStatic09.nif",
+          "clutter\\GlazedCandlesStatic10.nif",
+          "clutter\\GlazedCandlesStatic11.nif",
+          "clutter\\GlazedCandlesStatic12.nif",
+          "clutter\\GlazedCandlesStatic13.nif",
+          "clutter\\GlazedCandlesStatic14.nif",
+          "clutter\\GlazedCandlesStatic15.nif",
+          "clutter\\GlazedCandlesStatic16.nif",
+          "clutter\\silver\\silvercandlestick02_B.nif",
+          "clutter\\silver\\silvercandlestick02_C.nif",
+          "clutter\\silver\\silvercandlestick02_D.nif",
+          "clutter\\silver\\silvercandlestick02_E.nif",
+          "clutter\\silver\\silvercandlestick02_F.nif",
+          "clutter\\silver\\silvercandlestick02_G.nif",
+          "clutter\\silver\\silvercandlestick02_H.nif",
+          "clutter\\silver\\silvercandlestick02_I.nif",
+          "clutter\\silver\\silvercandlestick02_J.nif",
+          "clutter\\silver\\silvercandlestick02_K.nif",
+          "clutter\\silver\\silvercandlestick02_L.nif",
+          "clutter\\silver\\silvercandlestick02_M.nif",
+          "clutter\\silver\\silvercandlestick02_N.nif",
+          "clutter\\silver\\silvercandlestick02_O.nif"
+        ],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.5,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
