@@ -20,7 +20,7 @@
           "light": "PL_Candle",
           "radius": 96.0,
           "fade": 1.0,
-          "offset": [0.0,0.0,15.0],
+          "offset": [0.0, 0.0, 15.0],
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -49,21 +49,19 @@
           "light": "PL_Candle",
           "radius": 64.0,
           "fade": 0.8,
-          "offset": [0.0,0.0,0.0],
+          "offset": [0.0, 0.0, 0.0],
           "flags": "PortalStrict|IgnoreScale",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 1 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
   },
   {
     "models": [
-        "clutter\\imperial\\impcandelabracandle01.nif",
-          "clutter\\imperial\\impcandelabracandle02.nif",
-          "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif"
+      "clutter\\imperial\\impcandelabracandle01.nif",
+      "clutter\\imperial\\impcandelabracandle02.nif",
+      "clutter\\imperial\\impwallsconce02candleon01.nif",
+      "clutter\\candles\\candlehornfloor01.nif"
     ],
     "lights": [
       {
@@ -218,7 +216,7 @@
           "light": "PL_Candle",
           "radius": 96.0,
           "fade": 1.5,
-          "offset": [0.0,0.0,15.0],
+          "offset": [0.0, 0.0, 15.0],
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
@@ -246,21 +244,19 @@
           "light": "PL_Candle",
           "radius": 64.0,
           "fade": 1.25,
-          "offset": [0.0,0.0,0.0],
+          "offset": [0.0, 0.0, 0.0],
           "flags": "PortalStrict|IgnoreScale",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
   },
   {
     "models": [
-        "clutter\\imperial\\impcandelabracandle01.nif",
-          "clutter\\imperial\\impcandelabracandle02.nif",
-          "clutter\\imperial\\impwallsconce02candleon01.nif",
-          "clutter\\candles\\candlehornfloor01.nif"
+      "clutter\\imperial\\impcandelabracandle01.nif",
+      "clutter\\imperial\\impcandelabracandle02.nif",
+      "clutter\\imperial\\impwallsconce02candleon01.nif",
+      "clutter\\candles\\candlehornfloor01.nif"
     ],
     "lights": [
       {
