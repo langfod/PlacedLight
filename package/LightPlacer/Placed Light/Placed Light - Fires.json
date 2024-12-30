@@ -43,7 +43,7 @@
           "light": "LightCampFire01",
           "radius": 400.0,
           "fade": 1.5,
-          "offset": [0.0,0.0,50.0],
+          "offset": [0.0, 0.0, 50.0],
           "flags": "IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -116,11 +116,9 @@
           "light": "LightCampFire01",
           "radius": 400.0,
           "fade": 1.5,
-          "offset": [0.0,0.0,100.0],
+          "offset": [0.0, 0.0, 100.0],
           "flags": "IgnoreScale",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
@@ -144,11 +142,9 @@
           "light": "LightCampFire01",
           "radius": 400.0,
           "fade": 1.5,
-          "offset": [0.0,0.0,40.0],
+          "offset": [0.0, 0.0, 40.0],
           "flags": "IgnoreScale",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND"
-          ]
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
@@ -194,11 +190,9 @@
           "radius": 400.0,
           "fade": 1.5,
           "shadowDepthBias": 0.0,
-          "offset": [0.0,0.0,50.0],
+          "offset": [0.0, 0.0, 50.0],
           "flags": "Shadow|IgnoreScale",
-          "conditions": [
-            "Self IsInInterior NONE NONE == 0 AND"  
-        ]
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
         }
       }
     ]
