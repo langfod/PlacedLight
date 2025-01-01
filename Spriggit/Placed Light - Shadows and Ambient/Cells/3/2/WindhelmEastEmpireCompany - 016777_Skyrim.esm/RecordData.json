@@ -1,0 +1,99 @@
+{
+  "FormKey": "016777:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "WindhelmEastEmpireCompany",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "East Empire Company"
+  },
+  "Flags": [
+    "IsInteriorCell"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "07BA87:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "0209EC:Skyrim.esm",
+  "Owner": "045F60:Skyrim.esm",
+  "LockList": "09C869:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0A2687:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D2667:Skyrim.esm",
+      "Base": "08E797:Skyrim.esm",
+      "Radius": 269.40985,
+      "LightData": {
+        "FadeOffset": 0.4353851,
+        "ShadowDepthBias": 22.652237
+      },
+      "LocationReference": "0209EC:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0D62EF:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2015.1471, -1386.2965, 378.41382"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D2668:Skyrim.esm",
+      "Base": "08E797:Skyrim.esm",
+      "Radius": 269.40985,
+      "LightData": {
+        "FadeOffset": 0.532925,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0209EC:Skyrim.esm",
+      "EnableParent": {
+        "Reference": "0D62EF:Skyrim.esm",
+        "Unknown": "0x000000"
+      },
+      "Placement": {
+        "Position": "2031.0996, -714.44, 378.41382"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

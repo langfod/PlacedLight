@@ -1,0 +1,122 @@
+{
+  "FormKey": "01529D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DeadMensRespite01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dead Men's Respite"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 90,
+    "FogClipDistance": 5000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "08CDDA:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "019161:Skyrim.esm",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\ShinyDullDS_e.dds",
+  "AcousticSpace": "01AA4D:Skyrim.esm",
+  "EncounterZone": "03EC0B:Skyrim.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "0B215C:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7AA9:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 61.46454,
+      "LightData": {
+        "FadeOffset": 0.62002516,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019161:Skyrim.esm",
+      "Placement": {
+        "Position": "-2827.904, 2916.6184, -1622.4622"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7AAD:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 102.89502,
+      "LightData": {
+        "FadeOffset": 0.14987588,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019161:Skyrim.esm",
+      "Placement": {
+        "Position": "-4704.752, 3421.2905, -1458.3201"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7AC6:Skyrim.esm",
+      "Base": "08824B:Skyrim.esm",
+      "Radius": -130.2919,
+      "LightData": {
+        "FadeOffset": 1.1503727,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019161:Skyrim.esm",
+      "Placement": {
+        "Position": "-517.36456, -1574.5317, -1576.7633"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0E7AD0:Skyrim.esm",
+      "Base": "01F8B0:Skyrim.esm",
+      "Radius": 789.5425,
+      "LightData": {
+        "FadeOffset": 0.8077831,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019161:Skyrim.esm",
+      "Placement": {
+        "Position": "-13.063129, 3114.7908, -637.4478"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

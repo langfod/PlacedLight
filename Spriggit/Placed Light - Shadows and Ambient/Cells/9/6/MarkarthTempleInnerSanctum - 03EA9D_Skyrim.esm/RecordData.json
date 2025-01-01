@@ -1,0 +1,124 @@
+{
+  "FormKey": "03EA9D:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "MarkarthTempleInnerSanctum",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Inner Sanctum"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "DirectionalRotationZ": 270,
+    "DirectionalFade": 1.0,
+    "FogClipDistance": 6000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00553C1C",
+      "DirectionalXMinus": "#00553C1C",
+      "DirectionalYPlus": "#00553C1C",
+      "DirectionalYMinus": "#00553C1C",
+      "DirectionalZPlus": "#00553C1C",
+      "DirectionalZMinus": "#00553C1C",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "09F281:Skyrim.esm",
+  "WaterHeight": -2.1474836E+09,
+  "Location": "01F317:Skyrim.esm",
+  "Owner": "0656EA:Skyrim.esm",
+  "LockList": "094387:Skyrim.esm",
+  "AcousticSpace": "0C5B6D:Skyrim.esm",
+  "Music": "02C3CA:Skyrim.esm",
+  "ImageSpace": "0DDD27:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06DCC7:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 59.11151,
+      "LightData": {
+        "FadeOffset": 0.111968756,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1864, 312, -367.04312",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08A304:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": -9.617798,
+      "LightData": {
+        "FadeOffset": 0.29573607,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1887.378, -2767.4482, -677.1602",
+        "Rotation": "2.6866024E-35, -3.842478E-34, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0DE118:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0DA626:Skyrim.esm",
+      "Radius": 182.07385,
+      "LightData": {
+        "FadeOffset": 0.7496109,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01F317:Skyrim.esm",
+      "Placement": {
+        "Position": "-1883.0474, -684.6517, -375.70123",
+        "Rotation": "0, 0, 1.5707963"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

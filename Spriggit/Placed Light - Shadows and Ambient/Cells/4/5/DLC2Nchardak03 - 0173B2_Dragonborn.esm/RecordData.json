@@ -1,0 +1,89 @@
+{
+  "FormKey": "0173B2:Dragonborn.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC2Nchardak03",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Nchardak Aqueduct"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00383F23",
+      "DirectionalXMinus": "#00383F23",
+      "DirectionalYPlus": "#00383F23",
+      "DirectionalYMinus": "#00383F23",
+      "DirectionalZPlus": "#00383F23",
+      "DirectionalZMinus": "#00383F23",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "031D29:Dragonborn.esm",
+  "WaterHeight": 0.0,
+  "Location": "0142B4:Dragonborn.esm",
+  "AcousticSpace": "0F993E:Skyrim.esm",
+  "EncounterZone": "0142B5:Dragonborn.esm",
+  "Music": "02D4C2:Skyrim.esm",
+  "ImageSpace": "000167:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01D4A7:Dragonborn.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 156.34207,
+      "LightData": {
+        "FadeOffset": 0.96702826,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "0142B4:Dragonborn.esm",
+      "Placement": {
+        "Position": "2723.4648, -10443.2295, 1264.968",
+        "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01D4AD:Dragonborn.esm",
+      "Base": "0897B3:Skyrim.esm",
+      "Radius": 593.37146,
+      "LocationReference": "0142B4:Dragonborn.esm",
+      "Placement": {
+        "Position": "1478.6016, -10048.886, 1150.988",
+        "Rotation": "0, -1.5707964, 3.1415927"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

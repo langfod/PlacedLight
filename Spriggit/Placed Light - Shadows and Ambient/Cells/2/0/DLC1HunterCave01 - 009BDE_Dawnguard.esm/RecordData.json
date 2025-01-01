@@ -1,0 +1,115 @@
+{
+  "FormKey": "009BDE:Dawnguard.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "DLC1HunterCave01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dead Drop Falls"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "HasWater"
+  ],
+  "Lighting": {
+    "AmbientColor": "#003C3C3C",
+    "DirectionalColor": "#00050505",
+    "FogNearColor": "#00000000",
+    "FogNear": 500.0,
+    "FogFar": 10000.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#00372F24",
+      "DirectionalXMinus": "#00372F24",
+      "DirectionalYPlus": "#00372F24",
+      "DirectionalYMinus": "#00372F24",
+      "DirectionalZPlus": "#00372F24",
+      "DirectionalZMinus": "#00372F24",
+      "Specular": "#00000000",
+      "Scale": 1.0
+    },
+    "FogFarColor": "#00000000",
+    "FogMax": 0.9,
+    "LightFadeBegin": 31000.0,
+    "LightFadeEnd": 41000.0,
+    "Inherits": [
+      "AmbientColor",
+      "DirectionalColor",
+      "FogColor",
+      "FogNear",
+      "FogFar",
+      "DirectionalRotation",
+      "DirectionalFade",
+      "FogPower",
+      "FogMax",
+      "LightFadeDistances"
+    ]
+  },
+  "LightingTemplate": "10ACD3:Skyrim.esm",
+  "WaterHeight": 0.0,
+  "Location": "019C8E:Dawnguard.esm",
+  "AcousticSpace": "02B961:Skyrim.esm",
+  "Music": "05615B:Skyrim.esm",
+  "ImageSpace": "09F363:Skyrim.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00B23D:Dawnguard.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "06ED65:Skyrim.esm",
+      "Radius": -14.382263,
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "Placement": {
+        "Position": "1590.3256, -603.92816, 8402.725",
+        "Rotation": "0, 0, 5.38319"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014563:Dawnguard.esm",
+      "Base": "0CB626:Skyrim.esm",
+      "Radius": 340.93787,
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "Placement": {
+        "Position": "-249.1828, -6328.868, 7185.406"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "014565:Dawnguard.esm",
+      "Base": "0C7735:Skyrim.esm",
+      "Radius": 504.60608,
+      "LightData": {
+        "FadeOffset": 0.40607643,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "Placement": {
+        "Position": "2458.3152, -6763.413, 7300.5977"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "01456B:Dawnguard.esm",
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 98.342865,
+      "LightData": {
+        "FadeOffset": 0.91269433,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "019C8E:Dawnguard.esm",
+      "Placement": {
+        "Position": "2811.0752, -5609.745, 7259.1836"
+      }
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
