@@ -25,6 +25,24 @@
     ]
   },
   {
+    "addonNodes": [4, 234],
+    "lights": [
+      {
+        "whiteList": [
+          "effects\\c06fxfirebluewithembersheavy.nif"
+        ],
+        "data": {
+          "light": "LightCampFire01",
+          "color": [0,127,255],
+          "radius": 400.0,
+          "fade": 1.5,
+          "flags": "IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
+        }
+      }
+    ]
+  },
+  {
     "addonNodes": [224, 233, 232, 230, 4, 225, 229, 239],
     "lights": [
       {
@@ -119,6 +137,23 @@
           "offset": [0.0, 0.0, 100.0],
           "flags": "IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "addonNodes": [4, 234],
+    "lights": [
+      {
+        "whiteList": ["effects\\c06fxfirebluewithembersheavy.nif"        ],
+        "data": {
+          "light": "LightCampFire01",
+          "color": [0,127,255],
+          "radius": 400.0,
+          "fade": 1.5,
+          "flags": "IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+
         }
       }
     ]
