@@ -25,9 +25,9 @@
           "clutter\\candles\\candlehornwall01.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 100.0,
-          "fade": 0.75,
+          "light": "PL_Candle",
+          "radius": 64.0,
+          "fade": 1.0,
           "offset": [0.0, 0.0, 0.0],
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
@@ -67,9 +67,9 @@
       {
         "points": [[0.0, 0.0, 15.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 200.0,
-          "fade": 1.0,
+          "fade": 1.3,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -85,9 +85,9 @@
       {
         "points": [[-23.0, 0.0, 30.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 200.0,
-          "fade": 1.0,
+          "fade": 1.3,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -118,9 +118,9 @@
       {
         "points": [[0.0, 0.0, 50.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 200.0,
-          "fade": 1.0,
+          "fade": 1.3,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -137,9 +137,9 @@
       {
         "points": [[0.0, 0.0, 30.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 220.0,
-          "fade": 1.0,
+          "fade": 1.3,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -155,9 +155,9 @@
       {
         "points": [[0.0, 0.0, 75.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 220.0,
-          "fade": 1.0,
+          "fade": 1.3,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -185,9 +185,9 @@
       {
         "points": [[0.0, 0.0, 125.0]],
         "data": {
-          "light": "DefaultCandleLight01NS",
+          "light": "PL_Candle",
           "radius": 275.0,
-          "fade": 1.2,
+          "fade": 1.5,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -219,9 +219,9 @@
           "clutter\\silver\\SilverCandleStick03_J.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 90.0,
-          "fade": 0.75,
+          "light": "PL_Candle",
+          "radius": 64.0,
+          "fade": 1.0,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
@@ -249,9 +249,9 @@
           "clutter\\imperial\\impwallsconcecandle02.nif"
         ],
         "data": {
-          "light": "DefaultCandleLight01NS",
-          "radius": 150.0,
-          "fade": 0.8,
+          "light": "PL_Candle",
+          "radius": 64.0,
+          "fade": 1.0,
           "offset": [0.0, 0.0, 0.0],
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
