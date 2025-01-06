@@ -139,7 +139,8 @@
           "clutter\\silver\\SilverCandleStick03_G.nif",
           "clutter\\silver\\SilverCandleStick03_H.nif",
           "clutter\\silver\\SilverCandleStick03_I.nif",
-          "clutter\\silver\\SilverCandleStick03_J.nif"
+          "clutter\\silver\\SilverCandleStick03_J.nif",
+          "oaristys\\candles\\candleskull_on.nif"
         ],
         "data": {
           "light": "PL_Candle",
@@ -335,7 +336,8 @@
           "clutter\\silver\\SilverCandleStick03_G.nif",
           "clutter\\silver\\SilverCandleStick03_H.nif",
           "clutter\\silver\\SilverCandleStick03_I.nif",
-          "clutter\\silver\\SilverCandleStick03_J.nif"
+          "clutter\\silver\\SilverCandleStick03_J.nif",
+          "oaristys\\candles\\candleskull_on.nif"
         ],
         "data": {
           "light": "PL_Candle",
@@ -387,6 +389,42 @@
           "fade": 1.5,
           "flags": "PortalStrict|IgnoreScale",
           "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "oaristys\\candles\\candlebowlgold01_on.nif",
+      "oaristys\\candles\\candlebowlgold02_on.nif"
+    ],
+    "lights": [
+      {
+        "nodes": ["Candles"],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.0,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 0 AND"]
+        }
+      }
+    ]
+  },
+  {
+    "models": [
+      "oaristys\\candles\\candlebowlgold01_on.nif",
+      "oaristys\\candles\\candlebowlgold02_on.nif"
+    ],
+    "lights": [
+      {
+        "nodes": ["Candles"],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 96.0,
+          "fade": 1.0,
+          "flags": "PortalStrict|IgnoreScale",
+          "conditions": ["Self IsInInterior NONE NONE == 1 AND"]
         }
       }
     ]
