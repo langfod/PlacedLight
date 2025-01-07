@@ -60,6 +60,16 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB41F:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 11.012787,
+      "LocationReference": "01F86F:Skyrim.esm",
+      "Placement": {
+        "Position": "-208.06221, 300.30908, 204.0993"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0CB421:Skyrim.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": -38.37863,
@@ -67,17 +77,6 @@
       "LocationReference": "01F86F:Skyrim.esm",
       "Placement": {
         "Position": "-202.02156, -61.583927, 204.0993"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CB425:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 29.687973,
-      "Emittance": "07548E:Skyrim.esm",
-      "LocationReference": "01F86F:Skyrim.esm",
-      "Placement": {
-        "Position": "-828.4793, 329.08307, 172.47127"
       }
     },
     {
@@ -93,12 +92,23 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0CB425:Skyrim.esm",
+      "Base": "0B9522:Skyrim.esm",
+      "Radius": 29.687973,
+      "Emittance": "07548E:Skyrim.esm",
+      "LocationReference": "01F86F:Skyrim.esm",
+      "Placement": {
+        "Position": "-828.4793, 329.08307, 172.47127"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0CB490:Skyrim.esm",
       "Base": "077FCE:Skyrim.esm",
       "Radius": -321.8208,
       "LightData": {
-        "FadeOffset": -0.5096793,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": -0.509679,
+        "ShadowDepthBias": 50.0
       },
       "LocationReference": "01F86F:Skyrim.esm",
       "EnableParent": {
@@ -107,16 +117,6 @@
       },
       "Placement": {
         "Position": "-383.45868, -305.28775, 127.379196"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0CB41F:Skyrim.esm",
-      "Base": "0B9522:Skyrim.esm",
-      "Radius": 11.012787,
-      "LocationReference": "01F86F:Skyrim.esm",
-      "Placement": {
-        "Position": "-208.06221, 300.30908, 204.0993"
       }
     }
   ],
