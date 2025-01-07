@@ -19,3 +19,4 @@ SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\NOTWL - Lante
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - CC" -o "dist\Misc Patches\Placed Light - CC.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light Exteriors - NOTWL 3 patch" -o "dist\Misc Patches\Placed Light Exteriors - NOTWL 3 patch.esp"
 SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Carbon LightBulbs Edit" -o "dist\Misc Patches\Carbon LightBulbs Edit.esp"
+SpriggitCLI\Spriggit.CLI.exe deserialize -i "Spriggit\Misc Patches\Placed Light - Creation Club" -o "dist\Misc Patches\Placed Light - Creation Club.esp"
