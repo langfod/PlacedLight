@@ -24,5 +24,75 @@
         }
       }
     ]
-  }
+  },
+  [
+    {
+      "lights": [
+        {
+          "data": {
+            "color": [189, 248, 239],
+            "fade": 1.0,
+            "light": "MagicLightWhite01",
+            "radius": 71
+          },
+          "points": [[-3.5, -1.2, 80.8]]
+        }
+      ],
+      "models": ["clutter\\falmertotems\\falmertotem.nif"]
+    },
+    {
+      "lights": [
+        {
+          "data": {
+            "color": [232, 255, 99],
+            "fade": 0.7,
+            "light": "MagicLightWhite01",
+            "radius": 71
+          },
+          "points": [
+            [0.0, 12.33, -68.57],
+            [7.0, 12.94, -5.5],
+            [-6.5, 14.44, -5.5]
+          ]
+        }
+      ],
+      "models": ["dlc01\\clutter\\falmerpullchain.nif"]
+    },
+    {
+      "lights": [
+        {
+          "data": {
+            "color": [189, 248, 239],
+            "fade": 1.1,
+            "light": "MagicLightWhite01",
+            "radius": 71
+          },
+          "points": [
+            [36.5, 228.0, -68.0],
+            [-36.5, 228.0, -68.0],
+            [48.5, 203.0, -124.0],
+            [-48.5, 203.0, -124.0]
+          ]
+        }
+      ],
+      "models": ["dlc01\\architecture\\falmerhuts\\falmercityhutpod01.nif"]
+    },
+    {
+      "lights": [
+        {
+          "data": {
+            "color": [189, 248, 239],
+            "fade": 1.1,
+            "light": "MagicLightWhite01",
+            "radius": 71
+          },
+          "points": [
+            [31.0, 181.0, 286.5],
+            [-31.0, 181.0, 286.5]
+          ]
+        }
+      ],
+      "models": ["dlc01\\architecture\\falmerhuts\\falmerchieftentcharus.nif"]
+    }
+  ]
 ]
