@@ -17,7 +17,7 @@
           "AttachLight01"
         ],
         "data": {
-          "light": "nocturnallight",
+          "light": "MGFirePillarLightBlue",
           "radius": 512.0,
           "fade": 2.0
         }
@@ -26,14 +26,28 @@
   },
   {
     "models": [
-      "effects\\MGMagicFirePillar01.nif",
+      "effects\\MGMagicFirePillar01.nif"
+    ],
+    "lights": [
+      {
+        "points": [[0.0, 0.0, 0.0]],
+        "data": {
+          "light": "MGFirePillarLightBlue",
+          "radius": 128.0,
+          "fade": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "models": [
       "Magic\\LightSpellStaticLight.nif"
     ],
     "lights": [
       {
         "points": [[0.0, 0.0, 0.0]],
         "data": {
-          "light": "PL_BluePotion",
+          "light": "MagicLightWhite01",
           "radius": 128.0,
           "fade": 1.0
         }
