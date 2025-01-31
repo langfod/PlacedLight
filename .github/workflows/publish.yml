@@ -105,6 +105,28 @@ jobs:
         run: |
           echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
      
+      - name: Get current  FOMOD version
+        id: fomod_version
+        run: | 
+          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
+
+      - name: Get current  FOMOD version
+        id: fomod_check
+        run: | 
+          echo "FOMOD_MATCHED = ${{ steps.fomod_version.outputs.FOMOD_VERSION ==  steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT   
+
+      - name: FOMOD Debug Values
+        run: |
+          echo ${{ steps.fomod_version.outputs.FOMOD_VERSION }}
+          echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED }}
+
+      - name: Update FOMOD XML with version
+        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
+        run: | 
+          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
+          cp ./package/fomod/info.xml ./dist/fomod/info.xml
+          cat ./dist/fomod/info.xml
+
       # Archive dist directory
       - name: Archive dist directory
         run: |          
@@ -116,3 +138,5 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run:
           gh release upload ${{ steps.extract_version.outputs.VERSION }} ./downloads/PlacedLight.zip
+
+
