@@ -33,6 +33,9 @@ jobs:
           fileName: 'SpriggitLinuxCLI.zip'
           out-file-path: './SpriggitCLI'
       
+      - name: Clear tmp
+        run: rm -rf /tmp/Spriggit
+        
       - name: Extract archive
         run: unzip ./SpriggitCLI/SpriggitLinuxCLI.zip -d ./SpriggitCLI
 
