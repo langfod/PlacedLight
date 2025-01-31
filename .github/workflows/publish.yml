@@ -108,7 +108,7 @@ jobs:
       - name: Double check FOMOD version
         id: fomod_check
         run: | 
-          FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" 
+          FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)
           echo $FOMOD_VERSION
           echo $FOMOD_VERSION >> $GITHUB_OUTPUT
           echo "FOMOD_MATCHED = $FOMOD_VERSION ==  ${{steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT    
