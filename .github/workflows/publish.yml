@@ -108,13 +108,11 @@ jobs:
       - name: Get current  FOMOD version
         id: fomod_version
         run: | 
-          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)"" >> $GITHUB_OUTPUT
-          echo "FOMOD_MATCHED = ${FOMOD_VERSION} ==  ${{steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT    
+          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
 
       - name: Get current  FOMOD version
         id: fomod_check
         run: | 
-          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)"" >> $GITHUB_OUTPUT
           echo "FOMOD_MATCHED = ${{ steps.fomod_version.outputs.FOMOD_VERSION ==  steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT   
 
       - name: FOMOD Debug Values
