@@ -151,7 +151,9 @@ jobs:
 
       # Upload artifact
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: PlacedLight
-          path: ./downloads/PlacedLight.zip
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run:
+          gh release upload ${{ steps.extract_version.outputs.VERSION }} ./downloads/PlacedLight.zip
+
+
