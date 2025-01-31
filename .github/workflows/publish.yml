@@ -6,7 +6,7 @@ on:
     types: [published]
 
 jobs:
-  validate:
+  validate_and_publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -76,31 +76,33 @@ jobs:
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Default" -o "./dist/PL - Default.esp"
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Nightmare" -o "./dist/PL - Nightmare.esp"
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light" -o "./dist/Placed Light.esm"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light - Shadows and Ambient" -o "./dist/Placed Light - Shadows and Ambient.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light Exteriors" -o "./dist/Placed Light Exteriors.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Carbon LightBulbs Edit" -o "./dist/Misc Patches/Carbon LightBulbs Edit.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/NOTWL - Lanterns" -o "./dist/Misc Patches/NOTWL - Lanterns.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
-          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Placed Light - Shadows and Ambient" -o "./dist/Placed Light - Shadows and Ambient.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Placed Light Exteriors" -o "./dist/Placed Light Exteriors.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Misc Patches/Carbon LightBulbs Edit" -o "./dist/Misc Patches/Carbon LightBulbs Edit.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Misc Patches/NOTWL - Lanterns" -o "./dist/Misc Patches/NOTWL - Lanterns.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
+          ./SpriggitCLI/Spriggit.CLI.deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
 
       - name: List dist contents for debugging
         run: |
           echo "Contents of ./dist:"
           ls -lR ./dist
 
-  update-fomod-publish:
-    runs-on: ubuntu-latest
-    needs: [validate]
-    steps:
+      # Extract version from the tag
       - name: Extract version from tag
         id: extract_version
-        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
+        run: |
+          VERSION=${GITHUB_REF##*/}
+          VERSION=${VERSION#v}
+          echo "::set-output name=VERSION::$VERSION"
 
+      # Update XML with version using xmlstarlet-action
       - name: Update FOMOD XML with version
         uses: Mudlet/xmlstarlet-action@master
         with:
-          args: ed -L --update '/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
+          args: ed -L --update '/fomod/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
 
+      # Commit and push changes
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -108,12 +110,14 @@ jobs:
           git add ./dist/fomod/info.xml
           git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"
           git push origin HEAD
-    
+
+      # Create new tag with updated commit
       - name: Create new tag with updated commit
         run: |
           git tag -a ${{ steps.extract_version.outputs.VERSION }} -m "Tagging the new commit with updated version"
           git push origin ${{ steps.extract_version.outputs.VERSION }}
 
+      # Create GitHub release
       - name: Create GitHub release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -124,10 +128,12 @@ jobs:
             -d '{"tag_name": "'"$VERSION"'", "name": "'"$VERSION"'", "body": "Release of version '"$VERSION"'", "draft": false, "prerelease": false}' \
             https://api.github.com/repos/${{ github.repository }}/releases
 
+      # Archive dist directory
       - name: Archive dist directory
         run: |
           zip -r ./downloads/PlacedLight.zip ./dist
 
+      # Upload artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
