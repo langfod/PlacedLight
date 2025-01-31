@@ -85,42 +85,40 @@ jobs:
 
   update-fomod:
     runs-on: ubuntu-latest
-
+    needs: [validate]
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Extract version from tag
         id: extract_version
         run: echo "::set-output name=VERSION::${GITHUB_REF##*/}"
 
       - name: Update FOMOD XML with version
-        run: |
-          VERSION=$(echo "${{ steps.extract_version.outputs.VERSION }}" | sed 's/^v//')
-          xmlstarlet ed --inplace -u '//Version' -v "$VERSION" dist/fomod/info.xml
+        uses: Mudlet/xmlstarlet-action@master
+        with:
+          args: ed -L --update '/Version' -v "${{ steps.extract_version.outputs.VERSION }}" dist/fomod/info.xml
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add path/to/your/file.xml
+          git add dist/fomod/info.xml
           git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"
           git push origin HEAD
+    
+      - name: Create new tag with updated commit
+        run: |
+          git tag -a ${{ steps.extract_version.outputs.VERSION }} -m "Tagging the new commit with updated version"
+          git push origin ${{ steps.extract_version.outputs.VERSION }}
 
   archive:
     runs-on: ubuntu-latest
     needs: [validate, update-fomod]
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - name: Archive dist directory
         run: |
-          zip -r PlacedLight.zip dist
-          mv PlacedLight.zip ./downloads
+          zip -r ./downloads/PlacedLight.zip ./dist
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: PlacedLight
+          path: ./downloads/PlacedLight.zip
