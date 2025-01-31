@@ -67,6 +67,9 @@ jobs:
         continue-on-error: true
         run: |
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
+
+      - name: Fake Spriggit until Spriggit bug is fixed
+        run: |
           cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
           chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
       
