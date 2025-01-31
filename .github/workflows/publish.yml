@@ -83,24 +83,29 @@ jobs:
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
 
+      - name: List dist contents for debugging
+        run: |
+          echo "Contents of ./dist:"
+          ls -lR ./dist
+
   update-fomod:
     runs-on: ubuntu-latest
     needs: [validate]
     steps:
       - name: Extract version from tag
         id: extract_version
-        run: echo "::set-output name=VERSION::${GITHUB_REF##*/}"
+        run: echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Update FOMOD XML with version
         uses: Mudlet/xmlstarlet-action@master
         with:
-          args: ed -L --update '/Version' -v "${{ steps.extract_version.outputs.VERSION }}" dist/fomod/info.xml
+          args: ed -L --update '/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add dist/fomod/info.xml
+          git add ./dist/fomod/info.xml
           git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"
           git push origin HEAD
     
