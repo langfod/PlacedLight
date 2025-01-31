@@ -1,0 +1,148 @@
+name: Create Place Light Package
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  validate_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Validate json
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          schema: https://raw.githubusercontent.com/FlayaN/LightPlacer-VR/refs/heads/json-schema/schema.json
+          file: package/**/LightPlacer/**/*.json
+      
+      - name: Install xmlstarlet
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
+
+      - name: Download release archive
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: 'Mutagen-Modding/Spriggit'
+          latest: true
+          zipBall: true
+          fileName: 'SpriggitLinuxCLI.zip'
+          out-file-path: './downloads'
+      
+      - name: Extract archive
+        run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
+
+      - name: Prepare dist directory
+        run: |
+          if [ -d "dist" ]; then
+            rm -rf dist
+          else
+            mkdir dist
+          fi
+
+      - name: Copy package to dist excluding files
+        run: |
+          mkdir -p dist
+          rsync -av --exclude-from='exclusions.txt' package/ dist/
+
+      - name: Set permissions for Spriggit executable
+        run: chmod +x ./SpriggitCLI/Spriggit.CLI
+
+      - name: List directory contents for debugging
+        run: |
+          echo "Contents of ./SpriggitCLI:"
+          ls -l ./SpriggitCLI
+          echo "Contents of current directory:"
+          pwd
+          ls -l
+
+      - name: Run Spriggit fake deserialization until Spriggit bug is fixed
+        continue-on-error: true
+        run: |
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
+
+      - name: Fake Spriggit until Spriggit bug is fixed
+        continue-on-error: true
+        run: |
+          cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
+          chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
+      
+      - name: Run Spriggit templates deserialization
+        run: |
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Dark" -o "./dist/PL - Dark.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Default" -o "./dist/PL - Default.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Nightmare" -o "./dist/PL - Nightmare.esp"
+      
+      - name: Run Spriggit main deserialization
+        run: |
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light" -o "./dist/Placed Light.esm"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light - Shadows and Ambient" -o "./dist/Placed Light - Shadows and Ambient.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Placed Light Exteriors" -o "./dist/Placed Light Exteriors.esp"
+          
+      - name: Run Spriggit misc deserialization
+        run: |          
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Carbon LightBulbs Edit" -o "./dist/Misc Patches/Carbon LightBulbs Edit.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/NOTWL - Lanterns" -o "./dist/Misc Patches/NOTWL - Lanterns.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light - Creation Club" -o "./dist/Misc Patches/Placed Light - Creation Club.esp"
+          ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/Misc Patches/Placed Light Exteriors - NOTWL 3 patch" -o "./dist/Misc Patches/Placed Light Exteriors - NOTWL 3 patch.esp"
+
+      - name: List dist contents for debugging
+        run: |
+          echo "Contents of ./dist:"
+          ls -lR ./dist
+
+      # Extract version from the tag
+      - name: Extract version from tag
+        id: extract_version
+        run: |
+          echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
+     
+      - name: Update FOMOD XML with version
+        run: | 
+          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
+          cp ./package/fomod/info.xml ./dist/fomod/info.xml
+          cat ./dist/fomod/info.xml
+
+      # Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --global core.autocrlf false
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git tag -d ${{ steps.extract_version.outputs.VERSION }}
+          git push origin :refs/tags/${{ steps.extract_version.outputs.VERSION }}
+          git add ./package/fomod/info.xml
+          git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"          
+          git tag -f -a ${{ steps.extract_version.outputs.VERSION }} -m "Tagging the new commit with updated version"
+          git push origin 
+
+      # Create GitHub release
+      - name: Create GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=${{ steps.extract_version.outputs.VERSION }}
+          curl -s -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -d '{"tag_name": "'"$VERSION"'", "name": "'"$VERSION"'", "body": "Release of version '"$VERSION"'", "draft": false, "prerelease": false}' \
+            https://api.github.com/repos/${{ github.repository }}/releases
+
+      # Archive dist directory
+      - name: Archive dist directory
+        run: |          
+          zip -r ./downloads/PlacedLight.zip ./dist
+
+      # Upload artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PlacedLight
+          path: ./downloads/PlacedLight.zip
