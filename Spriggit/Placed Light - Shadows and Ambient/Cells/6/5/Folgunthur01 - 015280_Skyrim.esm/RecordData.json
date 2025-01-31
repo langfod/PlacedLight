@@ -60,6 +60,25 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "0F24F9:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "088247:Skyrim.esm",
+      "Radius": 154.04291,
+      "Emittance": "02E2CC:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": 1.7991774,
+        "ShadowDepthBias": 18.497292
+      },
+      "LocationReference": "019179:Skyrim.esm",
+      "Placement": {
+        "Position": "7551.526, 8005.3335, 945.0984"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "0F259C:Skyrim.esm",
       "Base": "03C5A5:Skyrim.esm",
       "Radius": 183.05765,
@@ -70,24 +89,6 @@
       "LocationReference": "019179:Skyrim.esm",
       "Placement": {
         "Position": "7551.621, 8132.8555, 786.8624"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0ADB38:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "01FD9B:Skyrim.esm",
-      "Radius": 283.3802,
-      "LightData": {
-        "FadeOffset": 1.1637344,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "019179:Skyrim.esm",
-      "Placement": {
-        "Position": "6003.7725, 11035.965, 195.91776"
       }
     },
     {
@@ -135,21 +136,20 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0F24F9:Skyrim.esm",
+      "FormKey": "0ADB38:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
-      "Base": "088247:Skyrim.esm",
-      "Radius": 154.04291,
-      "Emittance": "02E2CC:Skyrim.esm",
+      "Base": "01FD9B:Skyrim.esm",
+      "Radius": 283.3802,
       "LightData": {
-        "FadeOffset": 1.7991774,
-        "ShadowDepthBias": 18.497292
+        "FadeOffset": 1.1637344,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "019179:Skyrim.esm",
       "Placement": {
-        "Position": "7551.526, 8005.3335, 945.0984"
+        "Position": "6003.7725, 11035.965, 195.91776"
       }
     }
   ],
