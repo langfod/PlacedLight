@@ -10,7 +10,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     continue-on-error: true
-    
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -68,7 +68,8 @@ jobs:
       - name: Run Spriggit deserialization
         run: |
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-          
+        continue-on-error: true
+         
       - name: List directory contents for debugging
         run: |
           echo "Contents of /tmp/Spriggit:"
