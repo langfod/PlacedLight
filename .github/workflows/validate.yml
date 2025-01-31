@@ -46,6 +46,9 @@ jobs:
           mkdir -p dist
           rsync -av --exclude-from='exclusions.txt' package/ dist/
 
+      - name: Set permissions for Spriggit executable
+        run: chmod +x ./SpriggitCLI/Spriggit.CLI
+
       - name: Run Spriggit deserialization
         run: |
           ./SpriggitCLI/Spriggit.CLI deserialize -i "Spriggit/PL - Bright" -o "dist/PL - Bright.esp"
