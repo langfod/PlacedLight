@@ -58,18 +58,17 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0A67CB:Skyrim.esm",
-      "Base": "0897C9:Skyrim.esm",
-      "Radius": 859.95325,
+      "FormKey": "01EF2F:Skyrim.esm",
+      "Base": "0879AD:Skyrim.esm",
+      "Radius": 37.79425,
       "LightData": {
-        "FovOffset": -32.59297,
-        "FadeOffset": 17.852325,
-        "ShadowDepthBias": 31.37378
+        "FadeOffset": 2.0,
+        "ShadowDepthBias": 2.2740135
       },
       "LocationReference": "019283:Skyrim.esm",
       "Placement": {
-        "Position": "2985.1772, 399.32513, 1613.8419",
-        "Rotation": "0, -1.5707964, 0"
+        "Position": "1090, 1812, 1065",
+        "Rotation": "0, 0, 4.2236967"
       }
     },
     {
@@ -89,17 +88,19 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "01EF2F:Skyrim.esm",
-      "Base": "0879AD:Skyrim.esm",
-      "Radius": 37.79425,
+      "FormKey": "01F4E3:Skyrim.esm",
+      "FormVersion": 37,
+      "Base": "088242:Skyrim.esm",
+      "Radius": 159.7492,
       "LightData": {
-        "FadeOffset": 2.0,
-        "ShadowDepthBias": 2.2740135
+        "Versioning": [
+          "Break0"
+        ],
+        "FadeOffset": 4.2877474,
+        "ShadowDepthBias": 18.761768
       },
-      "LocationReference": "019283:Skyrim.esm",
       "Placement": {
-        "Position": "1090, 1812, 1065",
-        "Rotation": "0, 0, 4.2236967"
+        "Position": "687.42505, -617.13837, -27.100784"
       }
     },
     {
@@ -114,6 +115,22 @@
       "LocationReference": "019283:Skyrim.esm",
       "Placement": {
         "Position": "1720.9783, -2350.8523, 336.19208"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A67CB:Skyrim.esm",
+      "Base": "0897C9:Skyrim.esm",
+      "Radius": 859.95325,
+      "LightData": {
+        "FovOffset": -32.59297,
+        "FadeOffset": 17.852325,
+        "ShadowDepthBias": 31.37378
+      },
+      "LocationReference": "019283:Skyrim.esm",
+      "Placement": {
+        "Position": "2985.1772, 399.32513, 1613.8419",
+        "Rotation": "0, -1.5707964, 0"
       }
     }
   ],
