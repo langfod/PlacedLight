@@ -26,8 +26,8 @@
   "DistantLodMultiplier": 1.0,
   "ObjectBoundsMin": "-16, -13",
   "ObjectBoundsMax": "12, 15",
-  "HdLodDiffuseTexture": "data\\textures\\Landscape\\mountains\\mountainslab02.dds",
-  "HdLodNormalTexture": "data\\textures\\Landscape\\mountains\\Mountainslab02_n.dds",
+  "HdLodDiffuseTexture": "data\\Textures\\landscape\\mountains\\mountainslab02.dds",
+  "HdLodNormalTexture": "data\\Textures\\landscape\\mountains\\mountainslab02_n.dds",
   "TopCell": {
     "FormKey": "000EA6:Dawnguard.esm",
     "IsCompressed": true,
@@ -40,31 +40,14 @@
       "HasWater"
     ],
     "Grid": {
-      "Flags": "-177966336"
+      "Flags": "16410368"
     },
     "WaterHeight": 3.4028235E+38,
     "Regions": [
       "018C4E:Dawnguard.esm"
     ],
+    "PersistentUnknownGroupData": 1,
     "Persistent": [
-      {
-        "MutagenObjectType": "PlacedObject",
-        "FormKey": "00505E:Dawnguard.esm",
-        "MajorRecordFlagsRaw": 1073875968,
-        "SkyrimMajorRecordFlags": [
-          "0x400",
-          "InitiallyDisabled",
-          "Dangerous_OffLimits_InteriorCell",
-          "0x40000000"
-        ],
-        "Base": "08824C:Skyrim.esm",
-        "Radius": -168.72134,
-        "LocationReference": "00A87C:Dawnguard.esm",
-        "Placement": {
-          "Position": "-8794.712, -9109.768, 8926.788",
-          "Rotation": "0, 0, 0.0071998467"
-        }
-      },
       {
         "MutagenObjectType": "PlacedObject",
         "FormKey": "019ACC:Dawnguard.esm",
@@ -86,11 +69,30 @@
           "Position": "-2435.1873, 16601.184, 2133.0352",
           "Rotation": "0, 0, 2.1731894"
         }
+      },
+      {
+        "MutagenObjectType": "PlacedObject",
+        "FormKey": "00505E:Dawnguard.esm",
+        "MajorRecordFlagsRaw": 1073875968,
+        "SkyrimMajorRecordFlags": [
+          "0x400",
+          "InitiallyDisabled",
+          "Dangerous_OffLimits_InteriorCell",
+          "0x40000000"
+        ],
+        "Base": "08824C:Skyrim.esm",
+        "Radius": -168.72134,
+        "LocationReference": "00A87C:Dawnguard.esm",
+        "Placement": {
+          "Position": "-8794.712, -9109.768, 8926.788",
+          "Rotation": "0, 0, 0.0071998467"
+        }
       }
     ],
     "MajorFlags": [
       "Persistent",
       "0x40000"
     ]
-  }
+  },
+  "SubCellsUnknown": 1
 }

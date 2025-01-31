@@ -53,25 +53,13 @@
   "LightingTemplate": "0195D3:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "018EED:Skyrim.esm",
-  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\CaveGreenCube_e.dds",
+  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\cavegreencube_e.dds",
   "SkyAndWeatherFromRegion": "0C5856:Skyrim.esm",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "03EBF1:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "069970:Skyrim.esm",
-      "Base": "03C5A6:Skyrim.esm",
-      "Radius": 82.74548,
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "018EED:Skyrim.esm",
-      "Placement": {
-        "Position": "210.74443, 605.63806, 327.9483",
-        "Rotation": "0.6024036, 1.2694004, 3.6249962"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0C1C81:Skyrim.esm",
@@ -85,6 +73,18 @@
       "LocationReference": "018EED:Skyrim.esm",
       "Placement": {
         "Position": "-1073.1838, 4821.284, 800.62714"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "077C64:Skyrim.esm",
+      "Base": "03C5A6:Skyrim.esm",
+      "Radius": 82.74548,
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "018EED:Skyrim.esm",
+      "Placement": {
+        "Position": "-480.12173, 5115.162, 1207.0891",
+        "Rotation": "0.6024036, 1.2694004, 3.6249962"
       }
     },
     {
@@ -106,13 +106,13 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "077C64:Skyrim.esm",
+      "FormKey": "069970:Skyrim.esm",
       "Base": "03C5A6:Skyrim.esm",
       "Radius": 82.74548,
       "Emittance": "075492:Skyrim.esm",
       "LocationReference": "018EED:Skyrim.esm",
       "Placement": {
-        "Position": "-480.12173, 5115.162, 1207.0891",
+        "Position": "210.74443, 605.63806, 327.9483",
         "Rotation": "0.6024036, 1.2694004, 3.6249962"
       }
     },

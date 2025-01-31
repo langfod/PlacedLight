@@ -11,7 +11,7 @@
   ],
   "Grid": {
     "Point": "4, 4",
-    "Flags": "-177966336"
+    "Flags": "16410112"
   },
   "WaterHeight": -14000.0,
   "Regions": [
@@ -19,24 +19,6 @@
   ],
   "Water": "000018:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0D8F0D:Skyrim.esm",
-      "MajorRecordFlagsRaw": 65536,
-      "SkyrimMajorRecordFlags": [
-        "0x10000"
-      ],
-      "Base": "0B9E2A:Skyrim.esm",
-      "Radius": 1087.9604,
-      "LightData": {
-        "FadeOffset": 1.2125566,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "018EE8:Skyrim.esm",
-      "Placement": {
-        "Position": "18636.463, 16739.244, 2433.4292"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0D8F35:Skyrim.esm",
@@ -54,6 +36,24 @@
       "LocationReference": "018EE8:Skyrim.esm",
       "Placement": {
         "Position": "17120.217, 17301.637, 2286.0159"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D8F0D:Skyrim.esm",
+      "MajorRecordFlagsRaw": 65536,
+      "SkyrimMajorRecordFlags": [
+        "0x10000"
+      ],
+      "Base": "0B9E2A:Skyrim.esm",
+      "Radius": 1087.9604,
+      "LightData": {
+        "FadeOffset": 1.2125566,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "018EE8:Skyrim.esm",
+      "Placement": {
+        "Position": "18636.463, 16739.244, 2433.4292"
       }
     }
   ],

@@ -1,13 +1,17 @@
 {
   "FormKey": "09829C:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "HagsEndOrigin",
-  "FormVersion": 39,
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Flags": [
     "HasWater"
   ],
   "Grid": {
     "Point": "-31, 19",
-    "Flags": "5492992"
+    "Flags": "16410112"
   },
   "MaxHeightData": {
     "Offset": -4096.0,
@@ -56,18 +60,18 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0E37F0:Skyrim.esm",
-      "FormVersion": 36,
       "Base": "0B15EE:Skyrim.esm",
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 0.20000005,
         "ShadowDepthBias": 1.0
       },
+      "LocationReference": "019191:Skyrim.esm",
       "Placement": {
         "Position": "-125921.27, 78237.016, -3866.124"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

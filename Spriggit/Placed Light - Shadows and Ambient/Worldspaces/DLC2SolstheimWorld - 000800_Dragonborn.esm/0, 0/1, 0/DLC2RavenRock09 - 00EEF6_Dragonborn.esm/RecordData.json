@@ -3,7 +3,6 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2RavenRock09",
-  "FormVersion": 43,
   "SkyrimMajorRecordFlags": [
     "Compressed"
   ],
@@ -12,7 +11,7 @@
   ],
   "Grid": {
     "Point": "8, 7",
-    "Flags": "5573888"
+    "Flags": "16410368"
   },
   "MaxHeightData": {
     "Offset": 768.0,
@@ -53,25 +52,26 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "0374BC:Dragonborn.esm",
-    "018681:Dragonborn.esm",
-    "028649:Dragonborn.esm",
-    "0195C3:Dragonborn.esm",
+    "02F78F:Skyrim.esm",
     "01B9A9:Dragonborn.esm",
-    "02F78F:Skyrim.esm"
+    "0195C3:Dragonborn.esm",
+    "028649:Dragonborn.esm",
+    "018681:Dragonborn.esm",
+    "0374BC:Dragonborn.esm"
   ],
   "Location": "0143B9:Dragonborn.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "033997:Dragonborn.esm",
-      "FormVersion": 43,
       "Base": "033970:Dragonborn.esm",
       "Radius": 299.31146,
       "LightData": {
         "FadeOffset": 0.65,
         "ShadowDepthBias": 1.0
       },
+      "LocationReference": "0143B9:Dragonborn.esm",
       "Placement": {
         "Position": "33232.023, 30924.322, 1242.1",
         "Rotation": "0, 0, 1.7"
