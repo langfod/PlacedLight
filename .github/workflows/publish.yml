@@ -22,6 +22,11 @@ jobs:
           schema: https://raw.githubusercontent.com/FlayaN/LightPlacer-VR/refs/heads/json-schema/schema.json
           file: package/**/LightPlacer/**/*.json
       
+      - name: Install xmllint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
+
       - name: Download release archive
         uses: robinraju/release-downloader@v1
         with:
@@ -100,13 +105,11 @@ jobs:
         run: |
           VERSION=${GITHUB_REF##*/}
           echo "VERSION=$VERSION" >> $GITHUB_ENV
-
-      # Update XML with version using xmlstarlet-action
+     
       - name: Update FOMOD XML with version
-        uses: Mudlet/xmlstarlet-action@master
-        with:
-          args: ed -L --update '/fomod/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
-
+        run: | 
+          xmlstarlet ed --inplace -u '//Version' -v "$VERSION" ./package/fomod/info.xml
+          cp ./package/fomod/info.xml ./dist/fomod/info.xml
 
       # Commit and push changes
       - name: Commit and push changes
@@ -136,8 +139,7 @@ jobs:
 
       # Archive dist directory
       - name: Archive dist directory
-        run: |
-          cp ./package/fomod/info.xml ./dist/fomod/info.xml
+        run: |          
           zip -r ./downloads/PlacedLight.zip ./dist
 
       # Upload artifact
