@@ -110,6 +110,12 @@ jobs:
         run: | 
           echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
           echo "FOMOD_MATCHED = ${FOMOD_VERSION} == ${VERSION}" >> $GITHUB_OUTPUT
+    
+
+      - name: Debug Values
+        run: |
+          echo ${{ steps.fomod_check.outputs.FOMOD_VERSION}}
+          echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED}}
 
       - name: Update FOMOD XML with version
         if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == 'false' }}
@@ -147,7 +153,7 @@ jobs:
       # Archive dist directory
       - name: Archive dist directory
         run: |          
-          cd ./dist ; zip -r ./downloads/PlacedLight.zip *
+          cd ./dist ; zip -r ../downloads/PlacedLight.zip *
 
       # Upload artifact
       - name: Upload artifact
