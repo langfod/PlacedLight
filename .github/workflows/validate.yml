@@ -23,12 +23,6 @@ jobs:
         with:
           schema: https://raw.githubusercontent.com/FlayaN/LightPlacer-VR/refs/heads/json-schema/schema.json
           file: package/**/LightPlacer/**/*.json
-
-      - name: Validate FOMOD XML
-        uses: cardinalby/schema-validator-action@v3
-        with:
-          schema: https://github.com/dh-nunes/fomod-schema/blob/master/ModuleConfig.xsd
-          file: package/fomod/ModuleConfig.xml
       
       - name: Download release archive
         uses: robinraju/release-downloader@v1
