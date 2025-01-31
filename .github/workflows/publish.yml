@@ -99,21 +99,21 @@ jobs:
         id: extract_version
         run: |
           VERSION=${GITHUB_REF##*/}
-          VERSION=${VERSION#v}
-          echo "::set-output name=VERSION::$VERSION"
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       # Update XML with version using xmlstarlet-action
       - name: Update FOMOD XML with version
         uses: Mudlet/xmlstarlet-action@master
         with:
-          args: ed -L --update '/fomod/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
+          args: ed -L --update '/fomod/Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
+
 
       # Commit and push changes
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add ./dist/fomod/info.xml
+          git add ./package/fomod/info.xml
           git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"
           git push origin HEAD
 
@@ -137,6 +137,7 @@ jobs:
       # Archive dist directory
       - name: Archive dist directory
         run: |
+          cp ./package/fomod/info.xml ./dist/fomod/info.xml
           zip -r ./downloads/PlacedLight.zip ./dist
 
       # Upload artifact
