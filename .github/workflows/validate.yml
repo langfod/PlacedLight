@@ -54,6 +54,13 @@ jobs:
       - name: Set permissions for Spriggit executable
         run: chmod +x ./SpriggitCLI/Spriggit.CLI
 
+      - name: List directory contents for debugging
+        run: |
+          echo "Contents of ./SpriggitCLI:"
+          ls -l ./SpriggitCLI
+          echo "Contents of current directory:"
+          ls -l
+
       - name: Run Spriggit deserialization
         run: |
           ./SpriggitCLI/Spriggit.CLI deserialize -i "Spriggit/PL - Bright" -o "dist/PL - Bright.esp"
