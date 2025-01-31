@@ -105,54 +105,6 @@ jobs:
         run: |
           echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
      
-      - name: Get current  FOMOD version
-        id: fomod_version
-        run: | 
-          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
-
-      - name: Get current  FOMOD version
-        id: fomod_check
-        run: | 
-          echo "FOMOD_MATCHED = ${{ steps.fomod_version.outputs.FOMOD_VERSION ==  steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT   
-
-      - name: FOMOD Debug Values
-        run: |
-          echo ${{ steps.fomod_version.outputs.FOMOD_VERSION }}
-          echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED }}
-
-      - name: Update FOMOD XML with version
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
-        run: | 
-          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
-          cp ./package/fomod/info.xml ./dist/fomod/info.xml
-          cat ./dist/fomod/info.xml
-
-      # Commit and push changes
-      - name: Commit and push changes
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
-        run: |
-          git config --global core.autocrlf false
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git tag -d ${{ steps.extract_version.outputs.VERSION }}
-          git push origin :refs/tags/${{ steps.extract_version.outputs.VERSION }}
-          git add ./package/fomod/info.xml
-          git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"          
-          git tag -f -a ${{ steps.extract_version.outputs.VERSION }} -m "Tagging the new commit with updated version"
-          git push origin main --tags
-
-      # Create GitHub release
-      - name: Create GitHub release
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          VERSION=${{ steps.extract_version.outputs.VERSION }}
-          curl -s -X POST \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            -d '{"tag_name": "'"$VERSION"'", "name": "'"$VERSION"'", "body": "Release of version '"$VERSION"'", "draft": false, "prerelease": false}' \
-            https://api.github.com/repos/${{ github.repository }}/releases
-
       # Archive dist directory
       - name: Archive dist directory
         run: |          
@@ -164,5 +116,3 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run:
           gh release upload ${{ steps.extract_version.outputs.VERSION }} ./downloads/PlacedLight.zip
-
-
