@@ -59,8 +59,6 @@ jobs:
           echo "Contents of current directory:"
           pwd
           ls -l
-          echo "Contents of Spriggit directory:"
-          ls -l /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/
 
       - name: Run Spriggit deserialization
         run: |
