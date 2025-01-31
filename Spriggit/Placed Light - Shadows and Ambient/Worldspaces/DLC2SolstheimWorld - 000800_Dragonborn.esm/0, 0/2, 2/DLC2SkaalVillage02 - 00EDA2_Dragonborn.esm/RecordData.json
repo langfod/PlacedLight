@@ -3,6 +3,7 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "DLC2SkaalVillage02",
+  "FormVersion": 43,
   "SkyrimMajorRecordFlags": [
     "Compressed"
   ],
@@ -11,7 +12,7 @@
   ],
   "Grid": {
     "Point": "18, 17",
-    "Flags": "258807808"
+    "Flags": "5573888"
   },
   "MaxHeightData": {
     "Offset": 512.0,
@@ -52,44 +53,45 @@
   },
   "WaterHeight": 3.4028235E+38,
   "Regions": [
-    "02F78F:Skyrim.esm",
-    "037562:Dragonborn.esm",
-    "03414D:Dragonborn.esm",
-    "02B048:Dragonborn.esm",
-    "029F3B:Dragonborn.esm",
-    "02ADC6:Dragonborn.esm",
+    "028649:Dragonborn.esm",
     "01B9A9:Dragonborn.esm",
-    "028649:Dragonborn.esm"
+    "02ADC6:Dragonborn.esm",
+    "029F3B:Dragonborn.esm",
+    "02B048:Dragonborn.esm",
+    "03414D:Dragonborn.esm",
+    "037562:Dragonborn.esm",
+    "02F78F:Skyrim.esm"
   ],
   "Location": "0143BB:Dragonborn.esm",
-  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "03CB91:Dragonborn.esm",
-      "Base": "033970:Dragonborn.esm",
-      "Radius": -226.54108,
-      "LightData": {
-        "FadeOffset": 0.65,
-        "ShadowDepthBias": 1.0
-      },
-      "LocationReference": "0143BB:Dragonborn.esm",
-      "Placement": {
-        "Position": "74623.43, 69837.914, 3004.867"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "03CB8F:Dragonborn.esm",
+      "FormVersion": 43,
       "Base": "033970:Dragonborn.esm",
       "Radius": 268.38953,
       "LightData": {
         "FadeOffset": 0.65,
-        "ShadowDepthBias": 1.0
+        "ShadowDepthBias": 1.0,
+        "Unknown": -5798400
       },
-      "LocationReference": "0143BB:Dragonborn.esm",
       "Placement": {
         "Position": "74969.234, 70654.97, 2965.443"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03CB91:Dragonborn.esm",
+      "FormVersion": 43,
+      "Base": "033970:Dragonborn.esm",
+      "Radius": -226.54108,
+      "LightData": {
+        "FadeOffset": 0.65,
+        "ShadowDepthBias": 1.0,
+        "Unknown": -5798400
+      },
+      "Placement": {
+        "Position": "74623.43, 69837.914, 3004.867"
       }
     }
   ],

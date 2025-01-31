@@ -53,26 +53,12 @@
   "WaterHeight": -2.1474836E+09,
   "Location": "01928F:Skyrim.esm",
   "Water": "0CC7B4:Skyrim.esm",
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "Data\\Textures\\Cubemaps\\DunCaveRuinGreen_e.dds",
   "AcousticSpace": "01AA4D:Skyrim.esm",
   "EncounterZone": "03EC57:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0EE10B:Skyrim.esm",
-      "Base": "02EDFC:Skyrim.esm",
-      "Radius": 374.66034,
-      "LightData": {
-        "FadeOffset": 1.8528636,
-        "ShadowDepthBias": 25.17511
-      },
-      "LocationReference": "01928F:Skyrim.esm",
-      "Placement": {
-        "Position": "-1634.794, 2494.475, 7456.465"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0EE0D8:Skyrim.esm",
@@ -141,6 +127,20 @@
       "LocationReference": "01928F:Skyrim.esm",
       "Placement": {
         "Position": "5807.4204, 1186.435, 7144.974"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0EE10B:Skyrim.esm",
+      "Base": "02EDFC:Skyrim.esm",
+      "Radius": 374.66034,
+      "LightData": {
+        "FadeOffset": 1.8528636,
+        "ShadowDepthBias": 25.17511
+      },
+      "LocationReference": "01928F:Skyrim.esm",
+      "Placement": {
+        "Position": "-1634.794, 2494.475, 7456.465"
       }
     }
   ],

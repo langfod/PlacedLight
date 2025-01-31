@@ -3,6 +3,7 @@
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "xSovngardeOrigin",
+  "FormVersion": 40,
   "SkyrimMajorRecordFlags": [
     "Compressed"
   ],
@@ -10,7 +11,7 @@
     "HasWater"
   ],
   "Grid": {
-    "Flags": "258807552"
+    "Flags": "5492480"
   },
   "MaxHeightData": {
     "Offset": 8576.0,
@@ -57,13 +58,16 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0BBAC7:Skyrim.esm",
+      "FormVersion": 31,
       "Base": "0B15EE:Skyrim.esm",
       "Radius": 742.3981,
       "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
         "FadeOffset": 2.7,
         "ShadowDepthBias": 1.0
       },
-      "LocationReference": "0192B2:Skyrim.esm",
       "Placement": {
         "Position": "47.472908, 1335.5182, 110.523895"
       }
@@ -71,13 +75,16 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0BBACA:Skyrim.esm",
+      "FormVersion": 31,
       "Base": "0B15EE:Skyrim.esm",
       "Radius": 887.35205,
       "LightData": {
+        "Versioning": [
+          "Break0"
+        ],
         "FadeOffset": 2.7,
         "ShadowDepthBias": 1.0
       },
-      "LocationReference": "0192B2:Skyrim.esm",
       "Placement": {
         "Position": "47.472908, 1335.5182, 110.523895"
       }
