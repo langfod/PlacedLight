@@ -105,18 +105,22 @@ jobs:
         run: |
           echo "VERSION=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
      
-      - name: Double check FOMOD version
+      - name: Get current  FOMOD version
+        id: fomod_version
+        run: | 
+          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)"" >> $GITHUB_OUTPUT
+          echo "FOMOD_MATCHED = ${FOMOD_VERSION} ==  ${{steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT    
+
+      - name: Get current  FOMOD version
         id: fomod_check
         run: | 
-          FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)
-          echo "$FOMOD_VERSION"
-          echo "$FOMOD_VERSION" >> $GITHUB_OUTPUT
-          echo "FOMOD_MATCHED = $FOMOD_VERSION ==  ${{steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT    
+          echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)"" >> $GITHUB_OUTPUT
+          echo "FOMOD_MATCHED = ${{ steps.fomod_version.outputs.FOMOD_VERSION ==  steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT   
 
-      - name: Debug Values
+      - name: FOMOD Debug Values
         run: |
-          echo ${{ steps.fomod_check.outputs.FOMOD_VERSION}}
-          echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED}}
+          echo ${{ steps.fomod_version.outputs.FOMOD_VERSION }}
+          echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED }}
 
       - name: Update FOMOD XML with version
         if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == 'false' }}
