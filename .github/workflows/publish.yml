@@ -121,7 +121,7 @@ jobs:
           echo ${{ steps.fomod_check.outputs.FOMOD_MATCHED }}
 
       - name: Update FOMOD XML with version
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == 'false' }}
+        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
         run: | 
           xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
           cp ./package/fomod/info.xml ./dist/fomod/info.xml
@@ -129,7 +129,7 @@ jobs:
 
       # Commit and push changes
       - name: Commit and push changes
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == 'false' }}
+        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
         run: |
           git config --global core.autocrlf false
           git config --global user.name 'github-actions[bot]'
@@ -143,7 +143,7 @@ jobs:
 
       # Create GitHub release
       - name: Create GitHub release
-        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == 'false' }}
+        if: ${{ steps.fomod_check.outputs.FOMOD_MATCHED == false }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
