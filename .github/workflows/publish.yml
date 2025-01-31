@@ -109,7 +109,8 @@ jobs:
         id: fomod_check
         run: | 
           echo "FOMOD_VERSION=$(xmlstarlet sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
-          echo "FOMOD_MATCHED = ${FOMOD_VERSION} == ${VERSION}" >> $GITHUB_OUTPUT
+          echo $FOMOD_VERSION
+          echo "FOMOD_MATCHED = $FOMOD_VERSION ==  ${{steps.extract_version.outputs.VERSION }}" >> $GITHUB_OUTPUT
     
 
       - name: Debug Values
