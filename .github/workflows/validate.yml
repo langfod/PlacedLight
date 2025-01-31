@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-          ref: ${{ github.head_ref }}
+          fetch-depth: 0
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
@@ -33,9 +32,6 @@ jobs:
           fileName: 'SpriggitLinuxCLI.zip'
           out-file-path: './downloads'
       
-      - name: Clear tmp
-        run: rm -rf /tmp/Spriggit
-
       - name: Extract archive
         run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
 
@@ -69,6 +65,7 @@ jobs:
           ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
 
       - name: Fake Spriggit until Spriggit bug is fixed
+        continue-on-error: true
         run: |
           cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
           chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe

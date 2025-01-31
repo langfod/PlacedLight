@@ -11,8 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-          ref: ${{ github.head_ref }}
+          fetch-depth: 0
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
@@ -90,8 +89,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-          ref: ${{ github.head_ref }}
+          fetch-depth: 0
 
       - name: Archive dist directory
         run: |
