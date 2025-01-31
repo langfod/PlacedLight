@@ -139,7 +139,7 @@ jobs:
           git add ./package/fomod/info.xml
           git commit -m "Update XML version to ${{ steps.extract_version.outputs.VERSION }}"          
           git tag -f -a ${{ steps.extract_version.outputs.VERSION }} -m "Tagging the new commit with updated version"
-          git push origin HEAD:${{ github.ref_name }}
+          git push origin main --tags
 
       # Create GitHub release
       - name: Create GitHub release
