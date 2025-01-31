@@ -59,6 +59,7 @@ jobs:
           echo "Contents of ./SpriggitCLI:"
           ls -l ./SpriggitCLI
           echo "Contents of current directory:"
+          pwd
           ls -l
 
       - name: Run Spriggit deserialization
