@@ -1,7 +1,6 @@
 [
   {
     "models": [
-      "effects\\fxfirepit01.nif",
       "effects\\fxfirewithemberslogs01.nif",
       "effects\\fxfirewithemberslogs02.nif",
       "effects\\fxfirewithemberslogs03.nif",
@@ -16,9 +15,23 @@
       {
         "points": [[0, 0, 75]],
         "data": {
-          "light": "LightCampFire01",
-          "radius": 400.0,
-          "fade": 1.2,
+          "light": "PL_Candle",
+          "radius": 256.0,
+          "fade": 0.8,
+          "flags": "IgnoreScale"
+        }
+      }
+    ]
+  },
+  {
+    "models": ["effects\\fxfirepit01.nif"],
+    "lights": [
+      {
+        "points": [[0, 0, 90]],
+        "data": {
+          "light": "PL_Candle",
+          "radius": 320.0,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -34,9 +47,9 @@
       {
         "points": [[0, 0, 60]],
         "data": {
-          "light": "LightCampFire01",
+          "light": "PL_Candle",
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -48,10 +61,10 @@
       {
         "points": [[0, 0, 25]],
         "data": {
-          "light": "LightCampFire01",
+          "light": "PL_Candle",
           "color": [0, 127, 255],
           "radius": 256.0,
-          "fade": 1.5,
+          "fade": 0.8,
           "flags": "IgnoreScale"
         }
       }
@@ -69,11 +82,10 @@
       {
         "points": [[0, 0, 50]],
         "data": {
-          "light": "LightCampFire01",
-          "radius": 512.0,
-          "fade": 1.5,
-          "shadowDepthBias": 26.0,
-          "flags": "IgnoreScale|Shadow"
+          "light": "PL_Candle",
+          "radius": 400.0,
+          "fade": 0.8,
+          "flags": "IgnoreScale"
         }
       }
     ]
@@ -116,11 +128,10 @@
       {
         "points": [[0, 0, 60]],
         "data": {
-          "light": "LightCampFire01",
+          "light": "PL_Candle",
           "radius": 512.0,
-          "fade": 1.5,
-          "shadowDepthBias": 26.0,
-          "flags": "IgnoreScale|Shadow"
+          "fade": 0.8,
+          "flags": "IgnoreScale"
         }
       }
     ]
