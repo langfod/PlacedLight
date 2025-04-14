@@ -38,11 +38,11 @@ jobs:
 
       - name: Prepare dist directory
         run: |
-          if ( -d "dist" ); then
+          if (Test-Path "dist" ) {
             rm -rf dist
-          else
-            mkdir dist
-          fi
+           } else {
+            New-Item -ItemType Directory -Path dist
+           }
 
       - name: Copy package to dist excluding files
         run: |
