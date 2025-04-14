@@ -70,6 +70,9 @@ jobs:
         run: |
           cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
           cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
+          cp -r /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/ /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13
+          cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
+          chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
           chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
       
       - name: Run Spriggit templates deserialization
