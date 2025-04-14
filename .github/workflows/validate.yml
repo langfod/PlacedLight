@@ -46,7 +46,6 @@ jobs:
 
       - name: Copy package to dist excluding files
         run: |
-          mkdir -p dist
           rsync -av --exclude-from='exclusions.txt' package/ dist/
 
       - name: Set permissions for Spriggit executable
