@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,22 +30,23 @@ jobs:
           repository: 'Mutagen-Modding/Spriggit'
           latest: true
           zipBall: true
-          fileName: 'SpriggitCLI.zip'
+          fileName: 'SpriggitLinuxCLI.zip'
           out-file-path: './downloads'
       
       - name: Extract archive
-        run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
+        run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
 
       - name: Prepare dist directory
         run: |
-          if (Test-Path "dist" ) {
+          if ( -d "dist" ); then
             rm -rf dist
-           } else {
-            New-Item -ItemType Directory -Path dist
-           }
+          else
+            mkdir dist
+          fi
 
       - name: Copy package to dist excluding files
         run: |
+          mkdir -p dist
           rsync -av --exclude-from='exclusions.txt' package/ dist/
 
       - name: Set permissions for Spriggit executable
