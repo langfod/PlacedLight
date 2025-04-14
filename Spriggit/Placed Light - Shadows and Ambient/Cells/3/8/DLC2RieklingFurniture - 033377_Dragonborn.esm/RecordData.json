@@ -16,7 +16,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -37,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -55,29 +52,11 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033414:Dragonborn.esm",
+      "FormKey": "033413:Dragonborn.esm",
       "Base": "0DA06D:Skyrim.esm",
       "Radius": 1536.0,
       "Placement": {
-        "Position": "71.7742, 4618.2964, 389.13477"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "03A2D2:Dragonborn.esm",
-      "Base": "0DA06D:Skyrim.esm",
-      "Radius": 1536.0,
-      "Placement": {
-        "Position": "990.37555, 7706.387, 770.9962"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "03A2D3:Dragonborn.esm",
-      "Base": "0DA06D:Skyrim.esm",
-      "Radius": 1536.0,
-      "Placement": {
-        "Position": "922.9674, 7636.454, -1349.3488"
+        "Position": "1852.9849, 4999.9355, 497.67456"
       }
     },
     {
@@ -91,11 +70,29 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "033413:Dragonborn.esm",
+      "FormKey": "033414:Dragonborn.esm",
       "Base": "0DA06D:Skyrim.esm",
       "Radius": 1536.0,
       "Placement": {
-        "Position": "1852.9849, 4999.9355, 497.67456"
+        "Position": "71.7742, 4618.2964, 389.13477"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A2D3:Dragonborn.esm",
+      "Base": "0DA06D:Skyrim.esm",
+      "Radius": 1536.0,
+      "Placement": {
+        "Position": "922.9674, 7636.454, -1349.3488"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A2D2:Dragonborn.esm",
+      "Base": "0DA06D:Skyrim.esm",
+      "Radius": 1536.0,
+      "Placement": {
+        "Position": "990.37555, 7706.387, 770.9962"
       }
     }
   ],

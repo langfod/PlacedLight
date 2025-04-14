@@ -1,6 +1,11 @@
 {
   "FormKey": "01AB60:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "FortSungard02",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Fort Sungard Tower"
@@ -11,7 +16,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -33,12 +38,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -51,40 +53,38 @@
   "EncounterZone": "03EC23:Skyrim.esm",
   "Music": "05615B:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "068149:Skyrim.esm",
-      "FormVersion": 31,
+      "FormKey": "0682D5:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
-      "Radius": 119.30838,
+      "Radius": 271.76367,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
-        "FadeOffset": 1.0148647,
-        "ShadowDepthBias": 31.843805
+        "FadeOffset": 1.6292863,
+        "ShadowDepthBias": 22.718216
       },
+      "LocationReference": "019185:Skyrim.esm",
       "Placement": {
-        "Position": "-60.929993, 1507.9409, 487.3267"
+        "Position": "-534.1197, 753.5235, 947.51526"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0682D5:Skyrim.esm",
-      "FormVersion": 31,
+      "FormKey": "068149:Skyrim.esm",
       "Base": "088242:Skyrim.esm",
-      "Radius": 271.76367,
+      "Radius": 119.30838,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
-        "FadeOffset": 1.6292863,
-        "ShadowDepthBias": 22.718216
+        "FadeOffset": 1.0148647,
+        "ShadowDepthBias": 31.843805
       },
+      "LocationReference": "019185:Skyrim.esm",
       "Placement": {
-        "Position": "-534.1197, 753.5235, 947.51526"
+        "Position": "-60.929993, 1507.9409, 487.3267"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

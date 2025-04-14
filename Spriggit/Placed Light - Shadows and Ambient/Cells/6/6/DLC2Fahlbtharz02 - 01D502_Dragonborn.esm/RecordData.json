@@ -15,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -36,12 +36,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -56,6 +53,49 @@
   "ImageSpace": "0C686A:Skyrim.esm",
   "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A68B:Dragonborn.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 10.81842,
+      "LightData": {
+        "FadeOffset": 1.017344,
+        "ShadowDepthBias": 30.86223
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "2624.7974, 2275.8894, 7402.975"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A68A:Dragonborn.esm",
+      "Base": "0879AC:Skyrim.esm",
+      "Radius": 63.500763,
+      "LightData": {
+        "FadeOffset": 1.1414514,
+        "ShadowDepthBias": 30.86223
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "1863.7028, 2323.829, 6881.0493"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03A68C:Dragonborn.esm",
+      "Base": "0897B4:Skyrim.esm",
+      "Radius": 621.4787,
+      "LightData": {
+        "FadeOffset": 0.06633186,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "0142A0:Dragonborn.esm",
+      "Placement": {
+        "Position": "2204.0825, 3143.4443, 7414.04",
+        "Rotation": "0, -1.5707964, 0"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "03A689:Dragonborn.esm",

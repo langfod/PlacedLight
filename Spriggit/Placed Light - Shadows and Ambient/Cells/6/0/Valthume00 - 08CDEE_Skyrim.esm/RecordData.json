@@ -16,7 +16,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -38,12 +38,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -57,6 +54,7 @@
   "EncounterZone": "03EC86:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
@@ -74,17 +72,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E39FE:Skyrim.esm",
-      "Base": "088247:Skyrim.esm",
-      "Radius": 201.3417,
+      "FormKey": "0E3A1F:Skyrim.esm",
+      "Base": "088248:Skyrim.esm",
+      "Radius": 57.65573,
       "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.5,
-        "ShadowDepthBias": 20.46498
+        "FadeOffset": 1.0,
+        "ShadowDepthBias": 1.0
       },
       "LocationReference": "033DA0:Skyrim.esm",
       "Placement": {
-        "Position": "-2444.7908, 576.7552, -1989.3651"
+        "Position": "-2447.741, 575.39435, -1419.1895"
       }
     },
     {
@@ -103,17 +101,17 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0E3A1F:Skyrim.esm",
-      "Base": "088248:Skyrim.esm",
-      "Radius": 57.65573,
+      "FormKey": "0E39FE:Skyrim.esm",
+      "Base": "088247:Skyrim.esm",
+      "Radius": 201.3417,
       "Emittance": "075492:Skyrim.esm",
       "LightData": {
-        "FadeOffset": 1.0,
-        "ShadowDepthBias": 1.0
+        "FadeOffset": 1.5,
+        "ShadowDepthBias": 20.46498
       },
       "LocationReference": "033DA0:Skyrim.esm",
       "Placement": {
-        "Position": "-2447.741, 575.39435, -1419.1895"
+        "Position": "-2444.7908, 576.7552, -1989.3651"
       }
     }
   ],

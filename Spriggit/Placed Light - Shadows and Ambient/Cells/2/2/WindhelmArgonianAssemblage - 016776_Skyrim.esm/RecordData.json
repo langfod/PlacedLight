@@ -15,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -37,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -56,7 +53,22 @@
   "AcousticSpace": "0FF495:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C9363:Skyrim.esm",
+      "Base": "0346CF:Skyrim.esm",
+      "Radius": -86.91881,
+      "LightData": {
+        "FadeOffset": 0.17257857,
+        "ShadowDepthBias": 2.0
+      },
+      "LocationReference": "0209E4:Skyrim.esm",
+      "Placement": {
+        "Position": "2050.307, -460.03848, 184.35252"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "096636:Skyrim.esm",

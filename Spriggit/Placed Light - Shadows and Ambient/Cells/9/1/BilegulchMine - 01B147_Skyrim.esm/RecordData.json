@@ -15,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -37,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -55,7 +52,22 @@
   "EncounterZone": "0A3859:Skyrim.esm",
   "Music": "094BDD:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3C77:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 133.65567,
+      "LightData": {
+        "FadeOffset": 1.9340501,
+        "ShadowDepthBias": 17.474499
+      },
+      "LocationReference": "019269:Skyrim.esm",
+      "Placement": {
+        "Position": "114.58506, 490.24985, -382.93622"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0D3C74:Skyrim.esm",
@@ -80,6 +92,34 @@
       "LocationReference": "019269:Skyrim.esm",
       "Placement": {
         "Position": "1589.7156, -1067.4072, 123.00774"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3C79:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 276.06427,
+      "LightData": {
+        "FadeOffset": 0.9167018,
+        "ShadowDepthBias": 22.83738
+      },
+      "LocationReference": "019269:Skyrim.esm",
+      "Placement": {
+        "Position": "954.14087, -1129.8478, -932.67004"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0D3C76:Skyrim.esm",
+      "Base": "0668F2:Skyrim.esm",
+      "Radius": 133.65567,
+      "LightData": {
+        "FadeOffset": 1.9340501,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019269:Skyrim.esm",
+      "Placement": {
+        "Position": "1722.6831, 1029.8843, -347.3967"
       }
     }
   ],

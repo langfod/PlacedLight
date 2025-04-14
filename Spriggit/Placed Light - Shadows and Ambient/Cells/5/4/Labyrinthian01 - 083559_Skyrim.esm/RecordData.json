@@ -17,7 +17,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -39,12 +39,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -58,7 +55,23 @@
   "EncounterZone": "03EC42:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "10085D:Skyrim.esm",
+      "Base": "088242:Skyrim.esm",
+      "Radius": 227.24747,
+      "LightData": {
+        "FadeOffset": 3.9394274,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "019262:Skyrim.esm",
+      "Placement": {
+        "Position": "-6576.5513, 366.06232, 47.869503",
+        "Rotation": "0, -1.169997, 0"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "091F19:Skyrim.esm",
@@ -79,39 +92,18 @@
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0934CA:Skyrim.esm",
       "MajorRecordFlagsRaw": 65536,
-      "FormVersion": 37,
       "SkyrimMajorRecordFlags": [
         "0x10000"
       ],
       "Base": "088242:Skyrim.esm",
       "Radius": 853.9092,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 2.4386683,
         "ShadowDepthBias": 31.617722
       },
+      "LocationReference": "019262:Skyrim.esm",
       "Placement": {
         "Position": "-3226.337, 369.64157, 14.245346"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "10085D:Skyrim.esm",
-      "FormVersion": 37,
-      "Base": "088242:Skyrim.esm",
-      "Radius": 227.24747,
-      "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
-        "FadeOffset": 3.9394274,
-        "ShadowDepthBias": 50.0
-      },
-      "Placement": {
-        "Position": "-6576.5513, 366.06232, 47.869503",
-        "Rotation": "0, -1.169997, 0"
       }
     }
   ],

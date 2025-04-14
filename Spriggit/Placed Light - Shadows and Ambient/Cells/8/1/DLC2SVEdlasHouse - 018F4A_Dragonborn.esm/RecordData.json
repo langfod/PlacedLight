@@ -15,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -37,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -60,6 +57,21 @@
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29D:Dragonborn.esm",
+      "Base": "077FCE:Skyrim.esm",
+      "Radius": -465.58325,
+      "LightData": {
+        "FadeOffset": -0.16817784,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-102.11023, 776.9119, 202.9273",
+        "Rotation": "0, 0, 4.712389"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "02B29E:Dragonborn.esm",
       "Base": "0B9522:Skyrim.esm",
       "Radius": 99.809814,
@@ -72,6 +84,21 @@
       "Placement": {
         "Position": "-621.42523, 377.8979, 181.39409",
         "Rotation": "0, 0, 3.1415927"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "02B29A:Dragonborn.esm",
+      "Base": "0CD48D:Skyrim.esm",
+      "Radius": 10.973816,
+      "LightData": {
+        "FadeOffset": 0.51819384,
+        "ShadowDepthBias": 50.0
+      },
+      "LocationReference": "01D938:Dragonborn.esm",
+      "Placement": {
+        "Position": "-622.32336, 781.3797, 235.11603",
+        "Rotation": "0, 0, 4.712389"
       }
     },
     {
@@ -103,21 +130,6 @@
       "LocationReference": "01D938:Dragonborn.esm",
       "Placement": {
         "Position": "-570.2786, 1172.9906, 149.9047",
-        "Rotation": "0, 0, 4.712389"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "02B29D:Dragonborn.esm",
-      "Base": "077FCE:Skyrim.esm",
-      "Radius": -465.58325,
-      "LightData": {
-        "FadeOffset": -0.16817784,
-        "ShadowDepthBias": 50.0
-      },
-      "LocationReference": "01D938:Dragonborn.esm",
-      "Placement": {
-        "Position": "-102.11023, 776.9119, 202.9273",
         "Rotation": "0, 0, 4.712389"
       }
     }

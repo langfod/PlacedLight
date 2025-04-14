@@ -1,6 +1,11 @@
 {
   "FormKey": "015208:Skyrim.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
   "EditorID": "SnowVeilSanctum01",
+  "SkyrimMajorRecordFlags": [
+    "Compressed"
+  ],
   "Name": {
     "TargetLanguage": "English",
     "Value": "Snow Veil Catacombs"
@@ -10,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -32,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -50,20 +52,19 @@
   "EncounterZone": "03EC74:Skyrim.esm",
   "Music": "02D4C2:Skyrim.esm",
   "ImageSpace": "0A2687:Skyrim.esm",
+  "UnknownGroupData": 1,
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "067475:Skyrim.esm",
-      "FormVersion": 39,
       "Base": "088242:Skyrim.esm",
       "Radius": 183.4924,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 2.9844441,
         "ShadowDepthBias": 19.777607
       },
+      "LocationReference": "0192AF:Skyrim.esm",
       "Placement": {
         "Position": "-2053.8232, 2489.4072, -140.03557"
       }
@@ -71,19 +72,19 @@
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0674CE:Skyrim.esm",
-      "FormVersion": 39,
       "Base": "088242:Skyrim.esm",
       "Radius": 216.43701,
       "LightData": {
-        "Versioning": [
-          "Break0"
-        ],
         "FadeOffset": 1.5307527,
         "ShadowDepthBias": 29.963997
       },
+      "LocationReference": "0192AF:Skyrim.esm",
       "Placement": {
         "Position": "1579.2114, 1682.761, -474.0651"
       }
     }
+  ],
+  "MajorFlags": [
+    "0x40000"
   ]
 }

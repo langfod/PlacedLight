@@ -11,7 +11,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -32,12 +32,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -46,7 +43,7 @@
   "LightingTemplate": "0A1196:Skyrim.esm",
   "WaterHeight": 0.0,
   "Location": "01705D:Skyrim.esm",
-  "Owner": "105A5B:Skyrim.esm",
+  "Owner": "01411E:Skyrim.esm",
   "LockList": "01411E:Skyrim.esm",
   "SkyAndWeatherFromRegion": "0C5853:Skyrim.esm",
   "AcousticSpace": "0C5B6D:Skyrim.esm",

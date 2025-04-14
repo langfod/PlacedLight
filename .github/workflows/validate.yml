@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,11 +30,11 @@ jobs:
           repository: 'Mutagen-Modding/Spriggit'
           latest: true
           zipBall: true
-          fileName: 'SpriggitLinuxCLI.zip'
+          fileName: 'SpriggitCLI.zip'
           out-file-path: './downloads'
       
       - name: Extract archive
-        run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
+        run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
 
       - name: Prepare dist directory
         run: |

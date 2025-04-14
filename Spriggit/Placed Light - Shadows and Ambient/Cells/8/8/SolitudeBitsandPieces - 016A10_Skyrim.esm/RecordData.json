@@ -15,7 +15,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -37,12 +37,9 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
@@ -56,7 +53,18 @@
   "AcousticSpace": "0E3261:Skyrim.esm",
   "Music": "02C3CA:Skyrim.esm",
   "ImageSpace": "0ABDB4:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06256F:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "020084:Skyrim.esm",
+      "Placement": {
+        "Position": "-688, -416, 112"
+      }
+    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "064C45:Skyrim.esm",
@@ -74,27 +82,36 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "064C46:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": -61.164505,
-      "Emittance": "075492:Skyrim.esm",
-      "LightData": {
-        "FadeOffset": -0.5,
-        "ShadowDepthBias": 1.0
-      },
+      "FormKey": "0D5DBA:Skyrim.esm",
+      "Base": "0625E0:Skyrim.esm",
+      "Radius": 176.5636,
+      "Emittance": "02E2CC:Skyrim.esm",
       "LocationReference": "020084:Skyrim.esm",
       "Placement": {
-        "Position": "593.3099, -979.09924, 142.75684"
+        "Position": "-131.6541, -544.48956, 293.7339",
+        "Rotation": "0, 0, 4.694936"
       }
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "06256F:Skyrim.esm",
+      "FormKey": "064C35:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
+      "Radius": 169.46268,
       "Emittance": "075492:Skyrim.esm",
       "LocationReference": "020084:Skyrim.esm",
       "Placement": {
-        "Position": "-688, -416, 112"
+        "Position": "1460.4597, -1026.8813, 368"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "064C36:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": 80.63959,
+      "Emittance": "075492:Skyrim.esm",
+      "LocationReference": "020084:Skyrim.esm",
+      "Placement": {
+        "Position": "1170.7733, -1651.2063, 368"
       }
     },
     {
@@ -114,17 +131,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "064C36:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": 80.63959,
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "020084:Skyrim.esm",
-      "Placement": {
-        "Position": "1170.7733, -1651.2063, 368"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "062574:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
       "Radius": 115.41702,
@@ -140,6 +146,21 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
+      "FormKey": "064C46:Skyrim.esm",
+      "Base": "057A43:Skyrim.esm",
+      "Radius": -61.164505,
+      "Emittance": "075492:Skyrim.esm",
+      "LightData": {
+        "FadeOffset": -0.5,
+        "ShadowDepthBias": 1.0
+      },
+      "LocationReference": "020084:Skyrim.esm",
+      "Placement": {
+        "Position": "593.3099, -979.09924, 142.75684"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
       "FormKey": "062578:Skyrim.esm",
       "Base": "057A43:Skyrim.esm",
       "Radius": -65.40662,
@@ -147,17 +168,6 @@
       "LocationReference": "020084:Skyrim.esm",
       "Placement": {
         "Position": "1159.5637, -881.6901, 368"
-      }
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "064C35:Skyrim.esm",
-      "Base": "057A43:Skyrim.esm",
-      "Radius": 169.46268,
-      "Emittance": "075492:Skyrim.esm",
-      "LocationReference": "020084:Skyrim.esm",
-      "Placement": {
-        "Position": "1460.4597, -1026.8813, 368"
       }
     }
   ],

@@ -17,7 +17,7 @@
   ],
   "Lighting": {
     "AmbientColor": "#003C3C3C",
-    "DirectionalColor": "#00050505",
+    "DirectionalColor": "#00000000",
     "FogNearColor": "#00000000",
     "FogNear": 500.0,
     "FogFar": 10000.0,
@@ -41,31 +41,20 @@
     "LightFadeEnd": 41000.0,
     "Inherits": [
       "AmbientColor",
-      "DirectionalColor",
       "FogColor",
       "FogNear",
       "FogFar",
-      "DirectionalRotation",
-      "DirectionalFade",
       "FogPower",
       "FogMax",
       "LightFadeDistances"
     ]
   },
   "WaterHeight": -2.1474836E+09,
-  "WaterEnvironmentMap": "data\\Textures\\cubemaps\\duncaveruingreen_e.dds",
+  "WaterEnvironmentMap": "data\\textures\\cubemaps\\duncaveruingreen_e.dds",
   "SkyAndWeatherFromRegion": "04D7FD:Skyrim.esm",
   "ImageSpace": "04E261:Skyrim.esm",
+  "TemporaryUnknownGroupData": 1,
   "Temporary": [
-    {
-      "MutagenObjectType": "PlacedObject",
-      "FormKey": "0C7B52:Skyrim.esm",
-      "Base": "08E796:Skyrim.esm",
-      "Radius": 200.85901,
-      "Placement": {
-        "Position": "112, -4128, 1616"
-      }
-    },
     {
       "MutagenObjectType": "PlacedObject",
       "FormKey": "0B9401:Skyrim.esm",
@@ -79,6 +68,15 @@
       "Placement": {
         "Position": "-183.15941, 4166.1216, 1474.9602",
         "Rotation": "-0.28697306, -1.3127375, 0.724818"
+      }
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C7B52:Skyrim.esm",
+      "Base": "08E796:Skyrim.esm",
+      "Radius": 200.85901,
+      "Placement": {
+        "Position": "112, -4128, 1616"
       }
     },
     {
