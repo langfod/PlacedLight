@@ -38,7 +38,7 @@ jobs:
 
       - name: Prepare dist directory
         run: |
-          if [ -d "dist" ]; then
+          if ( -d "dist" ); then
             rm -rf dist
           else
             mkdir dist
