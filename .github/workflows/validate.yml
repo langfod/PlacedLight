@@ -59,21 +59,6 @@ jobs:
           echo "Contents of current directory:"
           pwd
           ls -l
-
-      #- name: Run Spriggit fake deserialization until Spriggit bug is fixed
-      #  continue-on-error: true
-      #  run: |
-      #    ./SpriggitCLI/Spriggit.CLI deserialize -i "./Spriggit/PL - Bright" -o "./dist/PL - Bright.esp"
-#
-      #- name: Fake Spriggit until Spriggit bug is fixed
-      #  continue-on-error: true
-      #  run: |
-      #    cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
-      #    cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
-      #    cp -r /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/ /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13
-      #    cp /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
-      #    chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.13/Spriggit.Json.Skyrim.exe
-      #    chmod +x /tmp/Spriggit/Translations/Spriggit.Json.Skyrim/0.36.14/Spriggit.Json.Skyrim.exe
       
       - name: Run Spriggit templates deserialization
         run: |
