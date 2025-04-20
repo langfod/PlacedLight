@@ -24,8 +24,8 @@ jobs:
       
       - name: Install xmlstarlet
         run: |
-          apt-get update
-          apt-get install -y xmlstarlet
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
       - name: Download release archive
         uses: robinraju/release-downloader@v1
