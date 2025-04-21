@@ -47,11 +47,11 @@ jobs:
         run: |
           if ($env:GITHUB_REF -match '\d+\.\d+\.\d+') {
             $versionTag = $matches[0]
-            echo "::set-output name=VERSION_TAG::$versionTag"
+            Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
           } else {
             Write-Error "No valid version found in GITHUB_REF: $env:GITHUB_REF"
           }
-        shell: pwsh   
+        shell: pwsh    
 
       - name: Show TAG Version
         run: | 
@@ -65,7 +65,9 @@ jobs:
       - name: Get current FOMOD version
         id: fomod_version
         run: | 
-          echo "::set-output name=FOMOD_VERSION::$(xml sel -t -m '//Version' -v . ./dist/fomod/info.xml)"
+          $fomodVersionTag = xml sel -t -m '//Version' -v . ./dist/fomod/info.xml
+          Add-Content -Path $env:GITHUB_ENV -Value "FOMOD_VERSION=$fomodVersionTag"
+        shell: pwsh              
 
       - name: Show FOMOD Version
         run: | 
