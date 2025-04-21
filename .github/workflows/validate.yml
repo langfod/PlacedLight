@@ -34,8 +34,9 @@ jobs:
           out-file-path: './downloads'
       
       - name: Extract archive
-        run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
+        run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
       
       - name: Run Spriggit main deserialization
-        run: deserialize.bat
+        run: ./deserialize.bat
+        shell: cmd
 
