@@ -48,8 +48,7 @@ jobs:
       - name: Extract version from tag
         id: extract_version
         run: |
-          echo "${{env:GITHUB_REF_NAME}}"
-          echo "VERSION_TAG=${env:GITHUB_REF_NAME}" >> $env:GITHUB_OUTPUT
+          echo "VERSION_TAG=${env.GITHUB_REF##*/}" >> $env:GITHUB_OUTPUT
 
       - name: Get current  FOMOD version
         id: fomod_version
