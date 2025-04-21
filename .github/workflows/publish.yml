@@ -47,11 +47,11 @@ jobs:
         run: |
           if ($env:GITHUB_REF -match '\d+\.\d+\.\d+') {
             $versionTag = $matches[0]
-            Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
+            echo "::set-output name=VERSION_TAG::$versionTag"
           } else {
             Write-Error "No valid version found in GITHUB_REF: $env:GITHUB_REF"
           }
-        shell: pwsh    
+        shell: pwsh   
 
       - name: Show TAG Version
         run: | 
@@ -62,10 +62,10 @@ jobs:
         run: ./deserialize.bat
         shell: cmd
  
-      - name: Get current  FOMOD version
+      - name: Get current FOMOD version
         id: fomod_version
         run: | 
-          echo "FOMOD_VERSION=$(xml sel -t -m '//Version' -v . ./dist/fomod/info.xml)" >> $env:GITHUB_ENV
+          echo "::set-output name=FOMOD_VERSION::$(xml sel -t -m '//Version' -v . ./dist/fomod/info.xml)"
 
       - name: Show FOMOD Version
         run: | 
@@ -75,7 +75,6 @@ jobs:
       - name: Update FOMOD XML with version
         if: ${{ steps.fomod_version.outputs.FOMOD_VERSION != steps.version_extraction.outputs.VERSION_TAG }}
         run: | 
-          echo "${{ steps.version_extraction.outputs.VERSION_TAG }}"
           xml ed --inplace -u '//Version' -v "${{ steps.version_extraction.outputs.VERSION_TAG }}" ./dist/fomod/info.xml
           type ./dist/fomod/info.xml
            
