@@ -45,7 +45,7 @@ jobs:
       - name: Extract version from tag
         id: version_extraction
         run: |
-          if ($env:GITHUB_REF -match '\d+\.\d+\.\d+') {
+          if ($env:GITHUB_REF -match '\d+\.\d+\.\d+.*') {
             $versionTag = $matches[0]
             Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
           } else {
