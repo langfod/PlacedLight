@@ -52,7 +52,7 @@ jobs:
            
       - name: Update FOMOD XML with version
         run: | 
-          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
+          xml ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
           type ./dist/fomod/info.xml
            
       # Archive dist directory
