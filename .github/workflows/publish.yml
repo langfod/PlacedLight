@@ -48,12 +48,12 @@ jobs:
       - name: Extract version from tag
         id: extract_version
         run: |
-          echo "VERSION_TAG=${env.GITHUB_REF##*/}" >> $env:GITHUB_OUTPUT
+          echo "VERSION_TAG=${env.GITHUB_REF##*/}" >> $env:GITHUB_ENV
 
       - name: Get current  FOMOD version
         id: fomod_version
         run: | 
-          echo "FOMOD_VERSION=$(xml sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
+          echo "FOMOD_VERSION=$(xml sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $env:GITHUB_ENV
 
       - name: Show Versions
         run: | 
