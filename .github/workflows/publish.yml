@@ -52,6 +52,10 @@ jobs:
             Write-Error "No valid version found in GITHUB_REF: $env:GITHUB_REF"
           }
         shell: pwsh    
+
+      - name: Show TAG Version
+        run: | 
+          echo "${{steps.version_extraction.outputs.version_tag}}"
       
       - name: Run Spriggit main deserialization
         run: ./deserialize.bat
@@ -62,22 +66,21 @@ jobs:
         run: | 
           echo "FOMOD_VERSION=$(xml sel -t -m '//Version' -v . ./dist/fomod/info.xml)" >> $env:GITHUB_ENV
 
-      - name: Show Versions
+      - name: Show FOMOD Version
         run: | 
-          echo "${{steps.version_extraction.outputs.version_tag}}"
-          echo "${{steps.version_extraction.outputs.fomad_version}}"
+          echo "${{steps.fomod_version.outputs.fomad_version}}"
            
       - name: Update FOMOD XML with version
-        if: ${{ env.FOMOD_VERSION !=  env.VERSION_TAG }}
+        if: ${{ steps.version_extraction.outputs.fomad_version !=  steps.version_extraction.outputs.version_tag }}
         run: | 
-          echo "${{ env.VERSION_TAG }}"
-          xml ed --inplace -u '//Version' -v "${{ env.VERSION_TAG }}" ./dist/fomod/info.xml
+          echo "${{ steps.version_extraction.outputs.version_tag }}"
+          xml ed --inplace -u '//Version' -v "${{ steps.version_extraction.outputs.version_tag }}" ./dist/fomod/info.xml
           type ./dist/fomod/info.xml
            
       # Archive dist directory
       - name: Archive dist directory
         run: |          
-          cd ./dist ; zip -r ../downloads/PlacedLight.zip *
+          cd ./dist ; tar --format zip -cf ..\downloads\PlacedLight.zip *
 
       # Upload artifact
       - name: Upload artifact
