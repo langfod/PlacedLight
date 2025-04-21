@@ -16,6 +16,11 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: Choco help
+        uses: crazy-max/ghaction-chocolatey@v3
+        with:
+          args: install xmlstarlet
+
       # Same as Validate - not sure how to just call Validate
       - name: Validate json
         uses: cardinalby/schema-validator-action@v3
@@ -45,17 +50,11 @@ jobs:
         run: |
           echo "VERSION=${GITHUB_REF##*/}" >> $ENV:GITHUB_OUTPUT
            
-      - name: Modify FOMOD xml with version
-        uses: Mudlet/xmlstarlet-action@master
-        id: xml_replace
-        with:
-          args: ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./package/fomod/info.xml
-      
       - name: Update FOMOD XML with version
         run: | 
-          cp ./package/fomod/info.xml ./dist/fomod/info.xml
-          cat ./dist/fomod/info.xml
-      
+          xmlstarlet ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
+          type ./dist/fomod/info.xml
+           
       # Archive dist directory
       - name: Archive dist directory
         run: |          
