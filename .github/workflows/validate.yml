@@ -36,6 +36,6 @@ jobs:
       - name: Extract archive
         run: unzip ./downloads/SpriggitLinuxCLI.zip -d ./SpriggitCLI
       
-            - name: Run Spriggit main deserialization
+      - name: Run Spriggit main deserialization
         run: deserialize.bat
 
