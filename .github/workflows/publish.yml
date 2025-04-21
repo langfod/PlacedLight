@@ -76,7 +76,7 @@ jobs:
            
       - name: Update FOMOD XML with version        
         run: | 
-          if ("$env:FOMOD_VERSION" -eq "$env:VERSION_TAG") 
+          if ([VERSION]$env:FOMOD_VERSION -ne [VERSION]$env:VERSION_TAG) 
           {
             xml ed --inplace -u '//Version' -v "$env:VERSION_TAG" ./dist/fomod/info.xml
             type ./dist/fomod/info.xml
