@@ -40,19 +40,23 @@ jobs:
       
       - name: Extract archive
         run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
-      
-      - name: Run Spriggit main deserialization
-        run: ./deserialize.bat
-        shell: cmd
 
       # Extract version from the tag
       - name: Extract version from tag
         id: version_extraction
         run: |
-          $versionTag = $env:GITHUB_REF -replace 'refs/tags/v', ''
-          Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
-        shell: pwsh        
-
+          if ($env:GITHUB_REF -match '\d+\.\d+\.\d+') {
+            $versionTag = $matches[0]
+            Add-Content -Path $env:GITHUB_ENV -Value "VERSION_TAG=$versionTag"
+          } else {
+            Write-Error "No valid version found in GITHUB_REF: $env:GITHUB_REF"
+          }
+        shell: pwsh    
+      
+      - name: Run Spriggit main deserialization
+        run: ./deserialize.bat
+        shell: cmd
+ 
       - name: Get current  FOMOD version
         id: fomod_version
         run: | 
@@ -61,7 +65,7 @@ jobs:
       - name: Show Versions
         run: | 
           echo "${{steps.version_extraction.outputs.version_tag}}"
-          echo "${{env.FOMOD_VERSION}}"
+          echo "${{steps.version_extraction.outputs.fomad_version}}"
            
       - name: Update FOMOD XML with version
         if: ${{ env.FOMOD_VERSION !=  env.VERSION_TAG }}
