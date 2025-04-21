@@ -40,17 +40,30 @@ jobs:
       - name: Extract archive
         run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
       
-      #- name: Run Spriggit main deserialization
-      #  run: ./deserialize.bat
-      #  shell: cmd
+      - name: Run Spriggit main deserialization
+        run: ./deserialize.bat
+        shell: cmd
 
       # Extract version from the tag
       - name: Extract version from tag
         id: extract_version
         run: |
+          echo "${env:GITHUB_REF_NAME}"
+          echo "${{env:GITHUB_REF_NAME}}"
           echo "VERSION_TAG=${env:GITHUB_REF_NAME}" >> $env:GITHUB_OUTPUT
+
+      - name: Get current  FOMOD version
+        id: fomod_version
+        run: | 
+          echo "FOMOD_VERSION=$(xml sel -t -m '//Version' -v . ./package/fomod/info.xml)" >> $GITHUB_OUTPUT
+
+      - name: Show Versions
+        run: | 
+          echo "${{env.VERSION_TAG}}"
+          echo "${{env.FOMOD_VERSION}}"
            
       - name: Update FOMOD XML with version
+        if: ${{ env.FOMOD_VERSION !=  env.VERSION_TAG }}
         run: | 
           echo "${{ env.VERSION_TAG }}"
           xml ed --inplace -u '//Version' -v "${{ env.VERSION_TAG }}" ./dist/fomod/info.xml
