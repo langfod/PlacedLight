@@ -18,11 +18,9 @@ jobs:
 
       - name: Install xmlstarlet
         run: |
-          apt-get update
-          apt-get install -y xmlstarlet
           sudo apt-get update
           sudo apt-get install -y xmlstarlet
-          
+
       # Same as Validate - not sure how to just call Validate
       - name: Validate json
         uses: cardinalby/schema-validator-action@v3
