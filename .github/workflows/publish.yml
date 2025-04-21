@@ -55,7 +55,8 @@ jobs:
 
       - name: Show TAG Version
         run: | 
-          echo "${{steps.version_extraction.outputs.version_tag}}"
+          Write-Host "VERSION_TAG=$env:VERSION_TAG"
+        shell: pwsh
       
       - name: Run Spriggit main deserialization
         run: ./deserialize.bat
@@ -68,7 +69,8 @@ jobs:
 
       - name: Show FOMOD Version
         run: | 
-          echo "${{steps.fomod_version.outputs.fomad_version}}"
+          Write-Host "FOMOD_VERSION=$env:FOMOD_VERSION"
+        shell: pwsh
            
       - name: Update FOMOD XML with version
         if: ${{ steps.version_extraction.outputs.fomad_version !=  steps.version_extraction.outputs.version_tag }}
@@ -87,4 +89,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run:
-          gh release upload ${{ steps.extract_version.outputs.VERSION }} ./downloads/PlacedLight.zip
+          gh release upload ${{ steps.version_extraction.outputs.version_tag }} ./downloads/PlacedLight.zip
