@@ -73,10 +73,10 @@ jobs:
         shell: pwsh
            
       - name: Update FOMOD XML with version
-        if: ${{ steps.version_extraction.outputs.fomod_version !=  steps.version_extraction.outputs.version_tag }}
+        if: ${{ steps.fomod_version.outputs.FOMOD_VERSION != steps.version_extraction.outputs.VERSION_TAG }}
         run: | 
-          echo "${{ steps.version_extraction.outputs.version_tag }}"
-          xml ed --inplace -u '//Version' -v "${{ steps.version_extraction.outputs.version_tag }}" ./dist/fomod/info.xml
+          echo "${{ steps.version_extraction.outputs.VERSION_TAG }}"
+          xml ed --inplace -u '//Version' -v "${{ steps.version_extraction.outputs.VERSION_TAG }}" ./dist/fomod/info.xml
           type ./dist/fomod/info.xml
            
       # Archive dist directory
