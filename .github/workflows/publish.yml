@@ -48,11 +48,11 @@ jobs:
       - name: Extract version from tag
         id: extract_version
         run: |
-          echo "VERSION=${GITHUB_REF##*/}" >> $ENV:GITHUB_OUTPUT
+          echo "VERSION_TAG=${GITHUB_REF##*/}" >> $env:GITHUB_OUTPUT
            
       - name: Update FOMOD XML with version
         run: | 
-          xml ed --inplace -u '//Version' -v "${{ steps.extract_version.outputs.VERSION }}" ./dist/fomod/info.xml
+          xml ed --inplace -u '//Version' -v "${{ env.VERSION_TAG }}" ./dist/fomod/info.xml
           type ./dist/fomod/info.xml
            
       # Archive dist directory
