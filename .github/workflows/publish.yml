@@ -40,15 +40,15 @@ jobs:
       - name: Extract archive
         run: unzip ./downloads/SpriggitCLI.zip -d ./SpriggitCLI
       
-      - name: Run Spriggit main deserialization
-        run: ./deserialize.bat
-        shell: cmd
+      #- name: Run Spriggit main deserialization
+      #  run: ./deserialize.bat
+      #  shell: cmd
 
       # Extract version from the tag
       - name: Extract version from tag
         id: extract_version
         run: |
-          echo ("VERSION_TAG=" + $env:GITHUB_REF_NAME) >> $env:GITHUB_OUTPUT
+          echo "VERSION_TAG=${env:GITHUB_REF_NAME}" >> $env:GITHUB_OUTPUT
            
       - name: Update FOMOD XML with version
         run: | 
